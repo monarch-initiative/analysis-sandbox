@@ -1,0 +1,2605 @@
+gene	disease
+NCBIGene:149371	Joubert Syndrome 1
+NCBIGene:149371	Joubert syndrome
+NCBIGene:149371	Joubert Syndrome and Related Disorders
+NCBIGene:3899	Substance-Related Disorders
+NCBIGene:3899	rheumatoid arthritis
+NCBIGene:6533	Myocardial Ischemia
+NCBIGene:23228	Schizophrenia
+NCBIGene:8615	Arsenic Poisoning
+NCBIGene:8615	prostate cancer
+NCBIGene:8615	Skin Diseases
+NCBIGene:6046	['medulloblastoma', 'Medulloblastoma']
+NCBIGene:2969	Williams-Beuren syndrome
+NCBIGene:2969	Williams-Beuren Syndrome
+NCBIGene:2969	['acute myeloid leukemia', 'Leukemia, Acute Myeloid']
+NCBIGene:2969	Child Development Disorders, Pervasive
+NCBIGene:2969	Thymic epithelial tumor
+NCBIGene:2969	Sjogren's Syndrome
+NCBIGene:10659	IgA glomerulonephritis
+NCBIGene:10659	['Stevens-Johnson syndrome', 'Severe Cutaneous Adverse Reaction, Susceptibility to']
+NCBIGene:10659	Schizophrenia
+NCBIGene:4360	allergic contact dermatitis
+NCBIGene:2915	attention deficit hyperactivity disorder
+NCBIGene:2915	Diabetic Neuropathies
+NCBIGene:2915	status epilepticus
+NCBIGene:2915	Neuralgia
+NCBIGene:2915	Substance-Related Disorders
+NCBIGene:2915	Cocaine-Related Disorders
+NCBIGene:2915	temporal lobe epilepsy
+NCBIGene:120114	esophagus squamous cell carcinoma
+NCBIGene:1656	rheumatoid arthritis
+NCBIGene:10525	['spinocerebellar ataxia type 17', 'Spinocerebellar Ataxia 17']
+NCBIGene:7750	bone marrow cancer
+NCBIGene:7223	peripheral nervous system disease
+NCBIGene:64506	chronic lymphocytic leukemia
+NCBIGene:7014	adult T-cell leukemia
+NCBIGene:8742	common variable immunodeficiency
+NCBIGene:8742	Brain Injuries
+NCBIGene:31	ACACAD
+NCBIGene:31	['hepatocellular carcinoma', 'Hepatocellular Carcinoma']
+NCBIGene:84687	Sinusitis
+NCBIGene:8405	prostate cancer
+NCBIGene:8405	Endometrial Neoplasms
+NCBIGene:5141	autistic disorder
+NCBIGene:9757	['hepatocellular carcinoma', 'Hepatocellular Carcinoma']
+NCBIGene:9757	peripheral nervous system disease
+NCBIGene:4849	Precursor T-cell acute lymphoblastic leukemia
+NCBIGene:4849	Precursor T-Cell Lymphoblastic Leukemia-Lymphoma
+NCBIGene:9203	prostate cancer
+NCBIGene:11254	BMIQ11
+NCBIGene:11254	intestinal obstruction
+NCBIGene:11254	CFM1
+NCBIGene:2258	pancreatic cancer
+NCBIGene:2258	Neoplasm Metastasis
+NCBIGene:6901	['Barth syndrome', 'Barth Syndrome']
+NCBIGene:6901	Moved to 302060
+NCBIGene:6901	Familial isolated dilated cardiomyopathy
+NCBIGene:6901	left ventricular noncompaction
+NCBIGene:2782	Depressive Disorder
+NCBIGene:2782	Anxiety
+NCBIGene:2563	Epilepsy, Idiopathic Generalized, Susceptibility To, 10
+NCBIGene:2563	DEL1P36
+NCBIGene:2563	['juvenile myoclonic epilepsy', 'Epilepsy, Myoclonic Juvenile']
+NCBIGene:2563	Schizophrenia
+NCBIGene:2563	Generalized Epilepsy With Febrile Seizures Plus, Type 1
+NCBIGene:7161	SCLC1
+NCBIGene:7161	Hepatocellular carcinoma
+NCBIGene:7161	adult T-cell leukemia
+NCBIGene:7161	['alveolar rhabdomyosarcoma', 'Rhabdomyosarcoma 2']
+NCBIGene:23463	IgA glomerulonephritis
+NCBIGene:26038	neuroblastoma
+NCBIGene:26038	Colorectal Neoplasms
+NCBIGene:473	Arthritis, Juvenile
+NCBIGene:5226	['hepatocellular carcinoma', 'Hepatocellular Carcinoma']
+NCBIGene:2475	['Isolated focal cortical dysplasia type IIa', 'Focal Cortical Dysplasia of Taylor']
+NCBIGene:2475	Isolated focal cortical dysplasia type IIb
+NCBIGene:2475	Uterine Cervical Neoplasms
+NCBIGene:2475	mantle cell lymphoma
+NCBIGene:2475	benign mesothelioma
+NCBIGene:2475	Hypertrophy, Left Ventricular
+NCBIGene:2475	Schizophrenia
+NCBIGene:2475	adenocarcinoma
+NCBIGene:2475	toxic encephalopathy
+NCBIGene:2475	ovarian cancer
+NCBIGene:2475	renal cell carcinoma
+NCBIGene:2475	Malformations of Cortical Development
+NCBIGene:2475	Precursor T-Cell Lymphoblastic Leukemia-Lymphoma
+NCBIGene:2475	Carcinoma, Small Cell
+NCBIGene:2475	['hepatocellular carcinoma', 'Hepatocellular Carcinoma']
+NCBIGene:2475	hypertension
+NCBIGene:7799	urinary bladder cancer
+NCBIGene:7799	Thyroid Neoplasms
+NCBIGene:7799	Amphetamine-Related Disorders
+NCBIGene:5909	['acute promyelocytic leukemia', 'Acute Promyelocytic Leukemia']
+NCBIGene:5909	pancreatic cancer
+NCBIGene:5909	Thyroid Neoplasms
+NCBIGene:5909	melanoma
+NCBIGene:84196	Amphetamine-Related Disorders
+NCBIGene:23028	Neoplasm Invasiveness
+NCBIGene:23028	non-small cell lung carcinoma
+NCBIGene:10236	breast cancer
+NCBIGene:55219	Coronary Disease
+NCBIGene:6548	['autosomal recessive spinocerebellar ataxia 19', 'Lichtenstein-Knorr Syndrome']
+NCBIGene:6548	congestive heart failure
+NCBIGene:6548	Diabetes Mellitus, Experimental
+NCBIGene:6548	hypertrophic cardiomyopathy
+NCBIGene:6548	Pain
+NCBIGene:6548	Barrett's esophagus
+NCBIGene:339487	Precancerous Conditions
+NCBIGene:3065	tongue squamous cell carcinoma
+NCBIGene:3065	endometriosis
+NCBIGene:3065	heart disease
+NCBIGene:6421	['Translocation renal cell carcinoma', 'Renal Cell Carcinoma, Xp11-Associated']
+NCBIGene:6421	Arsenic Poisoning
+NCBIGene:6421	Skin Diseases
+NCBIGene:6421	Human immunodeficiency virus infectious disease
+NCBIGene:5690	urinary bladder cancer
+NCBIGene:80149	peripheral vascular disease
+NCBIGene:4520	autistic disorder
+NCBIGene:10946	Human immunodeficiency virus infectious disease
+NCBIGene:2899	SCLC1
+NCBIGene:8761	IgA glomerulonephritis
+NCBIGene:84879	Autosomal recessive primary microcephaly
+NCBIGene:84879	Microcephaly 15, Primary, Autosomal Recessive
+NCBIGene:84879	microcephaly
+NCBIGene:84879	intellectual disability
+NCBIGene:84879	speech disorder
+NCBIGene:4904	Neoplasm Recurrence, Local
+NCBIGene:4904	breast cancer
+NCBIGene:6202	breast cancer
+NCBIGene:6202	Parkinson's disease
+NCBIGene:55706	IgA glomerulonephritis
+NCBIGene:7804	Myocardial Infarction, Susceptibility to
+NCBIGene:8613	coronary artery disease
+NCBIGene:1600	autistic disorder
+NCBIGene:4774	DEL1P32P31
+NCBIGene:26135	IgA glomerulonephritis
+NCBIGene:26135	stomach cancer
+NCBIGene:257194	['obesity', 'Obesity']
+NCBIGene:57554	Orofacial clefting syndrome
+NCBIGene:57554	Cocaine-Related Disorders
+NCBIGene:5825	Bile Acid Synthesis Defect, Congenital, 5
+NCBIGene:5825	Colorectal Neoplasms
+NCBIGene:5825	Zellweger Syndrome
+NCBIGene:9411	mantle cell lymphoma
+NCBIGene:8412	Substance-Related Disorders
+NCBIGene:8412	breast cancer
+NCBIGene:6272	coronary artery disease
+NCBIGene:6272	cardiovascular system disease
+NCBIGene:5686	['osteoporosis', 'Osteoporosis']
+NCBIGene:5686	Human immunodeficiency virus infectious disease
+NCBIGene:1952	Endometrial Hyperplasia
+NCBIGene:388662	Mental Retardation, Autosomal Recessive 48
+NCBIGene:388662	autosomal recessive non-syndromic intellectual disability
+NCBIGene:1435	Ovarian cancer
+NCBIGene:1435	breast cancer
+NCBIGene:1435	Paget's disease of bone
+NCBIGene:64783	Megakaryoblastic acute myeloid leukemia with t(1;22)(p13;q13)
+NCBIGene:829	esophagus squamous cell carcinoma
+NCBIGene:6847	adenocarcinoma
+NCBIGene:6847	pancreatic cancer
+NCBIGene:51592	Differentiated thyroid carcinoma
+NCBIGene:51592	Thyroid Cancer, Nonmedullary, 1
+NCBIGene:10401	Uterine Cervical Neoplasms
+NCBIGene:2209	Acute myeloid leukemia (AML)
+NCBIGene:2209	Arthritis, Juvenile
+NCBIGene:2209	calcinosis
+NCBIGene:2209	Heart Valve Diseases
+NCBIGene:4170	Sarcoma
+NCBIGene:4170	Barrett's esophagus
+NCBIGene:4170	lung benign neoplasm
+NCBIGene:4170	['multiple myeloma', 'Myeloma, Multiple']
+NCBIGene:4170	Lymphoma, T-Cell, Cutaneous
+NCBIGene:405	Abortion, Spontaneous
+NCBIGene:405	Neoplasms, Experimental
+NCBIGene:405	liver cirrhosis
+NCBIGene:405	endometriosis
+NCBIGene:405	melanoma
+NCBIGene:405	Colorectal Neoplasms
+NCBIGene:405	Precursor Cell Lymphoblastic Leukemia-Lymphoma
+NCBIGene:405	Drug-Induced Liver Injury
+NCBIGene:9869	melanoma
+NCBIGene:23126	Mental Retardation, Autosomal Dominant 37
+NCBIGene:6097	Immunodeficiency 42; IMD42
+NCBIGene:3608	Human immunodeficiency virus infectious disease
+NCBIGene:54856	intellectual disability
+NCBIGene:4209	MGR4
+NCBIGene:7203	Human immunodeficiency virus infectious disease
+NCBIGene:5546	['Translocation renal cell carcinoma', 'Renal Cell Carcinoma, Xp11-Associated']
+NCBIGene:5546	['papillary renal cell carcinoma', 'Renal Cell Carcinoma, Papillary, 1']
+NCBIGene:5546	Renal cell carcinoma
+NCBIGene:1314	Autoimmune Interstitial Lung, Joint, and Kidney Disease
+NCBIGene:1314	arthritis
+NCBIGene:1314	interstitial lung disease
+NCBIGene:257106	polycystic ovary syndrome
+NCBIGene:5087	['Precursor B-cell acute lymphoblastic leukemia', 'Leukemia, Acute Lymphoblastic, Susceptibility To, 3']
+NCBIGene:5087	Acute lymphoblastic leukemia (ALL) (precursor B lymphoblastic leukemia)
+NCBIGene:5087	Substance-Related Disorders
+NCBIGene:5087	['Burkitt lymphoma', 'Burkitt Lymphoma']
+NCBIGene:6258	Myocardial Ischemia
+NCBIGene:55827	prostate cancer
+NCBIGene:7371	prostate cancer
+NCBIGene:481	['essential hypertension', 'Hypertension, Essential']
+NCBIGene:481	['acute myeloid leukemia', 'Leukemia, Acute Myeloid']
+NCBIGene:481	Substance-Related Disorders
+NCBIGene:64326	autistic disorder
+NCBIGene:460	Brain Injuries
+NCBIGene:7143	Abortion, Spontaneous
+NCBIGene:9213	basal ganglia calcification
+NCBIGene:9213	Basal Ganglia Calcification, Idiopathic, 6
+NCBIGene:9213	calcinosis
+NCBIGene:9213	basal ganglia disease
+NCBIGene:10625	prostate cancer
+NCBIGene:7175	Thyroid cancer
+NCBIGene:7175	Differentiated thyroid carcinoma
+NCBIGene:7175	Thyroid Neoplasms
+NCBIGene:5743	Cholangiocarcinoma
+NCBIGene:5743	Esophageal cancer
+NCBIGene:5743	Penile cancer
+NCBIGene:5743	oral submucous fibrosis
+NCBIGene:5743	Carcinoma
+NCBIGene:5743	lung disease
+NCBIGene:5743	stomach cancer
+NCBIGene:5743	tongue cancer
+NCBIGene:5743	endometriosis
+NCBIGene:5743	kidney disease
+NCBIGene:5743	proteinuria
+NCBIGene:5743	urinary bladder cancer
+NCBIGene:5743	Skin Diseases
+NCBIGene:5743	familial adenomatous polyposis
+NCBIGene:5743	abdominal aortic aneurysm
+NCBIGene:5743	chronic lymphocytic leukemia
+NCBIGene:5743	adrenal gland cancer
+NCBIGene:5743	Liver Cirrhosis, Experimental
+NCBIGene:5743	tongue squamous cell carcinoma
+NCBIGene:5743	Puberty, Precocious
+NCBIGene:5743	B-cell lymphoma
+NCBIGene:5743	mouth disease
+NCBIGene:5743	Cognition Disorders
+NCBIGene:5743	cholangiocarcinoma
+NCBIGene:5743	papilloma
+NCBIGene:5743	status epilepticus
+NCBIGene:5743	leiomyosarcoma
+NCBIGene:5743	invasive ductal carcinoma
+NCBIGene:5743	open-angle glaucoma
+NCBIGene:5743	['esophagus adenocarcinoma', 'Barrett Esophagus']
+NCBIGene:5743	adenocarcinoma
+NCBIGene:5743	congestive heart failure
+NCBIGene:5743	gastroesophageal reflux disease
+NCBIGene:5743	Diabetes Mellitus, Experimental
+NCBIGene:5743	hyperglycemia
+NCBIGene:5743	esophagus squamous cell carcinoma
+NCBIGene:5743	Asthma, Aspirin-Induced
+NCBIGene:5743	Reperfusion Injury
+NCBIGene:5743	Precancerous Conditions
+NCBIGene:5743	Brain Injuries
+NCBIGene:5743	Colonic Neoplasms
+NCBIGene:5743	Depressive Disorder
+NCBIGene:5743	['obesity', 'Obesity']
+NCBIGene:5743	visual epilepsy
+NCBIGene:5743	Neoplasm Recurrence, Local
+NCBIGene:5743	bone cancer
+NCBIGene:5743	diabetes mellitus
+NCBIGene:5743	Amyotrophic Lateral Sclerosis
+NCBIGene:5743	Thrombosis
+NCBIGene:5743	Colorectal Neoplasms
+NCBIGene:5743	pancreatic cancer
+NCBIGene:5743	coronary artery disease
+NCBIGene:5743	Mouth Neoplasms
+NCBIGene:5743	Barrett's esophagus
+NCBIGene:5743	malignant glioma
+NCBIGene:5743	['hepatocellular carcinoma', 'Hepatocellular Carcinoma']
+NCBIGene:5743	Skin Neoplasms
+NCBIGene:5743	Hyperemia
+NCBIGene:5743	cardiomyopathy
+NCBIGene:5743	Thyroid Neoplasms
+NCBIGene:5743	autistic disorder
+NCBIGene:5743	in situ carcinoma
+NCBIGene:5743	cancer
+NCBIGene:5743	['head and neck squamous cell carcinoma', 'Squamous Cell Carcinoma, Head and Neck']
+NCBIGene:5743	lung benign neoplasm
+NCBIGene:5743	chronic kidney failure
+NCBIGene:5743	rheumatoid arthritis
+NCBIGene:5743	Leukoplakia, Oral
+NCBIGene:5743	asphyxia neonatorum
+NCBIGene:5743	Neurogenic Inflammation
+NCBIGene:5743	pericardial effusion
+NCBIGene:5743	duodenal ulcer
+NCBIGene:5743	Albuminuria
+NCBIGene:5743	systemic lupus erythematosus
+NCBIGene:5743	inflammatory bowel disease
+NCBIGene:5743	renal cell carcinoma
+NCBIGene:5743	melanoma
+NCBIGene:5743	esophageal cancer
+NCBIGene:5743	gastric ulcer
+NCBIGene:5743	hydronephrosis
+NCBIGene:5743	transitional cell carcinoma
+NCBIGene:5743	colitis
+NCBIGene:5743	Arrhythmias, Cardiac
+NCBIGene:5743	Atherosclerosis
+NCBIGene:5743	nervous system disease
+NCBIGene:5743	pancreatitis
+NCBIGene:5743	Premature Birth
+NCBIGene:5743	prostate cancer
+NCBIGene:5743	kidney cancer
+NCBIGene:5743	brain ischemia
+NCBIGene:5743	breast cancer
+NCBIGene:5743	Graves Ophthalmopathy
+NCBIGene:5743	Stroke
+NCBIGene:5743	Neoplasm Metastasis
+NCBIGene:5743	bladder neck obstruction
+NCBIGene:5743	Hyperalgesia
+NCBIGene:23046	ulcerative colitis
+NCBIGene:2494	pancreatic cancer
+NCBIGene:2494	anovulation
+NCBIGene:2494	Infertility, Female
+NCBIGene:1999	biliary tract cancer
+NCBIGene:5287	Neoplasm Metastasis
+NCBIGene:9877	breast cancer
+NCBIGene:4194	breast cancer
+NCBIGene:4194	glioblastoma multiforme
+NCBIGene:4194	pneumoconiosis
+NCBIGene:5362	Schizophrenia
+NCBIGene:7779	visual epilepsy
+NCBIGene:5629	Neoplasm Metastasis
+NCBIGene:5629	['type 2 diabetes mellitus', 'Diabetes Mellitus, Noninsulin-Dependent']
+NCBIGene:9926	IgA glomerulonephritis
+NCBIGene:4139	autistic disorder
+NCBIGene:4139	stomach cancer
+NCBIGene:55740	IgA glomerulonephritis
+NCBIGene:55740	['acute myeloid leukemia', 'Leukemia, Acute Myeloid']
+NCBIGene:51742	salivary gland adenoid cystic carcinoma
+NCBIGene:163882	thyroid gland disease
+NCBIGene:23040	Mental Retardation, Autosomal Dominant 39
+NCBIGene:4953	Colorectal Cancer
+NCBIGene:4953	Colonic Neoplasms
+NCBIGene:4953	Human immunodeficiency virus infectious disease
+NCBIGene:4953	Skin Neoplasms
+NCBIGene:4953	papilloma
+NCBIGene:6241	['hepatocellular carcinoma', 'Hepatocellular Carcinoma']
+NCBIGene:6241	Colorectal Neoplasms
+NCBIGene:6241	polycystic ovary syndrome
+NCBIGene:6241	IgA glomerulonephritis
+NCBIGene:1653	nephroblastoma
+NCBIGene:1653	Endometrial Hyperplasia
+NCBIGene:1653	Substance-Related Disorders
+NCBIGene:9475	Prenatal Injuries
+NCBIGene:8648	prostate cancer
+NCBIGene:8648	Mammary Neoplasms, Experimental
+NCBIGene:8648	Neoplasm Metastasis
+NCBIGene:8648	breast cancer
+NCBIGene:8648	endometriosis
+NCBIGene:3797	Amyotrophic lateral sclerosis 1
+NCBIGene:55252	urinary bladder cancer
+NCBIGene:790	Congenital Disorder of Glycosylation, Type Iz
+NCBIGene:790	['beta thalassemia', 'Beta-Thalassemia']
+NCBIGene:790	congenital hypoplastic anemia
+NCBIGene:790	hereditary spherocytosis
+NCBIGene:790	['sickle cell anemia', 'Sickle Cell Anemia']
+NCBIGene:790	Leukemia, Erythroblastic, Acute
+NCBIGene:2355	glioblastoma multiforme
+NCBIGene:2355	Arthritis, Juvenile
+NCBIGene:57448	cancer
+NCBIGene:6546	status epilepticus
+NCBIGene:6546	megacolon
+NCBIGene:6546	Myocardial Ischemia
+NCBIGene:6546	Myocardial Reperfusion Injury
+NCBIGene:6546	visual epilepsy
+NCBIGene:5581	Substance-Related Disorders
+NCBIGene:5581	Hyperalgesia
+NCBIGene:5581	peripheral nervous system disease
+NCBIGene:5581	Colorectal Neoplasms
+NCBIGene:5581	liver cancer
+NCBIGene:5581	Myocardial Ischemia
+NCBIGene:5581	Diabetic Nephropathies
+NCBIGene:5581	coronary stenosis
+NCBIGene:5581	cardiomyopathy
+NCBIGene:5581	Diabetes Mellitus, Experimental
+NCBIGene:23198	Human immunodeficiency virus infectious disease
+NCBIGene:5966	Hodgkin lymphoma
+NCBIGene:5966	psoriasis
+NCBIGene:5966	Memory Disorders
+NCBIGene:5966	Hodgkin's lymphoma
+NCBIGene:5966	rheumatoid arthritis
+NCBIGene:4211	breast cancer
+NCBIGene:4211	restless legs syndrome
+NCBIGene:57162	Skin Diseases
+NCBIGene:57162	Arsenic Poisoning
+NCBIGene:54465	pancreatic cancer
+NCBIGene:10097	IgA glomerulonephritis
+NCBIGene:4190	Drug-Induced Liver Injury
+NCBIGene:4190	hypertension
+NCBIGene:1496	stomach cancer
+NCBIGene:25885	['acrofacial dysostosis Cincinnati type', 'Acrofacial Dysostosis, Cincinnati Type']
+NCBIGene:3631	intellectual disability
+NCBIGene:4862	autistic disorder
+NCBIGene:10018	sclerosing cholangitis
+NCBIGene:344558	Amphetamine-Related Disorders
+NCBIGene:57628	Precancerous Conditions
+NCBIGene:57628	liver cancer
+NCBIGene:57628	Child Development Disorders, Pervasive
+NCBIGene:7849	Thyroid ectopia
+NCBIGene:7849	['Thyroid hemiagenesis', 'Hypothyroidism, Congenital, Nongoitrous, 2']
+NCBIGene:7849	Differentiated thyroid carcinoma
+NCBIGene:7849	Athyreosis
+NCBIGene:7849	Thyroid hypoplasia
+NCBIGene:7849	Thyroid cancer
+NCBIGene:7849	Colorectal Neoplasms
+NCBIGene:7849	Thyroid Cancer, Nonmedullary, 2
+NCBIGene:23190	keratoconus
+NCBIGene:4249	Liver Cirrhosis, Experimental
+NCBIGene:4929	Parkinson Disease, Late-Onset
+NCBIGene:4929	Parkinson Disease Overview
+NCBIGene:4929	Arsenic Poisoning
+NCBIGene:4929	Arthritis, Juvenile
+NCBIGene:4929	Colorectal Neoplasms
+NCBIGene:4929	Skin Diseases
+NCBIGene:4929	psoriatic arthritis
+NCBIGene:64844	IgA glomerulonephritis
+NCBIGene:10010	breast cancer
+NCBIGene:6328	complex partial epilepsy
+NCBIGene:27347	autistic disorder
+NCBIGene:9874	Neoplasm Recurrence, Local
+NCBIGene:9874	salivary gland adenoid cystic carcinoma
+NCBIGene:9874	IgA glomerulonephritis
+NCBIGene:1745	Craniofacial Abnormalities
+NCBIGene:1745	autistic disorder
+NCBIGene:1745	Child Development Disorders, Pervasive
+NCBIGene:220988	Schizophrenia
+NCBIGene:114880	peripheral nervous system disease
+NCBIGene:10203	allergic contact dermatitis
+NCBIGene:6775	Systemic Lupus Erythematosus, Susceptibility To, 11
+NCBIGene:6775	Juvenile rheumatoid factor-negative polyarthritis
+NCBIGene:6775	Pediatric systemic lupus erythematosus
+NCBIGene:6775	Oligoarticular juvenile arthritis
+NCBIGene:6775	["Behcet's disease", 'Behcet Syndrome']
+NCBIGene:6775	Sjogren's Syndrome
+NCBIGene:6775	systemic lupus erythematosus
+NCBIGene:6775	['hepatocellular carcinoma', 'Hepatocellular Carcinoma']
+NCBIGene:6775	Rheumatoid Arthritis
+NCBIGene:6775	multiple sclerosis
+NCBIGene:6775	primary biliary cirrhosis
+NCBIGene:6775	systemic scleroderma
+NCBIGene:2744	Abortion, Spontaneous
+NCBIGene:2744	Osteoarthritis
+NCBIGene:23451	['myelodysplastic syndrome', 'Myelodysplastic Syndrome']
+NCBIGene:23451	Acquired idiopathic sideroblastic anemia
+NCBIGene:23451	chronic lymphocytic leukemia
+NCBIGene:23451	uveal melanoma
+NCBIGene:57181	Neoplasm Invasiveness
+NCBIGene:8837	pancreatic cancer
+NCBIGene:8837	Lymphoma, Extranodal NK-T-Cell
+NCBIGene:8837	['myelodysplastic syndrome', 'Myelodysplastic Syndrome']
+NCBIGene:8837	Hodgkin's lymphoma
+NCBIGene:8837	leukemia
+NCBIGene:65059	peripheral nervous system disease
+NCBIGene:1385	Histiocytoma, Angiomatoid Fibrous
+NCBIGene:1385	Melanoma of soft parts
+NCBIGene:1385	Substance Withdrawal Syndrome
+NCBIGene:1385	Cocaine-Related Disorders
+NCBIGene:1385	myocardial infarction
+NCBIGene:1385	morphine dependence
+NCBIGene:4133	Arthritis, Juvenile
+NCBIGene:4133	Abortion, Spontaneous
+NCBIGene:22807	adult T-cell leukemia
+NCBIGene:22807	Precursor Cell Lymphoblastic Leukemia-Lymphoma
+NCBIGene:10109	ulcerative colitis
+NCBIGene:4691	Myocardial Ischemia
+NCBIGene:55054	Inflammatory Bowel Disease 10
+NCBIGene:55054	Crohn Disease
+NCBIGene:55054	inflammatory bowel disease
+NCBIGene:116987	autistic disorder
+NCBIGene:3069	autistic disorder
+NCBIGene:3069	Neoplastic Processes
+NCBIGene:3069	['2q37 microdeletion syndrome', 'Chromosome 2Q37 Deletion Syndrome']
+NCBIGene:2917	Orofacial clefting syndrome
+NCBIGene:2917	Substance-Related Disorders
+NCBIGene:2917	attention deficit hyperactivity disorder
+NCBIGene:8553	Myocardial Ischemia
+NCBIGene:8553	glioblastoma multiforme
+NCBIGene:152330	DEL3PTERP25
+NCBIGene:152330	Craniofacial Abnormalities
+NCBIGene:152330	autistic disorder
+NCBIGene:152330	Developmental Disabilities
+NCBIGene:9901	pilocytic astrocytoma
+NCBIGene:9901	intellectual disability
+NCBIGene:9901	Chromosome 3, monosomy 3p25
+NCBIGene:491	Deafness, Autosomal Recessive 12
+NCBIGene:6529	Myoclonic-astastic epilepsy
+NCBIGene:6529	Myoclonic-Atonic Epilepsy
+NCBIGene:6529	visual epilepsy
+NCBIGene:6529	Schizophrenia
+NCBIGene:6529	Amyotrophic Lateral Sclerosis
+NCBIGene:152273	breast cancer
+NCBIGene:7182	endometriosis
+NCBIGene:1618	MGCT
+NCBIGene:7325	['type 2 diabetes mellitus', 'Diabetes Mellitus, Noninsulin-Dependent']
+NCBIGene:7155	Prostatic Intraepithelial Neoplasia
+NCBIGene:57599	Autosomal recessive spastic paraplegia type 60
+NCBIGene:9943	IgA glomerulonephritis
+NCBIGene:9045	Parkinson's disease
+NCBIGene:9045	renal cell carcinoma
+NCBIGene:29072	Sotos syndrome
+NCBIGene:29072	salivary gland adenoid cystic carcinoma
+NCBIGene:29072	benign breast phyllodes tumor
+NCBIGene:29072	renal cell carcinoma
+NCBIGene:29072	leukemia
+NCBIGene:29072	breast cancer
+NCBIGene:6599	lung benign neoplasm
+NCBIGene:6599	adenocarcinoma
+NCBIGene:51447	["Huntington's disease", 'Huntington Disease']
+NCBIGene:8927	heart disease
+NCBIGene:6405	Endometrial Neoplasms
+NCBIGene:2912	temporal lobe epilepsy
+NCBIGene:2912	Amphetamine-Related Disorders
+NCBIGene:2912	Schizophrenia
+NCBIGene:2912	drug psychosis
+NCBIGene:51368	IgA glomerulonephritis
+NCBIGene:9254	Chorea
+NCBIGene:9254	Infertility, Female
+NCBIGene:9254	Ataxia
+NCBIGene:9254	childhood absence epilepsy
+NCBIGene:211	porphyria
+NCBIGene:55193	Clear cell papillary renal cell carcinoma
+NCBIGene:55193	renal cell carcinoma
+NCBIGene:55193	thymoma
+NCBIGene:54899	systemic lupus erythematosus
+NCBIGene:54899	rheumatoid arthritis
+NCBIGene:7871	Brugada syndrome
+NCBIGene:9223	salivary gland adenoid cystic carcinoma
+NCBIGene:9861	Human immunodeficiency virus infectious disease
+NCBIGene:9861	['type 2 diabetes mellitus', 'Diabetes Mellitus, Noninsulin-Dependent']
+NCBIGene:868	multiple sclerosis
+NCBIGene:868	Encephalomyelitis, Autoimmune, Experimental
+NCBIGene:214	Carcinoma
+NCBIGene:214	Mammary Neoplasms, Animal
+NCBIGene:214	Mammary Neoplasms, Experimental
+NCBIGene:2932	Depressive Disorder
+NCBIGene:2932	mantle cell lymphoma
+NCBIGene:2932	Schizophrenia
+NCBIGene:2932	Arthritis, Experimental
+NCBIGene:2932	Ceroid Lipofuscinosis, Neuronal, 6
+NCBIGene:2932	prostate cancer
+NCBIGene:2932	bipolar disorder
+NCBIGene:2932	Alzheimer's disease
+NCBIGene:2932	Cardiomegaly
+NCBIGene:2932	Acute Kidney Injury
+NCBIGene:2932	Peritonitis
+NCBIGene:2932	congestive heart failure
+NCBIGene:2932	myocardial infarction
+NCBIGene:11167	Acute Kidney Injury
+NCBIGene:11167	aortic valve insufficiency
+NCBIGene:942	contact dermatitis
+NCBIGene:942	liver disease
+NCBIGene:942	['multiple myeloma', 'Myeloma, Multiple']
+NCBIGene:3836	Schizophrenia
+NCBIGene:8997	Coronary Heart Disease, Susceptibility To, 5
+NCBIGene:29927	Craniofacial Abnormalities
+NCBIGene:23129	Truncus arteriosus
+NCBIGene:23129	MBS1
+NCBIGene:11073	chronic lymphocytic leukemia
+NCBIGene:5291	Schizophrenia
+NCBIGene:5291	diffuse large B-cell lymphoma
+NCBIGene:4154	IgA glomerulonephritis
+NCBIGene:8833	['acute myeloid leukemia', 'Leukemia, Acute Myeloid']
+NCBIGene:57018	IgA glomerulonephritis
+NCBIGene:25976	ovarian cancer
+NCBIGene:2122	Acute myeloid leukemia with inv3(p21;q26.2) or t(3;3)(p21;q26.2)
+NCBIGene:2122	['myelodysplastic syndrome', 'Myelodysplastic Syndrome']
+NCBIGene:2122	Chronic myeloid leukemia (CML)
+NCBIGene:2122	myeloid leukemia
+NCBIGene:2122	ovarian cancer
+NCBIGene:2122	breast cancer
+NCBIGene:2122	Colonic Neoplasms
+NCBIGene:2122	Nasopharyngeal Neoplasms
+NCBIGene:2122	lymphoblastic leukemia
+NCBIGene:64778	['primary open angle glaucoma', 'Glaucoma, Primary Open Angle']
+NCBIGene:64778	keratoconus
+NCBIGene:23043	Arthritis, Juvenile
+NCBIGene:23043	Arsenic Poisoning
+NCBIGene:23043	Skin Diseases
+NCBIGene:79718	['acute promyelocytic leukemia', 'Acute Promyelocytic Leukemia']
+NCBIGene:79718	IgA glomerulonephritis
+NCBIGene:10644	['type 2 diabetes mellitus', 'Diabetes Mellitus, Noninsulin-Dependent']
+NCBIGene:1974	Neoplasm Metastasis
+NCBIGene:2119	Prostate cancer
+NCBIGene:604	Primary mediastinal large B-cell lymphoma
+NCBIGene:604	Intravascular large B-cell lymphoma
+NCBIGene:604	FL1
+NCBIGene:604	Hairy-cell leukemia
+NCBIGene:604	non-Hodgkin lymphoma
+NCBIGene:604	Lymphoma, T-Cell
+NCBIGene:5062	Schizophrenia
+NCBIGene:5062	proteinuria
+NCBIGene:6165	Diamond-Blackfan Anemia 5
+NCBIGene:6165	Diamond-Blackfan anemia
+NCBIGene:6165	Diamond-Blackfan Anemia
+NCBIGene:1739	cleft palate
+NCBIGene:1739	Schizophrenia
+NCBIGene:1487	WHCR
+NCBIGene:1487	Colorectal Neoplasms
+NCBIGene:2580	Parkinson's disease
+NCBIGene:7468	WHCR
+NCBIGene:7468	Multiple myeloma
+NCBIGene:7468	Cell Transformation, Neoplastic
+NCBIGene:7468	breast cancer
+NCBIGene:3064	["Huntington's disease", 'Huntington Disease']
+NCBIGene:3064	Juvenile Huntington disease
+NCBIGene:3064	Huntington Disease
+NCBIGene:3064	Movement Disorders
+NCBIGene:152789	autistic disorder
+NCBIGene:9948	['osteoporosis', 'Osteoporosis']
+NCBIGene:9948	thrombocytopenia
+NCBIGene:10891	Amyotrophic lateral sclerosis
+NCBIGene:10891	Diabetes Mellitus, Experimental
+NCBIGene:10891	congestive heart failure
+NCBIGene:10891	['type 2 diabetes mellitus', 'Diabetes Mellitus, Noninsulin-Dependent']
+NCBIGene:10891	myocardial infarction
+NCBIGene:10891	peripheral nervous system disease
+NCBIGene:10891	Bowen's Disease
+NCBIGene:10891	Ceroid lipofuscinosis, neuronal 1, infantile
+NCBIGene:9353	temporal lobe epilepsy
+NCBIGene:9353	['hepatocellular carcinoma', 'Hepatocellular Carcinoma']
+NCBIGene:9353	SCLC1
+NCBIGene:54502	Arthritis, Juvenile
+NCBIGene:22998	Substance-Related Disorders
+NCBIGene:23244	IgA glomerulonephritis
+NCBIGene:2560	autistic disorder
+NCBIGene:2560	hepatic encephalopathy
+NCBIGene:2557	Ataxia
+NCBIGene:2557	autistic disorder
+NCBIGene:2555	['alcohol dependence', 'Alcohol Dependence']
+NCBIGene:2555	heroin dependence
+NCBIGene:2555	Anxiety
+NCBIGene:2555	autistic disorder
+NCBIGene:2555	Cocaine-Related Disorders
+NCBIGene:5471	Liver Neoplasms, Experimental
+NCBIGene:5471	Myocardial Ischemia
+NCBIGene:23284	attention deficit hyperactivity disorder
+NCBIGene:22902	Arsenic Poisoning
+NCBIGene:22902	Skin Diseases
+NCBIGene:213	Hyperthyroxinemia, Familial Dysalbuminemic
+NCBIGene:213	['Congenital analbuminemia', 'Analbuminemia']
+NCBIGene:213	Ehlers-Danlos syndrome, arthrochalasic type
+NCBIGene:213	Ehlers-Danlos syndrome type 7B
+NCBIGene:213	['Ehlers-Danlos syndrome type 7A', 'Ehlers-Danlos Syndrome, Type Vii, Autosomal Dominant']
+NCBIGene:213	nephrosis
+NCBIGene:213	membranoproliferative glomerulonephritis
+NCBIGene:213	diabetic angiopathy
+NCBIGene:213	Hypotension
+NCBIGene:213	lung adenocarcinoma
+NCBIGene:213	angioedema
+NCBIGene:213	brain disease
+NCBIGene:213	congestive heart failure
+NCBIGene:213	epilepsy syndrome
+NCBIGene:213	hemolytic-uremic syndrome
+NCBIGene:213	Brain Injuries
+NCBIGene:213	proteinuria
+NCBIGene:213	Hypoalbuminemia
+NCBIGene:213	nephrotic syndrome
+NCBIGene:213	stomach cancer
+NCBIGene:213	Human immunodeficiency virus infectious disease
+NCBIGene:213	Drug-Induced Liver Injury
+NCBIGene:213	Keloid
+NCBIGene:213	Arthritis, Experimental
+NCBIGene:213	Rhinitis, Allergic, Perennial
+NCBIGene:213	Pancreatic Diseases
+NCBIGene:213	Liver Cirrhosis, Experimental
+NCBIGene:213	anuria
+NCBIGene:213	interstitial nephritis
+NCBIGene:213	Hepatitis
+NCBIGene:213	uveitis
+NCBIGene:213	nephritis
+NCBIGene:213	pancreatitis
+NCBIGene:213	Hypersensitivity, Delayed
+NCBIGene:213	Myocardial Reperfusion Injury
+NCBIGene:213	Depressive Disorder
+NCBIGene:213	HIV Seropositivity
+NCBIGene:213	Serum Sickness
+NCBIGene:213	thrombocytopenia
+NCBIGene:213	membranous glomerulonephritis
+NCBIGene:213	chronic kidney failure
+NCBIGene:213	hypersensitivity reaction type I disease
+NCBIGene:213	['Recurrent infections - inflammatory syndrome due to zinc metabolism disorder', 'Zinc, Elevated Plasma']
+NCBIGene:213	Urticaria
+NCBIGene:213	kidney disease
+NCBIGene:213	echinococcosis
+NCBIGene:213	glomerulonephritis
+NCBIGene:213	liver cirrhosis
+NCBIGene:213	heart disease
+NCBIGene:213	aseptic meningitis
+NCBIGene:213	cardiovascular system disease
+NCBIGene:5311	Polycystic Kidney Disease 2
+NCBIGene:5311	retinal disease
+NCBIGene:5311	Vascular Diseases
+NCBIGene:5311	neurodegenerative disease
+NCBIGene:1977	Autism, Susceptibility To, 19
+NCBIGene:1977	mantle cell lymphoma
+NCBIGene:5530	keratoconus
+NCBIGene:5530	peripheral nervous system disease
+NCBIGene:5530	pancreatitis
+NCBIGene:5530	['Wilson disease', 'Wilson Disease']
+NCBIGene:5530	Hypertrophy, Left Ventricular
+NCBIGene:5530	Brain Injuries
+NCBIGene:5530	testicular disease
+NCBIGene:5530	prostate cancer
+NCBIGene:4790	Immunodeficiency, Common Variable, 12
+NCBIGene:4790	common variable immunodeficiency
+NCBIGene:4790	Ovarian Cysts
+NCBIGene:4790	adenocarcinoma
+NCBIGene:4790	Colonic Neoplasms
+NCBIGene:4790	['type 2 diabetes mellitus', 'Diabetes Mellitus, Noninsulin-Dependent']
+NCBIGene:4790	chronic kidney failure
+NCBIGene:4790	primary biliary cirrhosis
+NCBIGene:4790	primary hyperoxaluria
+NCBIGene:51176	sebaceous gland neoplasm
+NCBIGene:51176	Colonic Neoplasms
+NCBIGene:51176	chronic lymphocytic leukemia
+NCBIGene:79071	IgA glomerulonephritis
+NCBIGene:79071	peripheral nervous system disease
+NCBIGene:890	intellectual disability
+NCBIGene:890	peripheral nervous system disease
+NCBIGene:1998	Arthritis, Juvenile
+NCBIGene:64399	['hepatocellular carcinoma', 'Hepatocellular Carcinoma']
+NCBIGene:3600	autistic disorder
+NCBIGene:3600	endometriosis
+NCBIGene:3600	celiac disease
+NCBIGene:3600	Respiratory Hypersensitivity
+NCBIGene:8467	extraosseous Ewing's sarcoma
+NCBIGene:6059	IgA glomerulonephritis
+NCBIGene:6059	Colorectal Neoplasms
+NCBIGene:55294	Precursor T-Cell Lymphoblastic Leukemia-Lymphoma
+NCBIGene:55294	salivary gland adenoid cystic carcinoma
+NCBIGene:55294	esophagus squamous cell carcinoma
+NCBIGene:55294	breast cancer
+NCBIGene:55294	Endometrial Neoplasms
+NCBIGene:55294	malignant glioma
+NCBIGene:2891	Substance Withdrawal Syndrome
+NCBIGene:2891	Cocaine-Related Disorders
+NCBIGene:2891	status epilepticus
+NCBIGene:2891	Hyperkinesis
+NCBIGene:56034	benign mesothelioma
+NCBIGene:1363	endocrine system disease
+NCBIGene:1363	['obesity', 'Obesity']
+NCBIGene:1182	stomach cancer
+NCBIGene:3148	['hepatocellular carcinoma', 'Hepatocellular Carcinoma']
+NCBIGene:3148	lung adenocarcinoma
+NCBIGene:3148	['obesity', 'Obesity']
+NCBIGene:6550	Diabetes Mellitus, Experimental
+NCBIGene:6550	intestinal obstruction
+NCBIGene:6550	CFM1
+NCBIGene:108	asthma
+NCBIGene:7204	liver cancer
+NCBIGene:7204	['acute myeloid leukemia', 'Leukemia, Acute Myeloid']
+NCBIGene:7204	Precancerous Conditions
+NCBIGene:1501	['Cri-Du-Chat syndrome', 'Cri-Du-Chat Syndrome']
+NCBIGene:1501	Cell Transformation, Neoplastic
+NCBIGene:1501	glioblastoma multiforme
+NCBIGene:51663	Autosomal recessive spastic paraplegia type 71
+NCBIGene:29102	male infertility
+NCBIGene:6502	cancer
+NCBIGene:6502	ovarian cancer
+NCBIGene:6502	['medulloblastoma', 'Medulloblastoma']
+NCBIGene:6502	['hepatocellular carcinoma', 'Hepatocellular Carcinoma']
+NCBIGene:6502	diffuse large B-cell lymphoma
+NCBIGene:7690	IgA glomerulonephritis
+NCBIGene:10468	breast cancer
+NCBIGene:10468	Liver Failure, Acute
+NCBIGene:10468	['hepatocellular carcinoma', 'Hepatocellular Carcinoma']
+NCBIGene:10468	stomach cancer
+NCBIGene:10468	liver cancer
+NCBIGene:10468	PCOS1
+NCBIGene:10468	Abortion, Spontaneous
+NCBIGene:10769	Carcinoma
+NCBIGene:10769	Mammary Neoplasms, Animal
+NCBIGene:10769	Arthritis, Juvenile
+NCBIGene:10769	Mammary Neoplasms, Experimental
+NCBIGene:3572	middle cerebral artery infarction
+NCBIGene:3572	pneumonia
+NCBIGene:3572	ovarian cancer
+NCBIGene:3572	Mammary Neoplasms, Experimental
+NCBIGene:3572	rheumatoid arthritis
+NCBIGene:3572	Carcinoma
+NCBIGene:3572	Mammary Neoplasms, Animal
+NCBIGene:3572	Myocardial Ischemia
+NCBIGene:3572	Reperfusion Injury
+NCBIGene:3572	hypersensitivity reaction type I disease
+NCBIGene:3572	Colorectal Neoplasms
+NCBIGene:55914	salivary gland adenoid cystic carcinoma
+NCBIGene:10087	Mental Retardation, Autosomal Dominant 34
+NCBIGene:10087	non-small cell lung carcinoma
+NCBIGene:1393	Cocaine-Related Disorders
+NCBIGene:23635	prostate cancer
+NCBIGene:9456	Dyskinesia, Drug-Induced
+NCBIGene:9456	Hallucinations
+NCBIGene:5924	Orofacial clefting syndrome
+NCBIGene:5924	Mammary Neoplasms, Animal
+NCBIGene:5924	Carcinoma
+NCBIGene:5924	Mammary Neoplasms, Experimental
+NCBIGene:57561	breast cancer
+NCBIGene:4012	['Birdshot chorioretinopathy', 'Birdshot Chorioretinopathy']
+NCBIGene:4012	Memory Disorders
+NCBIGene:4012	Mammary Neoplasms, Experimental
+NCBIGene:1657	malignant glioma
+NCBIGene:4015	pulmonary hypertension
+NCBIGene:4015	Prenatal Injuries
+NCBIGene:4015	aortic valve insufficiency
+NCBIGene:4015	['Wilson disease', 'Wilson Disease']
+NCBIGene:4015	primary biliary cirrhosis
+NCBIGene:4015	Cutis Laxa, Autosomal Recessive, Type 1A
+NCBIGene:4015	hepatitis B
+NCBIGene:4015	hepatitis C
+NCBIGene:4015	['osteosarcoma', 'Osteogenic Sarcoma']
+NCBIGene:4015	oral submucous fibrosis
+NCBIGene:6643	IgA glomerulonephritis
+NCBIGene:6558	glucose intolerance
+NCBIGene:6558	Mammary Neoplasms, Experimental
+NCBIGene:6558	Carcinoma
+NCBIGene:6558	hypertension
+NCBIGene:6558	epilepsy syndrome
+NCBIGene:6558	cardiovascular system disease
+NCBIGene:6558	temporal lobe epilepsy
+NCBIGene:6558	Mammary Neoplasms, Animal
+NCBIGene:6558	Movement Disorders
+NCBIGene:6558	prostate cancer
+NCBIGene:8572	Bone Mineral Density Quantitative Trait Locus 15
+NCBIGene:8572	['osteoporosis', 'Osteoporosis']
+NCBIGene:8572	polycystic ovary syndrome
+NCBIGene:3308	IgA glomerulonephritis
+NCBIGene:3308	facioscapulohumeral muscular dystrophy
+NCBIGene:11127	asthma
+NCBIGene:11127	Bone Diseases, Developmental
+NCBIGene:11127	['polydactyly', 'Polydactyly']
+NCBIGene:11127	Craniofacial Abnormalities
+NCBIGene:27125	Chops Syndrome
+NCBIGene:27125	['obesity', 'Obesity']
+NCBIGene:27125	congenital heart disease
+NCBIGene:27125	lung disease
+NCBIGene:27125	Bone Diseases, Developmental
+NCBIGene:27125	Cognition Disorders
+NCBIGene:5515	Myocardial Ischemia
+NCBIGene:5515	heart disease
+NCBIGene:5515	asthma
+NCBIGene:7416	Psychomotor Disorders
+NCBIGene:7416	mitochondrial myopathy
+NCBIGene:7416	Diabetic Nephropathies
+NCBIGene:7416	epilepsy syndrome
+NCBIGene:3313	Myocardial Ischemia
+NCBIGene:3313	uveitis
+NCBIGene:3313	Parkinson's disease
+NCBIGene:3313	renal cell carcinoma
+NCBIGene:3313	perinatal necrotizing enterocolitis
+NCBIGene:3313	Human immunodeficiency virus infectious disease
+NCBIGene:3313	['hepatocellular carcinoma', 'Hepatocellular Carcinoma']
+NCBIGene:3313	Endotoxemia
+NCBIGene:1495	['myelodysplastic syndrome', 'Myelodysplastic Syndrome']
+NCBIGene:1495	['acute myeloid leukemia', 'Leukemia, Acute Myeloid']
+NCBIGene:8841	heart disease
+NCBIGene:64411	Human immunodeficiency virus infectious disease
+NCBIGene:81555	IgA glomerulonephritis
+NCBIGene:9832	melanoma
+NCBIGene:815	Cocaine-Related Disorders
+NCBIGene:815	['Wilson disease', 'Wilson Disease']
+NCBIGene:815	Hyperalgesia
+NCBIGene:1452	adult T-cell leukemia
+NCBIGene:1452	Craniofacial Abnormalities
+NCBIGene:10318	systemic scleroderma
+NCBIGene:10318	Sjogren's Syndrome
+NCBIGene:10318	systemic lupus erythematosus
+NCBIGene:10318	breast cancer
+NCBIGene:10318	psoriasis
+NCBIGene:51164	['cystic fibrosis', 'Cystic Fibrosis']
+NCBIGene:51164	Pseudomonas Infections
+NCBIGene:10146	IgA glomerulonephritis
+NCBIGene:2890	morphine dependence
+NCBIGene:2890	autistic disorder
+NCBIGene:2890	Hyperkinesis
+NCBIGene:2890	Hypotension
+NCBIGene:2890	learning disability
+NCBIGene:2890	Substance Withdrawal Syndrome
+NCBIGene:2890	hypoactive sexual desire disorder
+NCBIGene:1879	Cell Transformation, Neoplastic
+NCBIGene:1879	FL1
+NCBIGene:57451	Substance-Related Disorders
+NCBIGene:2561	Schizophrenia
+NCBIGene:1794	Immunodeficiency 40
+NCBIGene:1794	['esophagus adenocarcinoma', 'Barrett Esophagus']
+NCBIGene:1794	IgA glomerulonephritis
+NCBIGene:6586	congenital diaphragmatic hernia
+NCBIGene:23197	prostate cancer
+NCBIGene:3182	Mammary Neoplasms, Experimental
+NCBIGene:3187	Precursor T-cell acute lymphoblastic leukemia
+NCBIGene:3187	prostate cancer
+NCBIGene:10399	tongue squamous cell carcinoma
+NCBIGene:10399	Mouth Neoplasms
+NCBIGene:9425	SCLC1
+NCBIGene:3720	Child Development Disorders, Pervasive
+NCBIGene:9750	Autosomal recessive non-syndromic sensorineural deafness type DFNB
+NCBIGene:9750	Deafness, Autosomal Recessive 104
+NCBIGene:2550	autistic disorder
+NCBIGene:2550	alcohol abuse
+NCBIGene:2550	Cocaine-Related Disorders
+NCBIGene:2550	Hyperkinesis
+NCBIGene:1460	Skin Neoplasms
+NCBIGene:1460	adult T-cell leukemia
+NCBIGene:1460	tongue squamous cell carcinoma
+NCBIGene:6257	breast cancer
+NCBIGene:6257	stomach cancer
+NCBIGene:2914	['osteosarcoma', 'Osteogenic Sarcoma']
+NCBIGene:2914	temporal lobe epilepsy
+NCBIGene:5467	Cardiomegaly
+NCBIGene:5467	Fatty Liver
+NCBIGene:5467	peripheral nervous system disease
+NCBIGene:5467	cardiomyopathy
+NCBIGene:1432	lung benign neoplasm
+NCBIGene:1432	cardiomyopathy
+NCBIGene:1432	cholestasis
+NCBIGene:1432	liver cancer
+NCBIGene:1432	Myocardial Ischemia
+NCBIGene:60685	['type 2 diabetes mellitus', 'Diabetes Mellitus, Noninsulin-Dependent']
+NCBIGene:60685	Arthritis, Juvenile
+NCBIGene:9025	autistic disorder
+NCBIGene:896	Multiple myeloma
+NCBIGene:7942	['Translocation renal cell carcinoma', 'Renal Cell Carcinoma, Xp11-Associated']
+NCBIGene:55809	peripheral nervous system disease
+NCBIGene:55809	breast cancer
+NCBIGene:5528	Mental Retardation, Autosomal Dominant 35
+NCBIGene:6722	Human immunodeficiency virus infectious disease
+NCBIGene:2030	Alcohol Withdrawal Seizures
+NCBIGene:2030	pancreatic cancer
+NCBIGene:3326	prostate cancer
+NCBIGene:3326	Human immunodeficiency virus infectious disease
+NCBIGene:56479	myopia
+NCBIGene:1303	Ullrich congenital muscular dystrophy
+NCBIGene:1303	Ullrich Congenital Muscular Dystrophy 2
+NCBIGene:1303	Bethlem Myopathy 2
+NCBIGene:1303	['Bethlem myopathy', 'Bethlem Myopathy 1']
+NCBIGene:55023	Sjogren's Syndrome
+NCBIGene:1915	Carcinoma
+NCBIGene:1915	Mammary Neoplasms, Experimental
+NCBIGene:1915	Mammary Neoplasms, Animal
+NCBIGene:1915	stomach cancer
+NCBIGene:9096	PUJO
+NCBIGene:9096	["Huntington's disease", 'Huntington Disease']
+NCBIGene:10492	IgA glomerulonephritis
+NCBIGene:23036	Colorectal Neoplasms
+NCBIGene:6885	IgA glomerulonephritis
+NCBIGene:6885	prostate cancer
+NCBIGene:2045	SCLC1
+NCBIGene:6492	['obesity', 'Obesity']
+NCBIGene:6492	Obesity due to SIM1 deficiency
+NCBIGene:6492	Prader-Willi-like syndrome due to point mutation
+NCBIGene:6492	6q16 deletion syndrome
+NCBIGene:6492	breast cancer
+NCBIGene:6492	hyperglycemia
+NCBIGene:6492	peripheral nervous system disease
+NCBIGene:892	IgA glomerulonephritis
+NCBIGene:9474	Drug-Induced Liver Injury
+NCBIGene:9474	Hepatomegaly
+NCBIGene:2898	Mental Retardation, Autosomal Recessive 6
+NCBIGene:2898	autosomal recessive non-syndromic intellectual disability
+NCBIGene:2898	Schizophrenia
+NCBIGene:2898	Substance-Related Disorders
+NCBIGene:2898	bipolar disorder
+NCBIGene:2898	autistic disorder
+NCBIGene:2898	hypoactive sexual desire disorder
+NCBIGene:639	systemic lupus erythematosus
+NCBIGene:639	ulcerative colitis
+NCBIGene:639	Sjogren's Syndrome
+NCBIGene:639	rheumatoid arthritis
+NCBIGene:5550	amnestic disorder
+NCBIGene:5550	retrograde amnesia
+NCBIGene:5550	stomach cancer
+NCBIGene:5980	MBS1
+NCBIGene:2534	stomach cancer
+NCBIGene:2534	Catalepsy
+NCBIGene:2534	Lymphoma, T-Cell, Peripheral
+NCBIGene:2534	adult T-cell leukemia
+NCBIGene:3066	chronic obstructive pulmonary disease
+NCBIGene:3066	melanoma
+NCBIGene:3066	tongue squamous cell carcinoma
+NCBIGene:3066	Cardiomegaly
+NCBIGene:3066	endometriosis
+NCBIGene:3066	myeloid leukemia
+NCBIGene:5796	melanoma
+NCBIGene:5796	prostate cancer
+NCBIGene:84456	['medulloblastoma', 'Medulloblastoma']
+NCBIGene:6446	uremia
+NCBIGene:6446	Diabetic Neuropathies
+NCBIGene:6446	Mammary Neoplasms, Experimental
+NCBIGene:6446	Mammary Neoplasms, Animal
+NCBIGene:6446	Carcinoma
+NCBIGene:6446	['acute myeloid leukemia', 'Leukemia, Acute Myeloid']
+NCBIGene:4217	Drug-Induced Liver Injury
+NCBIGene:4217	cardiomyopathy
+NCBIGene:4217	diabetes mellitus
+NCBIGene:4217	Parkinson's disease
+NCBIGene:4217	melanoma
+NCBIGene:4217	Diabetes Mellitus, Experimental
+NCBIGene:7128	Lymphoma, T-Cell, Cutaneous
+NCBIGene:7128	psoriasis
+NCBIGene:7128	FL1
+NCBIGene:7128	Cell Transformation, Neoplastic
+NCBIGene:7128	systemic lupus erythematosus
+NCBIGene:7128	multiple sclerosis
+NCBIGene:7128	rheumatoid arthritis
+NCBIGene:7128	Sjogren's Syndrome
+NCBIGene:3097	Myocardial Ischemia
+NCBIGene:134957	tuberculosis
+NCBIGene:134957	Bronchopulmonary Dysplasia
+NCBIGene:9113	astrocytoma
+NCBIGene:9113	Neoplasms, Glandular and Epithelial
+NCBIGene:10090	endometriosis
+NCBIGene:117289	psoriasis
+NCBIGene:117289	Crohn Disease
+NCBIGene:117289	rheumatoid arthritis
+NCBIGene:117289	IDDM21
+NCBIGene:6950	prostate cancer
+NCBIGene:7430	Osteosarcoma
+NCBIGene:7430	Mammary Neoplasms, Experimental
+NCBIGene:7430	Mammary Neoplasms, Animal
+NCBIGene:7430	prostate cancer
+NCBIGene:7430	Osteoarthritis
+NCBIGene:7430	Carcinoma
+NCBIGene:4216	Endometrial Neoplasms
+NCBIGene:28514	Microform holoprosencephaly
+NCBIGene:28514	Septopreoptic holoprosencephaly
+NCBIGene:28514	Alobar holoprosencephaly
+NCBIGene:28514	Midline interhemispheric variant of holoprosencephaly
+NCBIGene:28514	Lobar holoprosencephaly
+NCBIGene:28514	Semilobar holoprosencephaly
+NCBIGene:28514	breast cancer
+NCBIGene:28514	brain cancer
+NCBIGene:51608	peripheral nervous system disease
+NCBIGene:2768	ulcerative colitis
+NCBIGene:2768	Myocardial Ischemia
+NCBIGene:8662	Human immunodeficiency virus infectious disease
+NCBIGene:2115	['Ewing sarcoma', 'Ewing Sarcoma']
+NCBIGene:2115	Prostate cancer
+NCBIGene:2115	Ewing's sarcoma
+NCBIGene:2115	prostate cancer
+NCBIGene:6671	bipolar disorder
+NCBIGene:6671	Schizophrenia
+NCBIGene:9734	['Peters anomaly', 'Peters Anomaly']
+NCBIGene:9734	Stroke
+NCBIGene:196	Drug-Induced Liver Injury
+NCBIGene:196	Ureteral Neoplasms
+NCBIGene:196	prostate cancer
+NCBIGene:196	['nicotine dependence', 'Tobacco Addiction, Susceptibility to']
+NCBIGene:196	liver cancer
+NCBIGene:196	chronobiology disease
+NCBIGene:196	silicosis
+NCBIGene:196	hypertension
+NCBIGene:196	bladder calculus
+NCBIGene:196	stomach cancer
+NCBIGene:196	pneumonia
+NCBIGene:196	congenital nystagmus
+NCBIGene:196	Pancreatic cancer, adult
+NCBIGene:196	liver disease
+NCBIGene:196	breast cancer
+NCBIGene:196	contact dermatitis
+NCBIGene:196	lung adenocarcinoma
+NCBIGene:196	male infertility
+NCBIGene:196	Atherosclerosis
+NCBIGene:196	Tachycardia
+NCBIGene:196	Bone Resorption
+NCBIGene:196	Arthritis, Experimental
+NCBIGene:196	Vascular Diseases
+NCBIGene:196	Neoplasms, Experimental
+NCBIGene:196	peripheral nervous system disease
+NCBIGene:196	rheumatoid arthritis
+NCBIGene:196	congenital heart disease
+NCBIGene:196	Cardiomegaly
+NCBIGene:196	Hypertrophy, Left Ventricular
+NCBIGene:196	splenic disease
+NCBIGene:196	cancer
+NCBIGene:196	peanut allergy
+NCBIGene:3696	endometriosis
+NCBIGene:9771	Amphetamine-Related Disorders
+NCBIGene:10643	peripheral nervous system disease
+NCBIGene:3200	Lymphatic Abnormalities
+NCBIGene:3200	Craniofacial Abnormalities
+NCBIGene:3200	congenital heart disease
+NCBIGene:221895	endometrial stromal sarcoma
+NCBIGene:221895	systemic lupus erythematosus
+NCBIGene:221895	['type 2 diabetes mellitus', 'Diabetes Mellitus, Noninsulin-Dependent']
+NCBIGene:221895	prostate cancer
+NCBIGene:221895	Endometrial Neoplasms
+NCBIGene:64224	Arthritis, Juvenile
+NCBIGene:5683	heart disease
+NCBIGene:5683	['osteoporosis', 'Osteoporosis']
+NCBIGene:9844	['esophagus adenocarcinoma', 'Barrett Esophagus']
+NCBIGene:9844	Diabetic Nephropathies
+NCBIGene:9844	['Stevens-Johnson syndrome', 'Severe Cutaneous Adverse Reaction, Susceptibility to']
+NCBIGene:4967	['Oxoglutaricaciduria', 'Alpha-Ketoglutarate Dehydrogenase Deficiency']
+NCBIGene:23242	peripheral nervous system disease
+NCBIGene:10320	Pancytopenia due to IKZF1 mutations
+NCBIGene:10320	['Stevens-Johnson syndrome', 'Severe Cutaneous Adverse Reaction, Susceptibility to']
+NCBIGene:10320	['Precursor B-cell acute lymphoblastic leukemia', 'Leukemia, Acute Lymphoblastic, Susceptibility To, 3']
+NCBIGene:10320	Precursor B-Cell Lymphoblastic Leukemia-Lymphoma
+NCBIGene:10320	ulcerative colitis
+NCBIGene:10320	lymphoma
+NCBIGene:10320	systemic lupus erythematosus
+NCBIGene:10320	Precursor Cell Lymphoblastic Leukemia-Lymphoma
+NCBIGene:6804	['cystic fibrosis', 'Cystic Fibrosis']
+NCBIGene:6804	autistic disorder
+NCBIGene:9031	Williams-Beuren syndrome
+NCBIGene:3984	Williams-Beuren syndrome
+NCBIGene:3092	Prostate Cancer
+NCBIGene:9569	Williams-Beuren syndrome
+NCBIGene:9569	Craniofacial Abnormalities
+NCBIGene:9569	Williams-Beuren Syndrome
+NCBIGene:7461	Williams-Beuren syndrome
+NCBIGene:2770	Substance Withdrawal Syndrome
+NCBIGene:2770	amnestic disorder
+NCBIGene:2913	melanoma
+NCBIGene:2913	Schizophrenia
+NCBIGene:2913	temporal lobe epilepsy
+NCBIGene:3082	Autosomal recessive non-syndromic sensorineural deafness type DFNB
+NCBIGene:3082	Deafness, Autosomal Recessive 39
+NCBIGene:3082	Deafness and Hereditary Hearing Loss Overview
+NCBIGene:3082	Copper-Overload Cirrhosis
+NCBIGene:3082	Liver Neoplasms, Experimental
+NCBIGene:3082	Thrombosis
+NCBIGene:3082	['hepatocellular carcinoma', 'Hepatocellular Carcinoma']
+NCBIGene:3082	hepatitis
+NCBIGene:3082	neuroblastoma
+NCBIGene:3082	Neoplasm Invasiveness
+NCBIGene:3082	Reperfusion Injury
+NCBIGene:3082	['acute myeloid leukemia', 'Leukemia, Acute Myeloid']
+NCBIGene:3082	Barrett's esophagus
+NCBIGene:3082	pulmonary fibrosis
+NCBIGene:781	Brugada syndrome
+NCBIGene:781	Familial short QT syndrome
+NCBIGene:781	Pain
+NCBIGene:781	Neuralgia
+NCBIGene:781	Hyperalgesia
+NCBIGene:781	hypertension
+NCBIGene:781	Colonic Neoplasms
+NCBIGene:27445	CLAM
+NCBIGene:22853	prostate cancer
+NCBIGene:8295	Schizophrenia
+NCBIGene:8295	melanoma
+NCBIGene:2050	breast cancer
+NCBIGene:43	breast cancer
+NCBIGene:43	Movement Disorders
+NCBIGene:43	learning disability
+NCBIGene:43	Prenatal Injuries
+NCBIGene:43	Alzheimer's disease
+NCBIGene:43	Memory Disorders
+NCBIGene:43	nervous system disease
+NCBIGene:43	Liver Cirrhosis, Experimental
+NCBIGene:43	muscular dystrophy
+NCBIGene:43	visual epilepsy
+NCBIGene:43	Amphetamine-Related Disorders
+NCBIGene:43	prostate cancer
+NCBIGene:43	amyloidosis
+NCBIGene:43	renal cell carcinoma
+NCBIGene:1523	Carcinogenesis
+NCBIGene:10135	colitis
+NCBIGene:10135	IgA glomerulonephritis
+NCBIGene:10135	['obesity', 'Obesity']
+NCBIGene:10135	Colorectal Neoplasms
+NCBIGene:10135	allergic contact dermatitis
+NCBIGene:55904	myeloid leukemia
+NCBIGene:55904	leukemia
+NCBIGene:5577	['obesity', 'Obesity']
+NCBIGene:9732	autistic disorder
+NCBIGene:830	IgA glomerulonephritis
+NCBIGene:5803	Helicobacter Pylori Infection, Susceptibility to
+NCBIGene:5803	pneumoconiosis
+NCBIGene:93664	Substance-Related Disorders
+NCBIGene:93664	autistic disorder
+NCBIGene:27044	autistic disorder
+NCBIGene:7328	autistic disorder
+NCBIGene:7328	polycystic ovary syndrome
+NCBIGene:23382	tuberculosis
+NCBIGene:23382	prostate cancer
+NCBIGene:4899	Bowen's Disease
+NCBIGene:800	rheumatoid arthritis
+NCBIGene:800	Arthritis, Juvenile
+NCBIGene:23165	Paget's disease of bone
+NCBIGene:8805	Thyroid Cancer, Nonmedullary, 1
+NCBIGene:8805	Differentiated thyroid carcinoma
+NCBIGene:8805	['hepatocellular carcinoma', 'Hepatocellular Carcinoma']
+NCBIGene:57670	pilocytic astrocytoma
+NCBIGene:57670	astrocytoma
+NCBIGene:8454	['Stevens-Johnson syndrome', 'Severe Cutaneous Adverse Reaction, Susceptibility to']
+NCBIGene:1020	Lissencephaly 7 With Cerebellar Hypoplasia
+NCBIGene:1020	peripheral nervous system disease
+NCBIGene:6522	primary biliary cirrhosis
+NCBIGene:6009	non-small cell lung carcinoma
+NCBIGene:58508	['Kleefstra syndrome', 'Kleefstra Syndrome']
+NCBIGene:58508	Kleefstra Syndrome
+NCBIGene:58508	stomach cancer
+NCBIGene:58508	esophagus squamous cell carcinoma
+NCBIGene:58508	salivary gland adenoid cystic carcinoma
+NCBIGene:58508	cholangiocarcinoma
+NCBIGene:58508	['acute myeloid leukemia', 'Leukemia, Acute Myeloid']
+NCBIGene:58508	adenocarcinoma
+NCBIGene:58508	Liver Diseases, Parasitic
+NCBIGene:58508	transitional cell carcinoma
+NCBIGene:58508	urinary bladder cancer
+NCBIGene:58508	['hepatocellular carcinoma', 'Hepatocellular Carcinoma']
+NCBIGene:22976	Alzheimer Disease
+NCBIGene:9690	Arthritis, Juvenile
+NCBIGene:9228	autistic disorder
+NCBIGene:10395	Colorectal Cancer
+NCBIGene:10395	cancer
+NCBIGene:526	Zimmermann-Laband syndrome
+NCBIGene:526	Zimmermann-Laband Syndrome 2
+NCBIGene:526	ZLS
+NCBIGene:526	Autosomal dominant deafness-onychodystrophy syndrome
+NCBIGene:526	Osteoarthritis
+NCBIGene:526	Zimmerman Laband syndrome
+NCBIGene:526	IgA glomerulonephritis
+NCBIGene:1808	Osteoarthritis
+NCBIGene:1808	Alzheimer's disease
+NCBIGene:1808	paranoid schizophrenia
+NCBIGene:2185	status epilepticus
+NCBIGene:2185	melanoma
+NCBIGene:2185	Skin Neoplasms
+NCBIGene:27257	peripheral nervous system disease
+NCBIGene:54904	['acute myeloid leukemia', 'Leukemia, Acute Myeloid']
+NCBIGene:84376	polycystic ovary syndrome
+NCBIGene:114786	Substance-Related Disorders
+NCBIGene:4067	Human immunodeficiency virus infectious disease
+NCBIGene:253943	IgA glomerulonephritis
+NCBIGene:5862	polycystic ovary syndrome
+NCBIGene:63978	MGCT
+NCBIGene:63978	Precursor Cell Lymphoblastic Leukemia-Lymphoma
+NCBIGene:4603	salivary gland adenoid cystic carcinoma
+NCBIGene:4603	polycystic ovary syndrome
+NCBIGene:4603	malignant glioma
+NCBIGene:10565	IgA glomerulonephritis
+NCBIGene:10987	['Stevens-Johnson syndrome', 'Severe Cutaneous Adverse Reaction, Susceptibility to']
+NCBIGene:10987	['hepatocellular carcinoma', 'Hepatocellular Carcinoma']
+NCBIGene:23462	Neuroectodermal Tumors, Primitive
+NCBIGene:23462	lung benign neoplasm
+NCBIGene:23462	breast cancer
+NCBIGene:23462	oligodendroglioma
+NCBIGene:23462	glioblastoma multiforme
+NCBIGene:23462	Child Development Disorders, Pervasive
+NCBIGene:23462	astrocytoma
+NCBIGene:23462	pancreatic ductal carcinoma
+NCBIGene:79776	PTOS1
+NCBIGene:862	Acute myeloid leukemia with t(8;21)(q22;q22) translocation
+NCBIGene:862	Acute myeloid leukemia (AML)
+NCBIGene:862	['acute myeloid leukemia', 'Leukemia, Acute Myeloid']
+NCBIGene:862	SCLC1
+NCBIGene:26986	breast cancer
+NCBIGene:26986	transitional cell carcinoma
+NCBIGene:26986	urinary bladder cancer
+NCBIGene:51582	IgA glomerulonephritis
+NCBIGene:9699	SCLC1
+NCBIGene:114788	Substance-Related Disorders
+NCBIGene:114788	renal cell carcinoma
+NCBIGene:114788	autistic disorder
+NCBIGene:6713	Liver Neoplasms, Experimental
+NCBIGene:29028	IgA glomerulonephritis
+NCBIGene:9788	Arthritis, Juvenile
+NCBIGene:9788	stomach cancer
+NCBIGene:114907	muscular atrophy
+NCBIGene:51571	IgA glomerulonephritis
+NCBIGene:50807	urinary bladder cancer
+NCBIGene:50807	pulmonary tuberculosis
+NCBIGene:23237	Alzheimer's disease
+NCBIGene:23237	Cocaine-Related Disorders
+NCBIGene:23237	Movement Disorders
+NCBIGene:5747	tongue squamous cell carcinoma
+NCBIGene:5747	Neoplasm Invasiveness
+NCBIGene:5747	glioblastoma multiforme
+NCBIGene:5747	rheumatoid arthritis
+NCBIGene:5747	['hepatocellular carcinoma', 'Hepatocellular Carcinoma']
+NCBIGene:27161	myeloid leukemia
+NCBIGene:27161	Cocaine-Related Disorders
+NCBIGene:5991	Arsenic Poisoning
+NCBIGene:5991	Skin Diseases
+NCBIGene:3717	['hepatic vein thrombosis', 'Budd-Chiari Syndrome']
+NCBIGene:3717	myelofibrosis
+NCBIGene:3717	['polycythemia vera', 'Polycythemia Vera']
+NCBIGene:3717	hemorrhagic thrombocythemia
+NCBIGene:3717	Familial thrombocytosis
+NCBIGene:3717	Myelofibrosis
+NCBIGene:3717	['primary polycythemia', 'Erythrocytosis, Familial, 1']
+NCBIGene:3717	['acute myeloid leukemia', 'Leukemia, Acute Myeloid']
+NCBIGene:3717	Thrombocythemia 3
+NCBIGene:3717	Familial Acute Myeloid Leukemia (AML) with Mutated CEBPA
+NCBIGene:3717	Polycythemia vera
+NCBIGene:3717	Heart Valve Diseases
+NCBIGene:3717	Thrombocythemia 1
+NCBIGene:3717	leukemia
+NCBIGene:3717	calcinosis
+NCBIGene:3717	mesenteric vascular occlusion
+NCBIGene:3717	Abortion, Spontaneous
+NCBIGene:3717	Thromboembolism
+NCBIGene:3717	Myocardial Ischemia
+NCBIGene:3717	Pregnancy Complications
+NCBIGene:3717	prostate cancer
+NCBIGene:3717	ulcerative colitis
+NCBIGene:3717	bone marrow cancer
+NCBIGene:3717	thrombocytosis
+NCBIGene:3717	Venous Thrombosis
+NCBIGene:3717	polycythemia
+NCBIGene:5789	breast cancer
+NCBIGene:5789	Colorectal Neoplasms
+NCBIGene:5789	attention deficit hyperactivity disorder
+NCBIGene:5789	restless legs syndrome
+NCBIGene:11168	['acute myeloid leukemia', 'Leukemia, Acute Myeloid']
+NCBIGene:54796	Craniofacial Abnormalities
+NCBIGene:54796	ovarian cancer
+NCBIGene:54796	cleft palate
+NCBIGene:4781	salivary gland adenoid cystic carcinoma
+NCBIGene:4300	Acute myeloid leukemia with t(9;11)(p22;q23)
+NCBIGene:55958	KLHL9-related childhood-onset distal myopathy
+NCBIGene:1993	SCLC1
+NCBIGene:7094	['osteoporosis', 'Osteoporosis']
+NCBIGene:7094	Neoplasm Invasiveness
+NCBIGene:4882	['acromesomelic dysplasia, Maroteaux type', 'Acromesomelic Dysplasia, Maroteaux Type']
+NCBIGene:4882	Short Stature With Nonspecific Skeletal Abnormalities
+NCBIGene:4882	['Tall stature - scoliosis - macrodactyly of the great toes', 'Epiphyseal Chondrodysplasia, Miura Type']
+NCBIGene:5079	['Precursor B-cell acute lymphoblastic leukemia', 'Leukemia, Acute Lymphoblastic, Susceptibility To, 3']
+NCBIGene:5079	Lymphoplasmacytic lymphoma
+NCBIGene:5079	Precursor B-Cell Lymphoblastic Leukemia-Lymphoma
+NCBIGene:5079	Precursor Cell Lymphoblastic Leukemia-Lymphoma
+NCBIGene:5239	Arthritis, Juvenile
+NCBIGene:6096	endometriosis
+NCBIGene:216	peripheral nervous system disease
+NCBIGene:216	Liver Cirrhosis, Experimental
+NCBIGene:216	renal cell carcinoma
+NCBIGene:216	['Creutzfeldt-Jakob disease', 'Creutzfeldt-Jakob Disease']
+NCBIGene:216	Parkinsonian Disorders
+NCBIGene:9615	Mammary Neoplasms, Animal
+NCBIGene:9615	Carcinoma
+NCBIGene:9615	Mammary Neoplasms, Experimental
+NCBIGene:7763	prostate cancer
+NCBIGene:7091	Myocardial Ischemia
+NCBIGene:7091	Mammary Neoplasms, Animal
+NCBIGene:7091	Carcinoma
+NCBIGene:7091	Mammary Neoplasms, Experimental
+NCBIGene:1612	Bladder cancer
+NCBIGene:1612	Neoplasm Metastasis
+NCBIGene:1612	transitional cell carcinoma
+NCBIGene:1612	non-small cell lung carcinoma
+NCBIGene:1612	renal cell carcinoma
+NCBIGene:1612	conjunctival disease
+NCBIGene:1612	adenocarcinoma
+NCBIGene:1612	salivary gland adenoid cystic carcinoma
+NCBIGene:1612	['myelodysplastic syndrome', 'Myelodysplastic Syndrome']
+NCBIGene:1612	brain cancer
+NCBIGene:1612	peripheral nervous system disease
+NCBIGene:1612	lung benign neoplasm
+NCBIGene:1612	Salivary Gland Neoplasms
+NCBIGene:1612	['acute myeloid leukemia', 'Leukemia, Acute Myeloid']
+NCBIGene:1612	Arthritis, Juvenile
+NCBIGene:1612	Neoplasms, Second Primary
+NCBIGene:3190	Au-Kline Syndrome
+NCBIGene:3190	breast cancer
+NCBIGene:6850	benign mesothelioma
+NCBIGene:6850	melanoma
+NCBIGene:9568	['nicotine dependence', 'Tobacco Addiction, Susceptibility to']
+NCBIGene:9568	autistic disorder
+NCBIGene:23071	prostate cancer
+NCBIGene:10592	peripheral nervous system disease
+NCBIGene:9314	Myocardial Ischemia
+NCBIGene:9314	congenital heart disease
+NCBIGene:9314	Arthritis, Juvenile
+NCBIGene:5887	prostate cancer
+NCBIGene:5887	Craniofacial Abnormalities
+NCBIGene:5887	male infertility
+NCBIGene:7357	IgA glomerulonephritis
+NCBIGene:7357	Myocardial Ischemia
+NCBIGene:5069	Conotruncal heart malformations
+NCBIGene:5069	coronary artery disease
+NCBIGene:5069	Acute Coronary Syndrome
+NCBIGene:5069	intermediate coronary syndrome
+NCBIGene:5069	endometriosis
+NCBIGene:5069	myocardial infarction
+NCBIGene:5069	Infertility, Female
+NCBIGene:153090	prostate cancer
+NCBIGene:153090	pulmonary embolism
+NCBIGene:153090	myocardial infarction
+NCBIGene:153090	abdominal aortic aneurysm
+NCBIGene:153090	Peripheral Vascular Diseases
+NCBIGene:153090	lung benign neoplasm
+NCBIGene:23245	autistic disorder
+NCBIGene:23245	MGR4
+NCBIGene:23245	Amphetamine-Related Disorders
+NCBIGene:9355	rheumatoid arthritis
+NCBIGene:5695	peripheral nervous system disease
+NCBIGene:5537	melanoma
+NCBIGene:9649	urinary bladder cancer
+NCBIGene:25792	dystonia
+NCBIGene:25792	['Ewing sarcoma', 'Ewing Sarcoma']
+NCBIGene:25792	Cervical Dystonia, Primary
+NCBIGene:25792	prostate cancer
+NCBIGene:1759	Epileptic Encephalopathy, Early Infantile, 31
+NCBIGene:1759	Ohtahara syndrome
+NCBIGene:1759	['Lennox-Gastaut syndrome', 'Macrocephaly and Epileptic Encephalopathy']
+NCBIGene:5524	stomach cancer
+NCBIGene:8021	Acute myeloid leukemia with t(6;9)(p23;q34)
+NCBIGene:8021	['acute myeloid leukemia', 'Leukemia, Acute Myeloid']
+NCBIGene:8021	ALL1
+NCBIGene:6256	prostate cancer
+NCBIGene:6256	Thyroid Neoplasms
+NCBIGene:6256	Amyotrophic lateral sclerosis 1
+NCBIGene:6256	Sciatic Neuropathy
+NCBIGene:10439	prostate cancer
+NCBIGene:55684	intellectual disability
+NCBIGene:2529	polycystic ovary syndrome
+NCBIGene:774	['Adult-onset cervical dystonia, DYT23 type', 'Dystonia 23']
+NCBIGene:22982	SCLC1
+NCBIGene:84991	Spinocerebellar Ataxias
+NCBIGene:5588	Lymphoma, T-Cell, Cutaneous
+NCBIGene:5588	type 1 diabetes mellitus
+NCBIGene:5588	rheumatoid arthritis
+NCBIGene:2665	esophagus squamous cell carcinoma
+NCBIGene:51182	mouth disease
+NCBIGene:55691	Substance-Related Disorders
+NCBIGene:7431	['Pulverulent cataract', 'Cataract 30']
+NCBIGene:7431	Malignant melanoma
+NCBIGene:7431	Renal cell carcinoma
+NCBIGene:7431	Ewing's sarcoma
+NCBIGene:7431	Extraskeletal myxoid chondrosarcoma
+NCBIGene:7431	Myxoid liposarcoma
+NCBIGene:7431	['Early-onset non-syndromic cataract', 'Non-syndromic congenital cataract']
+NCBIGene:7431	Cell Transformation, Neoplastic
+NCBIGene:7431	Cataract
+NCBIGene:7431	neurodegenerative disease
+NCBIGene:7431	Reperfusion Injury
+NCBIGene:7431	Neoplasm Metastasis
+NCBIGene:7431	Osteoarthritis
+NCBIGene:7431	carcinosarcoma
+NCBIGene:7431	nephrosis
+NCBIGene:7431	Motor Neuron Disease
+NCBIGene:7431	prostate cancer
+NCBIGene:7431	Acute Coronary Syndrome
+NCBIGene:7431	retinal disease
+NCBIGene:7431	Amyotrophic lateral sclerosis 1
+NCBIGene:7431	['synovial sarcoma', 'Sarcoma, Synovial']
+NCBIGene:7431	breast cancer
+NCBIGene:8028	['acute myeloid leukemia', 'Leukemia, Acute Myeloid']
+NCBIGene:8028	Precursor T-cell acute lymphoblastic leukemia
+NCBIGene:8028	meningioma
+NCBIGene:8028	renal cell carcinoma
+NCBIGene:8028	melanoma
+NCBIGene:6840	['acute myeloid leukemia', 'Leukemia, Acute Myeloid']
+NCBIGene:8453	inflammatory bowel disease
+NCBIGene:3688	congestive heart failure
+NCBIGene:3688	Neoplasm Metastasis
+NCBIGene:3688	calcinosis
+NCBIGene:3688	cardiomyopathy
+NCBIGene:3688	endometriosis
+NCBIGene:3688	tongue squamous cell carcinoma
+NCBIGene:3688	Carcinoma
+NCBIGene:3688	Neoplasm Invasiveness
+NCBIGene:3688	non-small cell lung carcinoma
+NCBIGene:3688	dilated cardiomyopathy
+NCBIGene:8829	liver disease
+NCBIGene:8829	pancreatic cancer
+NCBIGene:8829	peripheral nervous system disease
+NCBIGene:8829	prostate cancer
+NCBIGene:8829	endometriosis
+NCBIGene:5599	Reperfusion Injury
+NCBIGene:5599	Cell Transformation, Neoplastic
+NCBIGene:5599	stomach cancer
+NCBIGene:5599	atopic dermatitis
+NCBIGene:5599	Precancerous Conditions
+NCBIGene:5599	Liver Failure, Acute
+NCBIGene:983	diffuse large B-cell lymphoma
+NCBIGene:8030	Thyroid Cancer, Nonmedullary, 1
+NCBIGene:8030	Thyroid cancer
+NCBIGene:8030	Differentiated thyroid carcinoma
+NCBIGene:221037	Germinoma of the central nervous system
+NCBIGene:221037	Arthritis, Juvenile
+NCBIGene:221037	autistic disorder
+NCBIGene:221037	salivary gland adenoid cystic carcinoma
+NCBIGene:23411	Human immunodeficiency virus infectious disease
+NCBIGene:23411	Diabetes Mellitus, Experimental
+NCBIGene:23411	brain cancer
+NCBIGene:23411	brain infarction
+NCBIGene:23411	breast cancer
+NCBIGene:23411	colitis
+NCBIGene:23411	diabetes mellitus
+NCBIGene:23411	diabetic retinopathy
+NCBIGene:23411	['type 2 diabetes mellitus', 'Diabetes Mellitus, Noninsulin-Dependent']
+NCBIGene:23411	Atherosclerosis
+NCBIGene:23411	prostate cancer
+NCBIGene:23411	Pneumonia, Pneumococcal
+NCBIGene:23411	Acute Kidney Injury
+NCBIGene:23411	Ceroid lipofuscinosis, neuronal 1, infantile
+NCBIGene:23411	heart disease
+NCBIGene:23411	retinal disease
+NCBIGene:84159	rheumatoid arthritis
+NCBIGene:84159	Precursor Cell Lymphoblastic Leukemia-Lymphoma
+NCBIGene:84159	salivary gland adenoid cystic carcinoma
+NCBIGene:84159	Graves' disease
+NCBIGene:5532	['Wilson disease', 'Wilson Disease']
+NCBIGene:57178	Colorectal Neoplasms
+NCBIGene:57178	celiac disease
+NCBIGene:9231	Inflammatory Bowel Disease 1
+NCBIGene:2894	Colorectal Neoplasms
+NCBIGene:3070	ICF syndrome
+NCBIGene:3070	polycystic ovary syndrome
+NCBIGene:26507	melanoma
+NCBIGene:10613	Autosomal recessive spastic paraplegia type 62
+NCBIGene:10613	IgA glomerulonephritis
+NCBIGene:120	spastic quadriplegia
+NCBIGene:120	toxic encephalopathy
+NCBIGene:120	brain ischemia
+NCBIGene:57700	melanoma
+NCBIGene:3983	Substance-Related Disorders
+NCBIGene:22841	IgA glomerulonephritis
+NCBIGene:8661	prostate cancer
+NCBIGene:6571	Brain dopamine-serotonin vesicular transport disease
+NCBIGene:6571	Parkinson's disease
+NCBIGene:6571	nervous system disease
+NCBIGene:2869	liver disease
+NCBIGene:259217	Substance-Related Disorders
+NCBIGene:3632	Schizophrenia
+NCBIGene:5719	Human immunodeficiency virus infectious disease
+NCBIGene:57661	systemic lupus erythematosus
+NCBIGene:727897	acute interstitial pneumonia
+NCBIGene:727897	['idiopathic pulmonary fibrosis', 'Pulmonary Fibrosis, Idiopathic']
+NCBIGene:727897	Dyskeratosis Congenita
+NCBIGene:727897	Pulmonary Fibrosis, Familial
+NCBIGene:727897	['Diffuse panbronchiolitis', 'Panbronchiolitis, Diffuse']
+NCBIGene:4928	['acute myeloid leukemia', 'Leukemia, Acute Myeloid']
+NCBIGene:6240	peripheral nervous system disease
+NCBIGene:6240	non-small cell lung carcinoma
+NCBIGene:6240	adrenocortical carcinoma
+NCBIGene:6240	['hepatocellular carcinoma', 'Hepatocellular Carcinoma']
+NCBIGene:6240	Neural Tube Defects
+NCBIGene:10527	Human immunodeficiency virus infectious disease
+NCBIGene:10527	IgA glomerulonephritis
+NCBIGene:406	Infertility, Female
+NCBIGene:406	Leukemia, Myelogenous, Chronic, BCR-ABL Positive
+NCBIGene:406	Myocardial Ischemia
+NCBIGene:2965	peripheral nervous system disease
+NCBIGene:89797	['Susceptibility to viral and mycobacterial infections', 'Immunodeficiency 31B']
+NCBIGene:55366	Schizophrenia
+NCBIGene:4076	IgA glomerulonephritis
+NCBIGene:7189	Autosomal dominant hypohidrotic ectodermal dysplasia
+NCBIGene:7189	coronary artery disease
+NCBIGene:7189	rheumatoid arthritis
+NCBIGene:6506	epilepsy syndrome
+NCBIGene:6506	stomach cancer
+NCBIGene:6506	Amyotrophic Lateral Sclerosis
+NCBIGene:26298	prostate cancer
+NCBIGene:1132	Tremor
+NCBIGene:1408	Leukemia, Myelogenous, Chronic, BCR-ABL Positive
+NCBIGene:51317	PSS
+NCBIGene:5702	Human immunodeficiency virus infectious disease
+NCBIGene:1642	stomach cancer
+NCBIGene:27339	stomach cancer
+NCBIGene:9415	Colorectal Neoplasms
+NCBIGene:9415	lipid storage disease
+NCBIGene:3619	melanoma
+NCBIGene:9219	endometriosis
+NCBIGene:1128	Memory Disorders
+NCBIGene:1128	visual epilepsy
+NCBIGene:1128	brain ischemia
+NCBIGene:1128	epilepsy syndrome
+NCBIGene:10963	melanoma
+NCBIGene:2011	Salivary Gland Neoplasms
+NCBIGene:2011	salivary gland adenoid cystic carcinoma
+NCBIGene:9379	Child Development Disorders, Pervasive
+NCBIGene:7536	melanoma
+NCBIGene:5970	Ependymoma
+NCBIGene:5970	Cell Transformation, Neoplastic
+NCBIGene:5970	cystitis
+NCBIGene:5970	Skin Neoplasms
+NCBIGene:5970	Diabetic Nephropathies
+NCBIGene:5970	alcoholic liver cirrhosis
+NCBIGene:5970	Amphetamine-Related Disorders
+NCBIGene:5970	brain cancer
+NCBIGene:5970	ulcerative colitis
+NCBIGene:5970	cholestasis
+NCBIGene:5970	colitis
+NCBIGene:5970	['type 2 diabetes mellitus', 'Diabetes Mellitus, Noninsulin-Dependent']
+NCBIGene:5970	breast cancer
+NCBIGene:5970	Neoplasm Invasiveness
+NCBIGene:5970	chronic kidney failure
+NCBIGene:5970	Neoplasms, Experimental
+NCBIGene:5970	Colonic Neoplasms
+NCBIGene:5970	renal cell carcinoma
+NCBIGene:5970	Reperfusion Injury
+NCBIGene:5970	Diabetes Mellitus, Experimental
+NCBIGene:5970	hypertension
+NCBIGene:5970	Barrett's esophagus
+NCBIGene:156	Embryo Loss
+NCBIGene:156	Cardiomegaly
+NCBIGene:156	allergic contact dermatitis
+NCBIGene:156	rheumatoid arthritis
+NCBIGene:156	hypertension
+NCBIGene:22941	Autism, Susceptibility To, 17
+NCBIGene:22941	Autism Spectrum Disorders
+NCBIGene:22941	intellectual disability
+NCBIGene:5138	breast cancer
+NCBIGene:4926	Bladder cancer
+NCBIGene:4926	['acute promyelocytic leukemia', 'Acute Promyelocytic Leukemia']
+NCBIGene:4926	allergic contact dermatitis
+NCBIGene:9873	Arthritis, Juvenile
+NCBIGene:23201	stomach cancer
+NCBIGene:10714	Colorectal Neoplasms
+NCBIGene:56946	atopic dermatitis
+NCBIGene:56946	breast cancer
+NCBIGene:56946	polycystic ovary syndrome
+NCBIGene:6188	melanoma
+NCBIGene:8726	Nerve Sheath Neoplasms
+NCBIGene:8726	neurilemmoma
+NCBIGene:8301	Precursor T-cell acute lymphoblastic leukemia
+NCBIGene:8301	['acute myeloid leukemia', 'Leukemia, Acute Myeloid']
+NCBIGene:8301	Alzheimer's disease
+NCBIGene:9846	Neoplasm Invasiveness
+NCBIGene:9846	melanoma
+NCBIGene:9846	Neoplasm Metastasis
+NCBIGene:26011	bipolar disorder
+NCBIGene:8322	retinopathy of prematurity
+NCBIGene:8322	exudative vitreoretinopathy
+NCBIGene:8322	Exudative Vitreoretinopathy 1
+NCBIGene:8322	Familial Exudative Vitreoretinopathy, Autosomal Dominant
+NCBIGene:8322	persistent hyperplastic primary vitreous
+NCBIGene:8322	Craniofacial Abnormalities
+NCBIGene:8322	retinal disease
+NCBIGene:8322	syndactyly
+NCBIGene:8322	Arachnodactyly
+NCBIGene:8322	cleft palate
+NCBIGene:84441	Arthritis, Juvenile
+NCBIGene:143686	prostate cancer
+NCBIGene:84259	tuberculosis
+NCBIGene:2893	Substance-Related Disorders
+NCBIGene:2893	myopia
+NCBIGene:85463	psoriasis
+NCBIGene:23705	Nasopharyngeal cancer
+NCBIGene:23705	Depressive Disorder
+NCBIGene:23705	breast cancer
+NCBIGene:23705	autistic disorder
+NCBIGene:23621	Alzheimer's disease
+NCBIGene:372	Ataxia
+NCBIGene:3312	['spinocerebellar ataxia type 17', 'Spinocerebellar Ataxia 17']
+NCBIGene:3312	adenocarcinoma
+NCBIGene:3312	Mouth Neoplasms
+NCBIGene:3312	stomach cancer
+NCBIGene:3312	tongue squamous cell carcinoma
+NCBIGene:3312	Acute Coronary Syndrome
+NCBIGene:23365	['acute myeloid leukemia', 'Leukemia, Acute Myeloid']
+NCBIGene:9538	prostate cancer
+NCBIGene:84623	autosomal dominant non-syndromic intellectual disability
+NCBIGene:84623	Mental Retardation, Autosomal Dominant 4
+NCBIGene:5927	intellectual disability
+NCBIGene:1108	Schizophrenia
+NCBIGene:1108	Endometrial Neoplasms
+NCBIGene:5777	Heart Valve Diseases
+NCBIGene:5777	Respiratory Hypersensitivity
+NCBIGene:5777	calcinosis
+NCBIGene:50813	stomach cancer
+NCBIGene:79923	Neoplasms, Germ Cell and Embryonal
+NCBIGene:55729	Precursor B-Cell Lymphoblastic Leukemia-Lymphoma
+NCBIGene:55729	testicular cancer
+NCBIGene:55729	Neoplasms, Germ Cell and Embryonal
+NCBIGene:6660	12p12.1 microdeletion syndrome
+NCBIGene:6660	Developmental and speech delay due to SOX5 deficiency
+NCBIGene:6660	atrial fibrillation
+NCBIGene:6660	Child Development Disorders, Pervasive
+NCBIGene:55726	Chloracne
+NCBIGene:114134	Substance-Related Disorders
+NCBIGene:54407	IgA glomerulonephritis
+NCBIGene:196528	['hepatocellular carcinoma', 'Hepatocellular Carcinoma']
+NCBIGene:41	brain ischemia
+NCBIGene:41	Brain Injuries
+NCBIGene:113251	polycystic ovary syndrome
+NCBIGene:3164	endometriosis
+NCBIGene:3164	Myocardial Ischemia
+NCBIGene:5916	cleft palate
+NCBIGene:5916	Musculoskeletal Abnormalities
+NCBIGene:5916	heart disease
+NCBIGene:6667	hyperglycemia
+NCBIGene:6667	Neoplasm Metastasis
+NCBIGene:6667	Cell Transformation, Neoplastic
+NCBIGene:6667	Skin Neoplasms
+NCBIGene:9700	salivary gland adenoid cystic carcinoma
+NCBIGene:9700	urinary bladder cancer
+NCBIGene:9700	Salivary Gland Neoplasms
+NCBIGene:9700	transitional cell carcinoma
+NCBIGene:3678	Carcinoma
+NCBIGene:3678	Neoplasm Invasiveness
+NCBIGene:3678	Reperfusion Injury
+NCBIGene:3678	tongue squamous cell carcinoma
+NCBIGene:3678	stomach cancer
+NCBIGene:3071	IgA glomerulonephritis
+NCBIGene:5153	learning disability
+NCBIGene:1017	melanoma
+NCBIGene:64375	VAMAS6
+NCBIGene:64375	alopecia areata
+NCBIGene:5036	stomach cancer
+NCBIGene:1431	congestive heart failure
+NCBIGene:1431	cardiomyopathy
+NCBIGene:1431	['obesity', 'Obesity']
+NCBIGene:506	['spinocerebellar ataxia type 17', 'Spinocerebellar Ataxia 17']
+NCBIGene:506	Acute Kidney Injury
+NCBIGene:506	Precancerous Conditions
+NCBIGene:506	Non-alcoholic Fatty Liver Disease
+NCBIGene:11176	prostate cancer
+NCBIGene:4665	hemangiopericytoma
+NCBIGene:4665	Solitary Fibrous Tumors
+NCBIGene:4035	MGR4
+NCBIGene:4035	Schizophrenia
+NCBIGene:4035	migraine
+NCBIGene:196403	breast cancer
+NCBIGene:114785	peripheral nervous system disease
+NCBIGene:22864	Arthritis, Juvenile
+NCBIGene:29110	Frontotemporal dementia with motor neuron disease
+NCBIGene:29110	Frontotemporal Dementia And/Or Amyotrophic Lateral Sclerosis 4
+NCBIGene:29110	Amyotrophic lateral sclerosis
+NCBIGene:29110	Herpes simplex encephalitis
+NCBIGene:57522	Thyroid Cancer, Nonmedullary, 2
+NCBIGene:57522	ovary epithelial cancer
+NCBIGene:8445	IgA glomerulonephritis
+NCBIGene:23426	['Fraser syndrome', 'Fraser Syndrome']
+NCBIGene:4193	Accelerated Tumor Formation, Susceptibility to
+NCBIGene:4193	Penile cancer
+NCBIGene:4193	Choriocarcinoma
+NCBIGene:4193	Glioma
+NCBIGene:4193	Alveolar rhabdomyosarcoma
+NCBIGene:4193	Osteosarcoma
+NCBIGene:4193	Dedifferentiated liposarcoma
+NCBIGene:4193	atypical lipomatous tumor
+NCBIGene:4193	Li-Fraumeni syndrome
+NCBIGene:4193	male infertility
+NCBIGene:4193	Cell Transformation, Neoplastic
+NCBIGene:4193	Human immunodeficiency virus infectious disease
+NCBIGene:4193	peripheral nervous system disease
+NCBIGene:4193	Precancerous Conditions
+NCBIGene:4193	prostate cancer
+NCBIGene:4193	melanoma
+NCBIGene:4193	non-small cell lung carcinoma
+NCBIGene:11052	IgA glomerulonephritis
+NCBIGene:10576	['osteoporosis', 'Osteoporosis']
+NCBIGene:5787	angiosarcoma
+NCBIGene:196441	Arthritis, Juvenile
+NCBIGene:89795	tuberculosis
+NCBIGene:89795	renal cell carcinoma
+NCBIGene:89795	opiate dependence
+NCBIGene:490	hypertension
+NCBIGene:490	IgA glomerulonephritis
+NCBIGene:490	Cataract
+NCBIGene:490	coronary artery disease
+NCBIGene:10154	endometriosis
+NCBIGene:7181	endometriosis
+NCBIGene:10988	IgA glomerulonephritis
+NCBIGene:23074	Arthritis, Juvenile
+NCBIGene:56899	['Wilson disease', 'Wilson Disease']
+NCBIGene:7184	prostate cancer
+NCBIGene:23603	non-small cell lung carcinoma
+NCBIGene:23603	IgA glomerulonephritis
+NCBIGene:9733	Porokeratosis 3, Disseminated Superficial Actinic Type
+NCBIGene:121551	liver cancer
+NCBIGene:5501	ovarian cancer
+NCBIGene:283450	coronary artery disease
+NCBIGene:6128	Mammary Neoplasms, Animal
+NCBIGene:6128	Mammary Neoplasms, Experimental
+NCBIGene:6128	Carcinoma
+NCBIGene:6128	Parkinson's disease
+NCBIGene:4842	IHPS1
+NCBIGene:4842	['achalasia', 'Achalasia, Familial Esophageal']
+NCBIGene:4842	morphine dependence
+NCBIGene:4842	Neurobehavioral Manifestations
+NCBIGene:4842	type 1 diabetes mellitus
+NCBIGene:4842	Fetal Alcohol Spectrum Disorders
+NCBIGene:4842	Hyperalgesia
+NCBIGene:4842	visual epilepsy
+NCBIGene:4842	cerebellar disease
+NCBIGene:4842	Schizophrenia
+NCBIGene:4842	End Stage Liver Disease
+NCBIGene:4842	hepatic encephalopathy
+NCBIGene:4842	disease of mental health
+NCBIGene:4842	nervous system disease
+NCBIGene:4842	status epilepticus
+NCBIGene:4842	Depressive Disorder
+NCBIGene:4842	intestinal perforation
+NCBIGene:4842	Amphetamine-Related Disorders
+NCBIGene:4842	Trauma, Nervous System
+NCBIGene:4842	Parkinson's disease
+NCBIGene:84678	Schizophrenia
+NCBIGene:6249	autosomal recessive non-syndromic intellectual disability
+NCBIGene:55206	Schizophrenia
+NCBIGene:121256	SCLC1
+NCBIGene:121256	liver cancer
+NCBIGene:121256	Precancerous Conditions
+NCBIGene:5901	Human immunodeficiency virus infectious disease
+NCBIGene:5901	Osteoarthritis
+NCBIGene:5901	Keloid
+NCBIGene:5901	Mammary Neoplasms, Experimental
+NCBIGene:5901	Mammary Neoplasms, Animal
+NCBIGene:5901	Carcinoma
+NCBIGene:6433	Child Development Disorders, Pervasive
+NCBIGene:10810	Arthritis, Juvenile
+NCBIGene:2321	Pre-Eclampsia
+NCBIGene:2321	liver cirrhosis
+NCBIGene:2321	Osteochondrodysplasias
+NCBIGene:2321	Neoplasm Metastasis
+NCBIGene:2321	Cerebral Hemorrhage
+NCBIGene:2321	melanoma
+NCBIGene:2321	breast cancer
+NCBIGene:2321	uremia
+NCBIGene:2321	angiosarcoma
+NCBIGene:2321	Skin Neoplasms
+NCBIGene:10808	Human immunodeficiency virus infectious disease
+NCBIGene:10129	peripheral nervous system disease
+NCBIGene:10129	intellectual disability
+NCBIGene:9201	IgA glomerulonephritis
+NCBIGene:26960	autistic disorder
+NCBIGene:2308	['alveolar rhabdomyosarcoma', 'Rhabdomyosarcoma 2']
+NCBIGene:2308	Alveolar rhabdomyosarcoma
+NCBIGene:2308	['acute myeloid leukemia', 'Leukemia, Acute Myeloid']
+NCBIGene:2308	keratoconus
+NCBIGene:7178	prostate cancer
+NCBIGene:8848	Mammary Neoplasms, Experimental
+NCBIGene:8848	Liver Neoplasms, Experimental
+NCBIGene:8848	Mammary Neoplasms, Animal
+NCBIGene:8848	Cell Transformation, Neoplastic
+NCBIGene:8848	Carcinoma
+NCBIGene:3936	['nicotine dependence', 'Tobacco Addiction, Susceptibility to']
+NCBIGene:3936	IgA glomerulonephritis
+NCBIGene:5101	Child Development Disorders, Pervasive
+NCBIGene:11278	Bronchopulmonary Dysplasia
+NCBIGene:11278	Substance-Related Disorders
+NCBIGene:11278	Schizophrenia
+NCBIGene:10253	cleft palate
+NCBIGene:10253	Craniofacial Abnormalities
+NCBIGene:10253	cleft lip
+NCBIGene:10253	lung disease
+NCBIGene:10253	lung benign neoplasm
+NCBIGene:9375	IgA glomerulonephritis
+NCBIGene:1948	Precancerous Conditions
+NCBIGene:1948	Reperfusion Injury
+NCBIGene:1948	liver cancer
+NCBIGene:23250	['idiopathic pulmonary fibrosis', 'Pulmonary Fibrosis, Idiopathic']
+NCBIGene:7027	Arthritis, Juvenile
+NCBIGene:283489	Mental Retardation, Autosomal Dominant 40
+NCBIGene:8451	['Stevens-Johnson syndrome', 'Severe Cutaneous Adverse Reaction, Susceptibility to']
+NCBIGene:57680	Autism, Susceptibility To, 18
+NCBIGene:57680	autistic disorder
+NCBIGene:57680	Megalencephaly
+NCBIGene:57680	Child Development Disorders, Pervasive
+NCBIGene:57680	Gastrointestinal Diseases
+NCBIGene:55072	['Autoinflammatory syndrome with pyogenic bacterial infection and amylopectinosis', 'Polyglucosan Body Myopathy 1 With or Without Immunodeficiency']
+NCBIGene:5687	Myocardial Infarction, Susceptibility to
+NCBIGene:5687	Human immunodeficiency virus infectious disease
+NCBIGene:5687	myocardial infarction
+NCBIGene:4247	['MGAT2-CDG', 'Congenital Disorder of Glycosylation, Type Iia']
+NCBIGene:4247	Congenital Disorders of N-Linked Glycosylation Pathway Overview
+NCBIGene:4247	Abortion, Spontaneous
+NCBIGene:6655	Noonan syndrome
+NCBIGene:6655	Noonan Syndrome 9
+NCBIGene:10979	urinary bladder cancer
+NCBIGene:23034	Substance-Related Disorders
+NCBIGene:6252	Myocardial Ischemia
+NCBIGene:57570	Combined Oxidative Phosphorylation Deficiency 26
+NCBIGene:5583	Stroke, Ischemic
+NCBIGene:5583	Substance-Related Disorders
+NCBIGene:5583	['obesity', 'Obesity']
+NCBIGene:3091	sclerosing cholangitis
+NCBIGene:3091	primary biliary cirrhosis
+NCBIGene:3091	hemangioblastoma
+NCBIGene:3091	esophagus squamous cell carcinoma
+NCBIGene:3091	brain ischemia
+NCBIGene:3091	Neoplasm Invasiveness
+NCBIGene:3091	pancreatic cancer
+NCBIGene:3091	Hypoxia-Ischemia, Brain
+NCBIGene:3091	Thyroid Neoplasms
+NCBIGene:3091	Skin Neoplasms
+NCBIGene:3091	congestive heart failure
+NCBIGene:3091	congenital heart disease
+NCBIGene:3091	breast ductal carcinoma
+NCBIGene:3091	Carcinoma
+NCBIGene:3091	pulmonary hypertension
+NCBIGene:3091	Carcinoma, Intraductal, Noninfiltrating
+NCBIGene:3091	lung disease
+NCBIGene:3091	Spinal Cord Injuries
+NCBIGene:3091	Anaplasia
+NCBIGene:3091	Myocardial Reperfusion Injury
+NCBIGene:3091	Cardiomegaly
+NCBIGene:3091	breast cancer
+NCBIGene:3091	glioblastoma multiforme
+NCBIGene:3091	astrocytoma
+NCBIGene:3091	prostate cancer
+NCBIGene:3091	Diabetes Complications
+NCBIGene:1965	IgA glomerulonephritis
+NCBIGene:1965	Cognition Disorders
+NCBIGene:1965	Alzheimer's disease
+NCBIGene:1965	status epilepticus
+NCBIGene:1965	['osteosarcoma', 'Osteogenic Sarcoma']
+NCBIGene:26037	Arthritis, Juvenile
+NCBIGene:4293	melanoma
+NCBIGene:9252	Cocaine-Related Disorders
+NCBIGene:79882	autosomal recessive non-syndromic intellectual disability
+NCBIGene:64919	Precursor T-Cell Lymphoblastic Leukemia-Lymphoma
+NCBIGene:64919	lymphoma
+NCBIGene:7528	intellectual disability
+NCBIGene:7528	cancer
+NCBIGene:7528	Uterine Cervical Neoplasms
+NCBIGene:7528	Human immunodeficiency virus infectious disease
+NCBIGene:51466	breast cancer
+NCBIGene:51466	Colorectal Neoplasms
+NCBIGene:2009	Subcortical band heterotopia
+NCBIGene:7187	Herpes simplex encephalitis
+NCBIGene:7187	Herpes Simplex Encephalitis, Susceptibility To, 3
+NCBIGene:23186	IgA glomerulonephritis
+NCBIGene:5527	chronic lymphocytic leukemia
+NCBIGene:5527	Micronuclei, Chromosome-Defective
+NCBIGene:5527	Chromosomal Instability
+NCBIGene:1983	Schizophrenia
+NCBIGene:3714	syndactyly
+NCBIGene:3714	glioblastoma multiforme
+NCBIGene:3714	breast cancer
+NCBIGene:3714	['lymphangioleiomyomatosis', 'Lymphangioleiomyomatosis']
+NCBIGene:3714	pancreatic ductal carcinoma
+NCBIGene:3714	Craniofacial Abnormalities
+NCBIGene:9112	endometriosis
+NCBIGene:2558	visual epilepsy
+NCBIGene:2558	autistic disorder
+NCBIGene:2558	Isodicentric Chromosome 15 Syndrome
+NCBIGene:2558	Memory Disorders
+NCBIGene:2562	Epilepsy, Childhood Absence, Susceptibility To, 5
+NCBIGene:2562	childhood absence epilepsy
+NCBIGene:2562	Isodicentric Chromosome 15 Syndrome
+NCBIGene:2562	Child Development Disorders, Pervasive
+NCBIGene:2562	epilepsy syndrome
+NCBIGene:2562	Brain Injuries
+NCBIGene:2562	Sleep Initiation and Maintenance Disorders
+NCBIGene:2562	autistic disorder
+NCBIGene:2562	['Angelman syndrome', 'Angelman Syndrome']
+NCBIGene:2562	Craniofacial Abnormalities
+NCBIGene:2567	Brain Injuries
+NCBIGene:2567	Isodicentric Chromosome 15 Syndrome
+NCBIGene:70	Cardiomyopathy, Familial Hypertrophic, 11
+NCBIGene:70	Hypertrophic Cardiomyopathy Overview
+NCBIGene:70	Cardiomyopathy, Familial Hypertrophic, 1
+NCBIGene:70	hypertrophic cardiomyopathy
+NCBIGene:70	Cardiomyopathy, Hypertrophic, Familial
+NCBIGene:70	Atrial Septal Defect 5
+NCBIGene:70	atrial heart septal defect
+NCBIGene:70	left ventricular noncompaction
+NCBIGene:70	Cardiomyopathy, Dilated, 1R
+NCBIGene:70	Familial isolated dilated cardiomyopathy
+NCBIGene:70	Dilated Cardiomyopathy Overview
+NCBIGene:70	Atrial septal defect, ostium secundum type
+NCBIGene:70	Precancerous Conditions
+NCBIGene:70	refractive error
+NCBIGene:70	stomach cancer
+NCBIGene:4212	15q14 microdeletion syndrome
+NCBIGene:7057	Arthritis, Juvenile
+NCBIGene:7057	diabetic retinopathy
+NCBIGene:7057	Schizophrenia
+NCBIGene:7057	Reperfusion Injury
+NCBIGene:7057	liver cirrhosis
+NCBIGene:7057	interstitial nephritis
+NCBIGene:54567	Adams-Oliver Syndrome 6
+NCBIGene:54567	AOS
+NCBIGene:54567	breast cancer
+NCBIGene:23005	peripheral nervous system disease
+NCBIGene:23269	Precursor B-Cell Lymphoblastic Leukemia-Lymphoma
+NCBIGene:23269	salivary gland adenoid cystic carcinoma
+NCBIGene:23269	Lymphoma, T-Cell
+NCBIGene:2923	prostate cancer
+NCBIGene:2923	Acute Coronary Syndrome
+NCBIGene:2923	['spinocerebellar ataxia type 17', 'Spinocerebellar Ataxia 17']
+NCBIGene:2923	['hepatocellular carcinoma', 'Hepatocellular Carcinoma']
+NCBIGene:7782	Respiratory Hypersensitivity
+NCBIGene:7782	Alzheimer's disease
+NCBIGene:80031	Substance-Related Disorders
+NCBIGene:9318	endometriosis
+NCBIGene:2553	IgA glomerulonephritis
+NCBIGene:83660	peripheral nervous system disease
+NCBIGene:8766	Chloracne
+NCBIGene:9493	CDAN3
+NCBIGene:9493	IgA glomerulonephritis
+NCBIGene:7090	rheumatoid arthritis
+NCBIGene:7090	breast cancer
+NCBIGene:7090	Amyotrophic lateral sclerosis 1
+NCBIGene:8554	Skin Diseases
+NCBIGene:8554	Arsenic Poisoning
+NCBIGene:5315	Neoplasm Invasiveness
+NCBIGene:5315	Carcinoma
+NCBIGene:5315	['hepatocellular carcinoma', 'Hepatocellular Carcinoma']
+NCBIGene:5315	['osteoporosis', 'Osteoporosis']
+NCBIGene:5315	Mammary Neoplasms, Animal
+NCBIGene:5315	Mammary Neoplasms, Experimental
+NCBIGene:27020	Myocardial Ischemia
+NCBIGene:27020	hypertension
+NCBIGene:5371	['acute promyelocytic leukemia', 'Acute Promyelocytic Leukemia']
+NCBIGene:5371	Acute myeloid leukemia (AML)
+NCBIGene:5371	Paget's disease of bone
+NCBIGene:5371	['Stevens-Johnson syndrome', 'Severe Cutaneous Adverse Reaction, Susceptibility to']
+NCBIGene:5371	Schizophrenia
+NCBIGene:5371	glioblastoma multiforme
+NCBIGene:5371	Neoplasms, Second Primary
+NCBIGene:1445	systemic lupus erythematosus
+NCBIGene:1445	Hyperalgesia
+NCBIGene:84894	essential tremor
+NCBIGene:10363	['type 2 diabetes mellitus', 'Diabetes Mellitus, Noninsulin-Dependent']
+NCBIGene:3658	Neoplasm Invasiveness
+NCBIGene:5923	refractive error
+NCBIGene:5923	myopia
+NCBIGene:9915	Webb-Dattani Syndrome
+NCBIGene:4916	Differentiated thyroid carcinoma
+NCBIGene:4916	fibrosarcoma
+NCBIGene:4916	congenital mesoblastic nephroma
+NCBIGene:4916	Neuroblastoma
+NCBIGene:4916	Gaucher's disease
+NCBIGene:4916	malignant glioma
+NCBIGene:4916	status epilepticus
+NCBIGene:4916	endometriosis
+NCBIGene:5045	Mammary Neoplasms, Animal
+NCBIGene:5045	Mammary Neoplasms, Experimental
+NCBIGene:5045	Carcinoma
+NCBIGene:8826	['hepatocellular carcinoma', 'Hepatocellular Carcinoma']
+NCBIGene:8826	IgA glomerulonephritis
+NCBIGene:7329	Mammary Neoplasms, Animal
+NCBIGene:7329	Mammary Neoplasms, Experimental
+NCBIGene:7329	Carcinoma
+NCBIGene:23162	polycystic ovary syndrome
+NCBIGene:5170	congestive heart failure
+NCBIGene:5170	diffuse large B-cell lymphoma
+NCBIGene:79903	tuberculosis
+NCBIGene:7874	urinary bladder cancer
+NCBIGene:57496	Child Development Disorders, Pervasive
+NCBIGene:5579	Cardiomegaly
+NCBIGene:5579	autistic disorder
+NCBIGene:5579	Colorectal Neoplasms
+NCBIGene:5579	['type 2 diabetes mellitus', 'Diabetes Mellitus, Noninsulin-Dependent']
+NCBIGene:5579	adult T-cell leukemia
+NCBIGene:5579	stomach cancer
+NCBIGene:5579	hyperglycemia
+NCBIGene:5347	malignant glioma
+NCBIGene:23214	Substance-Related Disorders
+NCBIGene:246778	type 1 diabetes mellitus
+NCBIGene:25970	DEL16P11.2
+NCBIGene:25970	Severe early-onset obesity-insulin resistance syndrome due to SH2B1 deficiency
+NCBIGene:25970	BMIQ16
+NCBIGene:25970	['obesity', 'Obesity']
+NCBIGene:4150	Human immunodeficiency virus infectious disease
+NCBIGene:54620	psoriasis
+NCBIGene:54620	psoriatic arthritis
+NCBIGene:81533	IgA glomerulonephritis
+NCBIGene:5934	chronic lymphocytic leukemia
+NCBIGene:27324	male breast cancer
+NCBIGene:27324	breast cancer
+NCBIGene:6376	hypersensitivity reaction type I disease
+NCBIGene:6376	pneumonia
+NCBIGene:6376	Diabetes Mellitus, Experimental
+NCBIGene:6376	prostate cancer
+NCBIGene:6376	Myocardial Ischemia
+NCBIGene:1459	Skin Neoplasms
+NCBIGene:1459	tongue squamous cell carcinoma
+NCBIGene:865	['acute myeloid leukemia', 'Leukemia, Acute Myeloid']
+NCBIGene:865	Acute myeloid leukemia (AML)
+NCBIGene:865	Acute myeloid leukemia with abnormal bone marrow eosinophils inv(16)(p13q22) or t(16;16)(p13;q22)
+NCBIGene:865	Leukemia, Myelomonocytic, Acute
+NCBIGene:865	Bone Diseases, Developmental
+NCBIGene:865	congenital heart disease
+NCBIGene:865	cleft palate
+NCBIGene:865	IgA glomerulonephritis
+NCBIGene:57610	stomach cancer
+NCBIGene:9564	Neoplasm Invasiveness
+NCBIGene:9564	pancreatic cancer
+NCBIGene:6137	stomach cancer
+NCBIGene:29	['medulloblastoma', 'Medulloblastoma']
+NCBIGene:29	prostate cancer
+NCBIGene:4335	DEL17P13.1
+NCBIGene:4335	cleft palate
+NCBIGene:4335	Craniofacial Abnormalities
+NCBIGene:51479	urinary bladder cancer
+NCBIGene:1742	Child Development Disorders, Pervasive
+NCBIGene:1742	Williams-Beuren syndrome
+NCBIGene:1742	polycystic ovary syndrome
+NCBIGene:1973	Human immunodeficiency virus infectious disease
+NCBIGene:23135	intellectual disability
+NCBIGene:23135	salivary gland adenoid cystic carcinoma
+NCBIGene:4628	focal segmental glomerulosclerosis
+NCBIGene:81565	Arthritis, Juvenile
+NCBIGene:9611	transitional cell carcinoma
+NCBIGene:9611	glioblastoma multiforme
+NCBIGene:9611	endometriosis
+NCBIGene:9611	breast cancer
+NCBIGene:9611	urinary bladder cancer
+NCBIGene:6720	Fatty Liver
+NCBIGene:6720	chronic kidney failure
+NCBIGene:6720	['obesity', 'Obesity']
+NCBIGene:6720	Diabetes Mellitus, Experimental
+NCBIGene:6720	['hepatocellular carcinoma', 'Hepatocellular Carcinoma']
+NCBIGene:6720	Non-alcoholic Fatty Liver Disease
+NCBIGene:3996	breast cancer
+NCBIGene:11216	Cardiac Conduction Defect
+NCBIGene:57551	Hearing Loss, Noise-Induced
+NCBIGene:28964	Memory Disorders
+NCBIGene:28964	Hyperkinesis
+NCBIGene:28964	attention deficit hyperactivity disorder
+NCBIGene:51379	IgA glomerulonephritis
+NCBIGene:79915	ovarian carcinoma
+NCBIGene:23512	endometrial stromal sarcoma
+NCBIGene:23512	malignant glioma
+NCBIGene:23512	adenoma
+NCBIGene:23512	Nerve Sheath Neoplasms
+NCBIGene:23512	neurilemmoma
+NCBIGene:23512	melanoma
+NCBIGene:23512	neurofibroma
+NCBIGene:23512	Nevus, Pigmented
+NCBIGene:23512	glioblastoma multiforme
+NCBIGene:23512	Endometrial Neoplasms
+NCBIGene:40	autistic disorder
+NCBIGene:5469	Drug-Induced Liver Injury
+NCBIGene:5469	endometriosis
+NCBIGene:5469	['hepatocellular carcinoma', 'Hepatocellular Carcinoma']
+NCBIGene:5914	['acute promyelocytic leukemia', 'Acute Promyelocytic Leukemia']
+NCBIGene:5914	Acute myeloid leukemia (AML)
+NCBIGene:5914	benign breast phyllodes tumor
+NCBIGene:5914	Neoplasms, Second Primary
+NCBIGene:5914	Sciatic Neuropathy
+NCBIGene:5914	breast cancer
+NCBIGene:5914	['hepatocellular carcinoma', 'Hepatocellular Carcinoma']
+NCBIGene:5914	breast fibroadenoma
+NCBIGene:22806	rheumatoid arthritis
+NCBIGene:22806	Precursor Cell Lymphoblastic Leukemia-Lymphoma
+NCBIGene:5709	Human immunodeficiency virus infectious disease
+NCBIGene:6605	['familial meningioma', 'Meningioma, Familial, Susceptibility to']
+NCBIGene:6605	['Coffin-Siris syndrome', 'Coffin-Siris Syndrome']
+NCBIGene:6605	Coffin-Siris Syndrome
+NCBIGene:6605	salivary gland adenoid cystic carcinoma
+NCBIGene:47	['obesity', 'Obesity']
+NCBIGene:47	['hepatocellular carcinoma', 'Hepatocellular Carcinoma']
+NCBIGene:7266	Human immunodeficiency virus infectious disease
+NCBIGene:6776	breast ductal carcinoma
+NCBIGene:6776	invasive lobular carcinoma
+NCBIGene:6776	Mammary Neoplasms, Experimental
+NCBIGene:6776	Mammary Neoplasms, Animal
+NCBIGene:6776	breast cancer
+NCBIGene:6776	Carcinoma, Intraductal, Noninfiltrating
+NCBIGene:6776	Carcinoma
+NCBIGene:6776	adenocarcinoma
+NCBIGene:6776	lung benign neoplasm
+NCBIGene:6776	Myocardial Ischemia
+NCBIGene:6776	Precancerous Conditions
+NCBIGene:8678	Colonic Neoplasms
+NCBIGene:8678	myocardial infarction
+NCBIGene:8678	status epilepticus
+NCBIGene:8678	Lewy Body Disease
+NCBIGene:10197	Human immunodeficiency virus infectious disease
+NCBIGene:10197	IgA glomerulonephritis
+NCBIGene:10014	Adjustment Disorders
+NCBIGene:3837	Human immunodeficiency virus infectious disease
+NCBIGene:10951	prostate cancer
+NCBIGene:6426	Human immunodeficiency virus infectious disease
+NCBIGene:6426	Schizophrenia
+NCBIGene:6426	Neoplasm Metastasis
+NCBIGene:1213	['Translocation renal cell carcinoma', 'Renal Cell Carcinoma, Xp11-Associated']
+NCBIGene:1213	inflammatory myofibroblastic tumor
+NCBIGene:1213	diffuse large B-cell lymphoma
+NCBIGene:81671	IgA glomerulonephritis
+NCBIGene:22843	Colorectal Neoplasms
+NCBIGene:6198	Hypertrophy, Left Ventricular
+NCBIGene:6198	diffuse large B-cell lymphoma
+NCBIGene:6198	hypertension
+NCBIGene:6198	Ceroid lipofuscinosis, neuronal 1, infantile
+NCBIGene:9902	Mammary Neoplasms, Experimental
+NCBIGene:9902	Mammary Neoplasms, Animal
+NCBIGene:9902	Carcinoma
+NCBIGene:6909	DEL17Q23.1Q23.2
+NCBIGene:5705	['Stevens-Johnson syndrome', 'Severe Cutaneous Adverse Reaction, Susceptibility to']
+NCBIGene:5705	Human immunodeficiency virus infectious disease
+NCBIGene:2081	epilepsy syndrome
+NCBIGene:4215	esophageal cancer
+NCBIGene:5718	contact dermatitis
+NCBIGene:2186	urinary bladder cancer
+NCBIGene:1655	Prostate cancer
+NCBIGene:1655	endometriosis
+NCBIGene:5578	Intestinal Neoplasms
+NCBIGene:5578	nephrogenic diabetes insipidus
+NCBIGene:5578	Diabetes Mellitus, Experimental
+NCBIGene:5578	Cardiomegaly
+NCBIGene:57521	['nicotine dependence', 'Tobacco Addiction, Susceptibility to']
+NCBIGene:5034	Cole-Carpenter Syndrome 1
+NCBIGene:5034	Cole-Carpenter syndrome
+NCBIGene:5034	['osteoporosis', 'Osteoporosis']
+NCBIGene:5034	prostate cancer
+NCBIGene:5034	['spinocerebellar ataxia type 17', 'Spinocerebellar Ataxia 17']
+NCBIGene:5034	Myocardial Ischemia
+NCBIGene:81035	Substance-Related Disorders
+NCBIGene:7298	prostate cancer
+NCBIGene:7298	anemia
+NCBIGene:7298	tongue squamous cell carcinoma
+NCBIGene:7298	non-Hodgkin lymphoma
+NCBIGene:7298	head and neck cancer
+NCBIGene:7298	cleft lip
+NCBIGene:7298	FL1
+NCBIGene:7298	nervous system disease
+NCBIGene:7298	Colonic Neoplasms
+NCBIGene:7298	Neoplasm Recurrence, Local
+NCBIGene:7298	brain disease
+NCBIGene:7298	breast cancer
+NCBIGene:7298	stomach cancer
+NCBIGene:7298	ovarian cancer
+NCBIGene:7298	Digestive System Neoplasms
+NCBIGene:7298	['hepatocellular carcinoma', 'Hepatocellular Carcinoma']
+NCBIGene:7298	tongue cancer
+NCBIGene:7298	cleft palate
+NCBIGene:7298	lung benign neoplasm
+NCBIGene:7298	Colorectal Neoplasms
+NCBIGene:7298	pancreatic cancer
+NCBIGene:7298	Rectal Neoplasms
+NCBIGene:7298	neuroendocrine tumor
+NCBIGene:7298	IgA glomerulonephritis
+NCBIGene:9989	peripheral nervous system disease
+NCBIGene:5771	Juvenile rheumatoid factor-negative polyarthritis
+NCBIGene:5771	Oligoarticular juvenile arthritis
+NCBIGene:5771	Crohn Disease
+NCBIGene:5771	T-cell leukemia
+NCBIGene:5771	rheumatoid arthritis
+NCBIGene:5771	ulcerative colitis
+NCBIGene:5771	Precursor T-Cell Lymphoblastic Leukemia-Lymphoma
+NCBIGene:6093	Prenatal Injuries
+NCBIGene:6760	['synovial sarcoma', 'Sarcoma, Synovial']
+NCBIGene:6760	Synovial sarcoma
+NCBIGene:80206	Substance-Related Disorders
+NCBIGene:4092	Colorectal Cancer, Susceptibility To, 3
+NCBIGene:4092	Colorectal Neoplasms
+NCBIGene:4087	Colorectal cancer
+NCBIGene:4087	['Acromicric dysplasia', 'Acromicric Dysplasia']
+NCBIGene:4087	Copper-Overload Cirrhosis
+NCBIGene:4087	Liver Cirrhosis, Experimental
+NCBIGene:4087	hepatitis
+NCBIGene:4087	Craniofacial Abnormalities
+NCBIGene:8932	prostate cancer
+NCBIGene:51320	Arthritis, Juvenile
+NCBIGene:51320	HYT8
+NCBIGene:6925	['Pitt-Hopkins syndrome', 'Pitt-Hopkins Syndrome']
+NCBIGene:6925	Pitt-Hopkins Syndrome
+NCBIGene:6925	Fuchs' endothelial dystrophy
+NCBIGene:6925	FECD3
+NCBIGene:6925	autosomal dominant non-syndromic intellectual disability
+NCBIGene:6925	PSC
+NCBIGene:6925	heart disease
+NCBIGene:6925	visual epilepsy
+NCBIGene:6925	Craniofacial Abnormalities
+NCBIGene:6925	peripheral nervous system disease
+NCBIGene:6925	liver cancer
+NCBIGene:6925	microcephaly
+NCBIGene:23327	endometriosis
+NCBIGene:23327	hypertension
+NCBIGene:23239	Cell Transformation, Neoplastic
+NCBIGene:54531	Salivary Gland Neoplasms
+NCBIGene:54531	salivary gland adenoid cystic carcinoma
+NCBIGene:5725	Carcinoma
+NCBIGene:5725	Mammary Neoplasms, Experimental
+NCBIGene:5725	Mammary Neoplasms, Animal
+NCBIGene:53615	autistic disorder
+NCBIGene:10297	Colorectal cancer
+NCBIGene:10297	Sotos syndrome
+NCBIGene:10297	breast cancer
+NCBIGene:10297	inflammatory bowel disease
+NCBIGene:10297	Colorectal Neoplasms
+NCBIGene:84823	['Partial acquired lipodystrophy', 'Lipodystrophy, Partial, Acquired, Susceptibility to']
+NCBIGene:84823	Epilepsy, Progressive Myoclonic, 9
+NCBIGene:91039	['idiopathic pulmonary fibrosis', 'Pulmonary Fibrosis, Idiopathic']
+NCBIGene:23030	['medulloblastoma', 'Medulloblastoma']
+NCBIGene:10036	mouth disease
+NCBIGene:4298	Acute lymphoblastic leukemia (ALL) (precursor T lymphoblastic leukemia)
+NCBIGene:7409	['medulloblastoma', 'Medulloblastoma']
+NCBIGene:7409	adult T-cell leukemia
+NCBIGene:8570	SCLC1
+NCBIGene:1994	endometriosis
+NCBIGene:5609	Mammary Neoplasms, Experimental
+NCBIGene:5609	congestive heart failure
+NCBIGene:5609	Precancerous Conditions
+NCBIGene:5609	breast cancer
+NCBIGene:5609	lung benign neoplasm
+NCBIGene:10498	psoriasis
+NCBIGene:30000	polycystic ovary syndrome
+NCBIGene:23476	['osteosarcoma', 'Osteogenic Sarcoma']
+NCBIGene:23476	['medulloblastoma', 'Medulloblastoma']
+NCBIGene:23476	prostate cancer
+NCBIGene:23476	glioblastoma multiforme
+NCBIGene:4218	rheumatoid arthritis
+NCBIGene:4650	Celiac Disease, Susceptibility To, 4
+NCBIGene:23025	Amyotrophic lateral sclerosis
+NCBIGene:23025	Frontotemporal dementia
+NCBIGene:23025	Amyotrophic Lateral Sclerosis
+NCBIGene:23373	['esophagus adenocarcinoma', 'Barrett Esophagus']
+NCBIGene:9745	renal cell carcinoma
+NCBIGene:3249	prostate cancer
+NCBIGene:3249	lipid storage disease
+NCBIGene:3191	breast cancer
+NCBIGene:3191	stomach cancer
+NCBIGene:2091	breast cancer
+NCBIGene:53916	prostate cancer
+NCBIGene:2931	Depressive Disorder
+NCBIGene:2931	bipolar disorder
+NCBIGene:2931	Schizophrenia
+NCBIGene:23152	intellectual disability
+NCBIGene:23152	Spinocerebellar Ataxias
+NCBIGene:5452	peripheral nervous system disease
+NCBIGene:1209	pancreatic cancer
+NCBIGene:8189	stomach cancer
+NCBIGene:29998	['Susceptibility to viral and mycobacterial infections', 'Immunodeficiency 31B']
+NCBIGene:2906	Schizophrenia
+NCBIGene:57030	visual epilepsy
+NCBIGene:57030	Memory Disorders
+NCBIGene:57030	learning disability
+NCBIGene:50944	renal cell carcinoma
+NCBIGene:50944	Anxiety
+NCBIGene:50944	developmental coordination disorder
+NCBIGene:50944	autistic disorder
+NCBIGene:1457	Skin Neoplasms
+NCBIGene:1457	adult T-cell leukemia
+NCBIGene:1457	tongue squamous cell carcinoma
+NCBIGene:5786	Myocardial Ischemia
+NCBIGene:6616	congenital myasthenic syndrome
+NCBIGene:6616	Myasthenic Syndrome, Congenital, 18
+NCBIGene:6616	Presynaptic congenital myasthenic syndromes
+NCBIGene:6616	Depressive Disorder
+NCBIGene:6616	bipolar disorder
+NCBIGene:6616	Tics
+NCBIGene:6616	Neuromuscular Manifestations
+NCBIGene:6616	['type 2 diabetes mellitus', 'Diabetes Mellitus, Noninsulin-Dependent']
+NCBIGene:6616	Psychotic Disorders
+NCBIGene:6616	Diabetes Mellitus, Experimental
+NCBIGene:23767	Hypogonadotropic Hypogonadism 21 With or Without Anosmia
+NCBIGene:23767	Kallmann syndrome
+NCBIGene:23767	Abortion, Spontaneous
+NCBIGene:5126	['type 2 diabetes mellitus', 'Diabetes Mellitus, Noninsulin-Dependent']
+NCBIGene:5126	Diabetes Mellitus, Experimental
+NCBIGene:57419	salivary gland adenoid cystic carcinoma
+NCBIGene:57419	Salivary Gland Neoplasms
+NCBIGene:22974	IgA glomerulonephritis
+NCBIGene:22919	Myocardial Ischemia
+NCBIGene:1869	['hepatocellular carcinoma', 'Hepatocellular Carcinoma']
+NCBIGene:1869	breast cancer
+NCBIGene:23054	endometriosis
+NCBIGene:84181	transitional cell carcinoma
+NCBIGene:84181	neuroblastoma
+NCBIGene:84181	urinary bladder cancer
+NCBIGene:7150	cancer
+NCBIGene:57468	visual epilepsy
+NCBIGene:57468	status epilepticus
+NCBIGene:57468	epilepsy syndrome
+NCBIGene:57468	temporal lobe epilepsy
+NCBIGene:57468	Hyperalgesia
+NCBIGene:8202	tongue squamous cell carcinoma
+NCBIGene:8202	prostate cancer
+NCBIGene:8202	adenocarcinoma
+NCBIGene:8202	astrocytoma
+NCBIGene:8202	breast cancer
+NCBIGene:8202	bone cancer
+NCBIGene:8202	leukemia
+NCBIGene:8202	non-small cell lung carcinoma
+NCBIGene:9334	Arthritis, Juvenile
+NCBIGene:4773	nervous system disease
+NCBIGene:7022	stomach cancer
+NCBIGene:655	prostate cancer
+NCBIGene:655	endometriosis
+NCBIGene:655	stomach cancer
+NCBIGene:10732	peripheral nervous system disease
+NCBIGene:1917	Epileptic Encephalopathy, Early Infantile, 33
+NCBIGene:1917	Mental Retardation, Autosomal Dominant 38
+NCBIGene:1917	stomach cancer
+NCBIGene:8204	congestive heart failure
+NCBIGene:8204	Schizophrenia
+NCBIGene:8204	breast cancer
+NCBIGene:8204	myocardial infarction
+NCBIGene:10694	DCR
+NCBIGene:10694	Muscle Weakness
+NCBIGene:2551	Muscle Weakness
+NCBIGene:2551	DCR
+NCBIGene:7074	Muscle Weakness
+NCBIGene:7074	Amyotrophic lateral sclerosis 1
+NCBIGene:7074	DCR
+NCBIGene:30811	Muscle Weakness
+NCBIGene:30811	DCR
+NCBIGene:57466	DCR
+NCBIGene:57466	Muscle Weakness
+NCBIGene:6651	Muscle Weakness
+NCBIGene:6651	DCR
+NCBIGene:6651	salivary gland adenoid cystic carcinoma
+NCBIGene:6651	Salivary Gland Neoplasms
+NCBIGene:94104	Muscle Weakness
+NCBIGene:94104	DCR
+NCBIGene:6453	DCR
+NCBIGene:6453	Muscle Weakness
+NCBIGene:23515	DCR
+NCBIGene:23515	Muscle Weakness
+NCBIGene:2114	allergic contact dermatitis
+NCBIGene:2114	DCR
+NCBIGene:2114	Craniofacial Abnormalities
+NCBIGene:2114	breast cancer
+NCBIGene:2114	Muscle Weakness
+NCBIGene:54014	Muscle Weakness
+NCBIGene:54014	DCR
+NCBIGene:54014	oligospermia
+NCBIGene:2078	extraosseous Ewing's sarcoma
+NCBIGene:2078	Peripheral primitive neuroectodermal tumor
+NCBIGene:2078	['Ewing sarcoma', 'Ewing Sarcoma']
+NCBIGene:2078	Prostate cancer
+NCBIGene:2078	Ewing's sarcoma
+NCBIGene:2078	leukemia
+NCBIGene:2078	Muscle Weakness
+NCBIGene:2078	prostate cancer
+NCBIGene:2078	DCR
+NCBIGene:2078	['acute myeloid leukemia', 'Leukemia, Acute Myeloid']
+NCBIGene:25825	Muscle Weakness
+NCBIGene:25825	DCR
+NCBIGene:1826	tuberculosis
+NCBIGene:1826	DCR
+NCBIGene:1826	Substance-Related Disorders
+NCBIGene:1826	Muscle Weakness
+NCBIGene:150094	West syndrome
+NCBIGene:150094	Ohtahara syndrome
+NCBIGene:150094	early myoclonic encephalopathy
+NCBIGene:150094	Epileptic Encephalopathy, Early Infantile, 30
+NCBIGene:150094	Arthritis, Juvenile
+NCBIGene:150094	dilated cardiomyopathy
+NCBIGene:7307	['myelodysplastic syndrome', 'Myelodysplastic Syndrome']
+NCBIGene:7307	Human immunodeficiency virus infectious disease
+NCBIGene:7307	['osteoporosis', 'Osteoporosis']
+NCBIGene:7109	Arsenic Poisoning
+NCBIGene:7109	Skin Diseases
+NCBIGene:56894	neurodegenerative disease
+NCBIGene:8566	status epilepticus
+NCBIGene:7290	22q11 Deletion Syndrome
+NCBIGene:7353	22q11 Deletion Syndrome
+NCBIGene:7353	congenital heart disease
+NCBIGene:7353	Craniofacial Abnormalities
+NCBIGene:54487	['velocardiofacial syndrome', 'Velocardiofacial Syndrome']
+NCBIGene:54487	disease of mental health
+NCBIGene:5594	DEL22Q11.2
+NCBIGene:5594	ovarian cancer
+NCBIGene:5594	lung benign neoplasm
+NCBIGene:5594	Arthritis, Juvenile
+NCBIGene:5594	Cocaine-Related Disorders
+NCBIGene:5594	Hyperalgesia
+NCBIGene:5594	stomach cancer
+NCBIGene:5594	tongue squamous cell carcinoma
+NCBIGene:5594	brain ischemia
+NCBIGene:5594	Neoplasm Metastasis
+NCBIGene:5594	head and neck cancer
+NCBIGene:5594	Ceroid Lipofuscinosis, Neuronal, 6
+NCBIGene:5594	IgA glomerulonephritis
+NCBIGene:5594	Infertility, Female
+NCBIGene:5594	Neoplasm Invasiveness
+NCBIGene:5594	Pneumonia, Pneumococcal
+NCBIGene:5594	kidney cancer
+NCBIGene:5594	Substance Withdrawal Syndrome
+NCBIGene:613	ALL1
+NCBIGene:613	['chronic myeloid leukemia', 'Leukemia, Chronic Myeloid']
+NCBIGene:613	Acute lymphoblastic leukemia (ALL) (precursor B lymphoblastic leukemia)
+NCBIGene:613	Chronic myeloid leukemia (CML)
+NCBIGene:613	Precursor T-cell acute lymphoblastic leukemia
+NCBIGene:613	DEL22Q11.2
+NCBIGene:613	['Precursor B-cell acute lymphoblastic leukemia', 'Leukemia, Acute Lymphoblastic, Susceptibility To, 3']
+NCBIGene:613	bone marrow cancer
+NCBIGene:613	Blast Crisis
+NCBIGene:613	Neoplasms, Experimental
+NCBIGene:23384	OGS2
+NCBIGene:23384	['Tessier number 4 facial cleft', 'Facial Clefting, Oblique, 1']
+NCBIGene:23384	Opitz-GBBB syndrome
+NCBIGene:23384	['Hypertelorism, Teebi type', 'Hypertelorism, Teebi Type']
+NCBIGene:23384	Commissural facial cleft
+NCBIGene:84133	adrenocortical carcinoma
+NCBIGene:84133	pancreatic cancer
+NCBIGene:2130	['Ewing sarcoma', 'Ewing Sarcoma']
+NCBIGene:2130	['extraskeletal myxoid chondrosarcoma', 'Chondrosarcoma, Extraskeletal Myxoid']
+NCBIGene:2130	Desmoplastic small round cell tumor
+NCBIGene:2130	extraosseous Ewing's sarcoma
+NCBIGene:2130	Melanoma of soft parts
+NCBIGene:2130	Ewing's sarcoma
+NCBIGene:2130	Clear cell sarcoma of soft tissue
+NCBIGene:2130	Myxoid liposarcoma
+NCBIGene:2130	Extraskeletal myxoid chondrosarcoma
+NCBIGene:2130	Neuroectodermal Tumors, Primitive
+NCBIGene:23543	salivary gland adenoid cystic carcinoma
+NCBIGene:23543	Salivary Gland Neoplasms
+NCBIGene:3560	Juvenile rheumatoid factor-negative polyarthritis
+NCBIGene:3560	Oligoarticular juvenile arthritis
+NCBIGene:3560	tuberculosis
+NCBIGene:3560	rheumatoid arthritis
+NCBIGene:3560	pneumonia
+NCBIGene:3560	hypersensitivity reaction type I disease
+NCBIGene:6663	Peripheral Demyelinating Neuropathy, Central Dysmyelination, Waardenburg Syndrome, and Hirschsprung Disease
+NCBIGene:6663	Waardenburg Syndrome, Type 2E
+NCBIGene:6663	Waardenburg Syndrome, Type 4C
+NCBIGene:6663	Neurologic Waardenburg-Shah syndrome
+NCBIGene:6663	Waardenburg-Shah syndrome
+NCBIGene:6663	Kallmann syndrome
+NCBIGene:6663	Waardenburg syndrome type 2
+NCBIGene:6663	['Deaf blind hypopigmentation syndrome, Yemenite type', 'Yemenite Deaf-Blind Hypopigmentation Syndrome']
+NCBIGene:6663	Waardenburg Syndrome, Type 4A
+NCBIGene:6122	Mammary Neoplasms, Experimental
+NCBIGene:6122	Carcinoma
+NCBIGene:6122	Mammary Neoplasms, Animal
+NCBIGene:9978	['Stevens-Johnson syndrome', 'Severe Cutaneous Adverse Reaction, Susceptibility to']
+NCBIGene:23112	polycystic ovary syndrome
+NCBIGene:6721	chronic kidney failure
+NCBIGene:6721	stomach cancer
+NCBIGene:6721	['hepatocellular carcinoma', 'Hepatocellular Carcinoma']
+NCBIGene:25830	peripheral nervous system disease
+NCBIGene:27127	urinary bladder cancer
+NCBIGene:9889	IgA glomerulonephritis
+NCBIGene:23774	salivary gland adenoid cystic carcinoma
+NCBIGene:3730	Kallmann syndrome
+NCBIGene:3730	Hypogonadotropic Hypogonadism 1 With or Without Anosmia
+NCBIGene:3730	Isolated Gonadotropin-Releasing Hormone (GnRH) Deficiency
+NCBIGene:3730	Normosmic congenital hypogonadotropic hypogonadism
+NCBIGene:6907	Child Development Disorders, Pervasive
+NCBIGene:9758	DELXP22.11
+NCBIGene:51311	contact dermatitis
+NCBIGene:51311	IgA glomerulonephritis
+NCBIGene:8233	['juvenile myelomonocytic leukemia', 'Juvenile Myelomonocytic Leukemia']
+NCBIGene:59272	endomyocardial fibrosis
+NCBIGene:59272	Abortion, Spontaneous
+NCBIGene:9185	breast cancer
+NCBIGene:10149	Osteoarthritis
+NCBIGene:10389	['medulloblastoma', 'Medulloblastoma']
+NCBIGene:30011	Colonic Neoplasms
+NCBIGene:5422	['N syndrome', 'N Syndrome']
+NCBIGene:139411	DELXP22.11
+NCBIGene:139411	Child Development Disorders, Pervasive
+NCBIGene:139411	intellectual disability
+NCBIGene:139411	autistic disorder
+NCBIGene:139411	Mental Retardation, X-Linked
+NCBIGene:9468	Arthritis, Juvenile
+NCBIGene:9282	endometriosis
+NCBIGene:4129	Alzheimer's disease
+NCBIGene:4129	megaloblastic anemia
+NCBIGene:4129	endometriosis
+NCBIGene:4129	Hypotension
+NCBIGene:4129	["Huntington's disease", 'Huntington Disease']
+NCBIGene:4129	Colonic Neoplasms
+NCBIGene:4129	['phaeochromocytoma', 'Pheochromocytoma']
+NCBIGene:4129	Parkinson's disease
+NCBIGene:4129	Schizophrenia
+NCBIGene:4129	hepatic encephalopathy
+NCBIGene:4129	autistic disorder
+NCBIGene:1654	Mental Retardation, X-Linked 102
+NCBIGene:1654	Precursor T-cell acute lymphoblastic leukemia
+NCBIGene:1654	Lymphoma, T-Cell
+NCBIGene:1654	Osteoarthritis
+NCBIGene:1654	IgA glomerulonephritis
+NCBIGene:7030	['alveolar soft part sarcoma', 'Alveolar Soft Part Sarcoma']
+NCBIGene:7030	['Translocation renal cell carcinoma', 'Renal Cell Carcinoma, Xp11-Associated']
+NCBIGene:7030	Epithelioid hemangioendothelioma
+NCBIGene:7030	Alveolar soft part sarcoma
+NCBIGene:7030	Renal cell carcinoma
+NCBIGene:7030	['papillary renal cell carcinoma', 'Renal Cell Carcinoma, Papillary, 1']
+NCBIGene:11152	['Beta-propeller protein-associated neurodegeneration', 'Neurodegeneration With Brain Iron Accumulation 5']
+NCBIGene:11152	Neurodegeneration with brain iron accumulation (NBIA)
+NCBIGene:28952	3C syndrome
+NCBIGene:4478	Arthritis, Juvenile
+NCBIGene:4478	Osteoarthritis
+NCBIGene:4478	Myocardial Ischemia
+NCBIGene:56159	SPGFX2
+NCBIGene:56159	Male infertility with azoospermia or oligozoospermia due to single gene mutation
+NCBIGene:4841	['Translocation renal cell carcinoma', 'Renal Cell Carcinoma, Xp11-Associated']
+NCBIGene:1741	non-syndromic X-linked intellectual disability
+NCBIGene:1741	Mental Retardation, X-Linked 90
+NCBIGene:1741	Mental Retardation, X-Linked
+NCBIGene:51132	prostate cancer
+NCBIGene:27328	Alzheimer's disease
+NCBIGene:2717	['Fabry disease', 'Fabry Disease']
+NCBIGene:2717	Fabry Disease
+NCBIGene:2717	Cardiomyopathy, Familial Hypertrophic, 1
+NCBIGene:2717	hypertrophic cardiomyopathy
+NCBIGene:2717	Cardiomyopathy, Hypertrophic, Familial
+NCBIGene:2717	Hypertrophic Cardiomyopathy Overview
+NCBIGene:9949	AMMEC
+NCBIGene:11043	Mental Retardation, X-Linked 101
+NCBIGene:11043	non-syndromic X-linked intellectual disability
+NCBIGene:7224	hypertension
+NCBIGene:5358	X-linked osteoporosis with fractures
+NCBIGene:5358	Osteoarthritis
+NCBIGene:3597	IgA glomerulonephritis
+NCBIGene:57187	Mental Retardation, X-Linked 12
+NCBIGene:10735	urinary bladder cancer
+NCBIGene:10735	myeloid leukemia
+NCBIGene:10735	transitional cell carcinoma
+NCBIGene:10735	Leukemia, Megakaryoblastic, of Down Syndrome
+NCBIGene:63035	salivary gland adenoid cystic carcinoma
+NCBIGene:2239	Wilms Tumor 1
+NCBIGene:2239	['Simpson-Golabi-Behmel syndrome', 'Simpson-Golabi-Behmel Syndrome, Type 1']
+NCBIGene:2239	Craniofacial Abnormalities
+NCBIGene:633	rheumatoid arthritis
+NCBIGene:3654	Pediatric systemic lupus erythematosus
+NCBIGene:3654	rheumatoid arthritis
+NCBIGene:3654	Hypoxia-Ischemia, Brain
+NCBIGene:3654	coronary artery disease
+NCBIGene:5973	dilated cardiomyopathy
+NCBIGene:393	Human immunodeficiency virus infectious disease
+NCBIGene:6134	Autism, Susceptibility To, X-Linked 5
+NCBIGene:6134	Autism Spectrum Disorders
+NCBIGene:6134	Precursor T-Cell Lymphoblastic Leukemia-Lymphoma
+NCBIGene:6134	autistic disorder
+NCBIGene:6134	prostate cancer
+NCBIGene:55558	Endometrial Neoplasms
+NCBIGene:4354	adenocarcinoma
+NCBIGene:4354	lung benign neoplasm

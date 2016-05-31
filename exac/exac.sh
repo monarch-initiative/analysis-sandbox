@@ -1,6 +1,6 @@
 # (From email)
 # ExAc paper http://biorxiv.org/content/early/2015/10/30/030338
-# in particular (page 10), they found 79% of loss-of-function-intolerant genes to have no known associated disease (~2500).  
+# in particular (page 10), they found 79% of loss-of-function-intolerant genes have no known associated disease (~2500).  
 # we should add analysis of what model organisms can tell us about them!
 
 # Download file 
@@ -78,14 +78,47 @@ wc -l final_gene_list.txt
 rm est_list.txt genelist2.txt genelist1.txt temp1.txt unmatched_genes.txt ambiguous_ids.txt est_list.txt no_clinvar.tsv mygene_fetch.txt
 
 # Run cypher and get stats
-python3 ortholog-phenotype-stats.py --input ~/exac/final_gene_list.txt --output phenotypes.tsv
+python3 ortholog-phenotype-stats.py --input ./final_gene_list.txt --output phenotypes.tsv
 # Total orthologs with phenotypes: 1551
-# Number of genes with othorlog-phenotypes from 1 taxon: 1386
-# Number of genes with othorlog-phenotypes from 2 taxa: 163
-# Number of genes with othorlog-phenotypes from 3 taxa: 2
-# Number of genes with othorlog-phenotypes from 4 taxa: 0
+# Number of genes with ortholog-phenotypes from 1 taxon: 1386
+# Number of genes with ortholog-phenotypes from 2 taxa: 163
+# Number of genes with ortholog-phenotypes from 3 taxa: 2
+# Number of genes with ortholog-phenotypes from 4 taxa: 0
 
 # 38972 gene-phenotype assocs
 
-#
+# However, as someone commented biorxip.org, if they are only considering clinvar and hgmd for gene-disease associations, they are likely missing a lot gene to disease assocs.  For example, they include the huntingtin gene (HTT), and JAK2 (which has 26 disease assocs in our db) as not have having a known associated disease
+
+# Going back to check for gene - disease associations in our database
+./get-gene-disease.py --input ./final_gene_list.txt --output gene-disease.tsv >gene-with-disease.list
+
+wc -l gene-with-disease.list
+# 934 gene-with-disease.list
+
+# So total is 3229, genes with disease is 2557 - 934, 1623/3229 = 50.26%
+# This is consistent with the biorxip.org commenter who said 850 genes were in disgenet
+# The headline should read: 50% of loss-of-function-intolerant genes have no known associated disease
+74
+# Get the genes without an associated disease in monarch
+
+grep -Fxv -f gene-with-disease.list final_gene_list.txt > genes-minus-monarch.txt
+
+#Rerun script
+python3 ortholog-phenotype-stats.py --input genes-minus-monarch.txt --output phenotypes.tsv
+
+#Total orthologs with phenotypes: 836
+#Number of genes with othorlog-phenotypes from 1 taxon: 772
+#Number of genes with othorlog-phenotypes from 2 taxa: 63
+#Number of genes with othorlog-phenotypes from 3 taxa: 1
+#Number of genes with othorlog-phenotypes from 4 taxa: 0
+#1402 gene-phenotype assocs
+
+# % coverage with models = 76%
+
+
+
+
+
+
+
 
