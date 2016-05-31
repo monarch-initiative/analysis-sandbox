@@ -72,7 +72,7 @@ for gene in input_file:
         pass
 
 print("Total orthologs with phenotypes: {0}".format(phenotype_count))
-print("Number of genes with othorlog-phenotypes from 1 taxon: {0}".format(taxon_stats[1]))
-print("Number of genes with othorlog-phenotypes from 2 taxa: {0}".format(taxon_stats[2]))
-print("Number of genes with othorlog-phenotypes from 3 taxa: {0}".format(taxon_stats[3]))
-print("Number of genes with othorlog-phenotypes from 4 taxa: {0}".format(taxon_stats[4]))
+print("Number of genes with ortholog-phenotypes from 1 taxon: {0}".format(taxon_stats[1]))
+print("Number of genes with ortholog-phenotypes from 2 taxa: {0}".format(taxon_stats[2]))
+print("Number of genes with ortholog-phenotypes from 3 taxa: {0}".format(taxon_stats[3]))
+print("Number of genes with ortholog-phenotypes from 4 taxa: {0}".format(taxon_stats[4]))
