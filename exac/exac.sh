@@ -98,7 +98,7 @@ wc -l gene-with-disease.list
 # So total is 3229, genes with disease is 2557 - 934, 1623/3229 = 50.26%
 # This is consistent with the biorxip.org commenter who said 850 genes were in disgenet
 # The headline should read: 50% of loss-of-function-intolerant genes have no known associated disease
-74
+
 # Get the genes without an associated disease in monarch
 
 grep -Fxv -f gene-with-disease.list final_gene_list.txt > genes-minus-monarch.txt
