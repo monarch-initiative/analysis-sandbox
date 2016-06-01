@@ -111,7 +111,7 @@ python3 ortholog-phenotype-stats.py --input genes-minus-monarch.txt --output phe
 #Number of genes with othorlog-phenotypes from 2 taxa: 63
 #Number of genes with othorlog-phenotypes from 3 taxa: 1
 #Number of genes with othorlog-phenotypes from 4 taxa: 0
-#1402 gene-phenotype assocs
+#14012 gene-phenotype assocs
 
 # % coverage with models = 76%
 
