@@ -48,6 +48,13 @@ for gene in input_file:
         RETURN DISTINCT
         ortholog.label as ortholog, gene.label as gene, object.label as phenotype , taxon.label as taxon,
         'pattern3' as pattern
+        UNION
+        START gene = node:node_auto_index(iri='{0}')
+        MATCH (gene)-[rel:RO:HOM0000017|RO:HOM0000020]-(ortholog)<-[:GENO:0000408]-(allele)-[:BFO:0000051!*]->(feature)-[:RO:0002610!]->(object:Phenotype)
+        MATCH (ortholog)-[tax:RO:0002162]->(taxon)
+        RETURN DISTINCT
+        ortholog.label as ortholog, gene.label as gene, object.label as phenotype , taxon.label as taxon,
+        'pattern4' as pattern
     """.format(gene)
 
     params = {'cypherQuery': query,
@@ -58,6 +65,10 @@ for gene in input_file:
     taxes = set()
     try:
         if len(list(response)) > 0:
+            if 'code' in response:
+                if response['code'] == 500:
+                    print("Code 500 - Likely error in query")
+                    continue
             phenotype_count += 1
             for result in list(response):
                 output_file.write(

@@ -776,6 +776,7 @@ Dlgap3	['DLGAP3', 'discs, large (Drosophila) homolog-associated protein 3']	abno
 Dlgap3	['DLGAP3', 'discs, large (Drosophila) homolog-associated protein 3']	enhanced NMDA-mediated synaptic currents	Mus musculus
 Dlgap3	['DLGAP3', 'discs, large (Drosophila) homolog-associated protein 3']	abnormal striatum morphology	Mus musculus
 Dlgap3	['DLGAP3', 'discs, large (Drosophila) homolog-associated protein 3']	enhanced behavioral response to xenobiotic	Mus musculus
+ZMYM4	['ZMYM4', 'zinc finger, MYM-type 4']	Abomasum displacement	Bos taurus
 Ago3	['AGO3', 'argonaute RISC catalytic component 3']	increased grip strength	Mus musculus
 Ago3	['AGO3', 'argonaute RISC catalytic component 3']	premature death	Mus musculus
 Ago4	['AGO4', 'argonaute RISC catalytic component 4']	negative regulation of apoptotic process phenotype	Mus musculus
@@ -1005,6 +1006,23 @@ Jak1	['JAK1', 'Janus kinase 1']	Megakaryocytopenia	Mus musculus
 Jak1	['JAK1', 'Janus kinase 1']	Decreased mean platelet volume	Mus musculus
 Jak1	['JAK1', 'Janus kinase 1']	decreased body size	Mus musculus
 Jak1	['JAK1', 'Janus kinase 1']	Elevated tissue non-specific alkaline phosphatase	Mus musculus
+JAK1	['JAK1', 'Janus kinase 1']	Stillbirth	Bos taurus
+JAK1	['JAK1', 'Janus kinase 1']	Somatic cell count	Bos taurus
+JAK1	['JAK1', 'Janus kinase 1']	Udder structure	Bos taurus
+JAK1	['JAK1', 'Janus kinase 1']	Thurl width	Bos taurus
+JAK1	['JAK1', 'Janus kinase 1']	Chest depth	Bos taurus
+JAK1	['JAK1', 'Janus kinase 1']	Chest width	Bos taurus
+JAK1	['JAK1', 'Janus kinase 1']	Bone quality	Bos taurus
+JAK1	['JAK1', 'Janus kinase 1']	Calving ease	Bos taurus
+JAK1	['JAK1', 'Janus kinase 1']	Withers height	Bos taurus
+JAK1	['JAK1', 'Janus kinase 1']	Inseminations per conception	Bos taurus
+JAK1	['JAK1', 'Janus kinase 1']	Interval to first estrus after calving	Bos taurus
+JAK1	['JAK1', 'Janus kinase 1']	Rear leg set	Bos taurus
+JAK1	['JAK1', 'Janus kinase 1']	PTA type	Bos taurus
+JAK1	['JAK1', 'Janus kinase 1']	Teat length	Bos taurus
+JAK1	['JAK1', 'Janus kinase 1']	Udder depth	Bos taurus
+JAK1	['JAK1', 'Janus kinase 1']	Length of productive life	Bos taurus
+JAK1	['JAK1', 'Janus kinase 1']	Foot angle	Bos taurus
 Mier1	MIER1	increased chromosomal stability	Mus musculus
 Mier1	MIER1	increased NK cell number	Mus musculus
 Mier1	MIER1	Hypoalphalipoproteinemia	Mus musculus
@@ -1173,6 +1191,7 @@ Man1a2	['MAN1A2', 'mannosidase, alpha, class 1A, member 2']	abnormal lung develo
 Man1a2	['MAN1A2', 'mannosidase, alpha, class 1A, member 2']	abnormal pulmonary alveolus morphology	Mus musculus
 Man1a2	['MAN1A2', 'mannosidase, alpha, class 1A, member 2']	Atelectasis	Mus musculus
 Man1a2	['MAN1A2', 'mannosidase, alpha, class 1A, member 2']	Cyanosis	Mus musculus
+MAN1A2	['MAN1A2', 'mannosidase, alpha, class 1A, member 2']	Milk fat percentage (daughter deviation)	Bos taurus
 Plekho1	['PLEKHO1', 'pleckstrin homology domain containing O1']	abnormal skeleton development	Mus musculus
 Plekho1	['PLEKHO1', 'pleckstrin homology domain containing O1']	abnormal osteoblast physiology	Mus musculus
 Plekho1	['PLEKHO1', 'pleckstrin homology domain containing O1']	increased bone mass	Mus musculus
@@ -1749,6 +1768,18 @@ Lhx9	['LHX9', 'LIM homeobox 9']	decreased body size	Mus musculus
 Lhx9	['LHX9', 'LIM homeobox 9']	Sex reversal	Mus musculus
 Ipo9	IPO9	embryonic lethality between implantation and somite formation, complete penetrance	Mus musculus
 Ipo9	IPO9	embryonic lethality between implantation and somite formation, complete penetrance	Mus musculus
+PLEKHA6	['PLEKHA6', 'pleckstrin homology domain containing A6']	Udder structure	Bos taurus
+PLEKHA6	['PLEKHA6', 'pleckstrin homology domain containing A6']	Thurl width	Bos taurus
+PLEKHA6	['PLEKHA6', 'pleckstrin homology domain containing A6']	Chest depth	Bos taurus
+PLEKHA6	['PLEKHA6', 'pleckstrin homology domain containing A6']	Chest width	Bos taurus
+PLEKHA6	['PLEKHA6', 'pleckstrin homology domain containing A6']	Bone quality	Bos taurus
+PLEKHA6	['PLEKHA6', 'pleckstrin homology domain containing A6']	Withers height	Bos taurus
+PLEKHA6	['PLEKHA6', 'pleckstrin homology domain containing A6']	Stillbirth	Bos taurus
+PLEKHA6	['PLEKHA6', 'pleckstrin homology domain containing A6']	Rear leg set	Bos taurus
+PLEKHA6	['PLEKHA6', 'pleckstrin homology domain containing A6']	Foot angle	Bos taurus
+PLEKHA6	['PLEKHA6', 'pleckstrin homology domain containing A6']	Calving ease	Bos taurus
+PLEKHA6	['PLEKHA6', 'pleckstrin homology domain containing A6']	Udder depth	Bos taurus
+PLEKHA6	['PLEKHA6', 'pleckstrin homology domain containing A6']	PTA type	Bos taurus
 Sox13	['SOX13', 'SRY-box 13']	decreased gamma-delta T cell number	Mus musculus
 Sox13	['SOX13', 'SRY-box 13']	abnormal postnatal growth/weight/body size	Mus musculus
 Sox13	['SOX13', 'SRY-box 13']	increased T cell proliferation	Mus musculus
@@ -2200,6 +2231,7 @@ Crim1	['CRIM1', 'cysteine rich transmembrane BMP regulator 1 (chordin-like)']	Gl
 Crim1	['CRIM1', 'cysteine rich transmembrane BMP regulator 1 (chordin-like)']	Hydronephrosis	Mus musculus
 Crim1	['CRIM1', 'cysteine rich transmembrane BMP regulator 1 (chordin-like)']	Acute tubular necrosis	Mus musculus
 Crim1	['CRIM1', 'cysteine rich transmembrane BMP regulator 1 (chordin-like)']	Albuminuria	Mus musculus
+CRIM1	['CRIM1', 'cysteine rich transmembrane BMP regulator 1 (chordin-like)']	Teat pigmentation	Bos taurus
 Fbxo11	['FBXO11', 'F-box protein 11']	decreased startle reflex	Mus musculus
 Fbxo11	['FBXO11', 'F-box protein 11']	Abnormal facial shape	Mus musculus
 Fbxo11	['FBXO11', 'F-box protein 11']	increased susceptibility to otitis media	Mus musculus
@@ -2908,6 +2940,11 @@ Tbr1	['TBR1', 'T-box, brain 1']	abnormal olfactory bulb interneuron morphology	M
 Tbr1	['TBR1', 'T-box, brain 1']	Abnormality of forebrain morphology	Mus musculus
 Tbr1	['TBR1', 'T-box, brain 1']	Brain very small	Mus musculus
 Tbr1	['TBR1', 'T-box, brain 1']	abnormal innervation	Mus musculus
+BAZ2B	['BAZ2B', 'bromodomain adjacent to zinc finger domain 2B']	Somatic cell count	Bos taurus
+BAZ2B	['BAZ2B', 'bromodomain adjacent to zinc finger domain 2B']	Udder structure	Bos taurus
+BAZ2B	['BAZ2B', 'bromodomain adjacent to zinc finger domain 2B']	Chest width	Bos taurus
+BAZ2B	['BAZ2B', 'bromodomain adjacent to zinc finger domain 2B']	PTA type	Bos taurus
+BAZ2B	['BAZ2B', 'bromodomain adjacent to zinc finger domain 2B']	Udder depth	Bos taurus
 Rbms1	['RBMS1', 'RNA binding motif, single stranded interacting protein 1']	preweaning lethality, complete penetrance	Mus musculus
 Rbms1	['RBMS1', 'RNA binding motif, single stranded interacting protein 1']	decreased embryo size	Mus musculus
 Rbms1	['RBMS1', 'RNA binding motif, single stranded interacting protein 1']	embryonic lethality during organogenesis, incomplete penetrance	Mus musculus
@@ -2915,6 +2952,17 @@ Rbms1	['RBMS1', 'RNA binding motif, single stranded interacting protein 1']	pren
 Rbms1	['RBMS1', 'RNA binding motif, single stranded interacting protein 1']	small uterus	Mus musculus
 Rbms1	['RBMS1', 'RNA binding motif, single stranded interacting protein 1']	embryonic growth retardation	Mus musculus
 Rbms1	['RBMS1', 'RNA binding motif, single stranded interacting protein 1']	decreased circulating progesterone level	Mus musculus
+RBMS1	['RBMS1', 'RNA binding motif, single stranded interacting protein 1']	Udder structure	Bos taurus
+RBMS1	['RBMS1', 'RNA binding motif, single stranded interacting protein 1']	Thurl width	Bos taurus
+RBMS1	['RBMS1', 'RNA binding motif, single stranded interacting protein 1']	Chest depth	Bos taurus
+RBMS1	['RBMS1', 'RNA binding motif, single stranded interacting protein 1']	Chest width	Bos taurus
+RBMS1	['RBMS1', 'RNA binding motif, single stranded interacting protein 1']	Bone quality	Bos taurus
+RBMS1	['RBMS1', 'RNA binding motif, single stranded interacting protein 1']	Withers height	Bos taurus
+RBMS1	['RBMS1', 'RNA binding motif, single stranded interacting protein 1']	Udder depth	Bos taurus
+RBMS1	['RBMS1', 'RNA binding motif, single stranded interacting protein 1']	Udder cleft	Bos taurus
+RBMS1	['RBMS1', 'RNA binding motif, single stranded interacting protein 1']	Dairy form	Bos taurus
+RBMS1	['RBMS1', 'RNA binding motif, single stranded interacting protein 1']	PTA type	Bos taurus
+RBMS1	['RBMS1', 'RNA binding motif, single stranded interacting protein 1']	Rear leg set	Bos taurus
 Ubr3	['UBR3', 'ubiquitin protein ligase E3 component n-recognin 3 (putative)']	olfactory behavior phenotype	Mus musculus
 Ubr3	['UBR3', 'ubiquitin protein ligase E3 component n-recognin 3 (putative)']	in utero embryonic development phenotype	Mus musculus
 Ubr3	['UBR3', 'ubiquitin protein ligase E3 component n-recognin 3 (putative)']	embryonic lethality before implantation, complete penetrance	Mus musculus
@@ -3196,6 +3244,7 @@ Dgkd	DGKD	increased tumor incidence	Mus musculus
 Dgkd	DGKD	Seizures	Mus musculus
 Dgkd	DGKD	Sarcoma	Mus musculus
 Ngef	['NGEF', 'neuronal guanine nucleotide exchange factor']	abnormal axon extension	Mus musculus
+NGEF	['NGEF', 'neuronal guanine nucleotide exchange factor']	Wing weight	Sus scrofa
 Ilkap	ILKAP	enhanced coordination	Mus musculus
 Ilkap	ILKAP	increased cholesterol level	Mus musculus
 Atg4b	['ATG4B', 'autophagy related 4B, cysteine peptidase']	circling	Mus musculus
@@ -3436,6 +3485,7 @@ wdr82	['WDR82', 'WD repeat domain 82']	abnormal(ly) decreased size pharyngeal ar
 wdr82	['WDR82', 'WD repeat domain 82']	abnormal(ly) decreased size pharyngeal arch 2	Danio rerio
 wdr82	['WDR82', 'WD repeat domain 82']	abnormal(ly) quality pharyngeal arch 3-7 skeleton	Danio rerio
 wdr82	['WDR82', 'WD repeat domain 82']	abnormal(ly) quality gut	Danio rerio
+WDR82	['WDR82', 'WD repeat domain 82']	Channel fat weight	Sus scrofa
 Cacna2d3	['CACNA2D3', 'calcium channel, voltage-dependent, alpha 2/delta subunit 3']	increased thermal nociceptive threshold	Mus musculus
 Cacna2d3	['CACNA2D3', 'calcium channel, voltage-dependent, alpha 2/delta subunit 3']	abnormal nociception after inflammation	Mus musculus
 Cacna2d3	['CACNA2D3', 'calcium channel, voltage-dependent, alpha 2/delta subunit 3']	Abnormality of nervous system physiology	Mus musculus
@@ -3443,6 +3493,15 @@ Cacna2d3	['CACNA2D3', 'calcium channel, voltage-dependent, alpha 2/delta subunit
 Cacna2d3	['CACNA2D3', 'calcium channel, voltage-dependent, alpha 2/delta subunit 3']	decreased startle reflex	Mus musculus
 Cacna2d3	['CACNA2D3', 'calcium channel, voltage-dependent, alpha 2/delta subunit 3']	increased aggression	Mus musculus
 Cacna2d3	['CACNA2D3', 'calcium channel, voltage-dependent, alpha 2/delta subunit 3']	Hyperactivity	Mus musculus
+CACNA2D3	['CACNA2D3', 'calcium channel, voltage-dependent, alpha 2/delta subunit 3']	Stillbirth	Bos taurus
+CACNA2D3	['CACNA2D3', 'calcium channel, voltage-dependent, alpha 2/delta subunit 3']	Somatic cell count	Bos taurus
+CACNA2D3	['CACNA2D3', 'calcium channel, voltage-dependent, alpha 2/delta subunit 3']	Calving ease	Bos taurus
+CACNA2D3	['CACNA2D3', 'calcium channel, voltage-dependent, alpha 2/delta subunit 3']	Inseminations per conception	Bos taurus
+CACNA2D3	['CACNA2D3', 'calcium channel, voltage-dependent, alpha 2/delta subunit 3']	Rear leg set	Bos taurus
+CACNA2D3	['CACNA2D3', 'calcium channel, voltage-dependent, alpha 2/delta subunit 3']	Foot angle	Bos taurus
+CACNA2D3	['CACNA2D3', 'calcium channel, voltage-dependent, alpha 2/delta subunit 3']	Teat length	Bos taurus
+CACNA2D3	['CACNA2D3', 'calcium channel, voltage-dependent, alpha 2/delta subunit 3']	Udder depth	Bos taurus
+CACNA2D3	['CACNA2D3', 'calcium channel, voltage-dependent, alpha 2/delta subunit 3']	Length of productive life	Bos taurus
 Erc2	ERC2	abnormal inhibitory postsynaptic currents	Mus musculus
 Erc2	ERC2	abnormal neurotransmitter level	Mus musculus
 Erc2	ERC2	abnormal CNS synaptic transmission	Mus musculus
@@ -3630,6 +3689,7 @@ Atg3	['ATG3', 'autophagy related 3']	Abnormality of the thymus	Mus musculus
 Atg3	['ATG3', 'autophagy related 3']	Hypoplastic spleen	Mus musculus
 Atg3	['ATG3', 'autophagy related 3']	Decreased number of CD4+ T cells	Mus musculus
 Atg3	['ATG3', 'autophagy related 3']	Decreased number of CD8+ T cells	Mus musculus
+ATG3	['ATG3', 'autophagy related 3']	Milk conjugated linoleic acid percentage	Bos taurus
 Lsamp	['LSAMP', 'limbic system-associated membrane protein']	locomotory exploration behavior phenotype	Mus musculus
 Lsamp	['LSAMP', 'limbic system-associated membrane protein']	decreased anxiety-related response	Mus musculus
 Lsamp	['LSAMP', 'limbic system-associated membrane protein']	abnormal grooming behavior	Mus musculus
@@ -3699,6 +3759,16 @@ Ephb1	['EPHB1', 'EPH receptor B1']	abnormal optic nerve innervation	Mus musculus
 Ephb1	['EPHB1', 'EPH receptor B1']	Abnormality of the eye	Mus musculus
 Ephb1	['EPHB1', 'EPH receptor B1']	abnormal axon pruning	Mus musculus
 Ephb1	['EPHB1', 'EPH receptor B1']	abnormal optic tract morphology	Mus musculus
+EPHB1	['EPHB1', 'EPH receptor B1']	Stillbirth	Bos taurus
+EPHB1	['EPHB1', 'EPH receptor B1']	Somatic cell count	Bos taurus
+EPHB1	['EPHB1', 'EPH receptor B1']	Calving ease	Bos taurus
+EPHB1	['EPHB1', 'EPH receptor B1']	Inseminations per conception	Bos taurus
+EPHB1	['EPHB1', 'EPH receptor B1']	Dairy form	Bos taurus
+EPHB1	['EPHB1', 'EPH receptor B1']	Udder depth	Bos taurus
+EPHB1	['EPHB1', 'EPH receptor B1']	Length of productive life	Bos taurus
+EPHB1	['EPHB1', 'EPH receptor B1']	Milk protein percentage (daughter deviation)	Bos taurus
+EPHB1	['EPHB1', 'EPH receptor B1']	Rear leg set	Bos taurus
+EPHB1	['EPHB1', 'EPH receptor B1']	Udder structure	Bos taurus
 Stag1	['STAG1', 'stromal antigen 1']	decreased cell proliferation	Mus musculus
 Stag1	['STAG1', 'stromal antigen 1']	abnormal telomere morphology	Mus musculus
 Stag1	['STAG1', 'stromal antigen 1']	premature death	Mus musculus
@@ -3875,6 +3945,15 @@ Dhx36	['DHX36', 'DEAH (Asp-Glu-Ala-His) box polypeptide 36']	Erythrocyte macrocy
 Dhx36	['DHX36', 'DEAH (Asp-Glu-Ala-His) box polypeptide 36']	Reticulocytosis	Mus musculus
 Dhx36	['DHX36', 'DEAH (Asp-Glu-Ala-His) box polypeptide 36']	Spherocytosis	Mus musculus
 Dhx36	['DHX36', 'DEAH (Asp-Glu-Ala-His) box polypeptide 36']	embryonic lethality between implantation and somite formation, complete penetrance	Mus musculus
+DHX36	['DHX36', 'DEAH (Asp-Glu-Ala-His) box polypeptide 36']	Udder structure	Bos taurus
+DHX36	['DHX36', 'DEAH (Asp-Glu-Ala-His) box polypeptide 36']	Thurl width	Bos taurus
+DHX36	['DHX36', 'DEAH (Asp-Glu-Ala-His) box polypeptide 36']	Bone quality	Bos taurus
+DHX36	['DHX36', 'DEAH (Asp-Glu-Ala-His) box polypeptide 36']	Withers height	Bos taurus
+DHX36	['DHX36', 'DEAH (Asp-Glu-Ala-His) box polypeptide 36']	Rear leg set	Bos taurus
+DHX36	['DHX36', 'DEAH (Asp-Glu-Ala-His) box polypeptide 36']	Udder cleft	Bos taurus
+DHX36	['DHX36', 'DEAH (Asp-Glu-Ala-His) box polypeptide 36']	Dairy form	Bos taurus
+DHX36	['DHX36', 'DEAH (Asp-Glu-Ala-His) box polypeptide 36']	Foot angle	Bos taurus
+DHX36	['DHX36', 'DEAH (Asp-Glu-Ala-His) box polypeptide 36']	PTA type	Bos taurus
 Kpna4	['KPNA4', 'karyopherin alpha 4 (importin alpha 3)']	no abnormal phenotype detected	Mus musculus
 actl6a	['ACTL6A', 'actin like 6A']	abnormal(ly) necrotic brain	Danio rerio
 actl6a	['ACTL6A', 'actin like 6A']	abnormal(ly) quality heart	Danio rerio
@@ -3925,6 +4004,19 @@ Fxr1	['FXR1', 'fragile X mental retardation, autosomal homolog 1']	small lung	Mu
 Fxr1	['FXR1', 'fragile X mental retardation, autosomal homolog 1']	Gait disturbance	Mus musculus
 Fxr1	['FXR1', 'fragile X mental retardation, autosomal homolog 1']	Failure to thrive	Mus musculus
 Fxr1	['FXR1', 'fragile X mental retardation, autosomal homolog 1']	Decreased testicular size	Mus musculus
+DCUN1D1	['DCUN1D1', 'DCN1, defective in cullin neddylation 1, domain containing 1']	Somatic cell count	Bos taurus
+DCUN1D1	['DCUN1D1', 'DCN1, defective in cullin neddylation 1, domain containing 1']	Chest width	Bos taurus
+DCUN1D1	['DCUN1D1', 'DCN1, defective in cullin neddylation 1, domain containing 1']	Calving ease	Bos taurus
+DCUN1D1	['DCUN1D1', 'DCN1, defective in cullin neddylation 1, domain containing 1']	Milk protein percentage (daughter deviation)	Bos taurus
+DCUN1D1	['DCUN1D1', 'DCN1, defective in cullin neddylation 1, domain containing 1']	Inseminations per conception	Bos taurus
+DCUN1D1	['DCUN1D1', 'DCN1, defective in cullin neddylation 1, domain containing 1']	Milk fat percentage (daughter deviation)	Bos taurus
+DCUN1D1	['DCUN1D1', 'DCN1, defective in cullin neddylation 1, domain containing 1']	Rear leg set	Bos taurus
+DCUN1D1	['DCUN1D1', 'DCN1, defective in cullin neddylation 1, domain containing 1']	Dairy form	Bos taurus
+DCUN1D1	['DCUN1D1', 'DCN1, defective in cullin neddylation 1, domain containing 1']	Stillbirth	Bos taurus
+DCUN1D1	['DCUN1D1', 'DCN1, defective in cullin neddylation 1, domain containing 1']	Foot angle	Bos taurus
+DCUN1D1	['DCUN1D1', 'DCN1, defective in cullin neddylation 1, domain containing 1']	Length of productive life	Bos taurus
+DCUN1D1	['DCUN1D1', 'DCN1, defective in cullin neddylation 1, domain containing 1']	Milk yield	Bos taurus
+YEATS2	['YEATS2', 'YEATS domain containing 2']	Rabies antibody titer	Gallus gallus
 Ephb3	['EPHB3', 'EPH receptor B3']	circling	Mus musculus
 Ephb3	['EPHB3', 'EPH receptor B3']	abnormal axon morphology	Mus musculus
 Ephb3	['EPHB3', 'EPH receptor B3']	abnormal axon pruning	Mus musculus
@@ -4080,6 +4172,11 @@ Fbxl5	['FBXL5', 'F-box and leucine-rich repeat protein 5']	embryonic lethality, 
 Fbxl5	['FBXL5', 'F-box and leucine-rich repeat protein 5']	Spina bifida	Mus musculus
 Kcnip4	['KCNIP4', 'Kv channel interacting protein 4']	decreased mean corpuscular volume	Mus musculus
 Kcnip4	['KCNIP4', 'Kv channel interacting protein 4']	premature death	Mus musculus
+LCORL	['LCORL', 'ligand dependent nuclear receptor corepressor like']	Calving ease	Bos taurus
+LCORL	['LCORL', 'ligand dependent nuclear receptor corepressor like']	Backfat at last lumbar	Bos taurus
+LCORL	['LCORL', 'ligand dependent nuclear receptor corepressor like']	Body weight (200 day weaning)	Bos taurus
+LCORL	['LCORL', 'ligand dependent nuclear receptor corepressor like']	Longissimus muscle area	Bos taurus
+LCORL	['LCORL', 'ligand dependent nuclear receptor corepressor like']	Average daily gain	Bos taurus
 Adgra3	['ADGRA3', 'adhesion G protein-coupled receptor A3']	no abnormal phenotype detected	Mus musculus
 Ube2k	['UBE2K', 'ubiquitin conjugating enzyme E2K']	regulation of proteasomal ubiquitin-dependent protein catabolic process phenotype	Mus musculus
 Ube2k	['UBE2K', 'ubiquitin conjugating enzyme E2K']	decreased neuron apoptosis	Mus musculus
@@ -4107,6 +4204,11 @@ Atp8a1	['ATP8A1', 'ATPase, aminophospholipid transporter (APLT), class I, type 8
 Fryl	FRYL	preweaning lethality	Mus musculus
 Fryl	FRYL	embryonic lethality	Mus musculus
 Fryl	FRYL	Abnormality of skin pigmentation	Mus musculus
+FRYL	FRYL	Withers height	Bos taurus
+FRYL	FRYL	Milk protein percentage (daughter deviation)	Bos taurus
+FRYL	FRYL	Teat length	Bos taurus
+FRYL	FRYL	Calving ease	Bos taurus
+FRYL	FRYL	Udder cleft	Bos taurus
 Clock	['CLOCK', 'clock circadian regulator']	circadian rhythm phenotype	Mus musculus
 clocka	['CLOCK', 'clock circadian regulator']	abnormal(ly) rhythm quality locomotory behavior	Danio rerio
 clocka	['CLOCK', 'clock circadian regulator']	circadian rhythm phenotype	Danio rerio
@@ -4285,6 +4387,23 @@ Ankrd17	ANKRD17	Abnormality of the vasculature	Mus musculus
 Ankrd17	ANKRD17	Internal hemorrhage	Mus musculus
 Ankrd17	ANKRD17	Intracranial hemorrhage	Mus musculus
 Ankrd17	ANKRD17	Hemopericardium	Mus musculus
+ANKRD17	ANKRD17	Somatic cell count	Bos taurus
+ANKRD17	ANKRD17	Udder structure	Bos taurus
+ANKRD17	ANKRD17	Thurl width	Bos taurus
+ANKRD17	ANKRD17	Chest depth	Bos taurus
+ANKRD17	ANKRD17	Chest width	Bos taurus
+ANKRD17	ANKRD17	Bone quality	Bos taurus
+ANKRD17	ANKRD17	Calving ease	Bos taurus
+ANKRD17	ANKRD17	Withers height	Bos taurus
+ANKRD17	ANKRD17	Milk protein percentage (daughter deviation)	Bos taurus
+ANKRD17	ANKRD17	Milk fat percentage (daughter deviation)	Bos taurus
+ANKRD17	ANKRD17	Milk yield	Bos taurus
+ANKRD17	ANKRD17	Length of productive life	Bos taurus
+ANKRD17	ANKRD17	PTA type	Bos taurus
+ANKRD17	ANKRD17	Udder depth	Bos taurus
+ANKRD17	ANKRD17	Foot angle	Bos taurus
+ANKRD17	ANKRD17	Stillbirth	Bos taurus
+ANKRD17	ANKRD17	Rear leg set	Bos taurus
 G3bp2	G3BP2	preweaning lethality, complete penetrance	Mus musculus
 G3bp2	G3BP2	preweaning lethality	Mus musculus
 G3bp2	G3BP2	premature death	Mus musculus
@@ -4293,6 +4412,17 @@ Cops4	COPS4	Behavioral abnormality	Mus musculus
 Cops4	COPS4	increased hemoglobin content	Mus musculus
 Cops4	COPS4	increased mean corpuscular hemoglobin concentration	Mus musculus
 Cops4	COPS4	Increased body weight	Mus musculus
+WDFY3	WDFY3	Somatic cell count	Bos taurus
+WDFY3	WDFY3	Udder structure	Bos taurus
+WDFY3	WDFY3	Thurl width	Bos taurus
+WDFY3	WDFY3	Chest width	Bos taurus
+WDFY3	WDFY3	Bone quality	Bos taurus
+WDFY3	WDFY3	Calving ease	Bos taurus
+WDFY3	WDFY3	Withers height	Bos taurus
+WDFY3	WDFY3	Udder cleft	Bos taurus
+WDFY3	WDFY3	Foot angle	Bos taurus
+WDFY3	WDFY3	Udder depth	Bos taurus
+WDFY3	WDFY3	PTA type	Bos taurus
 Hnrnpd	['HNRNPD', 'heterogeneous nuclear ribonucleoprotein D']	increased circulating aspartate transaminase level	Mus musculus
 Hnrnpd	['HNRNPD', 'heterogeneous nuclear ribonucleoprotein D']	increased circulating tumor necrosis factor level	Mus musculus
 Hnrnpd	['HNRNPD', 'heterogeneous nuclear ribonucleoprotein D']	increased susceptibility to endotoxin shock	Mus musculus
@@ -4371,6 +4501,7 @@ Dclk2	['DCLK2', 'doublecortin-like kinase 2']	abnormal hippocampus region morpho
 Dclk2	['DCLK2', 'doublecortin-like kinase 2']	abnormal hippocampus granule cell layer	Mus musculus
 Dclk2	['DCLK2', 'doublecortin-like kinase 2']	abnormal hippocampus pyramidal cell morphology	Mus musculus
 Dclk2	['DCLK2', 'doublecortin-like kinase 2']	Generalized tonic-clonic seizures	Mus musculus
+ZNF827	ZNF827	Milk linoleic acid percentage	Bos taurus
 Plrg1	['PLRG1', 'pleiotropic regulator 1']	protein localization to nucleus phenotype	Mus musculus
 plrg1	['PLRG1', 'pleiotropic regulator 1']	abnormal(ly) quality yolk	Danio rerio
 plrg1	['PLRG1', 'pleiotropic regulator 1']	abnormal(ly) quality nervous system	Danio rerio
@@ -4494,6 +4625,17 @@ Otulin	['OTULIN', 'OTU deubiquitinase with linear linkage specificity']	Abnormal
 Cdh6	['CDH6', 'cadherin 6, type 2, K-cadherin (fetal kidney)']	abnormal kidney development	Mus musculus
 Cdh6	['CDH6', 'cadherin 6, type 2, K-cadherin (fetal kidney)']	nephron necrosis	Mus musculus
 Cdh6	['CDH6', 'cadherin 6, type 2, K-cadherin (fetal kidney)']	Decreased numbers of nephrons	Mus musculus
+CDH6	['CDH6', 'cadherin 6, type 2, K-cadherin (fetal kidney)']	Stillbirth	Bos taurus
+CDH6	['CDH6', 'cadherin 6, type 2, K-cadherin (fetal kidney)']	Udder structure	Bos taurus
+CDH6	['CDH6', 'cadherin 6, type 2, K-cadherin (fetal kidney)']	Thurl width	Bos taurus
+CDH6	['CDH6', 'cadherin 6, type 2, K-cadherin (fetal kidney)']	Chest depth	Bos taurus
+CDH6	['CDH6', 'cadherin 6, type 2, K-cadherin (fetal kidney)']	Chest width	Bos taurus
+CDH6	['CDH6', 'cadherin 6, type 2, K-cadherin (fetal kidney)']	Bone quality	Bos taurus
+CDH6	['CDH6', 'cadherin 6, type 2, K-cadherin (fetal kidney)']	Withers height	Bos taurus
+CDH6	['CDH6', 'cadherin 6, type 2, K-cadherin (fetal kidney)']	Milk fat percentage (daughter deviation)	Bos taurus
+CDH6	['CDH6', 'cadherin 6, type 2, K-cadherin (fetal kidney)']	Udder cleft	Bos taurus
+CDH6	['CDH6', 'cadherin 6, type 2, K-cadherin (fetal kidney)']	PTA type	Bos taurus
+CDH6	['CDH6', 'cadherin 6, type 2, K-cadherin (fetal kidney)']	Udder depth	Bos taurus
 Dab2	['DAB2', 'Dab, mitogen-responsive phosphoprotein, homolog 2 (Drosophila)']	in utero embryonic development phenotype	Mus musculus
 Dab2	['DAB2', 'Dab, mitogen-responsive phosphoprotein, homolog 2 (Drosophila)']	cell morphogenesis involved in differentiation phenotype	Mus musculus
 Dab2	['DAB2', 'Dab, mitogen-responsive phosphoprotein, homolog 2 (Drosophila)']	excretion phenotype	Mus musculus
@@ -4639,6 +4781,19 @@ Adamts6	['ADAMTS6', 'ADAM metallopeptidase with thrombospondin type 1 motif 6']	
 Adamts6	['ADAMTS6', 'ADAM metallopeptidase with thrombospondin type 1 motif 6']	Double outlet right ventricle	Mus musculus
 Adamts6	['ADAMTS6', 'ADAM metallopeptidase with thrombospondin type 1 motif 6']	sternebra fusion	Mus musculus
 Adamts6	['ADAMTS6', 'ADAM metallopeptidase with thrombospondin type 1 motif 6']	cardiac hypertrophy	Mus musculus
+ADAMTS6	['ADAMTS6', 'ADAM metallopeptidase with thrombospondin type 1 motif 6']	Udder structure	Bos taurus
+ADAMTS6	['ADAMTS6', 'ADAM metallopeptidase with thrombospondin type 1 motif 6']	Thurl width	Bos taurus
+ADAMTS6	['ADAMTS6', 'ADAM metallopeptidase with thrombospondin type 1 motif 6']	Chest depth	Bos taurus
+ADAMTS6	['ADAMTS6', 'ADAM metallopeptidase with thrombospondin type 1 motif 6']	Chest width	Bos taurus
+ADAMTS6	['ADAMTS6', 'ADAM metallopeptidase with thrombospondin type 1 motif 6']	Bone quality	Bos taurus
+ADAMTS6	['ADAMTS6', 'ADAM metallopeptidase with thrombospondin type 1 motif 6']	Withers height	Bos taurus
+ADAMTS6	['ADAMTS6', 'ADAM metallopeptidase with thrombospondin type 1 motif 6']	Milk protein percentage (daughter deviation)	Bos taurus
+ADAMTS6	['ADAMTS6', 'ADAM metallopeptidase with thrombospondin type 1 motif 6']	Rear leg set	Bos taurus
+ADAMTS6	['ADAMTS6', 'ADAM metallopeptidase with thrombospondin type 1 motif 6']	Udder depth	Bos taurus
+ADAMTS6	['ADAMTS6', 'ADAM metallopeptidase with thrombospondin type 1 motif 6']	Udder cleft	Bos taurus
+ADAMTS6	['ADAMTS6', 'ADAM metallopeptidase with thrombospondin type 1 motif 6']	Foot angle	Bos taurus
+ADAMTS6	['ADAMTS6', 'ADAM metallopeptidase with thrombospondin type 1 motif 6']	PTA type	Bos taurus
+ADAMTS6	['ADAMTS6', 'ADAM metallopeptidase with thrombospondin type 1 motif 6']	Calving ease	Bos taurus
 Map1b	['MAP1B', 'microtubule associated protein 1B']	microtubule bundle formation phenotype	Mus musculus
 Map1b	['MAP1B', 'microtubule associated protein 1B']	dendrite development phenotype	Mus musculus
 Map1b	['MAP1B', 'microtubule associated protein 1B']	axon extension phenotype	Mus musculus
@@ -4697,6 +4852,9 @@ Map1b	['MAP1B', 'microtubule associated protein 1B']	Gait disturbance	Mus muscul
 Map1b	['MAP1B', 'microtubule associated protein 1B']	Abnormality of vision	Mus musculus
 Map1b	['MAP1B', 'microtubule associated protein 1B']	Lethargy	Mus musculus
 Map1b	['MAP1B', 'microtubule associated protein 1B']	embryonic lethality between somite formation and embryo turning, complete penetrance	Mus musculus
+MAP1B	['MAP1B', 'microtubule associated protein 1B']	Inseminations per conception	Bos taurus
+MAP1B	['MAP1B', 'microtubule associated protein 1B']	Fertilization rate	Bos taurus
+MAP1B	['MAP1B', 'microtubule associated protein 1B']	Early embryonic survival	Bos taurus
 utp15	['UTP15', 'UTP15, U3 small nucleolar ribonucleoprotein, homolog (S. cerevisiae)']	abnormal(ly) quality whole organism	Danio rerio
 utp15	['UTP15', 'UTP15, U3 small nucleolar ribonucleoprotein, homolog (S. cerevisiae)']	abnormal(ly) decreased size head	Danio rerio
 utp15	['UTP15', 'UTP15, U3 small nucleolar ribonucleoprotein, homolog (S. cerevisiae)']	abnormal(ly) decreased size eye	Danio rerio
@@ -5094,6 +5252,7 @@ rbm22	['RBM22', 'RNA binding motif protein 22']	abnormal(ly) necrotic brain	Dani
 rbm22	['RBM22', 'RNA binding motif protein 22']	abnormal(ly) flat head	Danio rerio
 rbm22	['RBM22', 'RNA binding motif protein 22']	abnormal(ly) necrotic central nervous system	Danio rerio
 rbm22	['RBM22', 'RNA binding motif protein 22']	abnormal(ly) viability whole organism	Danio rerio
+LARP1	['LARP1', 'La ribonucleoprotein domain family, member 1']	Somatic cell count	Bos taurus
 cyfip2	['CYFIP2', 'cytoplasmic FMR1 interacting protein 2']	abnormal(ly) disrupted larval locomotory behavior	Danio rerio
 cyfip2	['CYFIP2', 'cytoplasmic FMR1 interacting protein 2']	['abnormal(ly) decreased length whole organism anterior/posterior axis', 'abnormal(ly) decreased length whole organism anterior-posterior axis']	Danio rerio
 cyfip2	['CYFIP2', 'cytoplasmic FMR1 interacting protein 2']	abnormal(ly) aplastic swim bladder	Danio rerio
@@ -5423,6 +5582,11 @@ Pacsin1	['PACSIN1', 'protein kinase C and casein kinase substrate in neurons 1']
 Pacsin1	['PACSIN1', 'protein kinase C and casein kinase substrate in neurons 1']	decreased circulating interferon-alpha level	Mus musculus
 Pacsin1	['PACSIN1', 'protein kinase C and casein kinase substrate in neurons 1']	decreased interferon-alpha secretion	Mus musculus
 Pacsin1	['PACSIN1', 'protein kinase C and casein kinase substrate in neurons 1']	abnormal plasmacytoid dendritic cell physiology	Mus musculus
+PACSIN1	['PACSIN1', 'protein kinase C and casein kinase substrate in neurons 1']	Stillbirth	Bos taurus
+PACSIN1	['PACSIN1', 'protein kinase C and casein kinase substrate in neurons 1']	Udder structure	Bos taurus
+PACSIN1	['PACSIN1', 'protein kinase C and casein kinase substrate in neurons 1']	Calving ease	Bos taurus
+PACSIN1	['PACSIN1', 'protein kinase C and casein kinase substrate in neurons 1']	Length of productive life	Bos taurus
+PACSIN1	['PACSIN1', 'protein kinase C and casein kinase substrate in neurons 1']	Udder depth	Bos taurus
 Def6	['DEF6', 'DEF6 guanine nucleotide exchange factor']	abnormal spleen germinal center morphology	Mus musculus
 Def6	['DEF6', 'DEF6 guanine nucleotide exchange factor']	increased anti-nuclear antigen antibody level	Mus musculus
 Def6	['DEF6', 'DEF6 guanine nucleotide exchange factor']	decreased T cell apoptosis	Mus musculus
@@ -5493,6 +5657,7 @@ Ubr2	['UBR2', 'ubiquitin protein ligase E3 component n-recognin 2']	increased em
 Ubr2	['UBR2', 'ubiquitin protein ligase E3 component n-recognin 2']	Failure to thrive	Mus musculus
 Ubr2	['UBR2', 'ubiquitin protein ligase E3 component n-recognin 2']	Male infertility	Mus musculus
 Ubr2	['UBR2', 'ubiquitin protein ligase E3 component n-recognin 2']	Oligospermia	Mus musculus
+UBR2	['UBR2', 'ubiquitin protein ligase E3 component n-recognin 2']	Tibia length	Sus scrofa
 Gltscr1l	GLTSCR1L	embryonic growth retardation	Mus musculus
 Gltscr1l	GLTSCR1L	cardiac hypertrophy	Mus musculus
 Gltscr1l	GLTSCR1L	abnormal embryo turning	Mus musculus
@@ -5586,6 +5751,16 @@ Cul9	CUL9	Lymphoma	Mus musculus
 Cul9	CUL9	altered tumor pathology	Mus musculus
 Cul9	CUL9	increased B cell derived lymphoma incidence	Mus musculus
 Cul9	CUL9	Insulinoma	Mus musculus
+XPO5	XPO5	Somatic cell count	Bos taurus
+XPO5	XPO5	Udder structure	Bos taurus
+XPO5	XPO5	Thurl width	Bos taurus
+XPO5	XPO5	Chest depth	Bos taurus
+XPO5	XPO5	Chest width	Bos taurus
+XPO5	XPO5	Calving ease	Bos taurus
+XPO5	XPO5	Withers height	Bos taurus
+XPO5	XPO5	Udder depth	Bos taurus
+XPO5	XPO5	Length of productive life	Bos taurus
+XPO5	XPO5	PTA type	Bos taurus
 Tmem63b	TMEM63B	preweaning lethality, complete penetrance	Mus musculus
 Adgrf5	ADGRF5	increased circulating glucose level	Mus musculus
 Adgrf5	ADGRF5	increased type II pneumocyte number	Mus musculus
@@ -5620,6 +5795,7 @@ Adgrf5	ADGRF5	abnormal surfactant physiology	Mus musculus
 Adgrf5	ADGRF5	increased macrophage derived foam cell number	Mus musculus
 Adgrf5	ADGRF5	Decreased body weight	Mus musculus
 Adgrf5	ADGRF5	Dyspnea	Mus musculus
+CDC5L	['CDC5L', 'cell division cycle 5 like']	Hemoglobin	Sus scrofa
 Tfap2d	TFAP2D	increased apoptosis	Mus musculus
 Tfap2d	TFAP2D	absent inferior colliculus	Mus musculus
 Gcm1	GCM1	positive regulation of transcription from RNA polymerase II promoter phenotype	Mus musculus
@@ -5879,6 +6055,7 @@ Hsf2	['HSF2', 'heat shock transcription factor 2']	collapsed brain ventricles	Mu
 Hsf2	['HSF2', 'heat shock transcription factor 2']	decreased male germ cell number	Mus musculus
 Hsf2	['HSF2', 'heat shock transcription factor 2']	Cerebral hemorrhage	Mus musculus
 Hsf2	['HSF2', 'heat shock transcription factor 2']	Dilated third ventricle	Mus musculus
+NCOA7	NCOA7	Breast muscle weight	Gallus gallus
 Epb41l2	['EPB41L2', 'erythrocyte membrane protein band 4.1-like 2']	small cerebellum	Mus musculus
 Epb41l2	['EPB41L2', 'erythrocyte membrane protein band 4.1-like 2']	Brain very small	Mus musculus
 Epb41l2	['EPB41L2', 'erythrocyte membrane protein band 4.1-like 2']	no abnormal phenotype detected	Mus musculus
@@ -5888,6 +6065,19 @@ Epb41l2	['EPB41L2', 'erythrocyte membrane protein band 4.1-like 2']	Abnormal spe
 Epb41l2	['EPB41L2', 'erythrocyte membrane protein band 4.1-like 2']	Male infertility	Mus musculus
 Epb41l2	['EPB41L2', 'erythrocyte membrane protein band 4.1-like 2']	Decreased testicular size	Mus musculus
 Epb41l2	['EPB41L2', 'erythrocyte membrane protein band 4.1-like 2']	Oligospermia	Mus musculus
+EPB41L2	['EPB41L2', 'erythrocyte membrane protein band 4.1-like 2']	Udder structure	Bos taurus
+EPB41L2	['EPB41L2', 'erythrocyte membrane protein band 4.1-like 2']	Chest width	Bos taurus
+EPB41L2	['EPB41L2', 'erythrocyte membrane protein band 4.1-like 2']	Bone quality	Bos taurus
+EPB41L2	['EPB41L2', 'erythrocyte membrane protein band 4.1-like 2']	Calving ease	Bos taurus
+EPB41L2	['EPB41L2', 'erythrocyte membrane protein band 4.1-like 2']	Milk protein percentage (daughter deviation)	Bos taurus
+EPB41L2	['EPB41L2', 'erythrocyte membrane protein band 4.1-like 2']	Inseminations per conception	Bos taurus
+EPB41L2	['EPB41L2', 'erythrocyte membrane protein band 4.1-like 2']	Milk fat percentage (daughter deviation)	Bos taurus
+EPB41L2	['EPB41L2', 'erythrocyte membrane protein band 4.1-like 2']	Rear leg set	Bos taurus
+EPB41L2	['EPB41L2', 'erythrocyte membrane protein band 4.1-like 2']	Foot angle	Bos taurus
+EPB41L2	['EPB41L2', 'erythrocyte membrane protein band 4.1-like 2']	Stillbirth	Bos taurus
+EPB41L2	['EPB41L2', 'erythrocyte membrane protein band 4.1-like 2']	Udder depth	Bos taurus
+EPB41L2	['EPB41L2', 'erythrocyte membrane protein band 4.1-like 2']	Teat length	Bos taurus
+EPB41L2	['EPB41L2', 'erythrocyte membrane protein band 4.1-like 2']	Length of productive life	Bos taurus
 Hbs1l	['HBS1L', 'HBS1 like translational GTPase']	Male infertility	Mus musculus
 Hbs1l	['HBS1L', 'HBS1 like translational GTPase']	increased alpha-beta T cell number	Mus musculus
 Hbs1l	['HBS1L', 'HBS1 like translational GTPase']	increased NK cell number	Mus musculus
@@ -6365,6 +6555,7 @@ Adam22	['ADAM22', 'ADAM metallopeptidase domain 22']	abnormal glial cell morphol
 Adam22	['ADAM22', 'ADAM metallopeptidase domain 22']	Failure to thrive	Mus musculus
 Adam22	['ADAM22', 'ADAM metallopeptidase domain 22']	Peripheral demyelination	Mus musculus
 Adam22	['ADAM22', 'ADAM metallopeptidase domain 22']	Abnormal neuron morphology	Mus musculus
+ADAM22	['ADAM22', 'ADAM metallopeptidase domain 22']	Marbling score	Sus scrofa
 Smurf1	['SMURF1', 'SMAD specific E3 ubiquitin protein ligase 1']	negative regulation of ossification phenotype	Mus musculus
 Smurf1	['SMURF1', 'SMAD specific E3 ubiquitin protein ligase 1']	protein ubiquitination phenotype	Mus musculus
 Smurf1	['SMURF1', 'SMAD specific E3 ubiquitin protein ligase 1']	increased trabecular bone mass	Mus musculus
@@ -6590,6 +6781,8 @@ Hipk2	['HIPK2', 'homeodomain interacting protein kinase 2']	enlarged trigeminal 
 Mkrn1	['MKRN1', 'makorin ring finger protein 1']	no abnormal phenotype detected	Mus musculus
 Mkrn1	['MKRN1', 'makorin ring finger protein 1']	no abnormal phenotype detected	Mus musculus
 Repin1	REPIN1	premature death	Mus musculus
+ACTR3B	ACTR3B	Abomasum displacement	Bos taurus
+RBM33	RBM33	Polydactyly	Gallus gallus
 Ncapg2	['NCAPG2', 'non-SMC condensin II complex subunit G2']	inner cell mass cell proliferation phenotype	Mus musculus
 Ncapg2	['NCAPG2', 'non-SMC condensin II complex subunit G2']	abnormal inner cell mass apoptosis	Mus musculus
 Ncapg2	['NCAPG2', 'non-SMC condensin II complex subunit G2']	absent egg cylinders	Mus musculus
@@ -6864,6 +7057,7 @@ rpl7	['RPL7', 'ribosomal protein L7']	abnormal(ly) quality whole organism	Danio 
 rpl7	['RPL7', 'ribosomal protein L7']	regulation of cell cycle phenotype	Danio rerio
 Zfp704	ZNF704	no abnormal phenotype detected	Mus musculus
 Zfp704	ZNF704	abnormal respiratory quotient	Mus musculus
+STMN2	['STMN2', 'stathmin 2']	Milk yield	Bos taurus
 Mmp16	['MMP16', 'matrix metallopeptidase 16 (membrane-inserted)']	no abnormal phenotype detected	Mus musculus
 Mmp16	['MMP16', 'matrix metallopeptidase 16 (membrane-inserted)']	abnormal neurocranium morphology	Mus musculus
 Mmp16	['MMP16', 'matrix metallopeptidase 16 (membrane-inserted)']	abnormal long bone hypertrophic chondrocyte zone	Mus musculus
@@ -6932,6 +7126,7 @@ Ubr5	['UBR5', 'ubiquitin protein ligase E3 component n-recognin 5']	abnormal ang
 Ubr5	['UBR5', 'ubiquitin protein ligase E3 component n-recognin 5']	decreased cell proliferation	Mus musculus
 Ubr5	['UBR5', 'ubiquitin protein ligase E3 component n-recognin 5']	Pericardial effusion	Mus musculus
 Ubr5	['UBR5', 'ubiquitin protein ligase E3 component n-recognin 5']	embryonic lethality, complete penetrance	Mus musculus
+UBR5	['UBR5', 'ubiquitin protein ligase E3 component n-recognin 5']	Milk protein percentage (daughter deviation)	Bos taurus
 Angpt1	['ANGPT1', 'angiopoietin 1']	in utero embryonic development phenotype	Mus musculus
 Angpt1	['ANGPT1', 'angiopoietin 1']	abnormal retinal blood vessel morphology	Mus musculus
 Angpt1	['ANGPT1', 'angiopoietin 1']	increased susceptilbility to retinal ischemic injury	Mus musculus
@@ -6965,6 +7160,8 @@ Angpt1	['ANGPT1', 'angiopoietin 1']	Abnormal eye physiology	Mus musculus
 Angpt1	['ANGPT1', 'angiopoietin 1']	Abnormal intraocular pressure	Mus musculus
 Angpt1	['ANGPT1', 'angiopoietin 1']	Blurred vision	Mus musculus
 Angpt1	['ANGPT1', 'angiopoietin 1']	Buphthalmos	Mus musculus
+LRP12	LRP12	Triglyceride level	Sus scrofa
+LRP12	LRP12	HDL cholesterol level	Sus scrofa
 Has2	['HAS2', 'hyaluronan synthase 2']	abnormal chondrocyte morphology	Mus musculus
 Has2	['HAS2', 'hyaluronan synthase 2']	decreased chondrocyte number	Mus musculus
 Has2	['HAS2', 'hyaluronan synthase 2']	abnormal long bone epiphyseal plate morphology	Mus musculus
@@ -7012,6 +7209,12 @@ Adgrb1	['ADGRB1', 'adhesion G protein-coupled receptor B1', 'BAI1']	decreased Ly
 Adgrb1	['ADGRB1', 'adhesion G protein-coupled receptor B1', 'BAI1']	Monocytopenia	Mus musculus
 Adgrb1	['ADGRB1', 'adhesion G protein-coupled receptor B1', 'BAI1']	premature death	Mus musculus
 Adgrb1	['ADGRB1', 'adhesion G protein-coupled receptor B1', 'BAI1']	increased NK cell number	Mus musculus
+BAI1	['ADGRB1', 'adhesion G protein-coupled receptor B1', 'BAI1']	Milk fat percentage (daughter deviation)	Bos taurus
+BAI1	['ADGRB1', 'adhesion G protein-coupled receptor B1', 'BAI1']	Milk palmitic acid percentage	Bos taurus
+ZC3H3	ZC3H3	Milk fat percentage (daughter deviation)	Bos taurus
+ZC3H3	ZC3H3	Milk palmitic acid percentage	Bos taurus
+ZC3H3	ZC3H3	Milk protein percentage (daughter deviation)	Bos taurus
+ZC3H3	ZC3H3	Milk yield	Bos taurus
 Scrib	['SCRIB', 'scribbled planar cell polarity protein']	asymmetric protein localization phenotype	Mus musculus
 Scrib	['SCRIB', 'scribbled planar cell polarity protein']	neural tube closure phenotype	Mus musculus
 Scrib	['SCRIB', 'scribbled planar cell polarity protein']	morphogenesis of embryonic epithelium phenotype	Mus musculus
@@ -7281,6 +7484,18 @@ Phf2	['PHF2', 'PHD finger protein 2']	Failure to thrive	Mus musculus
 Phf2	['PHF2', 'PHD finger protein 2']	Decreased body weight	Mus musculus
 Phf2	['PHF2', 'PHD finger protein 2']	Adipose tissue loss	Mus musculus
 Phf2	['PHF2', 'PHD finger protein 2']	Decreased subcutaneous fat	Mus musculus
+PHF2	['PHF2', 'PHD finger protein 2']	Somatic cell count	Bos taurus
+PHF2	['PHF2', 'PHD finger protein 2']	Chest width	Bos taurus
+PHF2	['PHF2', 'PHD finger protein 2']	Calving ease	Bos taurus
+PHF2	['PHF2', 'PHD finger protein 2']	Milk protein percentage (daughter deviation)	Bos taurus
+PHF2	['PHF2', 'PHD finger protein 2']	Inseminations per conception	Bos taurus
+PHF2	['PHF2', 'PHD finger protein 2']	Milk fat percentage (daughter deviation)	Bos taurus
+PHF2	['PHF2', 'PHD finger protein 2']	Foot angle	Bos taurus
+PHF2	['PHF2', 'PHD finger protein 2']	Length of productive life	Bos taurus
+PHF2	['PHF2', 'PHD finger protein 2']	Udder cleft	Bos taurus
+PHF2	['PHF2', 'PHD finger protein 2']	Dairy form	Bos taurus
+PHF2	['PHF2', 'PHD finger protein 2']	Stillbirth	Bos taurus
+PHF2	['PHF2', 'PHD finger protein 2']	Rear leg set	Bos taurus
 Ippk	IPPK	embryonic lethality between somite formation and embryo turning, complete penetrance	Mus musculus
 Ippk	IPPK	embryonic lethality between somite formation and embryo turning, complete penetrance	Mus musculus
 Anp32b	ANP32B	palate development phenotype	Mus musculus
@@ -7607,6 +7822,7 @@ Upf2	['UPF2', 'UPF2 regulator of nonsense transcripts homolog (yeast)']	abnormal
 Upf2	['UPF2', 'UPF2 regulator of nonsense transcripts homolog (yeast)']	Abnormality of the thymus	Mus musculus
 Upf2	['UPF2', 'UPF2 regulator of nonsense transcripts homolog (yeast)']	Decreased number of CD4+ T cells	Mus musculus
 Upf2	['UPF2', 'UPF2 regulator of nonsense transcripts homolog (yeast)']	Decreased number of CD8+ T cells	Mus musculus
+UPF2	['UPF2', 'UPF2 regulator of nonsense transcripts homolog (yeast)']	Milk linoleic acid percentage	Bos taurus
 sec61a1	SEC61A2	['abnormal(ly) decreased length whole organism anterior/posterior axis', 'abnormal(ly) decreased length whole organism anterior-posterior axis']	Danio rerio
 sec61a1	SEC61A2	abnormal(ly) disrupted innervation	Danio rerio
 sec61a1	SEC61A2	abnormal(ly) increased occurrence neurogenesis	Danio rerio
@@ -7694,6 +7910,19 @@ Pard3	['PARD3', 'par-3 family cell polarity regulator']	embryonic growth retarda
 Pard3	['PARD3', 'par-3 family cell polarity regulator']	atrium hypoplasia	Mus musculus
 Pard3	['PARD3', 'par-3 family cell polarity regulator']	Edema	Mus musculus
 Pard3	['PARD3', 'par-3 family cell polarity regulator']	preweaning lethality, complete penetrance	Mus musculus
+PARD3	['PARD3', 'par-3 family cell polarity regulator']	Udder structure	Bos taurus
+PARD3	['PARD3', 'par-3 family cell polarity regulator']	Bone quality	Bos taurus
+PARD3	['PARD3', 'par-3 family cell polarity regulator']	Calving ease	Bos taurus
+PARD3	['PARD3', 'par-3 family cell polarity regulator']	Milk fat percentage (daughter deviation)	Bos taurus
+PARD3	['PARD3', 'par-3 family cell polarity regulator']	Foot angle	Bos taurus
+PARD3	['PARD3', 'par-3 family cell polarity regulator']	Rear leg set	Bos taurus
+PARD3	['PARD3', 'par-3 family cell polarity regulator']	Stillbirth	Bos taurus
+PARD3	['PARD3', 'par-3 family cell polarity regulator']	PTA type	Bos taurus
+PARD3	['PARD3', 'par-3 family cell polarity regulator']	Length of productive life	Bos taurus
+PARD3	['PARD3', 'par-3 family cell polarity regulator']	Udder depth	Bos taurus
+PARD3	['PARD3', 'par-3 family cell polarity regulator']	Chest width	Bos taurus
+PARD3	['PARD3', 'par-3 family cell polarity regulator']	Milk protein percentage (daughter deviation)	Bos taurus
+PARD3	['PARD3', 'par-3 family cell polarity regulator']	Somatic cell count	Bos taurus
 Epc1	['EPC1', 'enhancer of polycomb homolog 1 (Drosophila)']	postnatal lethality, complete penetrance	Mus musculus
 Epc1	['EPC1', 'enhancer of polycomb homolog 1 (Drosophila)']	abnormal muscle development	Mus musculus
 Epc1	['EPC1', 'enhancer of polycomb homolog 1 (Drosophila)']	Decreased body weight	Mus musculus
@@ -7758,6 +7987,19 @@ Cpeb3	['CPEB3', 'cytoplasmic polyadenylation element binding protein 3']	abnorma
 Cpeb3	['CPEB3', 'cytoplasmic polyadenylation element binding protein 3']	enhanced contextual conditioning behavior	Mus musculus
 Cpeb3	['CPEB3', 'cytoplasmic polyadenylation element binding protein 3']	abnormal dendritic spine morphology	Mus musculus
 Cpeb3	['CPEB3', 'cytoplasmic polyadenylation element binding protein 3']	abnormal hippocampus pyramidal cell morphology	Mus musculus
+CPEB3	['CPEB3', 'cytoplasmic polyadenylation element binding protein 3']	Stillbirth	Bos taurus
+CPEB3	['CPEB3', 'cytoplasmic polyadenylation element binding protein 3']	Somatic cell count	Bos taurus
+CPEB3	['CPEB3', 'cytoplasmic polyadenylation element binding protein 3']	Udder structure	Bos taurus
+CPEB3	['CPEB3', 'cytoplasmic polyadenylation element binding protein 3']	Thurl width	Bos taurus
+CPEB3	['CPEB3', 'cytoplasmic polyadenylation element binding protein 3']	Chest depth	Bos taurus
+CPEB3	['CPEB3', 'cytoplasmic polyadenylation element binding protein 3']	Chest width	Bos taurus
+CPEB3	['CPEB3', 'cytoplasmic polyadenylation element binding protein 3']	Bone quality	Bos taurus
+CPEB3	['CPEB3', 'cytoplasmic polyadenylation element binding protein 3']	Calving ease	Bos taurus
+CPEB3	['CPEB3', 'cytoplasmic polyadenylation element binding protein 3']	Withers height	Bos taurus
+CPEB3	['CPEB3', 'cytoplasmic polyadenylation element binding protein 3']	Udder depth	Bos taurus
+CPEB3	['CPEB3', 'cytoplasmic polyadenylation element binding protein 3']	PTA type	Bos taurus
+CPEB3	['CPEB3', 'cytoplasmic polyadenylation element binding protein 3']	Foot angle	Bos taurus
+CPEB3	['CPEB3', 'cytoplasmic polyadenylation element binding protein 3']	Rear leg set	Bos taurus
 Pi4k2a	['PI4K2A', 'phosphatidylinositol 4-kinase type 2 alpha']	no abnormal phenotype detected	Mus musculus
 Pi4k2a	['PI4K2A', 'phosphatidylinositol 4-kinase type 2 alpha']	weakness	Mus musculus
 Pi4k2a	['PI4K2A', 'phosphatidylinositol 4-kinase type 2 alpha']	decreased Purkinje cell number	Mus musculus
@@ -7773,6 +8015,7 @@ Pi4k2a	['PI4K2A', 'phosphatidylinositol 4-kinase type 2 alpha']	Male infertility
 Pi4k2a	['PI4K2A', 'phosphatidylinositol 4-kinase type 2 alpha']	Gliosis	Mus musculus
 Pi4k2a	['PI4K2A', 'phosphatidylinositol 4-kinase type 2 alpha']	Urinary incontinence	Mus musculus
 Pi4k2a	['PI4K2A', 'phosphatidylinositol 4-kinase type 2 alpha']	Astrocytosis	Mus musculus
+PI4K2A	['PI4K2A', 'phosphatidylinositol 4-kinase type 2 alpha']	Milk odd-chain fatty acid percentage	Bos taurus
 Pik3ap1	['PIK3AP1', 'phosphoinositide-3-kinase adaptor protein 1']	arrested B cell differentiation	Mus musculus
 Pik3ap1	['PIK3AP1', 'phosphoinositide-3-kinase adaptor protein 1']	immune system phenotype	Mus musculus
 Pik3ap1	['PIK3AP1', 'phosphoinositide-3-kinase adaptor protein 1']	IgM deficiency	Mus musculus
@@ -7800,11 +8043,13 @@ Slit1	['SLIT1', 'slit guidance ligand 1']	abnormal olfactory tract morphology	Mu
 Slit1	['SLIT1', 'slit guidance ligand 1']	abnormal neurite morphology	Mus musculus
 Slit1	['SLIT1', 'slit guidance ligand 1']	abnormal olfactory lobe morphology	Mus musculus
 Slit1	['SLIT1', 'slit guidance ligand 1']	abnormal spinal cord ventral commissure morphology	Mus musculus
+SLIT1	['SLIT1', 'slit guidance ligand 1']	Milk odd-chain fatty acid percentage	Bos taurus
 Pprc1	PPRC1	abnormal germ layer development	Mus musculus
 Pprc1	PPRC1	embryonic lethality between implantation and somite formation, complete penetrance	Mus musculus
 Pprc1	PPRC1	delayed blastocyst hatching from the zona pellucida	Mus musculus
 Pprc1	PPRC1	disorganized embryonic tissue	Mus musculus
 Pprc1	PPRC1	inner cell mass degeneration	Mus musculus
+PPRC1	PPRC1	Milk odd-chain fatty acid percentage	Bos taurus
 Xpnpep1	XPNPEP1	preweaning lethality, incomplete penetrance	Mus musculus
 Xpnpep1	XPNPEP1	decreased circulating LDL cholesterol level	Mus musculus
 Xpnpep1	XPNPEP1	increased caudal vertebrae number	Mus musculus
@@ -7835,6 +8080,8 @@ Xpnpep1	XPNPEP1	Proteinuria	Mus musculus
 Xpnpep1	XPNPEP1	Abnormal urinary color	Mus musculus
 Xpnpep1	XPNPEP1	postnatal lethality, complete penetrance	Mus musculus
 Sorcs1	['SORCS1', 'sortilin-related VPS10 domain containing receptor 1']	amyloid beta deposits	Mus musculus
+SORCS1	['SORCS1', 'sortilin-related VPS10 domain containing receptor 1']	Milk linoleic acid percentage	Bos taurus
+SORCS1	['SORCS1', 'sortilin-related VPS10 domain containing receptor 1']	Milk odd-chain fatty acid percentage	Bos taurus
 tdrd1	['TDRD1', 'tudor domain containing 1']	abnormal(ly) disrupted protein localization	Danio rerio
 tdrd1	['TDRD1', 'tudor domain containing 1']	abnormal(ly) increased distance primordial germ cell P granule towards primordial germ cell mitochondrion	Danio rerio
 tdrd1	['TDRD1', 'tudor domain containing 1']	abnormal(ly) disrupted nuclear pore distribution	Danio rerio
@@ -8074,6 +8321,7 @@ Ckap5	['CKAP5', 'cytoskeleton associated protein 5']	Hyperactivity	Mus musculus
 Ckap5	['CKAP5', 'cytoskeleton associated protein 5']	Abnormality of brain morphology	Mus musculus
 Ckap5	['CKAP5', 'cytoskeleton associated protein 5']	decreased body size	Mus musculus
 Ckap5	['CKAP5', 'cytoskeleton associated protein 5']	Cleft palate	Mus musculus
+CKAP5	['CKAP5', 'cytoskeleton associated protein 5']	Feather pecking	Gallus gallus
 Celf1	['CELF1', 'CUGBP, Elav-like family member 1']	spermatid development phenotype	Mus musculus
 Celf1	['CELF1', 'CUGBP, Elav-like family member 1']	arrest of spermatogenesis	Mus musculus
 Celf1	['CELF1', 'CUGBP, Elav-like family member 1']	decreased body size	Mus musculus
@@ -8139,6 +8387,7 @@ Ctnnd1	['CTNND1', 'catenin delta 1']	dilated distal convoluted tubules	Mus muscu
 Ctnnd1	['CTNND1', 'catenin delta 1']	dilated proximal convoluted tubules	Mus musculus
 Ctnnd1	['CTNND1', 'catenin delta 1']	Renal cortical cysts	Mus musculus
 Ctnnd1	['CTNND1', 'catenin delta 1']	Renal hypoplasia	Mus musculus
+CTNND1	['CTNND1', 'catenin delta 1']	Channel fat weight	Sus scrofa
 Patl1	['PATL1', 'protein associated with topoisomerase II homolog 1 (yeast)']	preweaning lethality, incomplete penetrance	Mus musculus
 Myrf	['MYRF', 'myelin regulatory factor']	postnatal lethality, complete penetrance	Mus musculus
 Myrf	['MYRF', 'myelin regulatory factor']	Ataxia	Mus musculus
@@ -8309,6 +8558,7 @@ Syvn1	['SYVN1', 'synoviolin 1']	Abnormal joint morphology	Mus musculus
 Syvn1	['SYVN1', 'synoviolin 1']	abnormal apoptosis	Mus musculus
 Syvn1	['SYVN1', 'synoviolin 1']	prenatal lethality, complete penetrance	Mus musculus
 Dpf2	['DPF2', 'D4, zinc and double PHD fingers family 2']	no abnormal phenotype detected	Mus musculus
+DPF2	['DPF2', 'D4, zinc and double PHD fingers family 2']	Adrenal gland weight	Sus scrofa
 Klc2	['KLC2', 'kinesin light chain 2']	Abnormal auditory evoked potentials	Mus musculus
 Klc2	['KLC2', 'kinesin light chain 2']	decreased circulating thyroxine level	Mus musculus
 Klc2	['KLC2', 'kinesin light chain 2']	absent pinna reflex	Mus musculus
@@ -8437,6 +8687,7 @@ Arrb1	['ARRB1', 'arrestin, beta 1']	Pulmonary hypoplasia	Mus musculus
 Arrb1	['ARRB1', 'arrestin, beta 1']	Dyspnea	Mus musculus
 Rsf1	['RSF1', 'remodeling and spacing factor 1']	preweaning lethality, complete penetrance	Mus musculus
 Sik2	['SIK2', 'salt inducible kinase 2']	darkened coat color	Mus musculus
+SIK2	['SIK2', 'salt inducible kinase 2']	Milk linoleic acid percentage	Bos taurus
 Pafah1b2	['PAFAH1B2', 'platelet activating factor acetylhydrolase 1b catalytic subunit 2']	spermatogenesis phenotype	Mus musculus
 Pafah1b2	['PAFAH1B2', 'platelet activating factor acetylhydrolase 1b catalytic subunit 2']	decreased testis weight	Mus musculus
 Pafah1b2	['PAFAH1B2', 'platelet activating factor acetylhydrolase 1b catalytic subunit 2']	small seminiferous tubules	Mus musculus
@@ -8970,6 +9221,7 @@ Zdhhc17	['ZDHHC17', 'zinc finger, DHHC-type containing 17']	increased vertical s
 Zdhhc17	['ZDHHC17', 'zinc finger, DHHC-type containing 17']	increased horizontal stereotypic behavior	Mus musculus
 Zdhhc17	['ZDHHC17', 'zinc finger, DHHC-type containing 17']	Hyperactivity	Mus musculus
 Zdhhc17	['ZDHHC17', 'zinc finger, DHHC-type containing 17']	Decreased body weight	Mus musculus
+ZDHHC17	['ZDHHC17', 'zinc finger, DHHC-type containing 17']	Milk fat percentage (daughter deviation)	Bos taurus
 ppp1r12a	['PPP1R12A', 'protein phosphatase 1 regulatory subunit 12A']	abnormal(ly) disorganized lateral plate mesoderm mesodermal cell	Danio rerio
 ppp1r12a	['PPP1R12A', 'protein phosphatase 1 regulatory subunit 12A']	abnormal(ly) increased size lateral plate mesoderm actin filament bundle	Danio rerio
 ppp1r12a	['PPP1R12A', 'protein phosphatase 1 regulatory subunit 12A']	abnormal(ly) increased size endodermal cell actin filament bundle	Danio rerio
@@ -9079,6 +9331,20 @@ Rfx4	['RFX4', 'regulatory factor X, 4 (influences HLA class II expression)']	Abn
 Rfx4	['RFX4', 'regulatory factor X, 4 (influences HLA class II expression)']	Abnormality of the spinal cord	Mus musculus
 Rfx4	['RFX4', 'regulatory factor X, 4 (influences HLA class II expression)']	Abnormal motor neuron morphology	Mus musculus
 Rfx4	['RFX4', 'regulatory factor X, 4 (influences HLA class II expression)']	abnormal cerebral cortex morphology	Mus musculus
+RFX4	['RFX4', 'regulatory factor X, 4 (influences HLA class II expression)']	Udder structure	Bos taurus
+RFX4	['RFX4', 'regulatory factor X, 4 (influences HLA class II expression)']	Thurl width	Bos taurus
+RFX4	['RFX4', 'regulatory factor X, 4 (influences HLA class II expression)']	Chest depth	Bos taurus
+RFX4	['RFX4', 'regulatory factor X, 4 (influences HLA class II expression)']	Chest width	Bos taurus
+RFX4	['RFX4', 'regulatory factor X, 4 (influences HLA class II expression)']	Bone quality	Bos taurus
+RFX4	['RFX4', 'regulatory factor X, 4 (influences HLA class II expression)']	Calving ease	Bos taurus
+RFX4	['RFX4', 'regulatory factor X, 4 (influences HLA class II expression)']	Withers height	Bos taurus
+RFX4	['RFX4', 'regulatory factor X, 4 (influences HLA class II expression)']	Milk fat percentage (daughter deviation)	Bos taurus
+RFX4	['RFX4', 'regulatory factor X, 4 (influences HLA class II expression)']	Udder depth	Bos taurus
+RFX4	['RFX4', 'regulatory factor X, 4 (influences HLA class II expression)']	PTA type	Bos taurus
+RFX4	['RFX4', 'regulatory factor X, 4 (influences HLA class II expression)']	Stillbirth	Bos taurus
+RFX4	['RFX4', 'regulatory factor X, 4 (influences HLA class II expression)']	Rear leg set	Bos taurus
+RFX4	['RFX4', 'regulatory factor X, 4 (influences HLA class II expression)']	Dairy form	Bos taurus
+RFX4	['RFX4', 'regulatory factor X, 4 (influences HLA class II expression)']	Udder cleft	Bos taurus
 ric8b	['RIC8B', 'RIC8 guanine nucleotide exchange factor B']	abnormal(ly) quality pharyngeal arch 3-7 skeleton	Danio rerio
 ric8b	['RIC8B', 'RIC8 guanine nucleotide exchange factor B']	abnormal(ly) decreased size eye	Danio rerio
 ric8b	['RIC8B', 'RIC8 guanine nucleotide exchange factor B']	abnormal(ly) irregular spatial pattern melanocyte	Danio rerio
@@ -9158,9 +9424,14 @@ Cux2	['CUX2', 'cut-like homeobox 2']	abnormal neural tube marginal layer morphol
 Cux2	['CUX2', 'cut-like homeobox 2']	abnormal neural tube ventricular layer morphology	Mus musculus
 Cux2	['CUX2', 'cut-like homeobox 2']	Spina bifida	Mus musculus
 Cux2	['CUX2', 'cut-like homeobox 2']	Abnormality of the cell cycle	Mus musculus
+CUX2	['CUX2', 'cut-like homeobox 2']	Abomasum displacement	Bos taurus
+TAOK3	TAOK3	Channel fat weight	Sus scrofa
 Ksr2	['KSR2', 'kinase suppressor of ras 2']	increased percent body fat/body weight	Mus musculus
 Ksr2	['KSR2', 'kinase suppressor of ras 2']	Obesity	Mus musculus
 Ksr2	['KSR2', 'kinase suppressor of ras 2']	Increased body weight	Mus musculus
+KSR2	['KSR2', 'kinase suppressor of ras 2']	Interval to first estrus after calving	Bos taurus
+KSR2	['KSR2', 'kinase suppressor of ras 2']	Milk protein percentage (daughter deviation)	Bos taurus
+KSR2	['KSR2', 'kinase suppressor of ras 2']	Milk fat percentage (daughter deviation)	Bos taurus
 Rab35	['RAB35', 'RAB35, member RAS oncogene family']	preweaning lethality, complete penetrance	Mus musculus
 Cit	['CIT', 'citron rho-interacting serine/threonine kinase']	dendrite development phenotype	Mus musculus
 Cit	['CIT', 'citron rho-interacting serine/threonine kinase']	cytokinesis phenotype	Mus musculus
@@ -9213,7 +9484,14 @@ Sppl3	['SPPL3', 'signal peptide peptidase like 3']	abnormal depression-related b
 Sppl3	['SPPL3', 'signal peptide peptidase like 3']	decreased lean body mass	Mus musculus
 Sppl3	['SPPL3', 'signal peptide peptidase like 3']	Failure to thrive	Mus musculus
 Sppl3	['SPPL3', 'signal peptide peptidase like 3']	Decreased body weight	Mus musculus
+MLXIP	['MLXIP', 'MLX interacting protein']	Stillbirth	Bos taurus
+MLXIP	['MLXIP', 'MLX interacting protein']	Somatic cell count	Bos taurus
+MLXIP	['MLXIP', 'MLX interacting protein']	Calving ease	Bos taurus
+MLXIP	['MLXIP', 'MLX interacting protein']	Inseminations per conception	Bos taurus
+MLXIP	['MLXIP', 'MLX interacting protein']	Length of productive life	Bos taurus
+MLXIP	['MLXIP', 'MLX interacting protein']	Udder depth	Bos taurus
 Pitpnm2	['PITPNM2', 'phosphatidylinositol transfer protein, membrane associated 2']	no abnormal phenotype detected	Mus musculus
+PITPNM2	['PITPNM2', 'phosphatidylinositol transfer protein, membrane associated 2']	Channel fat weight	Sus scrofa
 Ncor2	['NCOR2', 'nuclear receptor corepressor 2']	glucose homeostasis phenotype	Mus musculus
 Ncor2	['NCOR2', 'nuclear receptor corepressor 2']	white fat cell differentiation phenotype	Mus musculus
 Ncor2	['NCOR2', 'nuclear receptor corepressor 2']	telencephalon development phenotype	Mus musculus
@@ -9803,6 +10081,12 @@ Akap6	['AKAP6', 'A-kinase anchoring protein 6']	Neonatal death	Mus musculus
 Akap6	['AKAP6', 'A-kinase anchoring protein 6']	abnormal craniofacial morphology	Mus musculus
 Akap6	['AKAP6', 'A-kinase anchoring protein 6']	postnatal lethality, incomplete penetrance	Mus musculus
 Akap6	['AKAP6', 'A-kinase anchoring protein 6']	Decreased body weight	Mus musculus
+AKAP6	['AKAP6', 'A-kinase anchoring protein 6']	Stillbirth	Bos taurus
+AKAP6	['AKAP6', 'A-kinase anchoring protein 6']	Calving ease	Bos taurus
+AKAP6	['AKAP6', 'A-kinase anchoring protein 6']	Inseminations per conception	Bos taurus
+AKAP6	['AKAP6', 'A-kinase anchoring protein 6']	Length of productive life	Bos taurus
+AKAP6	['AKAP6', 'A-kinase anchoring protein 6']	Teat length	Bos taurus
+AKAP6	['AKAP6', 'A-kinase anchoring protein 6']	Udder depth	Bos taurus
 Npas3	['NPAS3', 'neuronal PAS domain protein 3']	locomotory behavior phenotype	Mus musculus
 Npas3	['NPAS3', 'neuronal PAS domain protein 3']	abnormal cerebellar foliation	Mus musculus
 Npas3	['NPAS3', 'neuronal PAS domain protein 3']	abnormal hippocampus morphology	Mus musculus
@@ -9845,6 +10129,7 @@ Npas3	['NPAS3', 'neuronal PAS domain protein 3']	abnormal social investigation	M
 Npas3	['NPAS3', 'neuronal PAS domain protein 3']	abnormal cued conditioning behavior	Mus musculus
 Npas3	['NPAS3', 'neuronal PAS domain protein 3']	abnormal prepulse inhibition	Mus musculus
 Npas3	['NPAS3', 'neuronal PAS domain protein 3']	Hyperactivity	Mus musculus
+NPAS3	['NPAS3', 'neuronal PAS domain protein 3']	Feather pecking	Gallus gallus
 Arhgap5	['ARHGAP5', 'Rho GTPase activating protein 5']	regulation of cell size phenotype	Mus musculus
 Arhgap5	['ARHGAP5', 'Rho GTPase activating protein 5']	mammary gland development phenotype	Mus musculus
 Arhgap5	['ARHGAP5', 'Rho GTPase activating protein 5']	abnormal mammary gland development	Mus musculus
@@ -9864,6 +10149,8 @@ Baz1a	['BAZ1A', 'bromodomain adjacent to zinc finger domain 1A']	Hyperalphalipop
 Baz1a	['BAZ1A', 'bromodomain adjacent to zinc finger domain 1A']	Male infertility	Mus musculus
 Baz1a	['BAZ1A', 'bromodomain adjacent to zinc finger domain 1A']	Increased blood urea nitrogen (BUN)	Mus musculus
 Baz1a	['BAZ1A', 'bromodomain adjacent to zinc finger domain 1A']	Increased mean platelet volume	Mus musculus
+RALGAPA1	['RALGAPA1', 'Ral GTPase activating protein, alpha subunit 1 (catalytic)']	Age at puberty	Gallus gallus
+RALGAPA1	['RALGAPA1', 'Ral GTPase activating protein, alpha subunit 1 (catalytic)']	Egg number	Gallus gallus
 Mdga2	MDGA2	synostosis	Mus musculus
 Mdga2	MDGA2	abnormal tail morphology	Mus musculus
 Mdga2	MDGA2	abnormal limb bud morphology	Mus musculus
@@ -10072,6 +10359,7 @@ snw1	['SNW1', 'SNW domain containing 1']	abnormal(ly) necrotic central nervous s
 snw1	['SNW1', 'SNW domain containing 1']	abnormal(ly) flat head	Danio rerio
 snw1	['SNW1', 'SNW domain containing 1']	abnormal(ly) viability whole organism	Danio rerio
 snw1	['SNW1', 'SNW domain containing 1']	abnormal(ly) necrotic brain	Danio rerio
+TTC7B	TTC7B	Milk stearic acid percentage	Bos taurus
 Psmc1	['PSMC1', 'proteasome 26S subunit, ATPase 1']	decreased body size	Mus musculus
 Psmc1	['PSMC1', 'proteasome 26S subunit, ATPase 1']	postnatal lethality	Mus musculus
 Psmc1	['PSMC1', 'proteasome 26S subunit, ATPase 1']	neuron degeneration	Mus musculus
@@ -10111,6 +10399,23 @@ Itpk1	['ITPK1', 'inositol-tetrakisphosphate 1-kinase']	Spina bifida	Mus musculus
 Itpk1	['ITPK1', 'inositol-tetrakisphosphate 1-kinase']	Kyphoscoliosis	Mus musculus
 Itpk1	['ITPK1', 'inositol-tetrakisphosphate 1-kinase']	Abnormality of the ribs	Mus musculus
 Itpk1	['ITPK1', 'inositol-tetrakisphosphate 1-kinase']	Meningocele	Mus musculus
+ITPK1	['ITPK1', 'inositol-tetrakisphosphate 1-kinase']	Somatic cell count	Bos taurus
+ITPK1	['ITPK1', 'inositol-tetrakisphosphate 1-kinase']	Udder structure	Bos taurus
+ITPK1	['ITPK1', 'inositol-tetrakisphosphate 1-kinase']	Thurl width	Bos taurus
+ITPK1	['ITPK1', 'inositol-tetrakisphosphate 1-kinase']	Chest depth	Bos taurus
+ITPK1	['ITPK1', 'inositol-tetrakisphosphate 1-kinase']	Chest width	Bos taurus
+ITPK1	['ITPK1', 'inositol-tetrakisphosphate 1-kinase']	Bone quality	Bos taurus
+ITPK1	['ITPK1', 'inositol-tetrakisphosphate 1-kinase']	Calving ease	Bos taurus
+ITPK1	['ITPK1', 'inositol-tetrakisphosphate 1-kinase']	Withers height	Bos taurus
+ITPK1	['ITPK1', 'inositol-tetrakisphosphate 1-kinase']	Milk protein percentage (daughter deviation)	Bos taurus
+ITPK1	['ITPK1', 'inositol-tetrakisphosphate 1-kinase']	Milk fat percentage (daughter deviation)	Bos taurus
+ITPK1	['ITPK1', 'inositol-tetrakisphosphate 1-kinase']	Foot angle	Bos taurus
+ITPK1	['ITPK1', 'inositol-tetrakisphosphate 1-kinase']	Stillbirth	Bos taurus
+ITPK1	['ITPK1', 'inositol-tetrakisphosphate 1-kinase']	Rear leg set	Bos taurus
+ITPK1	['ITPK1', 'inositol-tetrakisphosphate 1-kinase']	Teat length	Bos taurus
+ITPK1	['ITPK1', 'inositol-tetrakisphosphate 1-kinase']	Udder depth	Bos taurus
+ITPK1	['ITPK1', 'inositol-tetrakisphosphate 1-kinase']	PTA type	Bos taurus
+ITPK1	['ITPK1', 'inositol-tetrakisphosphate 1-kinase']	Length of productive life	Bos taurus
 Unc79	UNC79	multicellular organism growth phenotype	Mus musculus
 Unc79	UNC79	adult behavior phenotype	Mus musculus
 Unc79	UNC79	Hyperactivity	Mus musculus
@@ -10141,6 +10446,10 @@ Wars	['WARS', 'tryptophanyl-tRNA synthetase']	Bradycardia	Mus musculus
 Wars	['WARS', 'tryptophanyl-tRNA synthetase']	Elevated tissue non-specific alkaline phosphatase	Mus musculus
 Ccnk	['CCNK', 'cyclin K']	in utero embryonic development phenotype	Mus musculus
 Ccnk	['CCNK', 'cyclin K']	embryonic lethality before implantation, complete penetrance	Mus musculus
+CDC42BPB	['CDC42BPB', 'CDC42 binding protein kinase beta (DMPK-like)']	Stillbirth	Bos taurus
+CDC42BPB	['CDC42BPB', 'CDC42 binding protein kinase beta (DMPK-like)']	Inseminations per conception	Bos taurus
+CDC42BPB	['CDC42BPB', 'CDC42 binding protein kinase beta (DMPK-like)']	Rear leg set	Bos taurus
+CDC42BPB	['CDC42BPB', 'CDC42 binding protein kinase beta (DMPK-like)']	Length of productive life	Bos taurus
 Ppp1r13b	['PPP1R13B', 'protein phosphatase 1 regulatory subunit 13B']	no abnormal phenotype detected	Mus musculus
 Ppp1r13b	['PPP1R13B', 'protein phosphatase 1 regulatory subunit 13B']	Abnormality of the lymphatic system	Mus musculus
 Ppp1r13b	['PPP1R13B', 'protein phosphatase 1 regulatory subunit 13B']	skin edema	Mus musculus
@@ -10219,6 +10528,14 @@ rtf1	['RTF1', 'RTF1 homolog, Paf1/RNA polymerase II complex component']	somitoge
 Rtf1	['RTF1', 'RTF1 homolog, Paf1/RNA polymerase II complex component']	embryonic lethality	Mus musculus
 Rtf1	['RTF1', 'RTF1 homolog, Paf1/RNA polymerase II complex component']	preweaning lethality	Mus musculus
 Rtf1	['RTF1', 'RTF1 homolog, Paf1/RNA polymerase II complex component']	Vertebral fusion	Mus musculus
+RTF1	['RTF1', 'RTF1 homolog, Paf1/RNA polymerase II complex component']	Somatic cell count	Bos taurus
+RTF1	['RTF1', 'RTF1 homolog, Paf1/RNA polymerase II complex component']	Calving ease	Bos taurus
+RTF1	['RTF1', 'RTF1 homolog, Paf1/RNA polymerase II complex component']	Milk protein percentage (daughter deviation)	Bos taurus
+RTF1	['RTF1', 'RTF1 homolog, Paf1/RNA polymerase II complex component']	Inseminations per conception	Bos taurus
+RTF1	['RTF1', 'RTF1 homolog, Paf1/RNA polymerase II complex component']	Stillbirth	Bos taurus
+RTF1	['RTF1', 'RTF1 homolog, Paf1/RNA polymerase II complex component']	Dairy form	Bos taurus
+RTF1	['RTF1', 'RTF1 homolog, Paf1/RNA polymerase II complex component']	Teat length	Bos taurus
+RTF1	['RTF1', 'RTF1 homolog, Paf1/RNA polymerase II complex component']	Length of productive life	Bos taurus
 Map1a	['MAP1A', 'microtubule associated protein 1A']	abnormal hearing physiology	Mus musculus
 Trp53bp1	['TP53BP1', 'tumor protein p53 binding protein 1']	decreased cell proliferation	Mus musculus
 Trp53bp1	['TP53BP1', 'tumor protein p53 binding protein 1']	increased mortality induced by gamma-irradiation	Mus musculus
@@ -10251,12 +10568,28 @@ Frmd5	['FRMD5', 'FERM domain containing 5']	Female infertility	Mus musculus
 Frmd5	['FRMD5', 'FERM domain containing 5']	Abnormality of the lens	Mus musculus
 Frmd5	['FRMD5', 'FERM domain containing 5']	decreased grip strength	Mus musculus
 Frmd5	['FRMD5', 'FERM domain containing 5']	decreased prepulse inhibition	Mus musculus
+FRMD5	['FRMD5', 'FERM domain containing 5']	Udder structure	Bos taurus
+FRMD5	['FRMD5', 'FERM domain containing 5']	Chest width	Bos taurus
+FRMD5	['FRMD5', 'FERM domain containing 5']	Bone quality	Bos taurus
+FRMD5	['FRMD5', 'FERM domain containing 5']	Calving ease	Bos taurus
+FRMD5	['FRMD5', 'FERM domain containing 5']	Withers height	Bos taurus
+FRMD5	['FRMD5', 'FERM domain containing 5']	Milk protein percentage (daughter deviation)	Bos taurus
+FRMD5	['FRMD5', 'FERM domain containing 5']	Inseminations per conception	Bos taurus
+FRMD5	['FRMD5', 'FERM domain containing 5']	Milk fat percentage (daughter deviation)	Bos taurus
+FRMD5	['FRMD5', 'FERM domain containing 5']	Udder depth	Bos taurus
+FRMD5	['FRMD5', 'FERM domain containing 5']	Length of productive life	Bos taurus
+FRMD5	['FRMD5', 'FERM domain containing 5']	Foot angle	Bos taurus
+FRMD5	['FRMD5', 'FERM domain containing 5']	Stillbirth	Bos taurus
+FRMD5	['FRMD5', 'FERM domain containing 5']	Rear leg set	Bos taurus
+FRMD5	['FRMD5', 'FERM domain containing 5']	Somatic cell count	Bos taurus
+FRMD5	['FRMD5', 'FERM domain containing 5']	Dairy form	Bos taurus
 Ctdspl2	CTDSPL2	increased bone mineral content	Mus musculus
 Ctdspl2	CTDSPL2	increased or absent threshold for auditory brainstem response	Mus musculus
 Ctdspl2	CTDSPL2	increased lean body mass	Mus musculus
 Ctdspl2	CTDSPL2	Abnormal bone structure	Mus musculus
 Ctdspl2	CTDSPL2	Adipose tissue loss	Mus musculus
 Ctdspl2	CTDSPL2	preweaning lethality, incomplete penetrance	Mus musculus
+CTDSPL2	CTDSPL2	Milk stearic acid percentage	Bos taurus
 leo1	['LEO1', 'LEO1 homolog, Paf1/RNA polymerase II complex component']	abnormal(ly) disrupted oligodendrocyte differentiation	Danio rerio
 leo1	['LEO1', 'LEO1 homolog, Paf1/RNA polymerase II complex component']	['abnormal(ly) decreased amount spinal cord oligodendrocyte', 'abnormal(ly) present in fewer numbers in organism spinal cord oligodendrocyte']	Danio rerio
 leo1	['LEO1', 'LEO1 homolog, Paf1/RNA polymerase II complex component']	abnormal(ly) morphology heart	Danio rerio
@@ -10594,6 +10927,7 @@ Chd9	CHD9	decreased CD4-positive, CD25-positive, alpha-beta regulatory T cell nu
 Cdh11	['CDH11', 'cadherin 11, type 2, OB-cadherin (osteoblast)']	skin lesions	Mus musculus
 Cdh11	['CDH11', 'cadherin 11, type 2, OB-cadherin (osteoblast)']	abnormal anterior corticospinal tract morphology	Mus musculus
 Cdh11	['CDH11', 'cadherin 11, type 2, OB-cadherin (osteoblast)']	incomplete somite formation	Mus musculus
+CDH11	['CDH11', 'cadherin 11, type 2, OB-cadherin (osteoblast)']	Channel fat weight	Sus scrofa
 cnot1	['CNOT1', 'CCR4-NOT transcription complex subunit 1']	abnormal(ly) decreased size head	Danio rerio
 cnot1	['CNOT1', 'CCR4-NOT transcription complex subunit 1']	abnormal(ly) decreased size eye	Danio rerio
 cnot1	['CNOT1', 'CCR4-NOT transcription complex subunit 1']	abnormal(ly) edematous pericardium	Danio rerio
@@ -10606,6 +10940,8 @@ cnot1	['CNOT1', 'CCR4-NOT transcription complex subunit 1']	abnormal(ly) increas
 cnot1	['CNOT1', 'CCR4-NOT transcription complex subunit 1']	abnormal(ly) quality heart	Danio rerio
 cnot1	['CNOT1', 'CCR4-NOT transcription complex subunit 1']	abnormal(ly) quality liver	Danio rerio
 cnot1	['CNOT1', 'CCR4-NOT transcription complex subunit 1']	abnormal(ly) quality gut	Danio rerio
+CNOT1	['CNOT1', 'CCR4-NOT transcription complex subunit 1']	Interval to first estrus after calving	Bos taurus
+CNOT1	['CNOT1', 'CCR4-NOT transcription complex subunit 1']	Milk fat percentage (daughter deviation)	Bos taurus
 Cdh8	['CDH8', 'cadherin 8, type 2']	synaptic transmission phenotype	Mus musculus
 cdh5	['CDH8', 'cadherin 8, type 2']	abnormal(ly) physical object quality basilar artery	Danio rerio
 cdh5	['CDH8', 'cadherin 8, type 2']	abnormal(ly) decreased amount central artery	Danio rerio
@@ -11006,6 +11342,7 @@ Map2k4	['MAP2K4', 'mitogen-activated protein kinase kinase 4']	Pallor	Mus muscul
 Map2k4	['MAP2K4', 'mitogen-activated protein kinase kinase 4']	embryonic lethality, complete penetrance	Mus musculus
 Map2k4	['MAP2K4', 'mitogen-activated protein kinase kinase 4']	embryonic lethality during organogenesis, complete penetrance	Mus musculus
 Map2k4	['MAP2K4', 'mitogen-activated protein kinase kinase 4']	Anemia	Mus musculus
+MAP2K4	['MAP2K4', 'mitogen-activated protein kinase kinase 4']	Marbling score	Sus scrofa
 Cops3	['COPS3', 'COP9 signalosome subunit 3']	in utero embryonic development phenotype	Mus musculus
 Cops3	['COPS3', 'COP9 signalosome subunit 3']	prenatal lethality, complete penetrance	Mus musculus
 Cops3	['COPS3', 'COP9 signalosome subunit 3']	abnormal germ layer development	Mus musculus
@@ -11551,6 +11888,16 @@ Dhx40	['DHX40', 'DEAH (Asp-Glu-Ala-His) box polypeptide 40']	Hypocholesterolemia
 Dhx40	['DHX40', 'DEAH (Asp-Glu-Ala-His) box polypeptide 40']	abnormal bone mineralization	Mus musculus
 Dhx40	['DHX40', 'DEAH (Asp-Glu-Ala-His) box polypeptide 40']	Osteopenia	Mus musculus
 Dhx40	['DHX40', 'DEAH (Asp-Glu-Ala-His) box polypeptide 40']	Abnormal bone structure	Mus musculus
+BCAS3	['BCAS3', 'breast carcinoma amplified sequence 3']	Udder structure	Bos taurus
+BCAS3	['BCAS3', 'breast carcinoma amplified sequence 3']	Thurl width	Bos taurus
+BCAS3	['BCAS3', 'breast carcinoma amplified sequence 3']	Chest depth	Bos taurus
+BCAS3	['BCAS3', 'breast carcinoma amplified sequence 3']	Bone quality	Bos taurus
+BCAS3	['BCAS3', 'breast carcinoma amplified sequence 3']	Withers height	Bos taurus
+BCAS3	['BCAS3', 'breast carcinoma amplified sequence 3']	Inseminations per conception	Bos taurus
+BCAS3	['BCAS3', 'breast carcinoma amplified sequence 3']	Rear leg set	Bos taurus
+BCAS3	['BCAS3', 'breast carcinoma amplified sequence 3']	Dairy form	Bos taurus
+BCAS3	['BCAS3', 'breast carcinoma amplified sequence 3']	Udder cleft	Bos taurus
+BCAS3	['BCAS3', 'breast carcinoma amplified sequence 3']	PTA type	Bos taurus
 Med13	['MED13', 'mediator complex subunit 13']	increased brown adipose tissue amount	Mus musculus
 Med13	['MED13', 'mediator complex subunit 13']	increased white adipose tissue amount	Mus musculus
 Med13	['MED13', 'mediator complex subunit 13']	increased total body fat amount	Mus musculus
@@ -11723,6 +12070,7 @@ Zfp521	['ZNF521', 'zinc finger protein 521']	abnormal clavicle morphology	Mus mu
 Zfp521	['ZNF521', 'zinc finger protein 521']	increased hyoid bone size	Mus musculus
 Zfp521	['ZNF521', 'zinc finger protein 521']	decreased hyoid bone size	Mus musculus
 Zfp521	['ZNF521', 'zinc finger protein 521']	Short clavicles	Mus musculus
+LOC100518847	NOL4	Backfat at last lumbar	Sus scrofa
 B4galt6	['B4GALT6', 'UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 6']	no abnormal phenotype detected	Mus musculus
 B4galt6	['B4GALT6', 'UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 6']	no abnormal phenotype detected	Mus musculus
 Zfp24	ZNF24	decreased myelin sheath thickness	Mus musculus
@@ -11824,6 +12172,21 @@ Onecut2	['ONECUT2', 'one cut homeobox 2']	abnormal hepatoblast differentiation	M
 Onecut2	['ONECUT2', 'one cut homeobox 2']	abnormal pancreas development	Mus musculus
 Onecut2	['ONECUT2', 'one cut homeobox 2']	abnormal bile duct development	Mus musculus
 Onecut2	['ONECUT2', 'one cut homeobox 2']	Abnormality of the liver	Mus musculus
+KIAA1468	KIAA1468	Average daily gain	Sus scrofa
+KIAA1468	KIAA1468	Channel fat weight	Sus scrofa
+CDH20	CDH20	Average daily gain	Sus scrofa
+CDH20	CDH20	Channel fat weight	Sus scrofa
+ZNF407	['ZNF407', 'zinc finger protein 407']	Somatic cell count	Bos taurus
+ZNF407	['ZNF407', 'zinc finger protein 407']	Calving ease	Bos taurus
+ZNF407	['ZNF407', 'zinc finger protein 407']	Milk protein percentage (daughter deviation)	Bos taurus
+ZNF407	['ZNF407', 'zinc finger protein 407']	Inseminations per conception	Bos taurus
+ZNF407	['ZNF407', 'zinc finger protein 407']	Milk fat percentage (daughter deviation)	Bos taurus
+ZNF407	['ZNF407', 'zinc finger protein 407']	Rear leg set	Bos taurus
+ZNF407	['ZNF407', 'zinc finger protein 407']	Dairy form	Bos taurus
+ZNF407	['ZNF407', 'zinc finger protein 407']	Stillbirth	Bos taurus
+ZNF407	['ZNF407', 'zinc finger protein 407']	Foot angle	Bos taurus
+ZNF407	['ZNF407', 'zinc finger protein 407']	Length of productive life	Bos taurus
+ZNF407	['ZNF407', 'zinc finger protein 407']	Milk linoleic acid percentage	Bos taurus
 Neto1	['NETO1', 'neuropilin (NRP) and tolloid (TLL)-like 1']	abnormal excitatory postsynaptic currents	Mus musculus
 Neto1	['NETO1', 'neuropilin (NRP) and tolloid (TLL)-like 1']	abnormal acid-activated cation-mediated receptor currents	Mus musculus
 Neto1	['NETO1', 'neuropilin (NRP) and tolloid (TLL)-like 1']	Abnormal synaptic transmission	Mus musculus
@@ -11965,6 +12328,19 @@ Dot1l	['DOT1L', 'DOT1-like histone H3K79 methyltransferase']	Lymphopenia	Mus mus
 Dot1l	['DOT1L', 'DOT1-like histone H3K79 methyltransferase']	abnormal bone marrow cell physiology	Mus musculus
 Dot1l	['DOT1L', 'DOT1-like histone H3K79 methyltransferase']	abnormal bone marrow cell morphology/development	Mus musculus
 Dot1l	['DOT1L', 'DOT1-like histone H3K79 methyltransferase']	decreased tumor growth/size	Mus musculus
+DOT1L	['DOT1L', 'DOT1-like histone H3K79 methyltransferase']	Stillbirth	Bos taurus
+DOT1L	['DOT1L', 'DOT1-like histone H3K79 methyltransferase']	Somatic cell count	Bos taurus
+DOT1L	['DOT1L', 'DOT1-like histone H3K79 methyltransferase']	Udder structure	Bos taurus
+DOT1L	['DOT1L', 'DOT1-like histone H3K79 methyltransferase']	Chest width	Bos taurus
+DOT1L	['DOT1L', 'DOT1-like histone H3K79 methyltransferase']	Bone quality	Bos taurus
+DOT1L	['DOT1L', 'DOT1-like histone H3K79 methyltransferase']	Inseminations per conception	Bos taurus
+DOT1L	['DOT1L', 'DOT1-like histone H3K79 methyltransferase']	Calving ease	Bos taurus
+DOT1L	['DOT1L', 'DOT1-like histone H3K79 methyltransferase']	Udder depth	Bos taurus
+DOT1L	['DOT1L', 'DOT1-like histone H3K79 methyltransferase']	PTA type	Bos taurus
+DOT1L	['DOT1L', 'DOT1-like histone H3K79 methyltransferase']	Length of productive life	Bos taurus
+DOT1L	['DOT1L', 'DOT1-like histone H3K79 methyltransferase']	Foot angle	Bos taurus
+DOT1L	['DOT1L', 'DOT1-like histone H3K79 methyltransferase']	Rear leg set	Bos taurus
+DOT1L	['DOT1L', 'DOT1-like histone H3K79 methyltransferase']	Dairy form	Bos taurus
 Pias4	['PIAS4', 'protein inhibitor of activated STAT 4']	postnatal lethality	Mus musculus
 Pias4	['PIAS4', 'protein inhibitor of activated STAT 4']	no abnormal phenotype detected	Mus musculus
 Pias4	['PIAS4', 'protein inhibitor of activated STAT 4']	abnormal myelopoiesis	Mus musculus
@@ -12088,6 +12464,7 @@ Syde1	SYDE1	abnormal synaptic vesicle number	Mus musculus
 Syde1	SYDE1	abnormal miniature excitatory postsynaptic currents	Mus musculus
 Wiz	WIZ	embryonic lethality during organogenesis, complete penetrance	Mus musculus
 Wiz	WIZ	abnormal epigenetic regulation of gene expression	Mus musculus
+WIZ	WIZ	Scrotal circumference	Bos taurus
 Akap8	AKAP8	neonatal lethality, incomplete penetrance	Mus musculus
 Akap8	AKAP8	postnatal lethality, complete penetrance	Mus musculus
 Akap8	AKAP8	Cyanosis	Mus musculus
@@ -12109,6 +12486,13 @@ Sin3b	['SIN3B', 'SIN3 transcription regulator family member B']	Abnormality of e
 Sin3b	['SIN3B', 'SIN3 transcription regulator family member B']	Granulocytopenia	Mus musculus
 Sin3b	['SIN3B', 'SIN3 transcription regulator family member B']	Erythroid hyperplasia	Mus musculus
 Sin3b	['SIN3B', 'SIN3 transcription regulator family member B']	no abnormal phenotype detected	Mus musculus
+FCHO1	['FCHO1', 'FCH domain only 1']	Stillbirth	Bos taurus
+FCHO1	['FCHO1', 'FCH domain only 1']	Somatic cell count	Bos taurus
+FCHO1	['FCHO1', 'FCH domain only 1']	Udder structure	Bos taurus
+FCHO1	['FCHO1', 'FCH domain only 1']	Calving ease	Bos taurus
+FCHO1	['FCHO1', 'FCH domain only 1']	Inseminations per conception	Bos taurus
+FCHO1	['FCHO1', 'FCH domain only 1']	Udder depth	Bos taurus
+FCHO1	['FCHO1', 'FCH domain only 1']	Length of productive life	Bos taurus
 Ell	['ELL', 'elongation factor RNA polymerase II']	in utero embryonic development phenotype	Mus musculus
 Ell	['ELL', 'elongation factor RNA polymerase II']	embryonic lethality between implantation and somite formation, complete penetrance	Mus musculus
 Fkbp8	['FKBP8', 'FK506 binding protein 8']	dorsal/ventral neural tube patterning phenotype	Mus musculus
@@ -12245,6 +12629,7 @@ Cadm4	['CADM4', 'cell adhesion molecule 4']	limb grasping	Mus musculus
 Cadm4	['CADM4', 'cell adhesion molecule 4']	abnormal limb posture	Mus musculus
 Cadm4	['CADM4', 'cell adhesion molecule 4']	Abnormal myelination	Mus musculus
 Cadm4	['CADM4', 'cell adhesion molecule 4']	Decreased nerve conduction velocity	Mus musculus
+CADM4	['CADM4', 'cell adhesion molecule 4']	Platelet distribution width	Sus scrofa
 Relb	['RELB', 'v-rel avian reticuloendotheliosis viral oncogene homolog B']	T-helper 1 cell differentiation phenotype	Mus musculus
 Relb	['RELB', 'v-rel avian reticuloendotheliosis viral oncogene homolog B']	positive regulation of gene expression phenotype	Mus musculus
 Relb	['RELB', 'v-rel avian reticuloendotheliosis viral oncogene homolog B']	T-helper 1 type immune response phenotype	Mus musculus
@@ -12438,6 +12823,7 @@ Npas1	NPAS1	abnormal cued conditioning behavior	Mus musculus
 Npas1	NPAS1	short stride length	Mus musculus
 Npas1	NPAS1	abnormal prepulse inhibition	Mus musculus
 Npas1	NPAS1	Hyperactivity	Mus musculus
+NPAS3	NPAS1	Feather pecking	Gallus gallus
 sae1	['SAE1', 'SUMO1 activating enzyme subunit 1']	abnormal(ly) increased occurrence programmed cell death	Danio rerio
 sae1	['SAE1', 'SUMO1 activating enzyme subunit 1']	abnormal(ly) decreased occurrence cell proliferation	Danio rerio
 sae1	['SAE1', 'SUMO1 activating enzyme subunit 1']	abnormal(ly) disrupted definitive hemopoiesis	Danio rerio
@@ -12822,6 +13208,8 @@ Atrn	['ATRN', 'attractin']	Abnormality of muscle physiology	Mus musculus
 Atrn	['ATRN', 'attractin']	Seizures	Mus musculus
 Atrn	['ATRN', 'attractin']	Astrocytosis	Mus musculus
 Atrn	['ATRN', 'attractin']	abnormal testis morphology	Mus musculus
+ATRN	['ATRN', 'attractin']	Platelet count	Sus scrofa
+ATRN	['ATRN', 'attractin']	Teat pigmentation	Bos taurus
 Cenpb	CENPB	no abnormal phenotype detected	Mus musculus
 Cenpb	CENPB	Decreased body weight	Mus musculus
 Cenpb	CENPB	abnormal uterus morphology	Mus musculus
@@ -12866,6 +13254,17 @@ Tasp1	['TASP1', 'taspase 1']	Azoospermia	Mus musculus
 Tasp1	['TASP1', 'taspase 1']	decreased thymocyte number	Mus musculus
 Tasp1	['TASP1', 'taspase 1']	decreased thymus weight	Mus musculus
 Tasp1	['TASP1', 'taspase 1']	decreased double-positive T cell number	Mus musculus
+TASP1	['TASP1', 'taspase 1']	Stillbirth	Bos taurus
+TASP1	['TASP1', 'taspase 1']	Udder structure	Bos taurus
+TASP1	['TASP1', 'taspase 1']	Thurl width	Bos taurus
+TASP1	['TASP1', 'taspase 1']	Bone quality	Bos taurus
+TASP1	['TASP1', 'taspase 1']	Calving ease	Bos taurus
+TASP1	['TASP1', 'taspase 1']	Rear leg set	Bos taurus
+TASP1	['TASP1', 'taspase 1']	Udder cleft	Bos taurus
+TASP1	['TASP1', 'taspase 1']	Foot angle	Bos taurus
+TASP1	['TASP1', 'taspase 1']	Udder depth	Bos taurus
+TASP1	['TASP1', 'taspase 1']	Length of productive life	Bos taurus
+TASP1	['TASP1', 'taspase 1']	PTA type	Bos taurus
 Pak7	['PAK7', 'p21 protein (Cdc42/Rac)-activated kinase 7']	decreased grip strength	Mus musculus
 Pak7	['PAK7', 'p21 protein (Cdc42/Rac)-activated kinase 7']	decreased exploration in new environment	Mus musculus
 Pak7	['PAK7', 'p21 protein (Cdc42/Rac)-activated kinase 7']	hypoactivity	Mus musculus
@@ -12874,6 +13273,22 @@ Pak7	['PAK7', 'p21 protein (Cdc42/Rac)-activated kinase 7']	decreased aggression
 Pak7	['PAK7', 'p21 protein (Cdc42/Rac)-activated kinase 7']	impaired passive avoidance behavior	Mus musculus
 Pak7	['PAK7', 'p21 protein (Cdc42/Rac)-activated kinase 7']	abnormal neurite morphology	Mus musculus
 Pak7	['PAK7', 'p21 protein (Cdc42/Rac)-activated kinase 7']	Abnormal neuron morphology	Mus musculus
+PAK7	['PAK7', 'p21 protein (Cdc42/Rac)-activated kinase 7']	Udder structure	Bos taurus
+PAK7	['PAK7', 'p21 protein (Cdc42/Rac)-activated kinase 7']	Thurl width	Bos taurus
+PAK7	['PAK7', 'p21 protein (Cdc42/Rac)-activated kinase 7']	Chest depth	Bos taurus
+PAK7	['PAK7', 'p21 protein (Cdc42/Rac)-activated kinase 7']	Chest width	Bos taurus
+PAK7	['PAK7', 'p21 protein (Cdc42/Rac)-activated kinase 7']	Bone quality	Bos taurus
+PAK7	['PAK7', 'p21 protein (Cdc42/Rac)-activated kinase 7']	Withers height	Bos taurus
+PAK7	['PAK7', 'p21 protein (Cdc42/Rac)-activated kinase 7']	Milk protein percentage (daughter deviation)	Bos taurus
+PAK7	['PAK7', 'p21 protein (Cdc42/Rac)-activated kinase 7']	Inseminations per conception	Bos taurus
+PAK7	['PAK7', 'p21 protein (Cdc42/Rac)-activated kinase 7']	Milk fat percentage (daughter deviation)	Bos taurus
+PAK7	['PAK7', 'p21 protein (Cdc42/Rac)-activated kinase 7']	Teat length	Bos taurus
+PAK7	['PAK7', 'p21 protein (Cdc42/Rac)-activated kinase 7']	Milk yield	Bos taurus
+PAK7	['PAK7', 'p21 protein (Cdc42/Rac)-activated kinase 7']	PTA type	Bos taurus
+PAK7	['PAK7', 'p21 protein (Cdc42/Rac)-activated kinase 7']	Foot angle	Bos taurus
+PAK7	['PAK7', 'p21 protein (Cdc42/Rac)-activated kinase 7']	Rear leg set	Bos taurus
+PAK7	['PAK7', 'p21 protein (Cdc42/Rac)-activated kinase 7']	Udder cleft	Bos taurus
+PAK7	['PAK7', 'p21 protein (Cdc42/Rac)-activated kinase 7']	Dairy form	Bos taurus
 zgc:158643	['NAPB', 'N-ethylmaleimide-sensitive factor attachment protein, beta']	abnormal(ly) absent retinal outer nuclear layer	Danio rerio
 zgc:158643	['NAPB', 'N-ethylmaleimide-sensitive factor attachment protein, beta']	['abnormal(ly) decreased amount blue sensitive photoreceptor cell', 'abnormal(ly) present in fewer numbers in organism blue sensitive photoreceptor cell']	Danio rerio
 zgc:158643	['NAPB', 'N-ethylmaleimide-sensitive factor attachment protein, beta']	['abnormal(ly) present in fewer numbers in organism green sensitive photoreceptor cell', 'abnormal(ly) decreased amount green sensitive photoreceptor cell']	Danio rerio
@@ -12945,6 +13360,14 @@ Phf20	['PHF20', 'PHD finger protein 20']	Abnormal auditory evoked potentials	Mus
 Phf20	['PHF20', 'PHD finger protein 20']	Abnormality of the skull	Mus musculus
 Phf20	['PHF20', 'PHD finger protein 20']	Low tissue non-specific alkaline phosphatase	Mus musculus
 Phf20	['PHF20', 'PHD finger protein 20']	Vertebral fusion	Mus musculus
+PHF20	['PHF20', 'PHD finger protein 20']	Chest depth	Bos taurus
+PHF20	['PHF20', 'PHD finger protein 20']	Chest width	Bos taurus
+PHF20	['PHF20', 'PHD finger protein 20']	Withers height	Bos taurus
+PHF20	['PHF20', 'PHD finger protein 20']	Milk protein percentage (daughter deviation)	Bos taurus
+PHF20	['PHF20', 'PHD finger protein 20']	Milk fat percentage (daughter deviation)	Bos taurus
+PHF20	['PHF20', 'PHD finger protein 20']	Foot angle	Bos taurus
+PHF20	['PHF20', 'PHD finger protein 20']	Calving ease	Bos taurus
+PHF20	['PHF20', 'PHD finger protein 20']	Milk yield	Bos taurus
 Ppp1r16b	['PPP1R16B', 'protein phosphatase 1 regulatory subunit 16B']	no abnormal phenotype detected	Mus musculus
 Ralgapb	RALGAPB	embryonic lethality	Mus musculus
 Ralgapb	RALGAPB	preweaning lethality, complete penetrance	Mus musculus
@@ -13005,6 +13428,7 @@ Mybl2	['MYBL2', 'v-myb avian myeloblastosis viral oncogene homolog-like 2']	Poik
 Mybl2	['MYBL2', 'v-myb avian myeloblastosis viral oncogene homolog-like 2']	Thrombocytosis	Mus musculus
 Mybl2	['MYBL2', 'v-myb avian myeloblastosis viral oncogene homolog-like 2']	Increased megakaryocyte count	Mus musculus
 Mybl2	['MYBL2', 'v-myb avian myeloblastosis viral oncogene homolog-like 2']	no abnormal phenotype detected	Mus musculus
+MYBL2	['MYBL2', 'v-myb avian myeloblastosis viral oncogene homolog-like 2']	Stillbirth	Bos taurus
 Ncoa5	NCOA5	glucose homeostasis phenotype	Mus musculus
 Ncoa5	NCOA5	increased fasted circulating glucose level	Mus musculus
 Ncoa5	NCOA5	Glucose intolerance	Mus musculus
@@ -13023,6 +13447,16 @@ Ncoa5	NCOA5	Abnormality of circulating protein level	Mus musculus
 Ncoa5	NCOA5	Abnormality of the liver	Mus musculus
 Ncoa5	NCOA5	Hepatic fibrosis	Mus musculus
 Ncoa5	NCOA5	Hepatic steatosis	Mus musculus
+PCIF1	PCIF1	Chest depth	Bos taurus
+PCIF1	PCIF1	Chest width	Bos taurus
+PCIF1	PCIF1	Calving ease	Bos taurus
+PCIF1	PCIF1	Withers height	Bos taurus
+PCIF1	PCIF1	Milk protein percentage (daughter deviation)	Bos taurus
+PCIF1	PCIF1	Milk fat percentage (daughter deviation)	Bos taurus
+PCIF1	PCIF1	Stillbirth	Bos taurus
+PCIF1	PCIF1	Foot angle	Bos taurus
+PCIF1	PCIF1	Length of productive life	Bos taurus
+PCIF1	PCIF1	Milk yield	Bos taurus
 cse1l	['CSE1L', 'CSE1 chromosome segregation 1-like (yeast)']	abnormal(ly) process quality digestive tract development	Danio rerio
 cse1l	['CSE1L', 'CSE1 chromosome segregation 1-like (yeast)']	abnormal(ly) swollen gut	Danio rerio
 cse1l	['CSE1L', 'CSE1 chromosome segregation 1-like (yeast)']	abnormal(ly) decreased size liver	Danio rerio
@@ -13472,8 +13906,12 @@ Mtmr3	['MTMR3', 'myotubularin related protein 3']	Glucose intolerance	Mus muscul
 Mtmr3	['MTMR3', 'myotubularin related protein 3']	Elevated tissue non-specific alkaline phosphatase	Mus musculus
 Mtmr3	['MTMR3', 'myotubularin related protein 3']	Glucose intolerance	Mus musculus
 Mtmr3	['MTMR3', 'myotubularin related protein 3']	Elevated tissue non-specific alkaline phosphatase	Mus musculus
+MTMR3	['MTMR3', 'myotubularin related protein 3']	Milk yield	Bos taurus
+MTMR3	['MTMR3', 'myotubularin related protein 3']	Milk protein percentage (daughter deviation)	Bos taurus
+MTMR3	['MTMR3', 'myotubularin related protein 3']	Milk fat percentage (daughter deviation)	Bos taurus
 Sf3a1	['SF3A1', 'splicing factor 3a, subunit 1, 120kDa']	embryonic lethality before implantation	Mus musculus
 Sf3a1	['SF3A1', 'splicing factor 3a, subunit 1, 120kDa']	embryonic lethality before implantation	Mus musculus
+DRG1	['DRG1', 'developmentally regulated GTP binding protein 1']	Udder structure	Bos taurus
 eif3d	['EIF3D', 'eukaryotic translation initiation factor 3, subunit D']	abnormal(ly) quality heart	Danio rerio
 eif3d	['EIF3D', 'eukaryotic translation initiation factor 3, subunit D']	abnormal(ly) decreased size eye	Danio rerio
 eif3d	['EIF3D', 'eukaryotic translation initiation factor 3, subunit D']	abnormal(ly) quality gut	Danio rerio
@@ -13568,6 +14006,15 @@ Xrcc6	['XRCC6', 'X-ray repair complementing defective repair in Chinese hamster 
 Xrcc6	['XRCC6', 'X-ray repair complementing defective repair in Chinese hamster cells 6']	Hypoplastic spleen	Mus musculus
 Xrcc6	['XRCC6', 'X-ray repair complementing defective repair in Chinese hamster cells 6']	B lymphocytopenia	Mus musculus
 Xrcc6	['XRCC6', 'X-ray repair complementing defective repair in Chinese hamster cells 6']	T lymphocytopenia	Mus musculus
+TCF20	['TCF20', 'transcription factor 20 (AR1)']	Somatic cell count	Bos taurus
+TCF20	['TCF20', 'transcription factor 20 (AR1)']	Calving ease	Bos taurus
+TCF20	['TCF20', 'transcription factor 20 (AR1)']	Milk protein percentage (daughter deviation)	Bos taurus
+TCF20	['TCF20', 'transcription factor 20 (AR1)']	Inseminations per conception	Bos taurus
+TCF20	['TCF20', 'transcription factor 20 (AR1)']	Stillbirth	Bos taurus
+TCF20	['TCF20', 'transcription factor 20 (AR1)']	Rear leg set	Bos taurus
+TCF20	['TCF20', 'transcription factor 20 (AR1)']	Interval to first estrus after calving	Bos taurus
+TCF20	['TCF20', 'transcription factor 20 (AR1)']	Foot angle	Bos taurus
+TCF20	['TCF20', 'transcription factor 20 (AR1)']	Length of productive life	Bos taurus
 Scube1	['SCUBE1', 'signal peptide, CUB domain, EGF-like 1']	abnormal vestibular ganglion morphology	Mus musculus
 Scube1	['SCUBE1', 'signal peptide, CUB domain, EGF-like 1']	everted embryonic neuroepithelium	Mus musculus
 Scube1	['SCUBE1', 'signal peptide, CUB domain, EGF-like 1']	increased embryonic neuroepithelial cell proliferation	Mus musculus
@@ -13589,6 +14036,7 @@ Scube1	['SCUBE1', 'signal peptide, CUB domain, EGF-like 1']	Abnormality of foreb
 Scube1	['SCUBE1', 'signal peptide, CUB domain, EGF-like 1']	Spina bifida	Mus musculus
 Scube1	['SCUBE1', 'signal peptide, CUB domain, EGF-like 1']	Abnormality of brain morphology	Mus musculus
 Scube1	['SCUBE1', 'signal peptide, CUB domain, EGF-like 1']	Abnormality of the medulla oblongata	Mus musculus
+SCUBE1	['SCUBE1', 'signal peptide, CUB domain, EGF-like 1']	Average daily gain	Sus scrofa
 Celsr1	['CELSR1', 'cadherin, EGF LAG seven-pass G-type receptor 1']	establishment of planar polarity of embryonic epithelium phenotype	Mus musculus
 Celsr1	['CELSR1', 'cadherin, EGF LAG seven-pass G-type receptor 1']	inner ear morphogenesis phenotype	Mus musculus
 Celsr1	['CELSR1', 'cadherin, EGF LAG seven-pass G-type receptor 1']	locomotory behavior phenotype	Mus musculus
@@ -13747,6 +14195,19 @@ Mapk8ip2	['MAPK8IP2', 'mitogen-activated protein kinase 8 interacting protein 2'
 Mapk8ip2	['MAPK8IP2', 'mitogen-activated protein kinase 8 interacting protein 2']	Ataxia	Mus musculus
 Mapk8ip2	['MAPK8IP2', 'mitogen-activated protein kinase 8 interacting protein 2']	Cerebellar dysplasia	Mus musculus
 Mapk8ip2	['MAPK8IP2', 'mitogen-activated protein kinase 8 interacting protein 2']	Male infertility	Mus musculus
+WWC3	WWC3	Udder structure	Bos taurus
+WWC3	WWC3	Chest depth	Bos taurus
+WWC3	WWC3	Chest width	Bos taurus
+WWC3	WWC3	Bone quality	Bos taurus
+WWC3	WWC3	Withers height	Bos taurus
+WWC3	WWC3	Milk protein percentage (daughter deviation)	Bos taurus
+WWC3	WWC3	Milk fat percentage (daughter deviation)	Bos taurus
+WWC3	WWC3	PTA type	Bos taurus
+WWC3	WWC3	Length of productive life	Bos taurus
+WWC3	WWC3	Calving ease	Bos taurus
+WWC3	WWC3	Udder depth	Bos taurus
+WWC3	WWC3	Rear leg set	Bos taurus
+WWC3	WWC3	Foot angle	Bos taurus
 Prps2	PRPS2	Abnormality of B cells	Mus musculus
 Prps2	PRPS2	increased B cell apoptosis	Mus musculus
 Prps2	PRPS2	increased tumor latency	Mus musculus
@@ -13760,6 +14221,21 @@ Arhgap6	['ARHGAP6', 'Rho GTPase activating protein 6']	abnormal gastrulation	Mus
 Arhgap6	['ARHGAP6', 'Rho GTPase activating protein 6']	abnormal embryo development	Mus musculus
 Arhgap6	['ARHGAP6', 'Rho GTPase activating protein 6']	prenatal lethality, complete penetrance	Mus musculus
 Arhgap6	['ARHGAP6', 'Rho GTPase activating protein 6']	embryonic growth retardation	Mus musculus
+ARHGAP6	['ARHGAP6', 'Rho GTPase activating protein 6']	Udder structure	Bos taurus
+ARHGAP6	['ARHGAP6', 'Rho GTPase activating protein 6']	Thurl width	Bos taurus
+ARHGAP6	['ARHGAP6', 'Rho GTPase activating protein 6']	Chest depth	Bos taurus
+ARHGAP6	['ARHGAP6', 'Rho GTPase activating protein 6']	Chest width	Bos taurus
+ARHGAP6	['ARHGAP6', 'Rho GTPase activating protein 6']	Bone quality	Bos taurus
+ARHGAP6	['ARHGAP6', 'Rho GTPase activating protein 6']	Calving ease	Bos taurus
+ARHGAP6	['ARHGAP6', 'Rho GTPase activating protein 6']	Withers height	Bos taurus
+ARHGAP6	['ARHGAP6', 'Rho GTPase activating protein 6']	Milk protein percentage (daughter deviation)	Bos taurus
+ARHGAP6	['ARHGAP6', 'Rho GTPase activating protein 6']	Milk fat percentage (daughter deviation)	Bos taurus
+ARHGAP6	['ARHGAP6', 'Rho GTPase activating protein 6']	Rear leg set	Bos taurus
+ARHGAP6	['ARHGAP6', 'Rho GTPase activating protein 6']	Foot angle	Bos taurus
+ARHGAP6	['ARHGAP6', 'Rho GTPase activating protein 6']	Length of productive life	Bos taurus
+ARHGAP6	['ARHGAP6', 'Rho GTPase activating protein 6']	PTA type	Bos taurus
+ARHGAP6	['ARHGAP6', 'Rho GTPase activating protein 6']	Udder depth	Bos taurus
+ARHGAP6	['ARHGAP6', 'Rho GTPase activating protein 6']	Milk yield	Bos taurus
 Rbbp7	RBBP7	abnormal embryo turning	Mus musculus
 Rbbp7	RBBP7	abnormal developmental patterning	Mus musculus
 Rbbp7	RBBP7	decreased CD4-positive, alpha-beta memory T cell number	Mus musculus
@@ -13768,6 +14244,22 @@ Rbbp7	RBBP7	abnormal maxilla morphology	Mus musculus
 Rbbp7	RBBP7	Abnormality of the teeth	Mus musculus
 Txlng	['TXLNG', 'taxilin gamma']	Abnormal cortical bone morphology	Mus musculus
 Txlng	['TXLNG', 'taxilin gamma']	no abnormal phenotype detected	Mus musculus
+MOSPD2	MOSPD2	Udder structure	Bos taurus
+MOSPD2	MOSPD2	Thurl width	Bos taurus
+MOSPD2	MOSPD2	Chest depth	Bos taurus
+MOSPD2	MOSPD2	Chest width	Bos taurus
+MOSPD2	MOSPD2	Bone quality	Bos taurus
+MOSPD2	MOSPD2	Calving ease	Bos taurus
+MOSPD2	MOSPD2	Withers height	Bos taurus
+MOSPD2	MOSPD2	Milk protein percentage (daughter deviation)	Bos taurus
+MOSPD2	MOSPD2	Milk fat percentage (daughter deviation)	Bos taurus
+MOSPD2	MOSPD2	Rear leg set	Bos taurus
+MOSPD2	MOSPD2	Rump angle	Bos taurus
+MOSPD2	MOSPD2	Foot angle	Bos taurus
+MOSPD2	MOSPD2	Udder depth	Bos taurus
+MOSPD2	MOSPD2	PTA type	Bos taurus
+MOSPD2	MOSPD2	Length of productive life	Bos taurus
+MOSPD2	MOSPD2	Milk yield	Bos taurus
 Ppef1	['PPEF1', 'protein phosphatase, EF-hand calcium binding domain 1']	no abnormal phenotype detected	Mus musculus
 eif2s3	['EIF2S3', 'eukaryotic translation initiation factor 2 subunit gamma']	abnormal(ly) necrotic brain	Danio rerio
 eif2s3	['EIF2S3', 'eukaryotic translation initiation factor 2 subunit gamma']	abnormal(ly) necrotic trunk	Danio rerio
@@ -13909,6 +14401,7 @@ Ogt	['OGT', 'O-linked N-acetylglucosamine (GlcNAc) transferase']	decreased fetal
 Ogt	['OGT', 'O-linked N-acetylglucosamine (GlcNAc) transferase']	Poor suck	Mus musculus
 Ogt	['OGT', 'O-linked N-acetylglucosamine (GlcNAc) transferase']	prenatal lethality, incomplete penetrance	Mus musculus
 Ogt	['OGT', 'O-linked N-acetylglucosamine (GlcNAc) transferase']	no abnormal phenotype detected	Mus musculus
+CENPI	['CENPI', 'centromere protein I']	Scrotal circumference	Bos taurus
 Amot	['AMOT', 'angiomotin']	gastrulation with mouth forming second phenotype	Mus musculus
 Amot	['AMOT', 'angiomotin']	cell migration involved in gastrulation phenotype	Mus musculus
 Amot	['AMOT', 'angiomotin']	actin cytoskeleton organization phenotype	Mus musculus
@@ -13930,6 +14423,19 @@ Amot	['AMOT', 'angiomotin']	abnormal capillary morphology	Mus musculus
 Amot	['AMOT', 'angiomotin']	dilated vasculature	Mus musculus
 Amot	['AMOT', 'angiomotin']	abnormal brain vasculature morphology	Mus musculus
 Amot	['AMOT', 'angiomotin']	Small placenta	Mus musculus
+AMOT	['AMOT', 'angiomotin']	Udder structure	Bos taurus
+AMOT	['AMOT', 'angiomotin']	Thurl width	Bos taurus
+AMOT	['AMOT', 'angiomotin']	Chest depth	Bos taurus
+AMOT	['AMOT', 'angiomotin']	Chest width	Bos taurus
+AMOT	['AMOT', 'angiomotin']	Bone quality	Bos taurus
+AMOT	['AMOT', 'angiomotin']	Calving ease	Bos taurus
+AMOT	['AMOT', 'angiomotin']	Withers height	Bos taurus
+AMOT	['AMOT', 'angiomotin']	Rear leg set	Bos taurus
+AMOT	['AMOT', 'angiomotin']	Udder cleft	Bos taurus
+AMOT	['AMOT', 'angiomotin']	Udder depth	Bos taurus
+AMOT	['AMOT', 'angiomotin']	Length of productive life	Bos taurus
+AMOT	['AMOT', 'angiomotin']	PTA type	Bos taurus
+AMOT	['AMOT', 'angiomotin']	Foot angle	Bos taurus
 Lrch2	LRCH2	no abnormal phenotype detected	Mus musculus
 Capn6	CAPN6	abnormal skeletal muscle regeneration	Mus musculus
 Capn6	CAPN6	abnormal tongue muscle morphology	Mus musculus
@@ -13972,6 +14478,13 @@ Utp14b	UTP14A	Decreased testicular size	Mus musculus
 Utp14b	UTP14A	Elevated follicle stimulating hormone	Mus musculus
 Utp14b	UTP14A	Male infertility	Mus musculus
 Utp14b	UTP14A	Azoospermia	Mus musculus
+ZNF280C	ZNF280C	Somatic cell count	Bos taurus
+ZNF280C	ZNF280C	Udder structure	Bos taurus
+ZNF280C	ZNF280C	Calving ease	Bos taurus
+ZNF280C	ZNF280C	Inseminations per conception	Bos taurus
+ZNF280C	ZNF280C	Stillbirth	Bos taurus
+ZNF280C	ZNF280C	Length of productive life	Bos taurus
+ZNF280C	ZNF280C	Udder depth	Bos taurus
 Mcf2	['MCF2', 'MCF.2 cell line derived transforming sequence']	dendrite development phenotype	Mus musculus
 Mcf2	['MCF2', 'MCF.2 cell line derived transforming sequence']	abnormal dendrite morphology	Mus musculus
 Atp11c	['ATP11C', 'ATPase, class VI, type 11C']	immune system phenotype	Mus musculus
