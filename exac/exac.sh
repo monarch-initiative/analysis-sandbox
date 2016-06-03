@@ -95,7 +95,7 @@ python3 ortholog-phenotype-stats.py --input ./final_gene_list.txt --output pheno
 wc -l gene-with-disease.list
 # 934 gene-with-disease.list
 
-# So total is 3229, genes without disease is 2557 - 934, 1623/3229 = 50.26%
+# So total is 3229, genes without disease is 2557 - 934, 1623/3230 = 50.23%
 # This is consistent with the biorxip.org commenter who said 850 genes were in disgenet
 # The headline should read: 50% of loss-of-function-intolerant genes have no known associated disease
 
@@ -111,7 +111,7 @@ python3 ortholog-phenotype-stats.py --input genes-minus-monarch.txt --output phe
 #Number of genes with othorlog-phenotypes from 2 taxa: 63
 #Number of genes with othorlog-phenotypes from 3 taxa: 1
 #Number of genes with othorlog-phenotypes from 4 taxa: 0
-#1402 gene-phenotype assocs
+#14012 gene-phenotype assocs
 
 # % coverage with models = 76%
 
