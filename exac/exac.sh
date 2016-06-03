@@ -106,14 +106,15 @@ grep -Fxv -f gene-with-disease.list final_gene_list.txt > genes-minus-monarch.tx
 #Rerun script
 python3 ortholog-phenotype-stats.py --input genes-minus-monarch.txt --output phenotypes.tsv
 
-#Total orthologs with phenotypes: 836
-#Number of genes with othorlog-phenotypes from 1 taxon: 772
-#Number of genes with othorlog-phenotypes from 2 taxa: 63
-#Number of genes with othorlog-phenotypes from 3 taxa: 1
-#Number of genes with othorlog-phenotypes from 4 taxa: 0
-#14012 gene-phenotype assocs
+#14525 gene-phenotype assocs
 
-# % coverage with models = 76%
+#Total orthologs with phenotypes: 871
+#Number of genes with ortholog-phenotypes from 1 taxon: 751
+#Number of genes with ortholog-phenotypes from 2 taxa: 114
+#Number of genes with ortholog-phenotypes from 3 taxa: 6
+#Number of genes with ortholog-phenotypes from 4 taxa: 0
+
+# % coverage with humans + models = 76.7%
 
 
 
