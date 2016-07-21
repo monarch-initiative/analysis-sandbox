@@ -23,4 +23,5 @@ CLASSPATH_PREFIX=/home/kshefchek/git/SciGraph/SciGraph-core/target/* ./neo4j-she
 
 grep '|' foo.out | sed -e 's/|\s//' | sed -e 's/\s\+|\s\+/\t/g' | sed -e 's/\s\+|$//g' | sed -e 's/"//g' >results.tsv
 
-
+# Make TSV file
+python3 run-genes-owlsim.py --input cypher-results.tsv --output owlsim_results.tsv

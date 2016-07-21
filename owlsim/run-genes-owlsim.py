@@ -10,6 +10,11 @@ logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
 logging.getLogger('urllib3').setLevel(logging.ERROR)
 
+# Custom session for services that require more than 3 retries
+session = requests.Session()
+adapter = requests.adapters.HTTPAdapter(max_retries=10)
+session.mount('https://', adapter)
+
 # Globals and Constants
 SCIGRAPH_URL = 'https://scigraph-data.monarchinitiative.org/scigraph'
 OWLSIM_URL = 'https://monarchinitiative.org/simsearch/phenotype'
@@ -54,20 +59,21 @@ def main():
     logger.info("Getting owlsim score/rank")
     disease_dictionary = get_owlsim_scores(disease_dictionary)
 
-    output_file.write("{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}\t{7}\t{8}\t{9}\t{10}\n".format(
-                      "disease", "model_gene", "marker_gene", "model_gene_taxon",
+    output_file.write("{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}\t{7}\t{8}\t{9}\t{10}\t{11}\t{12}\t{13}\t{14}\n".format(
+                      "disease", "disease_label", "model_gene", "gene_label", "human_gene", "model_gene_taxon",
                       "owlsim_score", "owlsim_rank", "models", "disease_pheno_count",
-                      "disease_gene_count", "modgene_pheno_count", "isLeafNode"
-        ))
+                      "disease_gene_count", "modgene_pheno_count", "isLeafNode", "absolute_rank", "human_gene_label"
+                      ))
 
     for disease_id, disease in disease_dictionary.items():
-        output_file.write("{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}\t{7}\t{8}\t{9}\t{10}\n".format(
-                          disease["disease"], disease["model_gene"],
-                          disease["marker_gene"], TAXON_MAP[disease["model_gene_taxon"]],
+        output_file.write("{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}\t{7}\t{8}\t{9}\t{10}\t{11}\t{12}\t{13}\t{14}\n".format(
+                          disease["disease"], disease["disease_label"],
+                          disease["model_gene"], disease["model_gene_label"],
+                          disease["human_gene"], TAXON_MAP[disease["model_gene_taxon"]],
                           disease["owlsim_score"], disease["owlsim_rank"],
                           disease["models"], disease["disease_pheno_count"],
                           disease["disease_gene_count"], disease["modgene_pheno_count"],
-                          disease["isLeafNode"]
+                          disease["isLeafNode"], disease["abs_rank"], disease["human_gene_label"]
         ))
 
 
@@ -113,6 +119,7 @@ def get_owlsim_scores(disease_dictionary):
                 if result["id"] == disease["model_gene"]:
                     disease["owlsim_score"] = result["score"]["score"]
                     disease["owlsim_rank"] = rank
+                    disease["abs_rank"] = result["score"]["rank"] + 1
                     is_found = True
             if not is_found:
                 logger.warn("No owlsim results found for {0}"
@@ -120,6 +127,7 @@ def get_owlsim_scores(disease_dictionary):
                                                      disease["disease"]))
                 disease["owlsim_score"] = ""
                 disease["owlsim_rank"] = ""
+                disease["abs_rank"] = ""
         else:
             logger.warn("No owlsim results found for {0}".format(disease["disease"]))
 
@@ -134,7 +142,7 @@ def process_input_file(input_file):
         'OMIM:123-modGene:123': {
             disease:
             model_gene:
-            marker_gene:
+            human_gene:
             models: 3
 
     }
@@ -151,6 +159,11 @@ def process_input_file(input_file):
             key = "{0}-{1}".format(disease, model_gene)
             gene_taxon = get_taxon(model_gene)
 
+            # Get label, next time get this from the cypher query
+            disease_label = get_label_from_scigraph(disease)
+            human_gene_label = get_label_from_scigraph(human_gene)
+            model_gene_label = get_label_from_scigraph(model_gene)
+
             if gene_taxon == "NCBITaxon:10116" and model.startswith("MGI"):
                 # Catch and skip over rat transgenes
                 continue
@@ -158,8 +171,11 @@ def process_input_file(input_file):
             if key not in disease_dictionary:
                 disease_dictionary[key] = {
                     "disease": disease,
-                    "marker_gene": human_gene,
+                    "disease_label": disease_label,
+                    "human_gene": human_gene,
+                    "human_gene_label": human_gene_label,
                     "model_gene": model_gene,
+                    "model_gene_label": model_gene_label,
                     "models": 1,
                     "model_gene_taxon": gene_taxon
                 }
@@ -265,6 +281,15 @@ def get_zfin_ids(disease_dictionary):
     return disease_dictionary
 
 
+def get_label_from_scigraph(curie):
+    scigraph_service = SCIGRAPH_URL + "/graph/" + curie + ".json"
+    request = requests.get(scigraph_service)
+    results = request.json()
+    label = results["nodes"][0]["lbl"]
+
+    return label
+
+
 def map_iri_to_curie(iri):
     curie = iri
     for prefix in CURIE_MAP:
@@ -284,7 +309,7 @@ def get_taxon(curie):
         "relationshipType": taxon_predicate,
         "direction": "OUTGOING"
     }
-    request = requests.get(scigraph_service, params=params)
+    request = session.get(scigraph_service, params=params)
     results = request.json()
 
     if len(results["edges"]) == 1:
