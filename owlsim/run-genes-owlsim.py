@@ -18,6 +18,7 @@ session.mount('https://', adapter)
 # Globals and Constants
 SCIGRAPH_URL = 'https://scigraph-data.monarchinitiative.org/scigraph'
 OWLSIM_URL = 'https://monarchinitiative.org/simsearch/phenotype'
+OWLSIM_COMPARE = 'https://monarchinitiative.org/compare'
 SOLR_URL = 'https://solr.monarchinitiative.org/solr/golr/select'
 
 CURIE_MAP = {
@@ -110,9 +111,11 @@ def get_owlsim_scores(disease_dictionary):
             owlsim_request = session.post(OWLSIM_URL, params=params)
         except requests.exceptions.ConnectionError:
             logger.warn("Error hitting owlsim owlsim found for {0}".format(disease["disease"]))
-            disease["owlsim_score"] = ""
+            disease["owlsim_score"] = get_score_from_compare(disease["disease"],
+                                                             disease["model_gene"])
             disease["owlsim_rank"] = ""
             continue
+
         owlsim_results = owlsim_request.json()
         rank = 0
         last_score = -1
@@ -130,12 +133,36 @@ def get_owlsim_scores(disease_dictionary):
                 logger.warn("No owlsim results found for {0}"
                             " in disease {1}".format(disease["model_gene"],
                                                      disease["disease"]))
-                disease["owlsim_score"] = ""
+                disease["owlsim_score"] = get_score_from_compare(disease["disease"],
+                                                                 disease["model_gene"])
                 disease["owlsim_rank"] = ""
         else:
             logger.warn("No owlsim results found for {0}".format(disease["disease"]))
 
     return disease_dictionary
+
+
+def get_score_from_compare(disease, gene):
+    score = ""
+    compare_url = OWLSIM_COMPARE + "/{0}/{1}.json".format(disease, gene)
+
+    try:
+        owlsim_request = session.get(compare_url)
+    except requests.exceptions.ConnectionError:
+        logger.warn("Connection error fetch owlsim compare for gene {0}"
+                    " in disease {1}".format(gene, disease))
+        return score
+
+    owlsim_results = owlsim_request.json()
+    if "b" in owlsim_results and len(owlsim_results["b"]) > 0:
+        results = owlsim_results["b"][0]
+        if results["id"] == gene:
+            score = results["score"]["score"]
+    else:
+        logger.warn("No owlsim compare results found for {0}"
+                    " in disease {1}".format(gene, disease))
+
+    return score
 
 
 def process_input_file(input_file):
