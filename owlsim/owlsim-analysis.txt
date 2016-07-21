@@ -1,0 +1,26 @@
+Cypher query to get models:
+
+This takes ~30 minutes to run in the neo4j shell on tartini.  Note some models are annotated to disease groups with more than 5 subclasses (OMIM:185050) is an offender
+
+MATCH (object:disease)<-[relation:RO:0003301]-(model)
+MATCH (model)-[:RO:0001000|GENO:0000222*0..2]->(genotype:genotype)-[:BFO:0000051!*]->(variant)-[:GENO:0000418|GENO:0000639!*0..1]->(modGene:gene)
+MATCH (object)<-[:subClassOf*0..6]-(child:disease)<-[:RO:0002200|RO:0002610|RO:0002326|RO:0003302!]-(person)-[:GENO:0000222|RO:0001000*0..2]->(geno:genotype)-[:BFO:0000051!*0..]->(var)-[:GENO:0000418|GENO:0000639!]->(humanGene:gene)
+MATCH (modGene)-[:RO:HOM0000017|RO:HOM0000020]-(humanGene)
+RETURN DISTINCT object.iri, model.iri, modGene.iri, humanGene.iri
+
+Run through: https://scigraph-data-dev.monarchinitiative.org/scigraph/docs/#!/cypher/resolve
+
+# Download graph
+wget https://scigraph-data-dev.monarchinitiative.org/static_files/scigraph.tgz
+
+# Download neo4j
+wget https://neo4j.com/artifact.php?name=neo4j-community-2.2.10-unix.tar.gz
+
+# Add output to the above to file: model-query.cql
+CLASSPATH_PREFIX=/home/kshefchek/git/SciGraph/SciGraph-core/target/* ./neo4j-shell -path /home/kshefchek/graph/ -file model-query.cql >model-query.out 2>model-query.err
+
+478 rows, 132 diseases
+
+grep '|' foo.out | sed -e 's/|\s//' | sed -e 's/\s\+|\s\+/\t/g' | sed -e 's/\s\+|$//g' | sed -e 's/"//g' >results.tsv
+
+
