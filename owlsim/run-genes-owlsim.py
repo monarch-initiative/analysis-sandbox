@@ -221,11 +221,11 @@ def get_solr_counts(disease_dictionary):
         disease_pheno_filter = \
             ['subject_closure:"{0}"'.format(disease["disease"]),
              'object_category:"phenotype"']
-        disease_gene_filter = \
+        gene_pheno_filter = \
             ['subject_closure:"{0}"'.format(disease["model_gene"]),
              'object_category:"phenotype"']
 
-        gene_pheno_filter = \
+        disease_gene_filter = \
             ['object_closure:"{0}"'.format(disease["disease"]),
              'subject_category:"gene"']
         disease["disease_pheno_count"] = get_solr_result_count(disease_pheno_filter)
