@@ -37,7 +37,11 @@ def main():
     parser = argparse.ArgumentParser(description='description')
     parser.add_argument('--input', '-i', type=str, required=True,
                         help='Location of input file')
+    parser.add_argument('--output', '-o', type=str, required=True,
+                        help='Location of output file')
     args = parser.parse_args()
+
+    output_file = open(args.output, 'w')
 
     logger.info("Processing input file")
     disease_dictionary = process_input_file(args.input)
@@ -45,11 +49,81 @@ def main():
     disease_dictionary = get_zfin_ids(disease_dictionary)
     logger.info("Getting disease leaf/group info")
     disease_dictionary = get_disease_info(disease_dictionary)
-    logger.info("Getting disease-phenotype and gene-phenotype counts from solr")
+    logger.info("Getting disease-phenotype, gene-phenotype, and disease-gene counts from solr")
     disease_dictionary = get_solr_counts(disease_dictionary)
     logger.info("Getting owlsim score/rank")
+    disease_dictionary = get_owlsim_scores(disease_dictionary)
 
-    print(disease_dictionary)
+    output_file.write("{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}\t{7}\t{8}\t{9}\t{10}\n".format(
+                      "disease", "model_gene", "marker_gene", "model_gene_taxon",
+                      "owlsim_score", "owlsim_rank", "models", "disease_pheno_count",
+                      "disease_gene_count", "modgene_pheno_count", "isLeafNode"
+        ))
+
+    for disease_id, disease in disease_dictionary.items():
+        output_file.write("{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}\t{7}\t{8}\t{9}\t{10}\n".format(
+                          disease["disease"], disease["model_gene"],
+                          disease["marker_gene"], TAXON_MAP[disease["model_gene_taxon"]],
+                          disease["owlsim_score"], disease["owlsim_rank"],
+                          disease["models"], disease["disease_pheno_count"],
+                          disease["disease_gene_count"], disease["modgene_pheno_count"],
+                          disease["isLeafNode"]
+        ))
+
+
+def get_owlsim_scores(disease_dictionary):
+
+    # Get all phenotypes
+    for disease_id, disease in disease_dictionary.items():
+        params = {
+            'wt': 'json',
+            'rows': 100,
+            'start': 0,
+            'q': '*:*',
+            'fl': 'object',
+            'fq': ['subject_closure:"{0}"'.format(disease["disease"]),
+                   'object_category:"phenotype"']
+        }
+
+        resultCount = params['rows']
+        phenotype_list = []
+
+        while params['start'] < resultCount:
+            solr_request = requests.get(SOLR_URL, params=params)
+            response = solr_request.json()
+            temp_list = [doc['object'] for doc in response['response']['docs']]
+            phenotype_list = phenotype_list + temp_list
+            params['start'] += params['rows']
+
+        phenotypes = "+".join(phenotype_list)
+        taxon = re.sub(r"NCBITaxon:", "", disease["model_gene_taxon"])
+
+        url = "{0}?input_items={1}&target_species={2}".format(OWLSIM_URL, phenotypes, taxon)
+        # Run through owlsim through monarch simsearch endpoint
+        owlsim_request = requests.post(url)
+        owlsim_results = owlsim_request.json()
+        rank = 0
+        last_score = -1
+        if "b" in owlsim_results:
+            is_found = False
+            for result in owlsim_results["b"]:
+                if result["score"]["score"] != last_score:
+                    rank += 1
+                last_score = result["score"]["score"]
+                if result["id"] == disease["model_gene"]:
+                    disease["owlsim_score"] = result["score"]["score"]
+                    disease["owlsim_rank"] = rank
+                    is_found = True
+            if not is_found:
+                logger.warn("No owlsim results found for {0}"
+                            " in disease {1}".format(disease["model_gene"],
+                                                     disease["disease"]))
+                disease["owlsim_score"] = ""
+                disease["owlsim_rank"] = ""
+        else:
+            logger.warn("No owlsim results found for {0}".format(disease["disease"]))
+
+    return disease_dictionary
 
 
 def process_input_file(input_file):
@@ -100,11 +174,16 @@ def get_solr_counts(disease_dictionary):
         disease_pheno_filter = \
             ['subject_closure:"{0}"'.format(disease["disease"]),
              'object_category:"phenotype"']
-        gene_pheno_filter = \
+        disease_gene_filter = \
             ['subject_closure:"{0}"'.format(disease["model_gene"]),
              'object_category:"phenotype"']
-        disease["disease_pheno"] = get_solr_result_count(disease_pheno_filter)
-        disease["model_gene_pheno"] = get_solr_result_count(gene_pheno_filter)
+
+        gene_pheno_filter = \
+            ['object_closure:"{0}"'.format(disease["disease"]),
+             'subject_category:"gene"']
+        disease["disease_pheno_count"] = get_solr_result_count(disease_pheno_filter)
+        disease["disease_gene_count"] = get_solr_result_count(disease_gene_filter)
+        disease["modgene_pheno_count"] = get_solr_result_count(gene_pheno_filter)
 
     return disease_dictionary
 
@@ -142,9 +221,9 @@ def get_disease_info(disease_dictionary):
             results = request.json()
 
             if len(results["edges"]) == 0:
-                disease["isLeafNode"] = "false"
-            else:
                 disease["isLeafNode"] = "true"
+            else:
+                disease["isLeafNode"] = "false"
     return disease_dictionary
 
 
@@ -160,7 +239,7 @@ def get_zfin_ids(disease_dictionary):
     eq_predicate = "equivalentClass"
     scigraph_service = SCIGRAPH_URL + "/graph/neighbors"
     for disease_id, disease in disease_dictionary.items():
-        if disease["model_gene_taxon"] == "NCBIGene:7955" \
+        if disease["model_gene_taxon"] == "NCBITaxon:7955" \
                 and not disease["model_gene"].startswith("ZFIN"):
 
             gene = disease["model_gene"]
@@ -177,12 +256,11 @@ def get_zfin_ids(disease_dictionary):
             node_set = set()
             for node in results["nodes"]:
                 if node["id"].startswith("ZFIN"):
+                    disease["model_gene"] = node["id"]
                     node_set.add(node["id"])
 
             if len(node_set) > 1:
                 logger.error("More than one equivalent zfin id found for {0}".format(gene))
-            else:
-                disease["model_gene"] = node_set[0]
 
     return disease_dictionary
 
