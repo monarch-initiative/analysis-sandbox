@@ -59,21 +59,21 @@ def main():
     logger.info("Getting owlsim score/rank")
     disease_dictionary = get_owlsim_scores(disease_dictionary)
 
-    output_file.write("{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}\t{7}\t{8}\t{9}\t{10}\t{11}\t{12}\t{13}\t{14}\n".format(
+    output_file.write("{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}\t{7}\t{8}\t{9}\t{10}\t{11}\t{12}\t{13}\n".format(
                       "disease", "disease_label", "model_gene", "gene_label", "human_gene", "model_gene_taxon",
                       "owlsim_score", "owlsim_rank", "models", "disease_pheno_count",
-                      "disease_gene_count", "modgene_pheno_count", "isLeafNode", "absolute_rank", "human_gene_label"
+                      "disease_gene_count", "modgene_pheno_count", "isLeafNode", "human_gene_label"
                       ))
 
     for disease_id, disease in disease_dictionary.items():
-        output_file.write("{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}\t{7}\t{8}\t{9}\t{10}\t{11}\t{12}\t{13}\t{14}\n".format(
+        output_file.write("{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}\t{7}\t{8}\t{9}\t{10}\t{11}\t{12}\t{13}\n".format(
                           disease["disease"], disease["disease_label"],
                           disease["model_gene"], disease["model_gene_label"],
                           disease["human_gene"], TAXON_MAP[disease["model_gene_taxon"]],
                           disease["owlsim_score"], disease["owlsim_rank"],
                           disease["models"], disease["disease_pheno_count"],
                           disease["disease_gene_count"], disease["modgene_pheno_count"],
-                          disease["isLeafNode"], disease["abs_rank"], disease["human_gene_label"]
+                          disease["isLeafNode"], disease["human_gene_label"]
         ))
 
 
@@ -97,16 +97,22 @@ def get_owlsim_scores(disease_dictionary):
         while params['start'] < resultCount:
             solr_request = requests.get(SOLR_URL, params=params)
             response = solr_request.json()
+            resultCount = response['response']['numFound']
             temp_list = [doc['object'] for doc in response['response']['docs']]
-            phenotype_list = phenotype_list + temp_list
+            phenotype_list.extend(temp_list)
             params['start'] += params['rows']
 
         phenotypes = "+".join(phenotype_list)
         taxon = re.sub(r"NCBITaxon:", "", disease["model_gene_taxon"])
-
-        url = "{0}?input_items={1}&target_species={2}".format(OWLSIM_URL, phenotypes, taxon)
+        params = "input_items={0}&target_species={1}".format(phenotypes, taxon)
         # Run through owlsim through monarch simsearch endpoint
-        owlsim_request = requests.post(url)
+        try:
+            owlsim_request = session.post(OWLSIM_URL, params=params)
+        except requests.exceptions.ConnectionError:
+            logger.warn("Error hitting owlsim owlsim found for {0}".format(disease["disease"]))
+            disease["owlsim_score"] = ""
+            disease["owlsim_rank"] = ""
+            continue
         owlsim_results = owlsim_request.json()
         rank = 0
         last_score = -1
@@ -119,7 +125,6 @@ def get_owlsim_scores(disease_dictionary):
                 if result["id"] == disease["model_gene"]:
                     disease["owlsim_score"] = result["score"]["score"]
                     disease["owlsim_rank"] = rank
-                    disease["abs_rank"] = result["score"]["rank"] + 1
                     is_found = True
             if not is_found:
                 logger.warn("No owlsim results found for {0}"
@@ -127,7 +132,6 @@ def get_owlsim_scores(disease_dictionary):
                                                      disease["disease"]))
                 disease["owlsim_score"] = ""
                 disease["owlsim_rank"] = ""
-                disease["abs_rank"] = ""
         else:
             logger.warn("No owlsim results found for {0}".format(disease["disease"]))
 
@@ -267,7 +271,7 @@ def get_zfin_ids(disease_dictionary):
                "depth": 3
             }
 
-            request = requests.get(scigraph_service, params=params)
+            request = session.get(scigraph_service, params=params)
             results = request.json()
             node_set = set()
             for node in results["nodes"]:
@@ -283,7 +287,7 @@ def get_zfin_ids(disease_dictionary):
 
 def get_label_from_scigraph(curie):
     scigraph_service = SCIGRAPH_URL + "/graph/" + curie + ".json"
-    request = requests.get(scigraph_service)
+    request = session.get(scigraph_service)
     results = request.json()
     label = results["nodes"][0]["lbl"]
 

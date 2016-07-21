@@ -1,139 +1,139 @@
-disease	disease_label	model_gene	gene_label	human_gene	model_gene_taxon	owlsim_score	owlsim_rank	models	disease_pheno_count	disease_gene_count	modgene_pheno_count	isLeafNode	absolute_rank	human_gene_label
-DOID:9269	maple syrup urine disease	ZFIN:ZDB-GENE-050320-85	dbt	NCBIGene:1629	Zebrafish	52	1	1	107	12	21	false	2	DBT
-OMIM:100800	Achondroplasia	MGI:95524	Fgfr3	NCBIGene:2261	Mouse	64	1	7	552	206	10	false	1	FGFR3
-OMIM:172800	Piebald Trait	MGI:96677	Kit	NCBIGene:3815	Mouse	61	1	1	105	224	6	false	2	KIT
-OMIM:176670	progeria	MGI:96794	Lmna	NCBIGene:4000	Mouse	62	1	5	365	211	5	false	1	LMNA
-OMIM:208400	aspartylglucosaminuria	MGI:104873	Aga	NCBIGene:175	Mouse	63	1	2	73	32	1	false	1	AGA
-OMIM:268300	Roberts syndrome	ZFIN:ZDB-GENE-050913-156	esco2	NCBIGene:157570	Zebrafish	56	1	3	111	69	2	false	1	ESCO2
-OMIM:277900	Wilson disease	MGI:103297	Atp7b	NCBIGene:540	Mouse	60	1	3	107	38	36	false	2	ATP7B
-OMIM:278750	Xeroderma pigmentosum, variant type	MGI:1891457	Polh	NCBIGene:5429	Mouse	60	1	3	15	7	1	true	1	POLH
-OMIM:310200	Muscular Dystrophy, Duchenne Type	MGI:94909	Dmd	NCBIGene:1756	Mouse	72	1	22	79	121	9	false	1	DMD
-OMIM:310200	Muscular Dystrophy, Duchenne Type	ZFIN:ZDB-GENE-010426-1	dmd	NCBIGene:1756	Zebrafish	57	1	2	79	84	9	false	1	DMD
-OMIM:602771	Rigid Spine Muscular Dystrophy 1	MGI:2151208	Sepn1	NCBIGene:57190	Mouse	48	1	1	23	33	3	false	1	SEPN1
-OMIM:607014	Hurler syndrome	MGI:96418	Idua	NCBIGene:3425	Mouse	66	1	5	79	103	1	true	2	IDUA
-OMIM:101000	Neurofibromatosis, Type 2	MGI:97307	Nf2	NCBIGene:4771	Mouse	52	2	1	62	88	1	true	3	NF2
-OMIM:154700	Marfan Syndrome	MGI:95489	Fbn1	NCBIGene:2200	Mouse	62	2	8	152	131	2	false	3	FBN1
-OMIM:187600	Thanatophoric dysplasia type 1	MGI:95524	Fgfr3	NCBIGene:2261	Mouse	68	2	2	53	206	1	true	2	FGFR3
-OMIM:257200	Niemann-Pick disease, type A	MGI:98325	Smpd1	NCBIGene:6609	Mouse	55	2	2	27	33	1	true	2	SMPD1
-OMIM:313200	Spinal and Bulbar Muscular Atrophy, X-Linked 1	MGI:88064	Ar	NCBIGene:367	Mouse	66	2	1	32	194	1	false	3	AR
-OMIM:607016	Scheie Syndrome	MGI:96418	Idua	NCBIGene:3425	Mouse	69	2	1	30	103	1	true	2	IDUA
-OMIM:118220	Charcot-Marie-Tooth disease type 1A	MGI:97631	Pmp22	NCBIGene:5376	Mouse	53	3	3	19	41	1	true	11	PMP22
-OMIM:162300	multiple endocrine neoplasia type 2B	MGI:97902	Ret	NCBIGene:5979	Mouse	59	3	2	38	130	1	false	5	RET
-OMIM:203100	Oculocutaneous albinism type 1A	MGI:98880	Tyr	NCBIGene:7299	Mouse	71	3	1	20	66	1	true	3	TYR
-OMIM:208900	ataxia telangiectasia	MGI:107202	Atm	NCBIGene:472	Mouse	57	3	7	115	111	2	false	6	ATM
-OMIM:219700	Cystic Fibrosis	MGI:88388	Cftr	NCBIGene:1080	Mouse	66	3	17	182	119	22	false	4	CFTR
-OMIM:232600	glycogen storage disease V	MGI:97830	Pygm	NCBIGene:5837	Mouse	64	3	1	32	6	4	false	5	PYGM
-OMIM:253600	Limb-girdle muscular dystrophy, type 2A	MGI:107437	Capn3	NCBIGene:825	Mouse	64	3	2	9	18	1	true	3	CAPN3
-OMIM:311250	Ornithine carbamoyltransferase deficiency	MGI:97448	Otc	NCBIGene:5009	Mouse	54	3	8	51	56	1	true	7	OTC
-OMIM:312080	Pelizaeus-Merzbacher disease	MGI:97623	Plp1	NCBIGene:5354	Mouse	54	3	4	102	52	7	false	6	PLP1
-OMIM:312750	Rett syndrome	MGI:99918	Mecp2	NCBIGene:4204	Mouse	56	3	31	104	162	5	false	8	MECP2
-OMIM:613254	Tuberous sclerosis 2	MGI:102548	Tsc2	NCBIGene:7249	Mouse	51	3	8	26	87	2	true	5	TSC2
-OMIM:257220	Niemann-Pick Disease, Type C1	MGI:1097712	Npc1	NCBIGene:4864	Mouse	53	4	16	26	138	1	true	4	NPC1
-OMIM:300624	Fragile 10 Mental Retardation Syndrome	MGI:95564	Fmr1	NCBIGene:2332	Mouse	50	4	8	122	71	4	false	17	FMR1
-DOID:9884	muscular dystrophy	ZFIN:ZDB-GENE-010426-1	dmd	NCBIGene:1756	Zebrafish	55	5	2	2206	84	244	false	5	DMD
-OMIM:118200	Charcot-Marie-Tooth disease type 1B	MGI:103177	Mpz	NCBIGene:4359	Mouse	48	5	2	19	30	1	true	19	MPZ
-OMIM:201450	Acyl-Coa Dehydrogenase, Medium-Chain, Deficiency of	MGI:87867	Acadm	NCBIGene:34	Mouse	63	5	1	15	18	1	true	8	ACADM
-OMIM:203300	Hermansky-Pudlak Syndrome 1	MGI:2177763	Hps1	NCBIGene:3257	Mouse	57	5	4	19	35	7	true	8	HPS1
-OMIM:256730	Ceroid Lipofuscinosis, Neuronal, 1	MGI:1298204	Ppt1	NCBIGene:5538	Mouse	50	5	3	27	47	2	false	27	PPT1
-OMIM:262500	Laron-type isolated somatotropin defect	MGI:95708	Ghr	NCBIGene:2690	Mouse	56	5	2	45	139	1	false	19	GHR
-OMIM:301000	Wiskott-Aldrich syndrome	MGI:105059	None	NCBIGene:7454	Mouse	61	5	2	138	57	3	false	7	None
-OMIM:606593	Lig4 syndrome	MGI:1335098	Lig4	NCBIGene:3981	Mouse	64	5	2	28	93	1	true	46	LIG4
-OMIM:207900	Argininosuccinate lyase deficiency	MGI:88084	Asl	NCBIGene:435	Mouse	54	6	2	35	34	1	true	10	ASL
-OMIM:223900	Familial dysautonomia	MGI:1914544	Ikbkap	NCBIGene:8518	Mouse	49	6	3	90	94	3	false	20	IKBKAP
-OMIM:264800	Pseudoxanthoma Elasticum	MGI:1351634	Abcc6	NCBIGene:368	Mouse	52	6	2	112	12	6	false	18	ABCC6
-OMIM:175100	Gardner syndrome	MGI:88039	Apc	NCBIGene:324	Mouse	53	7	9	42	240	3	false	11	APC
-OMIM:180100	Retinitis Pigmentosa 1	MGI:1341105	Rp1	NCBIGene:6101	Mouse	51	7	2	5	21	2	true	27	RP1
-OMIM:201470	Deficiency of butyryl-CoA dehydrogenase	MGI:87868	Acads	NCBIGene:35	Mouse	49	7	1	17	12	1	true	43	ACADS
-OMIM:219700	Cystic Fibrosis	ZFIN:ZDB-GENE-050517-20	cftr	NCBIGene:1080	Zebrafish	44	7	1	182	28	22	false	18	CFTR
-OMIM:232300	Glycogen Storage Disease 2	MGI:95609	Gaa	NCBIGene:2548	Mouse	58	7	5	71	46	5	false	27	GAA
-OMIM:252500	inclusion-cell disease	MGI:3643902	Gnptab	NCBIGene:79158	Mouse	52	7	2	92	38	1	false	58	GNPTAB
-OMIM:607616	Niemann-Pick disease, type B	MGI:98325	Smpd1	NCBIGene:6609	Mouse	53	7	2	13	33	2	true	14	SMPD1
-OMIM:607855	Muscular Dystrophy, Congenital Merosin-Deficient, 1A	MGI:99912	Lama2	NCBIGene:3908	Mouse	47	7	9	15	78	1	true	45	LAMA2
-DOID:0050439	Usher syndrome	ZFIN:ZDB-GENE-060312-41	ush1c	NCBIGene:10083	Zebrafish	39	8	3	126	19	29	false	27	USH1C
-DOID:0050570	congenital disorder of glycosylation type I	ZFIN:ZDB-GENE-030722-6	pmm2	NCBIGene:5373	Zebrafish	46	8	1	681	13	42	false	17	PMM2
-DOID:1926	Gaucher's disease	ZFIN:ZDB-GENE-100922-270	gba	NCBIGene:2629	Zebrafish	40	8	1	334	26	12	false	42	GBA
-OMIM:209300	Atransferrinemia	MGI:98821	Trf	NCBIGene:7018	Mouse	47	8	2	8	16	2	false	21	TF
-OMIM:268000	Retinitis Pigmentosa	MGI:97914	Rho	NCBIGene:6010	Mouse	59	8	2	3	47	17	true	42	RHO
-OMIM:271900	Canavan disease	MGI:87914	Aspa	NCBIGene:443	Mouse	56	8	2	56	43	3	false	15	ASPA
-OMIM:278720	Xeroderma Pigmentosum, Complementation Group C	MGI:103557	Xpc	NCBIGene:7508	Mouse	53	8	1	14	14	1	true	16	XPC
-OMIM:600116	Parkinson Disease 2, Autosomal Recessive Juvenile	MGI:1355296	Park2	NCBIGene:5071	Mouse	54	8	9	9	52	1	true	19	PARK2
-OMIM:601472	Charcot-Marie-Tooth Disease, Axonal, Type 2D	MGI:2449057	Gars	NCBIGene:2617	Mouse	44	8	3	13	32	1	true	26	GARS
-DOID:9884	muscular dystrophy	ZFIN:ZDB-GENE-060119-1	lama2	NCBIGene:3908	Zebrafish	45	9	1	2206	55	244	false	12	LAMA2
-OMIM:229300	Friedreich Ataxia 1	MGI:1096879	Fxn	NCBIGene:2395	Mouse	51	9	5	25	45	1	true	39	FXN
-OMIM:300322	Lesch-Nyhan syndrome	MGI:96217	Hprt	NCBIGene:3251	Mouse	51	9	2	69	189	1	false	28	HPRT1
-OMIM:601675	Photosensitive trichothiodystrophy	MGI:95413	Ercc2	NCBIGene:2068	Mouse	66	9	3	19	85	3	true	24	ERCC2
-OMIM:245200	Galactosylceramide beta-galactosidase deficiency	MGI:95636	Galc	NCBIGene:2581	Mouse	49	10	2	81	69	8	false	47	GALC
-OMIM:278730	Xeroderma Pigmentosum, Complementation Group D	MGI:95413	Ercc2	NCBIGene:2068	Mouse	48	10	1	18	85	1	true	88	ERCC2
-OMIM:223800	Dyggve-Melchior-Clausen syndrome	MGI:1918480	Dym	NCBIGene:54808	Mouse	52	11	1	86	23	1	false	66	DYM
-OMIM:248600	Maple Syrup Urine Disease	MGI:105386	Dbt	NCBIGene:1629	Mouse	46	11	3	17	7	13	false	91	DBT
-OMIM:603813	Hypercholesterolemia, Autosomal Recessive	MGI:2140175	Ldlrap1	NCBIGene:26119	Mouse	58	11	2	4	5	1	true	23	LDLRAP1
-OMIM:251260	Microcephaly, normal intelligence and immunodeficiency	MGI:1351625	Nbn	NCBIGene:4683	Mouse	52	12	7	72	75	1	false	81	NBN
-OMIM:118400	Cherubism	MGI:1346349	Sh3bp2	NCBIGene:6452	Mouse	49	13	2	75	64	1	false	99	SH3BP2
-OMIM:252900	Sanfilippo syndrome type A	MGI:1350341	Sgsh	NCBIGene:6448	Mouse	46	13	1	21	19	1	true	57	SGSH
-OMIM:312870	Simpson-Golabi-Behmel syndrome	MGI:104903	Gpc3	NCBIGene:2719	Mouse	53	13	8	143	75	4	false	53	GPC3
-OMIM:242860	Immunodeficiency-Centromeric Instability-Facial Anomalies Syndrome 1	MGI:1261819	Dnmt3b	NCBIGene:1789	Mouse	60	14	7	23	38	1	true	55	DNMT3B
-OMIM:105400	Amyotrophic lateral sclerosis type 1	MGI:98351	Sod1	NCBIGene:6647	Mouse	52	16	2	11	118	51	true	62	SOD1
-OMIM:219500	Cystathioninuria	MGI:1339968	Cth	NCBIGene:1491	Mouse	39	16	1	1	25	1	true	77	CTH
-OMIM:187950	Essential thrombocythemia	MGI:96629	Jak2	NCBIGene:3717	Mouse	69	21	1	7	69	5	true	91	JAK2
-DOID:0060041	autism spectrum disorder	ZFIN:ZDB-GENE-020731-6	fmr1	NCBIGene:2332	Zebrafish			1	934	36	348	false		FMR1
-DOID:13515	tuberous sclerosis	ZFIN:ZDB-GENE-030131-2702	tsc2	NCBIGene:7249	Zebrafish			1	147	26	7	false		TSC2
-DOID:14330	Parkinson's disease	ZFIN:ZDB-GENE-050417-109	park2	NCBIGene:5071	Zebrafish			1	283	4	114	false		PARK2
-DOID:14503	neuronal ceroid lipofuscinosis	ZFIN:ZDB-GENE-030131-6654	tpp1	NCBIGene:1200	Zebrafish			1	497	31	49	false		TPP1
-DOID:2729	dyskeratosis congenita	ZFIN:ZDB-GENE-031118-120	dkc1	NCBIGene:1736	Zebrafish			1	310	8	34	false		DKC1
-DOID:332	amyotrophic lateral sclerosis	ZFIN:ZDB-GENE-990415-258	sod1	NCBIGene:6647	Zebrafish			3	341	3	124	false		SOD1
-OMIM:102700	Severe Combined Immunodeficiency, Autosomal Recessive, T Cell-Negative, B Cell-Negative, Nk Cell-Negative, Due to Adenosine Deaminase Deficiency	MGI:87916	Ada	NCBIGene:100	Mouse			1	29	34	2	false		ADA
-OMIM:104300	Alzheimer Disease	MGI:88057	Apoe	NCBIGene:348	Mouse			4	5	210	12	true		APOE
-OMIM:109150	Machado-Joseph disease	MGI:1099442	Atxn3	NCBIGene:4287	Mouse			1	92	13	4	false		ATXN3
-OMIM:125850	Maturity-Onset Diabetes of the Young, Type 1	MGI:109128	Hnf4a	NCBIGene:3172	Mouse			1	1	45	2	true		HNF4A
-OMIM:143890	Hypercholesterolemia, Familial	MGI:96765	Ldlr	NCBIGene:3949	Mouse			7	3	79	7	true		LDLR
-OMIM:160900	Steinert myotonic dystrophy syndrome	MGI:94906	Dmpk	NCBIGene:1760	Mouse			2	142	17	2	true		DMPK
-OMIM:164400	Spinocerebellar ataxia 1	MGI:104783	Atxn1	NCBIGene:6310	Mouse			1	35	26	1	true		ATXN1
-OMIM:167320	Inclusion body myopathy with early-onset paget disease and frontotemporal dementia	MGI:99919	Vcp	NCBIGene:7415	Mouse			2	25	37	1	false		VCP
-OMIM:168600	Parkinson Disease, Late-Onset	MGI:1277151	Snca	NCBIGene:6622	Mouse			1	22	31	15	true		SNCA
-OMIM:168601	Parkinson disease 1	MGI:1277151	Snca	NCBIGene:6622	Mouse			7	13	31	1	true		SNCA
-OMIM:176000	Porphyria, Acute Intermittent	MGI:96112	Hmbs	NCBIGene:3145	Mouse			1	72	10	2	false		HMBS
-OMIM:182290	Smith-Magenis syndrome	MGI:103291	Rai1	NCBIGene:10743	Mouse			2	231	56	9	false		RAI1
-OMIM:185050	Platelet storage pool disease	MGI:2177763	Hps1	NCBIGene:3257	Mouse			2	5695	35	613	false		HPS1
-OMIM:203450	Alexander Disease	MGI:95697	Gfap	NCBIGene:2670	Mouse			4	78	25	4	false		GFAP
-OMIM:204500	Ceroid Lipofuscinosis, Neuronal, 2	MGI:1336194	Tpp1	NCBIGene:1200	Mouse			4	13	28	4	false		TPP1
-OMIM:210600	Seckel syndrome 1	MGI:108028	Atr	NCBIGene:545	Mouse			1	47	97	3	true		ATR
-OMIM:210900	Bloom syndrome	MGI:1328362	Blm	NCBIGene:641	Mouse			7	73	27	2	true		BLM
-OMIM:214100	Peroxisome Biogenesis Disorder 1A (Zellweger)	MGI:1918632	Pex1	NCBIGene:5189	Mouse			1	65	16	11	true		PEX1
-OMIM:216400	Cockayne Syndrome a	MGI:1919241	Ercc8	NCBIGene:1161	Mouse			2	66	16	1	true		ERCC8
-OMIM:219800	Cystinosis	MGI:1932872	Ctns	NCBIGene:1497	Mouse			1	183	12	10	false		CTNS
-OMIM:220100	cystinuria	MGI:1195264	Slc3a1	NCBIGene:6519	Mouse			3	62	24	10	false		SLC3A1
-OMIM:220290	Deafness, autosomal recessive 1A	MGI:95720	Gjb2	NCBIGene:2706	Mouse			2	2	49	3	true		GJB2
-OMIM:225400	Ehlers-Danlos syndrome, hydroxylysine-deficient	MGI:99907	Plod1	NCBIGene:5351	Mouse			1	97	12	6	false		PLOD1
-OMIM:228000	Farber's lipogranulomatosis	MGI:1277124	Asah1	NCBIGene:427	Mouse			1	30	8	2	true		ASAH1
-OMIM:230800	Gaucher Disease, Type 1	MGI:95665	Gba	NCBIGene:2629	Mouse			13	43	83	2	true		GBA
-OMIM:230900	Gaucher Disease, Type 2	MGI:95665	Gba	NCBIGene:2629	Mouse			3	28	83	1	true		GBA
-OMIM:231000	Gaucher Disease, Type 3	MGI:95665	Gba	NCBIGene:2629	Mouse			8	44	83	1	true		GBA
-OMIM:234500	Hartnup Disorder	MGI:1921588	Slc6a19	NCBIGene:340024	Mouse			1	43	10	1	true		SLC6A19
-OMIM:235200	Hemochromatosis type 1	MGI:109191	Hfe	NCBIGene:3077	Mouse			13	25	32	6	true		HFE
-OMIM:241500	Infantile hypophosphatasia	MGI:87983	Alpl	NCBIGene:249	Mouse			2	39	37	1	true		ALPL
-OMIM:248500	Mannosidosis, Alpha B, Lysosomal	MGI:107286	Man2b1	NCBIGene:4125	Mouse			1	75	38	1	true		MAN2B1
-OMIM:249100	Familial Mediterranean Fever	MGI:1859396	Mefv	NCBIGene:4210	Mouse			4	96	47	2	false		MEFV
-OMIM:249700	Langer mesomelic dysplasia	MGI:1201673	Shox2	NCBIGene:6473	Mouse			1	19	40	1	true		SHOX
-OMIM:252650	gangliosidosis	MGI:1890498	Mcoln1	NCBIGene:57192	Mouse			2	370	30	19	false		MCOLN1
-OMIM:252920	mucopolysaccharidosis III	MGI:1351641	Naglu	NCBIGene:4669	Mouse			3	140	59	7	false		NAGLU
-OMIM:257300	Mosaic variegated aneuploidy syndrome	MGI:1333889	Bub1b	NCBIGene:701	Mouse			1	125	60	5	false		BUB1B
-OMIM:268400	Rothmund-Thomson Syndrome	MGI:1931028	Recql4	NCBIGene:9401	Mouse			3	215	38	3	false		RECQL4
-OMIM:272800	Tay-Sachs disease	MGI:96073	Hexa	NCBIGene:3073	Mouse			3	57	17	5	false		HEXA
-OMIM:276904	Usher Syndrome, Type 1C	MGI:1919338	Ush1c	NCBIGene:10083	Mouse			5	3	65	1	true		USH1C
-OMIM:277700	Werner Syndrome	MGI:109635	Wrn	NCBIGene:7486	Mouse			2	109	35	2	false		WRN
-OMIM:278740	Xeroderma pigmentosum, group E	MGI:1355314	Ddb2	NCBIGene:1643	Mouse			4	13	7	1	true		DDB2
-OMIM:278780	Xeroderma pigmentosum, group G	MGI:103582	Ercc5	NCBIGene:2073	Mouse			4	10	16	1	true		ERCC5
-OMIM:300624	Fragile 10 Mental Retardation Syndrome	ZFIN:ZDB-GENE-020731-6	fmr1	NCBIGene:2332	Zebrafish			2	122	36	4	false		FMR1
-OMIM:301000	Wiskott-Aldrich syndrome	ZFIN:ZDB-GENE-030131-7098	wasb	NCBIGene:7454	Zebrafish			1	138	3	3	false		None
-OMIM:302060	3-Methylglutaconic aciduria type 2	ZFIN:ZDB-GENE-030131-684	taz	NCBIGene:6901	Zebrafish			2	36	12	1	false		TAZ
-OMIM:302800	Charcot-Marie-Tooth Disease, X-Linked Dominant, 1	MGI:95719	Gjb1	NCBIGene:2705	Mouse			4	78	11	1	true		GJB1
-OMIM:305000	Dyskeratosis congenita X-linked	MGI:1861727	Dkc1	NCBIGene:1736	Mouse			3	48	68	1	true		DKC1
-OMIM:312750	Rett syndrome	ZFIN:ZDB-GENE-030131-7190	mecp2	NCBIGene:4204	Zebrafish			3	104	15	5	false		MECP2
-OMIM:600274	Frontotemporal Dementia	MGI:97180	Mapt	NCBIGene:4137	Mouse			2	15	62	2	true		MAPT
-OMIM:604369	Salla Disease	MGI:1924105	Slc17a5	NCBIGene:26503	Mouse			1	16	28	1	true		SLC17A5
-OMIM:604370	Breast-Ovarian Cancer, Familial, Susceptibility To, 1	MGI:104537	Brca1	NCBIGene:672	Mouse			3	1	117	6	true		BRCA1
-OMIM:606889	Alzheimer Disease 4	MGI:109284	Psen2	NCBIGene:5664	Mouse			1	4	9	2	true		PSEN2
-OMIM:607625	Niemann-Pick Disease, Type C2	MGI:1915213	Npc2	NCBIGene:10577	Mouse			1	27	31	1	true		NPC2
-OMIM:607822	Alzheimer Disease 3	MGI:1202717	Psen1	NCBIGene:5663	Mouse			5	18	148	1	false		PSEN1
-OMIM:609015	Mitochondrial Trifunctional Protein Deficiency	MGI:2136381	Hadhb	NCBIGene:3032	Mouse			1	20	16	2	false		HADHB
-OMIM:610153	Deafness, autosomal recessive 49	MGI:2446166	Marveld2	NCBIGene:153562	Mouse			1	1	28	1	true		MARVELD2
+disease	disease_label	model_gene	gene_label	human_gene	model_gene_taxon	owlsim_score	owlsim_rank	models	disease_pheno_count	disease_gene_count	modgene_pheno_count	isLeafNode	human_gene_label
+OMIM:607014	Hurler syndrome	MGI:96418	Idua	NCBIGene:3425	Mouse	66	1	5	79	103	1	true	IDUA
+OMIM:310200	Muscular Dystrophy, Duchenne Type	MGI:94909	Dmd	NCBIGene:1756	Mouse	72	1	22	79	121	9	false	DMD
+OMIM:277900	Wilson disease	MGI:103297	Atp7b	NCBIGene:540	Mouse	60	1	3	107	38	36	false	ATP7B
+DOID:9269	maple syrup urine disease	ZFIN:ZDB-GENE-050320-85	dbt	NCBIGene:1629	Zebrafish	53	1	1	107	12	21	false	DBT
+OMIM:208400	aspartylglucosaminuria	MGI:104873	Aga	NCBIGene:175	Mouse	63	1	2	73	32	1	false	AGA
+OMIM:268300	Roberts syndrome	ZFIN:ZDB-GENE-050913-156	esco2	NCBIGene:157570	Zebrafish	56	1	3	111	69	2	false	ESCO2
+OMIM:176670	progeria	MGI:96794	Lmna	NCBIGene:4000	Mouse	63	1	5	365	211	5	false	LMNA
+OMIM:278750	Xeroderma pigmentosum, variant type	MGI:1891457	Polh	NCBIGene:5429	Mouse	60	1	3	15	7	1	true	POLH
+OMIM:602771	Rigid Spine Muscular Dystrophy 1	MGI:2151208	Sepn1	NCBIGene:57190	Mouse	48	1	1	23	33	3	false	SEPN1
+OMIM:100800	Achondroplasia	MGI:95524	Fgfr3	NCBIGene:2261	Mouse	64	1	7	552	206	10	false	FGFR3
+OMIM:310200	Muscular Dystrophy, Duchenne Type	ZFIN:ZDB-GENE-010426-1	dmd	NCBIGene:1756	Zebrafish	57	1	2	79	84	9	false	DMD
+OMIM:154700	Marfan Syndrome	MGI:95489	Fbn1	NCBIGene:2200	Mouse	66	2	8	152	131	2	false	FBN1
+OMIM:313200	Spinal and Bulbar Muscular Atrophy, X-Linked 1	MGI:88064	Ar	NCBIGene:367	Mouse	66	2	1	32	194	1	false	AR
+OMIM:172800	Piebald Trait	MGI:96677	Kit	NCBIGene:3815	Mouse	65	2	1	105	224	6	false	KIT
+DOID:14503	neuronal ceroid lipofuscinosis	ZFIN:ZDB-GENE-030131-6654	tpp1	NCBIGene:1200	Zebrafish	42	2	1	497	31	49	false	TPP1
+OMIM:607016	Scheie Syndrome	MGI:96418	Idua	NCBIGene:3425	Mouse	69	2	1	30	103	1	true	IDUA
+OMIM:101000	Neurofibromatosis, Type 2	MGI:97307	Nf2	NCBIGene:4771	Mouse	52	2	1	62	88	1	true	NF2
+OMIM:257200	Niemann-Pick disease, type A	MGI:98325	Smpd1	NCBIGene:6609	Mouse	55	2	2	27	33	1	true	SMPD1
+OMIM:187600	Thanatophoric dysplasia type 1	MGI:95524	Fgfr3	NCBIGene:2261	Mouse	68	2	2	53	206	1	true	FGFR3
+OMIM:208900	ataxia telangiectasia	MGI:107202	Atm	NCBIGene:472	Mouse	57	3	7	115	111	2	false	ATM
+OMIM:311250	Ornithine carbamoyltransferase deficiency	MGI:97448	Otc	NCBIGene:5009	Mouse	54	3	8	51	56	1	true	OTC
+OMIM:312750	Rett syndrome	MGI:99918	Mecp2	NCBIGene:4204	Mouse	56	3	31	104	162	5	false	MECP2
+OMIM:203100	Oculocutaneous albinism type 1A	MGI:98880	Tyr	NCBIGene:7299	Mouse	71	3	1	20	66	1	true	TYR
+OMIM:253600	Limb-girdle muscular dystrophy, type 2A	MGI:107437	Capn3	NCBIGene:825	Mouse	64	3	2	9	18	1	true	CAPN3
+OMIM:232600	glycogen storage disease V	MGI:97830	Pygm	NCBIGene:5837	Mouse	64	3	1	32	6	4	false	PYGM
+OMIM:312080	Pelizaeus-Merzbacher disease	MGI:97623	Plp1	NCBIGene:5354	Mouse	54	3	4	102	52	7	false	PLP1
+OMIM:162300	multiple endocrine neoplasia type 2B	MGI:97902	Ret	NCBIGene:5979	Mouse	59	3	2	38	130	1	false	RET
+OMIM:118220	Charcot-Marie-Tooth disease type 1A	MGI:97631	Pmp22	NCBIGene:5376	Mouse	53	3	3	19	41	1	true	PMP22
+OMIM:613254	Tuberous sclerosis 2	MGI:102548	Tsc2	NCBIGene:7249	Mouse	51	3	8	26	87	2	true	TSC2
+OMIM:257220	Niemann-Pick Disease, Type C1	MGI:1097712	Npc1	NCBIGene:4864	Mouse	53	4	16	26	138	1	true	NPC1
+OMIM:219700	Cystic Fibrosis	MGI:88388	Cftr	NCBIGene:1080	Mouse	67	4	17	182	119	22	false	CFTR
+OMIM:606593	Lig4 syndrome	MGI:1335098	Lig4	NCBIGene:3981	Mouse	64	5	2	28	93	1	true	LIG4
+OMIM:203300	Hermansky-Pudlak Syndrome 1	MGI:2177763	Hps1	NCBIGene:3257	Mouse	57	5	4	19	35	7	true	HPS1
+OMIM:201450	Acyl-Coa Dehydrogenase, Medium-Chain, Deficiency of	MGI:87867	Acadm	NCBIGene:34	Mouse	63	5	1	15	18	1	true	ACADM
+OMIM:256730	Ceroid Lipofuscinosis, Neuronal, 1	MGI:1298204	Ppt1	NCBIGene:5538	Mouse	50	5	3	27	47	2	false	PPT1
+OMIM:118200	Charcot-Marie-Tooth disease type 1B	MGI:103177	Mpz	NCBIGene:4359	Mouse	48	5	2	19	30	1	true	MPZ
+OMIM:262500	Laron-type isolated somatotropin defect	MGI:95708	Ghr	NCBIGene:2690	Mouse	56	5	2	45	139	1	false	GHR
+OMIM:207900	Argininosuccinate lyase deficiency	MGI:88084	Asl	NCBIGene:435	Mouse	54	6	2	35	34	1	true	ASL
+OMIM:223900	Familial dysautonomia	MGI:1914544	Ikbkap	NCBIGene:8518	Mouse	49	6	3	90	94	3	false	IKBKAP
+OMIM:264800	Pseudoxanthoma Elasticum	MGI:1351634	Abcc6	NCBIGene:368	Mouse	52	6	2	112	12	6	false	ABCC6
+OMIM:300624	Fragile 10 Mental Retardation Syndrome	MGI:95564	Fmr1	NCBIGene:2332	Mouse	49	6	8	122	71	4	false	FMR1
+OMIM:301000	Wiskott-Aldrich syndrome	MGI:105059	None	NCBIGene:7454	Mouse	59	6	2	138	57	3	false	None
+OMIM:180100	Retinitis Pigmentosa 1	MGI:1341105	Rp1	NCBIGene:6101	Mouse	51	7	2	5	21	2	true	RP1
+OMIM:232300	Glycogen Storage Disease 2	MGI:95609	Gaa	NCBIGene:2548	Mouse	58	7	5	71	46	5	false	GAA
+OMIM:175100	Gardner syndrome	MGI:88039	Apc	NCBIGene:324	Mouse	53	7	9	42	240	3	false	APC
+OMIM:607855	Muscular Dystrophy, Congenital Merosin-Deficient, 1A	MGI:99912	Lama2	NCBIGene:3908	Mouse	47	7	9	15	78	1	true	LAMA2
+OMIM:607616	Niemann-Pick disease, type B	MGI:98325	Smpd1	NCBIGene:6609	Mouse	53	7	2	13	33	2	true	SMPD1
+OMIM:252500	inclusion-cell disease	MGI:3643902	Gnptab	NCBIGene:79158	Mouse	52	7	2	92	38	1	false	GNPTAB
+OMIM:219700	Cystic Fibrosis	ZFIN:ZDB-GENE-050517-20	cftr	NCBIGene:1080	Zebrafish	44	7	1	182	28	22	false	CFTR
+OMIM:201470	Deficiency of butyryl-CoA dehydrogenase	MGI:87868	Acads	NCBIGene:35	Mouse	49	7	1	17	12	1	true	ACADS
+OMIM:271900	Canavan disease	MGI:87914	Aspa	NCBIGene:443	Mouse	56	8	2	56	43	3	false	ASPA
+OMIM:278720	Xeroderma Pigmentosum, Complementation Group C	MGI:103557	Xpc	NCBIGene:7508	Mouse	53	8	1	14	14	1	true	XPC
+OMIM:209300	Atransferrinemia	MGI:98821	Trf	NCBIGene:7018	Mouse	47	8	2	8	16	2	false	TF
+DOID:0050570	congenital disorder of glycosylation type I	ZFIN:ZDB-GENE-030722-6	pmm2	NCBIGene:5373	Zebrafish	44	8	1	681	13	42	false	PMM2
+OMIM:600116	Parkinson Disease 2, Autosomal Recessive Juvenile	MGI:1355296	Park2	NCBIGene:5071	Mouse	54	8	9	9	52	1	true	PARK2
+OMIM:601472	Charcot-Marie-Tooth Disease, Axonal, Type 2D	MGI:2449057	Gars	NCBIGene:2617	Mouse	44	8	3	13	32	1	true	GARS
+OMIM:268000	Retinitis Pigmentosa	MGI:97914	Rho	NCBIGene:6010	Mouse	59	8	2	3	47	17	true	RHO
+OMIM:229300	Friedreich Ataxia 1	MGI:1096879	Fxn	NCBIGene:2395	Mouse	51	9	5	25	45	1	true	FXN
+OMIM:300322	Lesch-Nyhan syndrome	MGI:96217	Hprt	NCBIGene:3251	Mouse	51	9	2	69	189	1	false	HPRT1
+OMIM:601675	Photosensitive trichothiodystrophy	MGI:95413	Ercc2	NCBIGene:2068	Mouse	66	9	3	19	85	3	true	ERCC2
+DOID:0050439	Usher syndrome	ZFIN:ZDB-GENE-060312-41	ush1c	NCBIGene:10083	Zebrafish	39	9	3	126	19	29	false	USH1C
+OMIM:278730	Xeroderma Pigmentosum, Complementation Group D	MGI:95413	Ercc2	NCBIGene:2068	Mouse	48	10	1	18	85	1	true	ERCC2
+OMIM:245200	Galactosylceramide beta-galactosidase deficiency	MGI:95636	Galc	NCBIGene:2581	Mouse	49	10	2	81	69	8	false	GALC
+OMIM:248600	Maple Syrup Urine Disease	MGI:105386	Dbt	NCBIGene:1629	Mouse	46	11	3	17	7	13	false	DBT
+OMIM:223800	Dyggve-Melchior-Clausen syndrome	MGI:1918480	Dym	NCBIGene:54808	Mouse	52	11	1	86	23	1	false	DYM
+OMIM:312870	Simpson-Golabi-Behmel syndrome	MGI:104903	Gpc3	NCBIGene:2719	Mouse	53	11	8	143	75	4	false	GPC3
+OMIM:603813	Hypercholesterolemia, Autosomal Recessive	MGI:2140175	Ldlrap1	NCBIGene:26119	Mouse	58	11	2	4	5	1	true	LDLRAP1
+DOID:1926	Gaucher's disease	ZFIN:ZDB-GENE-100922-270	gba	NCBIGene:2629	Zebrafish	39	12	1	334	26	12	false	GBA
+OMIM:251260	Microcephaly, normal intelligence and immunodeficiency	MGI:1351625	Nbn	NCBIGene:4683	Mouse	52	12	7	72	75	1	false	NBN
+OMIM:118400	Cherubism	MGI:1346349	Sh3bp2	NCBIGene:6452	Mouse	49	13	2	75	64	1	false	SH3BP2
+OMIM:252900	Sanfilippo syndrome type A	MGI:1350341	Sgsh	NCBIGene:6448	Mouse	46	13	1	21	19	1	true	SGSH
+OMIM:242860	Immunodeficiency-Centromeric Instability-Facial Anomalies Syndrome 1	MGI:1261819	Dnmt3b	NCBIGene:1789	Mouse	60	14	7	23	38	1	true	DNMT3B
+OMIM:105400	Amyotrophic lateral sclerosis type 1	MGI:98351	Sod1	NCBIGene:6647	Mouse	52	16	2	11	118	51	true	SOD1
+OMIM:219500	Cystathioninuria	MGI:1339968	Cth	NCBIGene:1491	Mouse	39	16	1	1	25	1	true	CTH
+OMIM:187950	Essential thrombocythemia	MGI:96629	Jak2	NCBIGene:3717	Mouse	69	21	1	7	69	5	true	JAK2
+OMIM:604369	Salla Disease	MGI:1924105	Slc17a5	NCBIGene:26503	Mouse			1	16	28	1	true	SLC17A5
+DOID:2729	dyskeratosis congenita	ZFIN:ZDB-GENE-031118-120	dkc1	NCBIGene:1736	Zebrafish			1	310	8	34	false	DKC1
+OMIM:185050	Platelet storage pool disease	MGI:2177763	Hps1	NCBIGene:3257	Mouse			2	5695	35	613	false	HPS1
+DOID:13515	tuberous sclerosis	ZFIN:ZDB-GENE-030131-2702	tsc2	NCBIGene:7249	Zebrafish			1	147	26	7	false	TSC2
+OMIM:182290	Smith-Magenis syndrome	MGI:103291	Rai1	NCBIGene:10743	Mouse			2	231	56	9	false	RAI1
+OMIM:241500	Infantile hypophosphatasia	MGI:87983	Alpl	NCBIGene:249	Mouse			2	39	37	1	true	ALPL
+OMIM:610153	Deafness, autosomal recessive 49	MGI:2446166	Marveld2	NCBIGene:153562	Mouse			1	1	28	1	true	MARVELD2
+OMIM:230900	Gaucher Disease, Type 2	MGI:95665	Gba	NCBIGene:2629	Mouse			3	28	83	1	true	GBA
+OMIM:168600	Parkinson Disease, Late-Onset	MGI:1277151	Snca	NCBIGene:6622	Mouse			1	22	31	15	true	SNCA
+OMIM:104300	Alzheimer Disease	MGI:88057	Apoe	NCBIGene:348	Mouse			4	5	210	12	true	APOE
+OMIM:204500	Ceroid Lipofuscinosis, Neuronal, 2	MGI:1336194	Tpp1	NCBIGene:1200	Mouse			4	13	28	4	false	TPP1
+OMIM:167320	Inclusion body myopathy with early-onset paget disease and frontotemporal dementia	MGI:99919	Vcp	NCBIGene:7415	Mouse			2	25	37	1	false	VCP
+OMIM:278780	Xeroderma pigmentosum, group G	MGI:103582	Ercc5	NCBIGene:2073	Mouse			4	10	16	1	true	ERCC5
+OMIM:220290	Deafness, autosomal recessive 1A	MGI:95720	Gjb2	NCBIGene:2706	Mouse			2	2	49	3	true	GJB2
+OMIM:160900	Steinert myotonic dystrophy syndrome	MGI:94906	Dmpk	NCBIGene:1760	Mouse			2	142	17	2	true	DMPK
+OMIM:125850	Maturity-Onset Diabetes of the Young, Type 1	MGI:109128	Hnf4a	NCBIGene:3172	Mouse			1	1	45	2	true	HNF4A
+OMIM:225400	Ehlers-Danlos syndrome, hydroxylysine-deficient	MGI:99907	Plod1	NCBIGene:5351	Mouse			1	97	12	6	false	PLOD1
+OMIM:143890	Hypercholesterolemia, Familial	MGI:96765	Ldlr	NCBIGene:3949	Mouse			7	3	79	7	true	LDLR
+OMIM:109150	Machado-Joseph disease	MGI:1099442	Atxn3	NCBIGene:4287	Mouse			1	92	13	4	false	ATXN3
+DOID:14330	Parkinson's disease	ZFIN:ZDB-GENE-050417-109	park2	NCBIGene:5071	Zebrafish			1	283	4	114	false	PARK2
+OMIM:220100	cystinuria	MGI:1195264	Slc3a1	NCBIGene:6519	Mouse			3	62	24	10	false	SLC3A1
+OMIM:210600	Seckel syndrome 1	MGI:108028	Atr	NCBIGene:545	Mouse			1	47	97	3	true	ATR
+OMIM:301000	Wiskott-Aldrich syndrome	ZFIN:ZDB-GENE-030131-7098	wasb	NCBIGene:7454	Zebrafish			1	138	3	3	false	None
+OMIM:102700	Severe Combined Immunodeficiency, Autosomal Recessive, T Cell-Negative, B Cell-Negative, Nk Cell-Negative, Due to Adenosine Deaminase Deficiency	MGI:87916	Ada	NCBIGene:100	Mouse			1	29	34	2	false	ADA
+OMIM:216400	Cockayne Syndrome a	MGI:1919241	Ercc8	NCBIGene:1161	Mouse			2	66	16	1	true	ERCC8
+OMIM:607625	Niemann-Pick Disease, Type C2	MGI:1915213	Npc2	NCBIGene:10577	Mouse			1	27	31	1	true	NPC2
+OMIM:203450	Alexander Disease	MGI:95697	Gfap	NCBIGene:2670	Mouse			4	78	25	4	false	GFAP
+OMIM:231000	Gaucher Disease, Type 3	MGI:95665	Gba	NCBIGene:2629	Mouse			8	44	83	1	true	GBA
+OMIM:305000	Dyskeratosis congenita X-linked	MGI:1861727	Dkc1	NCBIGene:1736	Mouse			3	48	68	1	true	DKC1
+OMIM:272800	Tay-Sachs disease	MGI:96073	Hexa	NCBIGene:3073	Mouse			3	57	17	5	false	HEXA
+OMIM:248500	Mannosidosis, Alpha B, Lysosomal	MGI:107286	Man2b1	NCBIGene:4125	Mouse			1	75	38	1	true	MAN2B1
+OMIM:300624	Fragile 10 Mental Retardation Syndrome	ZFIN:ZDB-GENE-020731-6	fmr1	NCBIGene:2332	Zebrafish			2	122	36	4	false	FMR1
+OMIM:257300	Mosaic variegated aneuploidy syndrome	MGI:1333889	Bub1b	NCBIGene:701	Mouse			1	125	60	5	false	BUB1B
+OMIM:600274	Frontotemporal Dementia	MGI:97180	Mapt	NCBIGene:4137	Mouse			2	15	62	2	true	MAPT
+OMIM:609015	Mitochondrial Trifunctional Protein Deficiency	MGI:2136381	Hadhb	NCBIGene:3032	Mouse			1	20	16	2	false	HADHB
+OMIM:164400	Spinocerebellar ataxia 1	MGI:104783	Atxn1	NCBIGene:6310	Mouse			1	35	26	1	true	ATXN1
+DOID:9884	muscular dystrophy	ZFIN:ZDB-GENE-010426-1	dmd	NCBIGene:1756	Zebrafish			2	2206	84	244	false	DMD
+OMIM:214100	Peroxisome Biogenesis Disorder 1A (Zellweger)	MGI:1918632	Pex1	NCBIGene:5189	Mouse			1	65	16	11	true	PEX1
+OMIM:249700	Langer mesomelic dysplasia	MGI:1201673	Shox2	NCBIGene:6473	Mouse			1	19	40	1	true	SHOX
+OMIM:604370	Breast-Ovarian Cancer, Familial, Susceptibility To, 1	MGI:104537	Brca1	NCBIGene:672	Mouse			3	1	117	6	true	BRCA1
+OMIM:176000	Porphyria, Acute Intermittent	MGI:96112	Hmbs	NCBIGene:3145	Mouse			1	72	10	2	false	HMBS
+OMIM:230800	Gaucher Disease, Type 1	MGI:95665	Gba	NCBIGene:2629	Mouse			13	43	83	2	true	GBA
+OMIM:606889	Alzheimer Disease 4	MGI:109284	Psen2	NCBIGene:5664	Mouse			1	4	9	2	true	PSEN2
+OMIM:607822	Alzheimer Disease 3	MGI:1202717	Psen1	NCBIGene:5663	Mouse			5	18	148	1	false	PSEN1
+OMIM:249100	Familial Mediterranean Fever	MGI:1859396	Mefv	NCBIGene:4210	Mouse			4	96	47	2	false	MEFV
+DOID:332	amyotrophic lateral sclerosis	ZFIN:ZDB-GENE-990415-258	sod1	NCBIGene:6647	Zebrafish			3	341	3	124	false	SOD1
+OMIM:168601	Parkinson disease 1	MGI:1277151	Snca	NCBIGene:6622	Mouse			7	13	31	1	true	SNCA
+OMIM:235200	Hemochromatosis type 1	MGI:109191	Hfe	NCBIGene:3077	Mouse			13	25	32	6	true	HFE
+OMIM:210900	Bloom syndrome	MGI:1328362	Blm	NCBIGene:641	Mouse			7	73	27	2	true	BLM
+OMIM:219800	Cystinosis	MGI:1932872	Ctns	NCBIGene:1497	Mouse			1	183	12	10	false	CTNS
+OMIM:278740	Xeroderma pigmentosum, group E	MGI:1355314	Ddb2	NCBIGene:1643	Mouse			4	13	7	1	true	DDB2
+DOID:0060041	autism spectrum disorder	ZFIN:ZDB-GENE-020731-6	fmr1	NCBIGene:2332	Zebrafish			1	934	36	348	false	FMR1
+DOID:9884	muscular dystrophy	ZFIN:ZDB-GENE-060119-1	lama2	NCBIGene:3908	Zebrafish			1	2206	55	244	false	LAMA2
+OMIM:252650	gangliosidosis	MGI:1890498	Mcoln1	NCBIGene:57192	Mouse			2	370	30	19	false	MCOLN1
+OMIM:276904	Usher Syndrome, Type 1C	MGI:1919338	Ush1c	NCBIGene:10083	Mouse			5	3	65	1	true	USH1C
+OMIM:302060	3-Methylglutaconic aciduria type 2	ZFIN:ZDB-GENE-030131-684	taz	NCBIGene:6901	Zebrafish			2	36	12	1	false	TAZ
+OMIM:228000	Farber's lipogranulomatosis	MGI:1277124	Asah1	NCBIGene:427	Mouse			1	30	8	2	true	ASAH1
+OMIM:312750	Rett syndrome	ZFIN:ZDB-GENE-030131-7190	mecp2	NCBIGene:4204	Zebrafish			3	104	15	5	false	MECP2
+OMIM:252920	mucopolysaccharidosis III	MGI:1351641	Naglu	NCBIGene:4669	Mouse			3	140	59	7	false	NAGLU
+OMIM:268400	Rothmund-Thomson Syndrome	MGI:1931028	Recql4	NCBIGene:9401	Mouse			3	215	38	3	false	RECQL4
+OMIM:277700	Werner Syndrome	MGI:109635	Wrn	NCBIGene:7486	Mouse			2	109	35	2	false	WRN
+OMIM:234500	Hartnup Disorder	MGI:1921588	Slc6a19	NCBIGene:340024	Mouse			1	43	10	1	true	SLC6A19
+OMIM:302800	Charcot-Marie-Tooth Disease, X-Linked Dominant, 1	MGI:95719	Gjb1	NCBIGene:2705	Mouse			4	78	11	1	true	GJB1
