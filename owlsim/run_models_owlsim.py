@@ -37,10 +37,15 @@ def main():
                       ))
 
     for disease_id, disease in disease_dictionary.items():
+
+        if disease["model_gene_taxon"] in monarch.TAXON_MAP:
+            taxon_label = monarch.TAXON_MAP[disease["model_gene_taxon"]]
+        else:
+            taxon_label = disease["model_gene_taxon"]
+
         output_file.write("{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}\t{7}\t{8}\t{9}\t{10}\t{11}\n".format(
                           disease["disease"], disease["disease_label"],
-                          disease["model_gene"], disease["model_gene_label"],
-                          monarch.TAXON_MAP[disease["model_gene_taxon"]],
+                          disease["model_gene"], disease["model_gene_label"], taxon_label,
                           disease["owlsim_score"], disease["owlsim_rank"],
                           disease["models"], disease["disease_pheno_count"],
                           disease["disease_gene_count"], disease["modgene_pheno_count"],
@@ -73,7 +78,7 @@ def process_input_file(input_file):
 
             key = "{0}-{1}".format(disease, model_gene)
             gene_taxon = monarch.get_taxon(model_gene)
-
+            disease_label = monarch.get_label_from_scigraph(disease)
 
             if gene_taxon == "NCBITaxon:10116" and model.startswith("MGI"):
                 # Catch and skip over rat transgenes

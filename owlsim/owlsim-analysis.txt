@@ -37,6 +37,8 @@ RETURN DISTINCT model.iri, model.label, modGene.iri, modGene.label, disease.iri,
 curl "https://scigraph-data-dev.monarchinitiative.org/scigraph/cypher/execute?cypherQuery=MATCH+%28disease%3Adisease%29%3C-%5Brelation%3ARO%3A0003301%5D-%28model%29+MATCH+%28model%29-%5B%3ARO%3A0001000%7CGENO%3A0000222%2A0..2%5D-%3E%28genotype%3Agenotype%29-%5B%3ABFO%3A0000051%21%2A%5D-%3E%28variant%29-%5B%3AGENO%3A0000418%7CGENO%3A0000639%21%2A0..1%5D-%3E%28modGene%3Agene%29+return+distinct+model.iri%2C+model.label%2C+modGene.iri%2C+modGene.label%2C+disease.iri%2C+disease.label&limit=10000" | grep '|' | sed -e 's/|\s//' | sed -e 's/\s\+|\s\+/\t/g' | sed -e 's/\s\+|$//g' | sed -e 's/"//g' >all_models.tsv
 
 
-python3 run_models_owlsim.py --input all-models.tsv --output all-models-owlsim.tsv
+python3 run_models_owlsim.py --input all-models.tsv --output all-models.tsv
+
+grep -v Human all-models.tsv | grep -v NCBITaxon > all-models-owlsim.tsv
 
 

@@ -41,6 +41,9 @@ def get_owlsim_scores(disease_dictionary):
 
     # Get all phenotypes
     for disease_id, disease in disease_dictionary.items():
+        disease["owlsim_rank"] = ""
+        disease["owlsim_score"] = ""
+
         params = {
             'wt': 'json',
             'rows': 100,
@@ -72,13 +75,19 @@ def get_owlsim_scores(disease_dictionary):
         try:
             owlsim_request = session.post(OWLSIM_URL, params=params)
         except requests.exceptions.ConnectionError:
-            logger.warn("Error hitting owlsim owlsim found for {0}".format(disease["disease"]))
+            logger.warn("Error hitting owlsim for {0}".format(disease["disease"]))
             disease["owlsim_score"] = get_score_from_compare(disease["disease"],
                                                              disease["model_gene"])
-            disease["owlsim_rank"] = ""
             continue
 
-        owlsim_results = owlsim_request.json()
+        try:
+            owlsim_results = owlsim_request.json()
+        except ValueError:
+            logger.warn("Error parsing json for {0}".format(disease["disease"]))
+            disease["owlsim_rank"] = ""
+            disease["owlsim_score"] = get_score_from_compare(disease["disease"],
+                                                             disease["model_gene"])
+            continue
         rank = 0
         last_score = -1
         if "b" in owlsim_results:
@@ -97,7 +106,6 @@ def get_owlsim_scores(disease_dictionary):
                                                      disease["disease"]))
                 disease["owlsim_score"] = get_score_from_compare(disease["disease"],
                                                                  disease["model_gene"])
-                disease["owlsim_rank"] = ""
         else:
             logger.warn("No owlsim results found for {0}".format(disease["disease"]))
 
@@ -113,9 +121,12 @@ def get_score_from_compare(disease, gene):
     except requests.exceptions.ConnectionError:
         logger.warn("Connection error fetch owlsim compare for gene {0}"
                     " in disease {1}".format(gene, disease))
-        return score
 
-    owlsim_results = owlsim_request.json()
+    try:
+        owlsim_results = owlsim_request.json()
+    except ValueError:
+        logger.warn("Error parsing json for {0}".format(disease["disease"]))
+
     if "b" in owlsim_results and len(owlsim_results["b"]) > 0:
         results = owlsim_results["b"][0]
         if results["id"] == gene:
