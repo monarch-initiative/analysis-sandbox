@@ -40,8 +40,8 @@ TAXON_MAP = {
 
 def main():
 
-    foo = get_causal_gene_phenotype_assocs()
-    print(len(foo))
+    human_causal = get_causal_gene_phenotype_assocs()
+    print("Number of human causual g2p associations: {0}".format(len(human_causal)))
 
     human_genes = get_human_genes()
     print("Number of human gene cliques: {0}".format(len(human_genes)))

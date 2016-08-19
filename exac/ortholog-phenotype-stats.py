@@ -3,7 +3,7 @@ import requests
 import argparse
 import re
 
-SCIGRAPH_BASE = "https://scigraph-data-dev.monarchinitiative.org/scigraph/cypher/execute.json"
+SCIGRAPH_BASE = "https://scigraph-data.monarchinitiative.org/scigraph/cypher/execute.json"
 
 parser = argparse.ArgumentParser(description='description')
 parser.add_argument('--input', '-i', type=str, required=True,
@@ -22,10 +22,12 @@ taxon_stats[1] = 0
 taxon_stats[2] = 0
 taxon_stats[3] = 0
 taxon_stats[4] = 0
+taxon_stats[5] = 0
+
 
 for gene in input_file:
     gene = gene.rstrip()
-    gene = re.sub('NCBIGene:', 'http://www.ncbi.nlm.nih.gov/gene/', gene)
+    gene_iri = re.sub('NCBIGene:', 'http://www.ncbi.nlm.nih.gov/gene/', gene)
 
     query = """
         START gene = node:node_auto_index(iri='{0}')
@@ -55,7 +57,11 @@ for gene in input_file:
         RETURN DISTINCT
         ortholog.label as ortholog, gene.label as gene, object.label as phenotype , taxon.label as taxon,
         'pattern4' as pattern
-    """.format(gene)
+    """.format(gene_iri)
+
+    # Catch case where gene label is null
+    if re.match(r'NCBIGene:(7145|3678|23326|158880)', gene):
+        query = re.sub(r'ortholog\.label', 'ortholog.iri', query)
 
     params = {'cypherQuery': query,
               'limit': 300}
@@ -68,6 +74,8 @@ for gene in input_file:
             if 'code' in response:
                 if response['code'] == 500:
                     print("Code 500 - Likely error in query")
+                    print(query)
+                    print(scigraph_request.url)
                     continue
             phenotype_count += 1
             for result in list(response):
@@ -87,3 +95,5 @@ print("Number of genes with ortholog-phenotypes from 1 taxon: {0}".format(taxon_
 print("Number of genes with ortholog-phenotypes from 2 taxa: {0}".format(taxon_stats[2]))
 print("Number of genes with ortholog-phenotypes from 3 taxa: {0}".format(taxon_stats[3]))
 print("Number of genes with ortholog-phenotypes from 4 taxa: {0}".format(taxon_stats[4]))
+print("Number of genes with ortholog-phenotypes from 5 taxa: {0}".format(taxon_stats[5]))
+
