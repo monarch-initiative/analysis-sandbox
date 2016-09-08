@@ -54,6 +54,9 @@ wc -l final_gene_list.txt
 # clean up
 rm est_list.txt genelist2.txt genelist1.txt temp1.txt unmatched_genes.txt ambiguous_ids.txt est_list.txt no_phenotype.tsv mygene_fetch.txt
 
+# Run cypher and get stats
+python3 ortholog-phenotype-stats.py --input ./final_gene_list.txt --output phenotypes.tsv
+
 # Total orthologs with phenotypes: 2045
 # Number of genes with ortholog-phenotypes from 1 taxon: 747
 # Number of genes with ortholog-phenotypes from 2 taxa: 913
