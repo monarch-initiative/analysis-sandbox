@@ -26,7 +26,8 @@ distance_matrix = [[0 for i in range(len(sample_ids))] for i in range(len(sample
 
 for index, value in enumerate(sample_ids):
     for index_query, value_query in enumerate(sample_ids):
-        if similarity_matrix[index][index_query] is 0:
+        if similarity_matrix[index][index_query] is 0 \
+                and distance_matrix[index][index_query] is not 100:
             score = monarch.get_score_from_compare(value, value_query)
             try:
                 similarity_score = int(score)
