@@ -15,7 +15,7 @@ session.mount('https://', adapter)
 # Globals and Constants
 SCIGRAPH_URL = 'https://scigraph-data.monarchinitiative.org/scigraph'
 OWLSIM_URL = 'https://monarchinitiative.org/simsearch/phenotype'
-OWLSIM_COMPARE = 'https://monarchinitiative.org/compare'
+OWLSIM_COMPARE = 'https://beta.monarchinitiative.org/compare'
 SOLR_URL = 'https://solr.monarchinitiative.org/solr/golr/select'
 
 CURIE_MAP = {
@@ -124,16 +124,16 @@ def get_score_from_compare(disease, gene):
 
     try:
         owlsim_results = owlsim_request.json()
-    except ValueError:
-        logger.warn("Error parsing json for {0}".format(disease["disease"]))
 
-    if "b" in owlsim_results and len(owlsim_results["b"]) > 0:
-        results = owlsim_results["b"][0]
-        if results["id"] == gene:
-            score = results["score"]["score"]
-    else:
-        logger.warn("No owlsim compare results found for {0}"
-                    " in disease {1}".format(gene, disease))
+        if "b" in owlsim_results and len(owlsim_results["b"]) > 0:
+            results = owlsim_results["b"][0]
+            if results["id"] == gene:
+                score = results["score"]["score"]
+        else:
+            logger.warn("No owlsim compare results found for {0}"
+                        " in disease {1}".format(gene, disease))
+    except ValueError:
+        logger.warn("Error parsing json for {0} and {1} for request {2}".format(disease, gene, owlsim_request))
 
     return score
 
