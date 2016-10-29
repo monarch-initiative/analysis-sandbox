@@ -113,7 +113,7 @@ def get_owlsim_scores(disease_dictionary):
 
 
 def get_score_from_compare(disease, gene):
-    score = ""
+    score = "0"
     compare_url = OWLSIM_COMPARE + "/{0}/{1}.json".format(disease, gene)
 
     try:
@@ -121,6 +121,7 @@ def get_score_from_compare(disease, gene):
     except requests.exceptions.ConnectionError:
         logger.warn("Connection error fetch owlsim compare for gene {0}"
                     " in disease {1}".format(gene, disease))
+        raise ConnectionError
 
     try:
         owlsim_results = owlsim_request.json()
