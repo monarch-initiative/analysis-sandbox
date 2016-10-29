@@ -112,31 +112,39 @@ def get_owlsim_scores(disease_dictionary):
     return disease_dictionary
 
 
-def get_score_from_compare(disease, gene):
-    score = "0"
-    compare_url = OWLSIM_COMPARE + "/{0}/{1}.json".format(disease, gene)
+def get_score_from_compare(reference, query):
 
+    query_ids = ",".join(query)
+    compare_url = OWLSIM_COMPARE + "/{0}/{1}.json".format(reference, query_ids)
+    results = []
     try:
         owlsim_request = session.get(compare_url)
     except requests.exceptions.ConnectionError:
         logger.warn("Connection error fetch owlsim compare for gene {0}"
-                    " in disease {1}".format(gene, disease))
+                    " in disease {1}".format(query, reference))
         raise ConnectionError
 
     try:
         owlsim_results = owlsim_request.json()
-
-        if "b" in owlsim_results and len(owlsim_results["b"]) > 0:
-            results = owlsim_results["b"][0]
-            if results["id"] == gene:
-                score = results["score"]["score"]
-        else:
+        if "b" not in owlsim_results:
             logger.warn("No owlsim compare results found for {0}"
-                        " in disease {1}".format(gene, disease))
-    except ValueError:
-        logger.warn("Error parsing json for {0} and {1} for request {2}".format(disease, gene, owlsim_request))
+                        " in disease {1}".format(query, reference))
+            results = [0 for i in range(len(query))]
+        else:
+            for query_id in query:
+                result = [result["score"]["score"] for result in owlsim_results["b"] if result["id"] == query_id]
+                if len(result) == 1:
+                    results.append(result[0])
+                else:
+                    logger.warn("Ambiguous owlsim compare results found for {0}"
+                                " in disease {1}".format(query_id, reference))
+                    score = 0
+                    results.append(score)
 
-    return score
+    except ValueError:
+        logger.warn("Error parsing json for {0} and {1} for request {2}".format(reference, query, owlsim_request))
+
+    return results
 
 
 def get_solr_counts(disease_dictionary):
