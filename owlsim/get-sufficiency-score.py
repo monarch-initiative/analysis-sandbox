@@ -23,12 +23,15 @@ args = parser.parse_args()
 
 input_file = open(args.input, 'r')
 output_file = open(args.output, 'w')
+output_file.write("disease\tdisease label\tsimple score\tscaled score\tphenotypes\tphenotype labels\n")
 
 for index, line in enumerate(input_file):
     fields = re.split(r'\t', line)
     phenotypes = fields[2].split("|")
     score = monarch.get_annotation_sufficiency_score(phenotypes)
-    output_file.write("{0}\t{1}\t{2}\t{3}\t{4}".format(fields[0], fields[1], score, fields[2], fields[3]))
+    output_file.write("{0}\t{1}\t{2}\t{3}\t{4}\t{5}".format(
+        fields[0], fields[1], score['simple_score'],
+        score['scaled_score'], fields[2], fields[3]))
     if index % 100 == 0:
         logger.info("processed {0} profiles".format(index))
 

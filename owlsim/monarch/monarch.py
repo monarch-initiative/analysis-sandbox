@@ -151,6 +151,7 @@ def get_score_from_compare(reference, query):
 
 def get_annotation_sufficiency_score(id_list):
     phenotype_dictionary = dict()
+    score = dict()
 
     phenotype_dictionary["features"] = list()
     for hp_id in id_list:
@@ -169,7 +170,8 @@ def get_annotation_sufficiency_score(id_list):
     score_request = session.post(MONARCH_SCORE, data=params)
 
     response = score_request.json()
-    score = response['simple_score']
+    score['simple_score'] = response['simple_score']
+    score['scaled_score'] = response['scaled_score']
 
     return score
 
