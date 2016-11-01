@@ -23,7 +23,7 @@ for index, line in enumerate(input_file):
     fields = re.split(r'\t', line)
     phenotypes = fields[2].split("|")
     score = monarch.get_annotation_sufficiency_score(phenotypes)
-    output_file.write("{0}{1}{2}{3}".format(fields[0], fields[1], score, fields[2]))
+    output_file.write("{0}\t{1}\t{2}\t{3}".format(fields[0], fields[1], score, fields[2]))
     if index % 100 == 0:
         logger.info("processed {0} profiles".format(index))
 
