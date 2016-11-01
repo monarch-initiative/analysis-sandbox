@@ -15,7 +15,7 @@ session.mount('https://', adapter)
 # Globals and Constants
 SCIGRAPH_URL = 'https://scigraph-data.monarchinitiative.org/scigraph'
 OWLSIM_URL = 'https://monarchinitiative.org/simsearch/phenotype'
-OWLSIM_COMPARE = 'https://beta.monarchinitiative.org/compare'
+OWLSIM_COMPARE = 'https://monarchinitiative.org/compare'
 SOLR_URL = 'https://solr.monarchinitiative.org/solr/golr/select'
 
 CURIE_MAP = {
@@ -136,7 +136,7 @@ def get_score_from_compare(reference, query):
                 if len(result) == 1:
                     results.append(result[0])
                 else:
-                    logger.warn("Ambiguous owlsim compare results found for {0}"
+                    logger.warn("No owlsim compare results found for {0}"
                                 " in disease {1}".format(query_id, reference))
                     score = 0
                     results.append(score)

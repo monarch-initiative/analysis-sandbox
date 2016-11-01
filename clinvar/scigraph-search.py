@@ -5,7 +5,7 @@ import requests
 
 def main():
 
-    SCIGRAPH_BASE = "https://scigraph-ontology.monarchinitiative.org/scigraph/vocabulary/search/"
+    SCIGRAPH_BASE = "http://localhost:9000/scigraph/vocabulary/search/"
 
     parser = argparse.ArgumentParser(description='description',
                                      formatter_class=
@@ -30,7 +30,7 @@ def main():
         'searchSynonyms': 'true',
         'searchAbbreviations': 'true',
         'searchAcronyms': 'false',
-        'category': ['disease', 'Phenotype']
+        'prefix': 'CHEBI'
     }
 
     for trait in input_file:
@@ -52,7 +52,10 @@ def main():
 
             if len(response) > 2:
                 match_curie = response[2]['curie']
-                match_label = response[2]['labels'][0]
+                if len(response[2]['labels']) > 0:
+                    match_label = response[2]['labels'][0]
+                else:
+                    match_label = ""
                 output_file.write("\t{0}\t{1}".format(match_curie,
                                                       match_label))
             output_file.write("\n")

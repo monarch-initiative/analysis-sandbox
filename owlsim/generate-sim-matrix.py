@@ -5,7 +5,7 @@ import logging
 from monarch import monarch
 
 logger = logging.getLogger(__name__)
-
+logger.setLevel(logging.INFO)
 
 parser = argparse.ArgumentParser(description='Generates similarity'
                                  ' and distance matrices for'
@@ -41,7 +41,7 @@ sample_tmp = copy.deepcopy(sample_ids)
 if args.cache:
     cached_matrix = open(args.cache, 'r')
     similarity_matrix = json.load(cached_matrix)
-    distance_matrix = [[100-k if k != 0 else 0 for k in similarity_matrix[i]] for i in range(len(similarity_matrix))]
+    distance_matrix = [[100-k if k != 0 and k != i else 0 for k in similarity_matrix[i]] for i in range(len(similarity_matrix))]
 else:
     similarity_matrix = [[0 for k in range(len(sample_ids))] for i in range(len(sample_ids))]
     distance_matrix = [[0 for k in range(len(sample_ids))] for i in range(len(sample_ids))]
@@ -62,7 +62,8 @@ for index, value in enumerate(sample_ids):
             is_matrix_filled = True
             for query_index in range(x_axis_index, end_index):
                 if similarity_matrix[index][query_index] is 0 \
-                        and distance_matrix[index][query_index] is not 100:
+                        and distance_matrix[index][query_index] is not 100 \
+                        and index != query_index:
                     is_matrix_filled = False
                     break
         else:
