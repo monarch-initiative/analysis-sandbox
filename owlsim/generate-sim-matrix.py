@@ -4,8 +4,8 @@ import copy
 import logging
 from monarch import monarch
 
+logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
 
 parser = argparse.ArgumentParser(description='Generates similarity'
                                  ' and distance matrices for'
@@ -60,29 +60,28 @@ for index, value in enumerate(sample_ids):
 
         if args.cache:
             is_matrix_filled = True
-            for query_index in range(x_axis_index, end_index):
-                if similarity_matrix[index][query_index] is 0 \
-                        and distance_matrix[index][query_index] is not 100 \
-                        and index != query_index:
-                    is_matrix_filled = False
-                    break
+            if sum(1 for i in range(x_axis_index, end_index) if similarity_matrix[index][i] is 0
+                    and distance_matrix[index][i] is not 100) > 0:
+                is_matrix_filled = False
         else:
             is_matrix_filled = False
 
         if not is_matrix_filled:
             try:
                 scores = monarch.get_score_from_compare(value, query_list)
+                for score_index, score in enumerate(scores):
+                    index_query = x_axis_index
+                    similarity_matrix[index][index_query] = score
+                    similarity_matrix[index_query][index] = score
+                    distance_matrix[index][index_query] = 100 - score
+                    distance_matrix[index_query][index] = 100 - score
+                    x_axis_index += 1
             except ConnectionError:
-                similarity_score = [0 for i in range(chunk_num)]
-                distance_score = [0 for i in range(chunk_num)]
-
-            for score_index, score in enumerate(scores):
-                index_query = x_axis_index
-                similarity_matrix[index][index_query] = score
-                similarity_matrix[index_query][index] = score
-                distance_matrix[index][index_query] = 100 - score
-                distance_matrix[index_query][index] = 100 - score
-                x_axis_index += 1
+                for index_query in range(x_axis_index, end_index):
+                    similarity_matrix[index][index_query] = 0
+                    similarity_matrix[index_query][index] = 0
+                    distance_matrix[index][index_query] = 0
+                    distance_matrix[index_query][index] = 0
 
     sample_tmp.pop(0)
 
