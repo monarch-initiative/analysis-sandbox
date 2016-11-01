@@ -1,6 +1,7 @@
 import requests
 import re
 import logging
+import json
 
 logger = logging.getLogger(__name__)
 
@@ -16,6 +17,7 @@ session.mount('https://', adapter)
 SCIGRAPH_URL = 'https://scigraph-data.monarchinitiative.org/scigraph'
 OWLSIM_URL = 'https://monarchinitiative.org/simsearch/phenotype'
 OWLSIM_COMPARE = 'https://monarchinitiative.org/compare'
+MONARCH_SCORE = 'https://monarchinitiative.org/score'
 SOLR_URL = 'https://solr.monarchinitiative.org/solr/golr/select'
 
 CURIE_MAP = {
@@ -145,6 +147,31 @@ def get_score_from_compare(reference, query):
         logger.warn("Error parsing json for {0} and {1} for request {2}".format(reference, query, owlsim_request))
 
     return results
+
+
+def get_annotation_sufficiency_score(id_list):
+    phenotype_dictionary = dict()
+
+    phenotype_dictionary["features"] = list()
+    for hp_id in id_list:
+        phenotype_dictionary["features"].append({
+            "id": hp_id,
+            "label": "",
+            "observed": "positive",
+            "isPresent": "true"
+        })
+    phenotypes = json.dumps(phenotype_dictionary)
+
+    params = {
+        'annotation_profile': phenotypes
+    }
+
+    score_request = session.post(MONARCH_SCORE, data=params)
+
+    response = score_request.json()
+    score = response['simple_score']
+
+    return score
 
 
 def get_solr_counts(disease_dictionary):
