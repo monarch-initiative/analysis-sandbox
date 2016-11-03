@@ -1,4 +1,5 @@
 import requests
+import grequests
 import re
 import logging
 import json
@@ -15,10 +16,12 @@ session.mount('https://', adapter)
 
 # Globals and Constants
 SCIGRAPH_URL = 'https://scigraph-data.monarchinitiative.org/scigraph'
-OWLSIM_URL = 'https://monarchinitiative.org/simsearch/phenotype'
-OWLSIM_COMPARE = 'https://monarchinitiative.org/compare'
+SIMSEARCH_URL = 'https://monarchinitiative.org/simsearch/phenotype'
+MONARCH_COMPARE = 'https://beta.monarchinitiative.org/compare'
 MONARCH_SCORE = 'https://monarchinitiative.org/score'
 SOLR_URL = 'https://solr.monarchinitiative.org/solr/golr/select'
+OWLSIM_URL = 'https://monarchinitiative.org/owlsim/'
+
 
 CURIE_MAP = {
     "http://purl.obolibrary.org/obo/OMIM_": "OMIM",
@@ -75,7 +78,7 @@ def get_owlsim_scores(disease_dictionary):
             params = "input_items={0}".format(phenotypes)
         # Run through owlsim through monarch simsearch endpoint
         try:
-            owlsim_request = session.post(OWLSIM_URL, params=params)
+            owlsim_request = session.post(SIMSEARCH_URL, params=params)
         except requests.exceptions.ConnectionError:
             logger.warn("Error hitting owlsim for {0}".format(disease["disease"]))
             disease["owlsim_score"] = get_score_from_compare(disease["disease"],
@@ -117,7 +120,7 @@ def get_owlsim_scores(disease_dictionary):
 def get_score_from_compare(reference, query):
 
     query_ids = ",".join(query)
-    compare_url = OWLSIM_COMPARE + "/{0}/{1}.json".format(reference, query_ids)
+    compare_url = MONARCH_COMPARE + "/{0}/{1}.json".format(reference, query_ids)
     results = []
     try:
         owlsim_request = session.get(compare_url)
@@ -145,6 +148,101 @@ def get_score_from_compare(reference, query):
 
     except ValueError:
         logger.warn("Error parsing json for {0} and {1} for request {2}".format(reference, query, owlsim_request))
+
+    return results
+
+
+def get_score_from_compare_batch(reference, query, chunk_len=10):
+    """
+    Wrapper for monarch phenotype comparison servce
+    Note this is different from get_score_from_compare as this
+    hits the owlsim API directly instead of going through the Monarch proxy service
+    which provides additional info (labels, taxon, type)
+    :param reference: String ID (disease, gene, genotype)
+    :param query: list of IDs to compare agaisnt the reference
+    :param chunk_len: int, size chunks of the original query list
+                      which are sent to the server as a batch
+    :return: list of scores
+    """
+    query_list = []
+    results = []
+    chunked_list = [query[i:i + chunk_len] for i in range(0, len(query), chunk_len)]
+
+    for chunk in chunked_list:
+        query_ids = ",".join(chunk)
+        query_list.append(MONARCH_COMPARE + "/{0}/{1}.json".format(reference, query_ids))
+
+    def exception_handler(request, exception):
+        logger.warn("Connection error fetch owlsim compare for gene {0}"
+                    " in disease {1}".format(query, reference))
+        raise ConnectionError
+
+    reqs = (grequests.get(url) for url in query_list)
+    for index, response in enumerate(grequests.map(reqs, exception_handler=exception_handler)):
+        try:
+            owlsim_results = response.json()
+            if "b" not in owlsim_results:
+                logger.warn("No owlsim compare results found for {0}"
+                            " in disease {1}".format(query, reference))
+                for i in range(len(chunk_len)):
+                    results.append(0)
+            else:
+                for query_id in chunked_list[index]:
+                    result = [result["score"]["score"] for result in owlsim_results["b"] if result["id"] == query_id]
+                    if len(result) == 1:
+                        results.append(result[0])
+                    else:
+                        logger.warn("No owlsim compare results found for {0}"
+                                    " in disease {1}".format(query_id, reference))
+                        score = 0
+                        results.append(score)
+
+        except ValueError:
+            logger.warn("Error parsing json for {0} and {1} for request {2}".format(reference, query, response))
+
+    return results
+
+
+def compare_attribute_sets(reference, query):
+    """
+    Wrapper for owlsim compareAttributeSets
+    Note this is different from get_score_from_compare as this
+    hits the owlsim API directly instead of going through the Monarch proxy service
+    which provides additional info (labels, taxon, type)
+
+    :param reference: reference phenotype profile
+    :param query: 2d list is phenotype profiles [[HP:1,HP:2],[HP:1, HP:3]]
+    :return: list of scores
+    """
+    results = []
+    request_list = []
+    compare_url = OWLSIM_URL + "compareAttributeSets"
+
+    for profile in query:
+        params = {
+            'a': reference,
+            'b': profile
+        }
+        request_list.append(grequests.post(compare_url, data=params))
+
+    def exception_handler(request, exception):
+        logger.warn("Connection error fetch owlsim compare")
+        raise ConnectionError
+
+    for index, response in enumerate(grequests.map(request_list, exception_handler=exception_handler)):
+        try:
+            owlsim_results = response.json()
+            results.append(owlsim_results['results'][0]['combinedScore'])
+
+        except ValueError:
+            logger.warn("Error parsing json for {0} and {1} for request {2}".format(reference, query, response))
+            results.append(0)
+        except KeyError:
+            logger.warn("Error parsing json for {0} and {1} for request {2}".format(reference, query, response))
+            results.append(0)
+        except IndexError:
+            logger.warn("Error parsing json for {0} and {1} for request {2}".format(reference, query, response))
+            results.append(0)
 
     return results
 

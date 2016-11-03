@@ -2,6 +2,7 @@ import json
 import argparse
 import copy
 import logging
+import re
 from monarch import monarch
 
 logging.basicConfig(level=logging.INFO)
@@ -32,11 +33,15 @@ if args.temp:
     temp_file.close()
 
 sample_ids = []
+sample_tmp = []
 
 for line in input_file:
-    sample_ids.append(line.rstrip('\n'))
+    line = line.rstrip('\n')
+    fields = re.split(r'\t', line)
+    phenotypes = fields[1].split("|")
+    sample_ids.append(phenotypes)
+    sample_tmp.append(phenotypes)
 
-sample_tmp = copy.deepcopy(sample_ids)
 
 if args.cache:
     cached_matrix = open(args.cache, 'r')
@@ -68,7 +73,7 @@ for index, value in enumerate(sample_ids):
 
         if not is_matrix_filled:
             try:
-                scores = monarch.get_score_from_compare(value, query_list)
+                scores = monarch.compare_attribute_sets(value, query_list)
                 for score_index, score in enumerate(scores):
                     index_query = x_axis_index
                     similarity_matrix[index][index_query] = score
