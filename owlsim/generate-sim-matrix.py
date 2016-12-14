@@ -77,16 +77,12 @@ for index, value in enumerate(sample_ids):
                 for score_index, score in enumerate(scores):
                     index_query = x_axis_index
                     similarity_matrix[index][index_query] = score
-                    similarity_matrix[index_query][index] = score
                     distance_matrix[index][index_query] = 100 - score
-                    distance_matrix[index_query][index] = 100 - score
                     x_axis_index += 1
             except ConnectionError:
                 for index_query in range(x_axis_index, end_index):
                     similarity_matrix[index][index_query] = 0
-                    similarity_matrix[index_query][index] = 0
                     distance_matrix[index][index_query] = 0
-                    distance_matrix[index_query][index] = 0
 
     sample_tmp.pop(0)
 

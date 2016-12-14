@@ -22,7 +22,7 @@ input_file = open(args.input, 'r')
 X = json.load(input_file)
 X = np.array(X)
 
-db = DBSCAN(eps=65, min_samples=1).fit(X)
+db = DBSCAN(eps=20, min_samples=5, metric="precomputed").fit(X)
 core_samples_mask = np.zeros_like(db.labels_, dtype=bool)
 core_samples_mask[db.core_sample_indices_] = True
 labels = db.labels_
@@ -31,8 +31,11 @@ print(db.labels_)
 
 # Number of clusters in labels, ignoring noise if present.
 n_clusters_ = len(set(labels)) - (1 if -1 in labels else 0)
+samples = sum(1 if i != -1 else 0 for i in labels)
+
 
 print('Estimated number of clusters: %d' % n_clusters_)
+print(samples)
 #print("Homogeneity: %0.3f" % metrics.homogeneity_score(labels_true, labels))
 #print("Completeness: %0.3f" % metrics.completeness_score(labels_true, labels))
 #print("V-measure: %0.3f" % metrics.v_measure_score(labels_true, labels))

@@ -18,6 +18,7 @@ session.mount('https://', adapter)
 SCIGRAPH_URL = 'https://scigraph-data.monarchinitiative.org/scigraph'
 SIMSEARCH_URL = 'https://monarchinitiative.org/simsearch/phenotype'
 MONARCH_COMPARE = 'https://beta.monarchinitiative.org/compare'
+MONARCH_SEARCH = 'https://solr.monarchinitiative.org/solr/search/select'
 MONARCH_SCORE = 'https://monarchinitiative.org/score'
 SOLR_URL = 'https://solr.monarchinitiative.org/solr/golr/select'
 OWLSIM_URL = 'https://monarchinitiative.org/owlsim/'
@@ -42,6 +43,98 @@ TAXON_MAP = {
 }
 
 
+def get_phenotype_profile(entity):
+    phenotype_list = []
+    params = {
+        'wt': 'json',
+        'rows': 100,
+        'start': 0,
+        'q': '*:*',
+        'fl': 'object',
+        'fq': ['subject_closure:"{0}"'.format(entity),
+               'object_category:"phenotype"']
+    }
+
+    resultCount = params['rows']
+
+    while params['start'] < resultCount:
+        solr_request = session.get(SOLR_URL, params=params)
+        response = solr_request.json()
+        resultCount = response['response']['numFound']
+        temp_list = [doc['object'] for doc in response['response']['docs']]
+        phenotype_list.extend(temp_list)
+        params['start'] += params['rows']
+
+    return phenotype_list
+
+
+def get_monarch_search_results(term):
+
+    params = {
+      "qt":"standard",
+      "json.nl":"arrarr",
+      "hl":"true",
+      "indent":"on",
+      "fl":"*,score",
+      "start":"0",
+      "rows":"25",
+      "hl.snippets":"1000",
+      "facet.limit":"25",
+      "q": "{0} \"{0}\"".format(term),
+      "defType":"edismax",
+      "personality":"monarch_search",
+      "qf":["label_searchable^1",
+        "definition_searchable^1",
+        "synonym_searchable^1",
+        "iri_searchable^2",
+        "id_searchable^2",
+        "equivalent_iri_searchable^1",
+        "equivalent_curie_searchable^1",
+        "taxon_label_searchable^1",
+        "taxon_label_synonym_searchable^1",
+        "iri_std^3",
+        "iri_kw^3",
+        "iri_eng^3",
+        "id_std^3",
+        "id_kw^3",
+        "id_eng^3",
+        "label_std^2",
+        "label_kw^2",
+        "label_eng^2",
+        "definition_std^1",
+        "definition_kw^1",
+        "definition_eng^1",
+        "synonym_std^1",
+        "synonym_kw^1",
+        "synonym_eng^1",
+        "category_std^1",
+        "category_kw^1",
+        "category_eng^1",
+        "equivalent_iri_std^1",
+        "equivalent_iri_kw^1",
+        "equivalent_iri_eng^1",
+        "equivalent_curie_std^1",
+        "equivalent_curie_kw^1",
+        "equivalent_curie_eng^1"],
+      "facet.mincount":"1",
+      "wt":"json",
+      "facet":"true",
+      "fq":"category:\"disease\"",
+    }
+
+    request = session.get(MONARCH_SEARCH, params=params)
+    response = request.json()
+    results = []
+
+    for doc in response['response']['docs']:
+        res = {}
+        res['id'] = doc['id']
+        res['label'] = doc['label_std'][0]
+        results.append(res)
+
+    return results
+
+
 def get_owlsim_scores(disease_dictionary):
 
     # Get all phenotypes
@@ -49,26 +142,7 @@ def get_owlsim_scores(disease_dictionary):
         disease["owlsim_rank"] = ""
         disease["owlsim_score"] = ""
 
-        params = {
-            'wt': 'json',
-            'rows': 100,
-            'start': 0,
-            'q': '*:*',
-            'fl': 'object',
-            'fq': ['subject_closure:"{0}"'.format(disease["disease"]),
-                   'object_category:"phenotype"']
-        }
-
-        resultCount = params['rows']
-        phenotype_list = []
-
-        while params['start'] < resultCount:
-            solr_request = session.get(SOLR_URL, params=params)
-            response = solr_request.json()
-            resultCount = response['response']['numFound']
-            temp_list = [doc['object'] for doc in response['response']['docs']]
-            phenotype_list.extend(temp_list)
-            params['start'] += params['rows']
+        phenotype_list = get_phenotype_profile(disease["disease"])
 
         phenotypes = "+".join(phenotype_list)
         if disease["model_gene_taxon"] is not None:
@@ -119,9 +193,8 @@ def get_owlsim_scores(disease_dictionary):
 
 def get_score_from_compare(reference, query):
 
-    query_ids = ",".join(query)
-    compare_url = MONARCH_COMPARE + "/{0}/{1}.json".format(reference, query_ids)
-    results = []
+    compare_url = MONARCH_COMPARE + "/{0}/{1}.json".format(reference, query)
+    score = 0
     try:
         owlsim_request = session.get(compare_url)
     except requests.exceptions.ConnectionError:
@@ -134,29 +207,26 @@ def get_score_from_compare(reference, query):
         if "b" not in owlsim_results:
             logger.warn("No owlsim compare results found for {0}"
                         " in disease {1}".format(query, reference))
-            results = [0 for i in range(len(query))]
         else:
             for query_id in query:
-                result = [result["score"]["score"] for result in owlsim_results["b"] if result["id"] == query_id]
+                result = [result["score"]["score"] for result in owlsim_results["b"] if result["id"] == query]
                 if len(result) == 1:
-                    results.append(result[0])
+                    score = result[0]
                 else:
                     logger.warn("No owlsim compare results found for {0}"
                                 " in disease {1}".format(query_id, reference))
-                    score = 0
-                    results.append(score)
 
     except ValueError:
         logger.warn("Error parsing json for {0} and {1} for request {2}".format(reference, query, owlsim_request))
 
-    return results
+    return score
 
 
 def get_score_from_compare_batch(reference, query, chunk_len=10):
     """
     Wrapper for monarch phenotype comparison servce
-    Note this is different from get_score_from_compare as this
-    hits the owlsim API directly instead of going through the Monarch proxy service
+    Note this is different from compare_attribute_sets as this
+    hits the monarch API instead of owlsim
     which provides additional info (labels, taxon, type)
     :param reference: String ID (disease, gene, genotype)
     :param query: list of IDs to compare agaisnt the reference
@@ -270,6 +340,7 @@ def get_annotation_sufficiency_score(id_list):
     response = score_request.json()
     score['simple_score'] = response['simple_score']
     score['scaled_score'] = response['scaled_score']
+    score['categorical_score'] = response['categorical_score']
 
     return score
 
