@@ -305,13 +305,16 @@ def compare_attribute_sets(reference, query):
             results.append(owlsim_results['results'][0]['combinedScore'])
 
         except ValueError:
-            logger.warn("Error parsing json for {0} and {1} for request {2}".format(reference, query, response))
+            logger.warn("Value Error parsing json for"
+                        " {0} and {1} for request {2}".format(reference, query[index], response))
             results.append(0)
         except KeyError:
-            logger.warn("Error parsing json for {0} and {1} for request {2}".format(reference, query, response))
+            logger.warn("Key Error parsing json for"
+                        " {0} and {1} for request {2}".format(reference, query[index], response))
             results.append(0)
         except IndexError:
-            logger.warn("Error parsing json for {0} and {1} for request {2}".format(reference, query, response))
+            logger.warn("Index Error parsing json for"
+                        " {0} and {1} for request {2}".format(reference, query[index], response))
             results.append(0)
 
     return results

@@ -16,13 +16,26 @@ X = StandardScaler().fit_transform(X)
 parser = argparse.ArgumentParser(description='description')
 parser.add_argument('--input', '-i', type=str, required=True,
                     help='Location of input file')
+parser.add_argument('--label', '-l', type=str, required=False,
+                    help='Location of label mapping file')
 args = parser.parse_args()
 
 input_file = open(args.input, 'r')
-X = json.load(input_file)
-X = np.array(X)
+distance_matrix = json.load(input_file)
 
-db = DBSCAN(eps=20, min_samples=5, metric="precomputed").fit(X)
+
+for i in range(len(distance_matrix)):
+    for k in range(len(distance_matrix[i])):
+        if distance_matrix[i][k] == 0 and i != k:
+            distance_matrix[i][k] = 100
+
+# Convert assymetric matrix to symmetric
+sym_matrix = [[ ((distance_matrix[i][k] + distance_matrix[k][i]) / 2) for k in range(len(distance_matrix[i]))] for i in range(len(distance_matrix))]
+
+
+X = np.array(sym_matrix)
+
+db = DBSCAN(eps=1, min_samples=5, metric="precomputed").fit(X)
 core_samples_mask = np.zeros_like(db.labels_, dtype=bool)
 core_samples_mask[db.core_sample_indices_] = True
 labels = db.labels_
@@ -32,6 +45,9 @@ print(db.labels_)
 # Number of clusters in labels, ignoring noise if present.
 n_clusters_ = len(set(labels)) - (1 if -1 in labels else 0)
 samples = sum(1 if i != -1 else 0 for i in labels)
+
+foo = [ind for ind, val in enumerate(labels) if val == 2]
+print(foo)
 
 
 print('Estimated number of clusters: %d' % n_clusters_)

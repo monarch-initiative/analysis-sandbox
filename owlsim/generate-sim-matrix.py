@@ -65,8 +65,8 @@ for index, value in enumerate(sample_ids):
 
         if args.cache:
             is_matrix_filled = True
-            if sum(1 for i in range(x_axis_index, end_index) if similarity_matrix[index][i] is 0
-                    and distance_matrix[index][i] is not 100) > 0:
+            if sum(1 for i in range(x_axis_index, end_index) if similarity_matrix[index][i] == 0
+                    and distance_matrix[index][i] != 100) > 0:
                 is_matrix_filled = False
         else:
             is_matrix_filled = False
@@ -80,6 +80,8 @@ for index, value in enumerate(sample_ids):
                     distance_matrix[index][index_query] = 100 - score
                     x_axis_index += 1
             except ConnectionError:
+                logger.warn("Connection Error parsing json"
+                            " for {0}, query: {1}".format(value, query_list))
                 for index_query in range(x_axis_index, end_index):
                     similarity_matrix[index][index_query] = 0
                     distance_matrix[index][index_query] = 0
