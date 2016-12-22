@@ -42,6 +42,8 @@ for line in input_file:
     sample_ids.append(phenotypes)
     sample_tmp.append(phenotypes)
 
+input_file.close()
+
 
 if args.cache:
     cached_matrix = open(args.cache, 'r')
@@ -53,13 +55,12 @@ else:
 
 
 for index, value in enumerate(sample_ids):
-    offset = len(sample_ids) - len(sample_tmp)
     for chunk_num, query_list in \
             enumerate([sample_tmp[i:i + args.chunk] for i in range(0, len(sample_tmp), args.chunk)]):
         # Determine where we are starting on the x axis of the matrix
-        x_axis_index = chunk_num * args.chunk + offset
+        x_axis_index = chunk_num * args.chunk
 
-        end_index = (x_axis_index + args.chunk) - 1 + offset
+        end_index = (x_axis_index + args.chunk) - 1
         if end_index > len(sample_ids):
             end_index = len(sample_ids)
 
@@ -80,13 +81,9 @@ for index, value in enumerate(sample_ids):
                     distance_matrix[index][index_query] = 100 - score
                     x_axis_index += 1
             except ConnectionError:
-                logger.warn("Connection Error parsing json"
-                            " for {0}, query: {1}".format(value, query_list))
                 for index_query in range(x_axis_index, end_index):
                     similarity_matrix[index][index_query] = 0
                     distance_matrix[index][index_query] = 0
-
-    sample_tmp.pop(0)
 
     # Dump matrix to temp file every now and then
     if index % 50 == 0:

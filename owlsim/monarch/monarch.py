@@ -21,7 +21,7 @@ MONARCH_COMPARE = 'https://beta.monarchinitiative.org/compare'
 MONARCH_SEARCH = 'https://solr.monarchinitiative.org/solr/search/select'
 MONARCH_SCORE = 'https://monarchinitiative.org/score'
 SOLR_URL = 'https://solr.monarchinitiative.org/solr/golr/select'
-OWLSIM_URL = 'https://monarchinitiative.org/owlsim/'
+OWLSIM_URL = 'http://localhost:8081/owlsim/'
 
 
 CURIE_MAP = {
