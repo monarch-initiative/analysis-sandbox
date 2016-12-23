@@ -1,6 +1,5 @@
 import json
 import argparse
-import copy
 import logging
 import re
 from monarch import monarch
@@ -33,14 +32,12 @@ if args.temp:
     temp_file.close()
 
 sample_ids = []
-sample_tmp = []
 
 for line in input_file:
     line = line.rstrip('\n')
     fields = re.split(r'\t', line)
     phenotypes = fields[1].split("|")
     sample_ids.append(phenotypes)
-    sample_tmp.append(phenotypes)
 
 input_file.close()
 
@@ -49,6 +46,7 @@ if args.cache:
     cached_matrix = open(args.cache, 'r')
     similarity_matrix = json.load(cached_matrix)
     distance_matrix = [[100-k if k != 0 and k != i else 0 for k in similarity_matrix[i]] for i in range(len(similarity_matrix))]
+    cached_matrix.close()
 else:
     similarity_matrix = [[0 for k in range(len(sample_ids))] for i in range(len(sample_ids))]
     distance_matrix = [[0 for k in range(len(sample_ids))] for i in range(len(sample_ids))]
@@ -56,7 +54,7 @@ else:
 
 for index, value in enumerate(sample_ids):
     for chunk_num, query_list in \
-            enumerate([sample_tmp[i:i + args.chunk] for i in range(0, len(sample_tmp), args.chunk)]):
+            enumerate([sample_ids[i:i + args.chunk] for i in range(0, len(sample_ids), args.chunk)]):
         # Determine where we are starting on the x axis of the matrix
         x_axis_index = chunk_num * args.chunk
 
@@ -66,7 +64,7 @@ for index, value in enumerate(sample_ids):
 
         if args.cache:
             is_matrix_filled = True
-            if sum(1 for i in range(x_axis_index, end_index) if similarity_matrix[index][i] == 0
+            if sum(1 for i in range(x_axis_index, (end_index + 1)) if similarity_matrix[index][i] == 0
                     and distance_matrix[index][i] != 100) > 0:
                 is_matrix_filled = False
         else:
@@ -76,12 +74,11 @@ for index, value in enumerate(sample_ids):
             try:
                 scores = monarch.compare_attribute_sets(value, query_list)
                 for score_index, score in enumerate(scores):
-                    index_query = x_axis_index
-                    similarity_matrix[index][index_query] = score
-                    distance_matrix[index][index_query] = 100 - score
+                    similarity_matrix[index][x_axis_index] = score
+                    distance_matrix[index][x_axis_index] = 100 - score
                     x_axis_index += 1
             except ConnectionError:
-                for index_query in range(x_axis_index, end_index):
+                for index_query in range(x_axis_index, (end_index + 1)):
                     similarity_matrix[index][index_query] = 0
                     distance_matrix[index][index_query] = 0
 

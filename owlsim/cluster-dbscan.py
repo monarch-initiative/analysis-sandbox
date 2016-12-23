@@ -27,15 +27,20 @@ distance_matrix = json.load(input_file)
 for i in range(len(distance_matrix)):
     for k in range(len(distance_matrix[i])):
         if distance_matrix[i][k] == 0 and i != k:
+            print("WARN: 0 in unexpected coordinate y:{0} x:{1}".format(i, k))
             distance_matrix[i][k] = 100
+
+print(distance_matrix[499][0])
+print(distance_matrix[2199][1798])
 
 # Convert assymetric matrix to symmetric
 sym_matrix = [[ ((distance_matrix[i][k] + distance_matrix[k][i]) / 2) for k in range(len(distance_matrix[i]))] for i in range(len(distance_matrix))]
 
+print(sym_matrix[1][0])
 
 X = np.array(sym_matrix)
 
-db = DBSCAN(eps=1, min_samples=5, metric="precomputed").fit(X)
+db = DBSCAN(eps=15, min_samples=5, metric="precomputed").fit(X)
 core_samples_mask = np.zeros_like(db.labels_, dtype=bool)
 core_samples_mask[db.core_sample_indices_] = True
 labels = db.labels_
