@@ -60,7 +60,7 @@ for index, value in enumerate(sample_ids):
 
         end_index = (x_axis_index + args.chunk) - 1
         if end_index > len(sample_ids):
-            end_index = len(sample_ids)
+            end_index = len(sample_ids) - 1
 
         if args.cache:
             is_matrix_filled = True
