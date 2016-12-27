@@ -45,7 +45,8 @@ input_file.close()
 if args.cache:
     cached_matrix = open(args.cache, 'r')
     similarity_matrix = json.load(cached_matrix)
-    distance_matrix = [[100-k if k != 0 and k != i else 0 for k in similarity_matrix[i]] for i in range(len(similarity_matrix))]
+    distance_matrix = [[100-value if value != 0 and index != i else 0 for index, value in enumerate(similarity_matrix[i])]
+                       for i in range(len(similarity_matrix))]
     cached_matrix.close()
 else:
     similarity_matrix = [[0 for k in range(len(sample_ids))] for i in range(len(sample_ids))]
@@ -64,8 +65,9 @@ for index, value in enumerate(sample_ids):
 
         if args.cache:
             is_matrix_filled = True
-            if sum(1 for i in range(x_axis_index, (end_index + 1)) if similarity_matrix[index][i] == 0
-                    and distance_matrix[index][i] != 100) > 0:
+            if sum(1 for i in range(x_axis_index, (end_index + 1)) if (similarity_matrix[index][i] == 0
+                   and distance_matrix[index][i] != 100)
+                   or (similarity_matrix[index][i] == 100 and index != i)) > 0:
                 is_matrix_filled = False
         else:
             is_matrix_filled = False
@@ -74,6 +76,8 @@ for index, value in enumerate(sample_ids):
             try:
                 scores = monarch.compare_attribute_sets(value, query_list)
                 for score_index, score in enumerate(scores):
+                    if index != x_axis_index and score == 100:
+                        logger.warn("Errant score at {0} {1}".format(index, x_axis_index))
                     similarity_matrix[index][x_axis_index] = score
                     distance_matrix[index][x_axis_index] = 100 - score
                     x_axis_index += 1

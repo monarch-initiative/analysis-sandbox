@@ -23,12 +23,14 @@ args = parser.parse_args()
 input_file = open(args.input, 'r')
 distance_matrix = json.load(input_file)
 
+print(distance_matrix[12][77])
+print(distance_matrix[77][12])
 
 for i in range(len(distance_matrix)):
     for k in range(len(distance_matrix[i])):
         if distance_matrix[i][k] == 0 and i != k:
-            #print("WARN: 0 in unexpected coordinate y:{0} x:{1}".format(i, k))
-            distance_matrix[i][k] = 100
+            print("WARN: 0 in unexpected coordinate y:{0} x:{1}".format(i, k))
+
 
 # Convert assymetric matrix to symmetric
 sym_matrix = [[ ((distance_matrix[i][k] + distance_matrix[k][i]) / 2) for k in range(len(distance_matrix[i]))] for i in range(len(distance_matrix))]
@@ -39,11 +41,11 @@ for i in range(len(sym_matrix)):
         if sym_matrix[i][k] <= 10 and i != k:
             highly_sim.append(sym_matrix[i][k])
 
-print("Number of highly similar entites (90+): {0}",format(len(highly_sim)/2))
+print("Number of highly similar entities (90+): {0}".format(len(highly_sim)/2))
 
 X = np.array(sym_matrix)
 
-db = DBSCAN(eps=20, min_samples=5, metric="precomputed").fit(X)
+db = DBSCAN(eps=18, min_samples=5, metric="precomputed").fit(X)
 core_samples_mask = np.zeros_like(db.labels_, dtype=bool)
 core_samples_mask[db.core_sample_indices_] = True
 labels = db.labels_
