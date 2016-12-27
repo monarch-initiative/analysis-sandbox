@@ -45,8 +45,13 @@ input_file.close()
 if args.cache:
     cached_matrix = open(args.cache, 'r')
     similarity_matrix = json.load(cached_matrix)
-    distance_matrix = [[100-value if value != 0 and index != i else 0 for index, value in enumerate(similarity_matrix[i])]
-                       for i in range(len(similarity_matrix))]
+    distance_matrix = [
+        [
+            100-value if value != 0 and index != i else 0
+            for index, value in enumerate(similarity_matrix[i])
+        ]
+        for i in range(len(similarity_matrix))
+    ]
     cached_matrix.close()
 else:
     similarity_matrix = [[0 for k in range(len(sample_ids))] for i in range(len(sample_ids))]
