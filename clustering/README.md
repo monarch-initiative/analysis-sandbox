@@ -1,35 +1,27 @@
-## Generate patient-disease cohort for test analysis
+## Scripts for generate and cluster similarity and distance matrices based on phenotypic similarity
 
-git clone https://github.com/monarch-initiative/monarch-owlsim-data.git
+### generate-sim-matrix.py
+Generates similarity matrix based on OwlSim2 (PhenoDigm)
+phenotypic similarity scores.
 
-cd monarch-owlsim-data/data/Homo_sapiens/
+Input is a tab delimited file in the format:
+foobar:123\tHP:123|HP:345|HP:567
 
-grep -P 'OMIM:\d+|Orphanet:\d+' Hs_disease_phenotype.txt | perl -e '%hash; while(<>) {chomp; ($disease,$phenotype) = split(/\t/, $_); if (exists $hash{$disease}) { push($hash{$disease}, $phenotype);} else { $hash{$disease} = [$phenotype];}} foreach $key (keys %hash){ $hp = join("|", @{$hash{$key}}); print "$key\t$hp\n";}' | sort -u >omim-orphanet.txt
+Output is a json formatted asymmetric 2d array
 
-python3 ./get-sufficiency-score.py --input ~/git/monarch-owlsim-data/data/Homo_sapiens/omim-orphanet.txt -o annotation-suff-scores.tsv
+Supports batch requests using grequests; however, when using
+the monarch owlsim endpoint --chunk should not be set above 3
 
-## Sort on scaled score, take top 2.5k
-sort -k3nr,3  annotation-suff-scores.tsv  | cut -f1,2 | head -2500 >disease-list.txt
+--temp /path/to/file generates a temporary file that can be used
+as a cache for subsequent runs
 
-cd back to /path/to/monarch-owlsim-data/data/Cases/
+### cluster-dbscan.py
+Cluster similarity matrix with DBSCAN and visualize with MDS
 
-perl -e '%hash; while(<>) {chomp; ($disease,$phenotype) = split(/\t/, $_); if (exists $hash{$disease}) { push($hash{$disease}, $phenotype);} else { $hash{$disease} = [$phenotype];}} foreach $key (keys %hash){ $hp = join("|", @{$hash{$key}}); print "$key\t$hp\n";}' <UDP_case_phenotype.txt > cases.txt
+Takes the mean of distances for asymmetric matrices
 
-cat cases.txt disease-list.txt > case-disease-cohort.txt
+Optionally perform MDS and visualize with matplotlib as well
+outputting serialized (json, csv) versions of various analysis steps
 
-## Generating label mapping file
-
-for line in `cut -f1 ./case-disease-cohort.txt`; do
-    cat /home/kshefchek/git/monarch-owlsim-data/data/Homo_sapiens/Hs_disease_labels.txt /home/kshefchek/git/monarch-owlsim-data/data/Cases/UDP_case_labels.txt | grep -P "$line\t"
-done > case-disease-map.txt
-
-
-## Generate the similarity matrix
-
-Note if using the monarch owlsim endpoint set chunk to <3
-
-python3 generate-sim-matrix.py -i ./case-disease-cohort.txt --cache sim-matrix-cache.txt -sim ./sim-matrix.txt -dist ./dist-matrix.txt --temp sim-temp.txt --chunk 10 >log.out 2>&1 &
-
-## Cluster similarity matrix
-
-./cluster-dbscan.py --input ./sim-matrix.txt --visualize --epsilon 15 --min_samples 3 --components 2 --output ./run-15-3/ --label ./case-disease-map.txt --out ./dbscan
+Note this algorithm produces the same output as hierarchical
+single linkage clustering when minSamples is set to 2
