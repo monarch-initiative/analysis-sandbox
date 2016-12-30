@@ -1,11 +1,35 @@
 import json
 import argparse
 import logging
+
 import re
-from monarch import monarch
+import monarch
+
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+"""
+Generates similarity matrix based on OwlSim2 (PhenoDigm)
+phenotypic similarity scores.
+
+Input is a tab delimited file in the format:
+foobar:123\tHP:123|HP:345|HP:567
+
+Output is a json formatted asymmetric 2d array
+
+Supports batch requests using grequests; however, when using
+the monarch owlsim endpoint --chunk should not be set above 3
+
+--temp /path/to/file generates a temporary file that can be used
+as a cache for subsequent runs
+
+TODOs
+1. Get rid of distance matrix as this can be generated
+   from the sim matrix in one line
+2. Add owlsim3 support and support for symmetric algorithms
+   (code for symmetric matrix in old commits)
+"""
 
 parser = argparse.ArgumentParser(description='Generates similarity'
                                  ' and distance matrices for'
@@ -41,7 +65,6 @@ for line in input_file:
 
 input_file.close()
 
-
 if args.cache:
     cached_matrix = open(args.cache, 'r')
     similarity_matrix = json.load(cached_matrix)
@@ -54,9 +77,9 @@ if args.cache:
     ]
     cached_matrix.close()
 else:
+    # This could be simplified if we use numpy
     similarity_matrix = [[0 for k in range(len(sample_ids))] for i in range(len(sample_ids))]
     distance_matrix = [[0 for k in range(len(sample_ids))] for i in range(len(sample_ids))]
-
 
 for index, value in enumerate(sample_ids):
     for chunk_num, query_list in \
@@ -82,6 +105,7 @@ for index, value in enumerate(sample_ids):
                 scores = monarch.compare_attribute_sets(value, query_list)
                 for score_index, score in enumerate(scores):
                     if index != x_axis_index and score == 100:
+                        # Similarity of 100 is unexpected
                         logger.warn("Errant score at {0} {1}".format(index, x_axis_index))
                     similarity_matrix[index][x_axis_index] = score
                     distance_matrix[index][x_axis_index] = 100 - score
@@ -99,7 +123,5 @@ for index, value in enumerate(sample_ids):
             temp_file.write(json.dumps(similarity_matrix))
             temp_file.close()
 
-
 similarity_file.write(json.dumps(similarity_matrix))
 distance_file.write(json.dumps(distance_matrix))
-

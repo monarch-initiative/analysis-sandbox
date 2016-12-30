@@ -14,6 +14,13 @@ session = requests.Session()
 adapter = requests.adapters.HTTPAdapter(max_retries=10)
 session.mount('https://', adapter)
 
+"""
+A (sloppily written) set of functions that interact with Monarch microservices
+such as scigraph, owlsim, solr, and the monarch app
+
+In the future this will be refactored and better structured
+"""
+
 # Globals and Constants
 SCIGRAPH_URL = 'https://scigraph-data.monarchinitiative.org/scigraph'
 SIMSEARCH_URL = 'https://monarchinitiative.org/simsearch/phenotype'

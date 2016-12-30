@@ -3,7 +3,9 @@
 import argparse
 import csv
 import logging
-from monarch import monarch
+
+import monarch
+
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)

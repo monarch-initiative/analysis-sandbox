@@ -1,7 +1,9 @@
-from monarch import monarch
 import argparse
 import logging
+
+import monarch
 import re
+
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)

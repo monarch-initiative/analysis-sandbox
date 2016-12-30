@@ -1,0 +1,34 @@
+## Generate patient-disease cohort for test analysis
+
+git clone https://github.com/monarch-initiative/monarch-owlsim-data.git
+cd monarch-owlsim-data/data/Homo_sapiens/
+
+grep -P 'OMIM:\d+|Orphanet:\d+' Hs_disease_phenotype.txt | perl -e '%hash; while(<>) {chomp; ($disease,$phenotype) = split(/\t/, $_); if (exists $hash{$disease}) { push($hash{$disease}, $phenotype);} else { $hash{$disease} = [$phenotype];}} foreach $key (keys %hash){ $hp = join("|", @{$hash{$key}}); print "$key\t$hp\n";}' | sort -u >omim-orphanet.txt
+
+python3 ./get-sufficiency-score.py --input ~/git/monarch-owlsim-data/data/Homo_sapiens/omim-orphanet.txt -o annotation-suff-scores.tsv
+
+## Sort on scaled score, take top 2.5k
+sort -k3nr,3  annotation-suff-scores.tsv  | cut -f1,2 | head -2500 >disease-list.txt
+
+cd back to /path/to/monarch-owlsim-data/data/Cases/
+
+perl -e '%hash; while(<>) {chomp; ($disease,$phenotype) = split(/\t/, $_); if (exists $hash{$disease}) { push($hash{$disease}, $phenotype);} else { $hash{$disease} = [$phenotype];}} foreach $key (keys %hash){ $hp = join("|", @{$hash{$key}}); print "$key\t$hp\n";}' <UDP_case_phenotype.txt > cases.txt
+
+cat cases.txt disease-list.txt > case-disease-cohort.txt
+
+## Generating label mapping file
+
+for line in `cut -f1 ./case-disease-cohort.txt`; do
+    cat /home/kshefchek/git/monarch-owlsim-data/data/Homo_sapiens/Hs_disease_labels.txt /home/kshefchek/git/monarch-owlsim-data/data/Cases/UDP_case_labels.txt | grep -P "$line\t"
+done > case-disease-map.txt
+
+
+## Generate the similarity matrix
+
+Note if using the monarch owlsim endpoint set chunk to <3
+
+python3 generate-sim-matrix.py -i ./case-disease-cohort.txt --cache sim-matrix-cache.txt -sim ./sim-matrix.txt -dist ./dist-matrix.txt --temp sim-temp.txt --chunk 10 >log.out 2>&1 &
+
+## Cluster similarity matrix
+
+./cluster-dbscan.py --input ./sim-matrix.txt --visualize --epsilon 15 --min_samples 3 --components 2 --output ./run-15-3/ --label ./case-disease-map.txt --out ./dbscan
