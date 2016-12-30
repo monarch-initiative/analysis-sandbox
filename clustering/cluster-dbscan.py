@@ -67,7 +67,7 @@ def main():
             if sym_matrix[i][k] <= 10 and i != k:
                 highly_sim += 1
 
-    logger.info("Number of highly similar entities (90+): {0}".format(highly_sim))
+    logger.info("Number of highly similar entities (90+): {0}".format(highly_sim/2))
 
     matrix = np.array(sym_matrix)
 
