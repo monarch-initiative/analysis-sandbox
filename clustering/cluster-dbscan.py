@@ -314,7 +314,7 @@ def plot_dbscan_clusters(db, coordinates, components):
             plt.plot(xy[:, 0], xy[:, 1], 'o', markerfacecolor=color,
                      markeredgecolor='k', markersize=7)
 
-    plt.title('Estimated number of clusters: %d' % n_clusters_)
+    plt.title('Number of clusters: %d' % n_clusters_)
     plt.show()
 
     return fig

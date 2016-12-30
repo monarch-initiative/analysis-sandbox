@@ -1,6 +1,7 @@
 ## Generate patient-disease cohort for test analysis
 
 git clone https://github.com/monarch-initiative/monarch-owlsim-data.git
+
 cd monarch-owlsim-data/data/Homo_sapiens/
 
 grep -P 'OMIM:\d+|Orphanet:\d+' Hs_disease_phenotype.txt | perl -e '%hash; while(<>) {chomp; ($disease,$phenotype) = split(/\t/, $_); if (exists $hash{$disease}) { push($hash{$disease}, $phenotype);} else { $hash{$disease} = [$phenotype];}} foreach $key (keys %hash){ $hp = join("|", @{$hash{$key}}); print "$key\t$hp\n";}' | sort -u >omim-orphanet.txt
