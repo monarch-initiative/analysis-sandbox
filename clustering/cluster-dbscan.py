@@ -147,7 +147,7 @@ def main():
         file_summary_fh.write('Number of clusters: {0}\n'.format(n_clusters))
         file_summary_fh.write('Number of samples clustered {0}\n'.format(samples))
         file_summary_fh.write('Number of input samples {0}\n'.format(len(db.labels_)))
-        file_summary_fh.write("Number of highly similar entities (90+): {0}\n".format(highly_sim))
+        file_summary_fh.write("Number of highly similar entities (90+): {0}\n".format(highly_sim/2))
         file_summary_fh.write("Clusters: \n")
 
         for cluster_label in range(n_clusters):
@@ -207,9 +207,6 @@ def main():
             plot_2d_png = mds_dir / "2d-coordinates.png"
             plot_2d_fh = plot_2d_png.open('wb')
 
-            file_3d_json = mds_dir / "3d-coordinates.json"
-            file_3d_fh = file_3d_json.open('w')
-
             plot_3d_png = mds_dir / "3d-coordinates.png"
             plot_3d_fh = plot_3d_png.open('wb')
 
@@ -219,15 +216,29 @@ def main():
                 three_d_coordinates = convert_matrix_to_coordinates(sym_matrix, 3)
                 fig_3d = plot_dbscan_clusters(db, three_d_coordinates, 3)
                 fig_3d.savefig(plot_3d_fh)
-                file_3d_fh.write(json.dumps(three_d_coordinates.tolist()))
 
             else:
-                file_3d_fh.write(json.dumps(coordinates.tolist()))
                 figure.savefig(plot_2d_fh)
                 two_d_coordinates = convert_matrix_to_coordinates(sym_matrix, 2)
                 fig_2d = plot_dbscan_clusters(db, two_d_coordinates, 2)
                 fig_2d.savefig(plot_3d_fh)
                 file_2d_fh.write(json.dumps(two_d_coordinates.tolist()))
+
+            coord_with_metadata = list()
+            for index, point in enumerate(three_d_coordinates):
+                point_dict = dict()
+                point_dict['x'] = point[0]
+                point_dict['y'] = point[1]
+                point_dict['z'] = point[2]
+                point_dict['cluster_id'] = int(db.labels_[index])
+                point_dict['id'] = sample_list[index].split('\t')[0]
+                point_dict['label'] = sample_list[index].split('\t')[1]
+
+                coord_with_metadata.append(point_dict)
+
+            file_3d_json = mds_dir / "3d-coordinates.json"
+            file_3d_fh = file_3d_json.open('w')
+            file_3d_fh.write(json.dumps(coord_with_metadata))
 
 
 def convert_matrix_to_coordinates(sym_matrix, components):
