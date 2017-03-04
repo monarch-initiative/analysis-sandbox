@@ -28,6 +28,7 @@ count = 0
 
 for entry in json_data:
     simple_id = entry['fields']['simpleid']
+    clinical_sites = "|".join(entry['fields']['seenatclinicalsites'])
 
     if 'phenotips' in entry['fields']\
             and entry['fields']['phenotips'] is not None\
@@ -35,11 +36,14 @@ for entry in json_data:
         phenotypes = entry['fields']['phenotips']['features']
         phenotype_list = "|".join([obj['id']for obj in phenotypes if obj['observed'] == 'yes'])
         solved = entry['fields']['phenotips']['solved']['status']
+
         sufficiency = entry['fields']['phenotips']['specificity']['score']
         pmid = ""
         if solved == 'solved' and 'pubmed_id' in entry['fields']['phenotips']['solved']:
             pmid = entry['fields']['phenotips']['solved']['pubmed_id']
+        if solved == 'solved' and 'pubmed_id' in entry['fields']['phenotips']['solved']:
+            pmid = entry['fields']['phenotips']['solved']['pubmed_id']
         count += 1
-        output_file.write("{0}\t{1}\t{2}\t{3}\t{4}\t{5}\n"
+        output_file.write("{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}\n"
                           .format(simple_id, phenotype_list,
-                                  sufficiency, solved, count, pmid))
+                                  sufficiency, solved, count, pmid, clinical_sites))
