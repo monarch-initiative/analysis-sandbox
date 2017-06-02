@@ -4,1292 +4,1292 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001891">
-    <rdfs:label>Iron deficiency anemia</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002791">
-    <rdfs:label>Hypoventilation</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIM_603903">
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0005180"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002754"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002091"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002027"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000501"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0004870"/>
-    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map02010"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000819"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001895"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001878"/>
-    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map05152"/>
-    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/R-HSA-77387"/>
-    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map04740"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001875"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002098"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0005482"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002721"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002155"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002090"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001000"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001733"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0003095"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000010"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002331"/>
-    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/R-HSA-1989781"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0011886"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100310"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001789"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0005661"/>
-    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/R-HSA-8849469"/>
-    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map05110"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0009763"/>
-    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map00860"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002301"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002093"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000112"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100598"/>
-    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map04080"/>
-    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map01100"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0008326"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002119"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001900"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002719"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001297"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002045"/>
-    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/160300"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002113"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000365"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001287"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002960"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000093"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002063"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001945"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100601"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001394"/>
-    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/604"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0011947"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100513"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001342"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000939"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0004727"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0004325"/>
-    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/R-HSA-6798695"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100820"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000822"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100512"/>
-    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map04145"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001897"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0012024"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0006532"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002099"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000789"/>
-    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/R-HSA-194840"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001890"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0007917"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100510"/>
-    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/R-HSA-159418"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001944"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000938"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001622"/>
-    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/116125"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0011903"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002910"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001941"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0003641"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100607"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0012622"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002326"/>
-    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/R-HSA-1247673"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0007902"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000099"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000097"/>
-    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/71"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001919"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001518"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0003259"/>
-    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map04976"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0004804"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0003158"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001971"/>
-    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/R-HSA-917977"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000572"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001635"/>
-    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map00040"/>
-    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map00982"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100543"/>
-    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map05144"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001396"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001931"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000541"/>
-    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/R-HSA-156588"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001896"/>
-    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map04142"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000823"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001648"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001908"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0004825"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001263"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001369"/>
-    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/R-HSA-381753"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001942"/>
-    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/R-HSA-193368"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001935"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001997"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002633"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001289"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001909"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002527"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0006536"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0005268"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001511"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002240"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0005547"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002829"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0005560"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000952"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001903"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0007354"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002725"/>
-    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map00514"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0003128"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0010885"/>
-    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/R-HSA-1237044"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001250"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100750"/>
-    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map00500"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002204"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001947"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001974"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002791"/>
-    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map00053"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000488"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0004395"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001899"/>
-    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/15518"/>
-    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/R-HSA-189483"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001891"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100806"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002401"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0003774"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0004444"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100749"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001081"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001082"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000969"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0004818"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000802"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001978"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002615"/>
-    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map05143"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001712"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002870"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0006528"/>
-    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map04144"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001386"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0200023"/>
-    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map00980"/>
-    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map05120"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002206"/>
-    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/R-HSA-2168880"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001489"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002904"/>
-    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map00983"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000718"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0011834"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000083"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0008346"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002835"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001638"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000980"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002718"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0003573"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002138"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001640"/>
-    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/R-HSA-983712"/>
-    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map00830"/>
-    <rdfs:label>Sickle Cell Anemia</rdfs:label>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001923"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100608"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0005296"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0011958"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100699"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0003418"/>
-    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/111102"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001746"/>
-    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map00140"/>
-    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/R-HSA-983231"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001907"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0006562"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002202"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0003146"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0011904"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000790"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0011902"/>
-    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/R-HSA-383280"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001744"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001877"/>
-    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map00190"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000740"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002140"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000100"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0003155"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0007863"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100724"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002092"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000105"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000573"/>
-    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map04966"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002653"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0012211"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001406"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001324"/>
-    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/111217"/>
-    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map05323"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001102"/>
-    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/R-HSA-1222556"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0011904">
+    <rdfs:label>Persistence of hemoglobin F</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MESH_D006450">
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0004444"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0003573"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0005560"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000365"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100724"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002076"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001944"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001945"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000541"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001923"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0009763"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0010885"/>
     <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0007902"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002754"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100014"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001489"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0004325"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000488"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001899"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000718"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002527"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0011902"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0005268"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100806"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000572"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001873"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002113"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001081"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002719"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0007917"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002331"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002597"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000573"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000952"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001903"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002653"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001896"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0011903"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0003641"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0200023"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002204"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100704"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002091"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000822"/>
     <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002027"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002113"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001873"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002331"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002204"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001971"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002653"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0010885"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100806"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100704"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001489"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002091"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0003641"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000083"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0011902"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0005560"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0011903"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001744"/>
     <rdfs:label>Hemoglobin SC Disease</rdfs:label>
     <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001878"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000822"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000083"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000718"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000541"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000573"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001903"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0009763"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0007917"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002597"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002719"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0005268"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100014"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002754"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000572"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000488"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0200023"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000365"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002076"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001899"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001945"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001081"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000952"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002527"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0004325"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001944"/>
     <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001900"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001971"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001923"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100724"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0004444"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001896"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0003573"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/clinvar/variation/15292">
+    <OBO:GENO_0000840 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/3043"/>
+    <rdfs:label>NM_000518.4(HBB):c.364G&gt;A (p.Glu122Lys)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIM_603903">
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0004825"/>
+    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/111217"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002099"/>
+    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/R-HSA-983712"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000100"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0011834"/>
+    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/15518"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001102"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001997"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0006562"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001082"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000790"/>
+    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map04976"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001638"/>
+    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/R-HSA-1247673"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000541"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002206"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000822"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002835"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002829"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001909"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000488"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001733"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002725"/>
+    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/604"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002331"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002098"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002326"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002401"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002910"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001396"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0004727"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000365"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002527"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0004870"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0006532"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001635"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0011902"/>
+    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/111102"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001289"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002615"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0007863"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002093"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002092"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000093"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001342"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002119"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001942"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002113"/>
+    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map00983"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001263"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100699"/>
+    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map04080"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001947"/>
+    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map05323"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0005661"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002653"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001891"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100608"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002960"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0003128"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0011903"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100750"/>
     <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001744"/>
+    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map04145"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001944"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001923"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002202"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0005180"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001369"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001897"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0004395"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0011958"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0003573"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001919"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001875"/>
+    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map04966"/>
+    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map00500"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001511"/>
+    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map00830"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002301"/>
+    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map00140"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001945"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0012024"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0007354"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100749"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002045"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001406"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0008326"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0003641"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000980"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0012622"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001941"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0003418"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0004325"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001931"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0011886"/>
+    <rdfs:label>Sickle Cell Anemia</rdfs:label>
+    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map00190"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002240"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001394"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100510"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001250"/>
+    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/R-HSA-917977"/>
+    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/R-HSA-8849469"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100607"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001622"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0003158"/>
+    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/R-HSA-381753"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001386"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0011904"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001899"/>
+    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map04142"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0008346"/>
+    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/R-HSA-383280"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002870"/>
+    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/R-HSA-194840"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0003095"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0006536"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000112"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0003155"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002155"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000718"/>
+    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map00053"/>
+    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map00514"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002904"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001907"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0005296"/>
+    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map02010"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0004818"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001640"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001297"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100601"/>
+    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/R-HSA-2168880"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0005268"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000572"/>
+    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/R-HSA-77387"/>
+    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/R-HSA-189483"/>
+    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map05143"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001648"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000802"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000789"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0004804"/>
+    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/R-HSA-983231"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000083"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000010"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100724"/>
+    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map04144"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002140"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000952"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002091"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001489"/>
+    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map05110"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001903"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001896"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000938"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000501"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0007917"/>
+    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map00980"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002719"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001878"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001518"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100543"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001895"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001978"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100310"/>
+    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/R-HSA-1237044"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000099"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000105"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002090"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0006528"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001974"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0003146"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001287"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000819"/>
+    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/R-HSA-159418"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001081"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0003774"/>
+    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map00040"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0010885"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100806"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001789"/>
+    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/R-HSA-1222556"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001900"/>
+    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map05152"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002063"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0004444"/>
+    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/71"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0005560"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0009763"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0003259"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000097"/>
+    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map00982"/>
+    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map05120"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000969"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002754"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000939"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001935"/>
+    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/116125"/>
+    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/R-HSA-156588"/>
+    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/R-HSA-6798695"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002718"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0011947"/>
+    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/R-HSA-193368"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001712"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001324"/>
+    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map00860"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001971"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100598"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002791"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002633"/>
+    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map04740"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001908"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000823"/>
+    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/R-HSA-1989781"/>
+    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map05144"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001877"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100513"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100512"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002027"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001000"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0005482"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0007902"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001746"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000573"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100820"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0005547"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0000740"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0200023"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002721"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0012211"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002138"/>
+    <OBO:RO_0002331 rdf:resource="http://www.kegg.jp/dbget-bin/www_bget?path:map01100"/>
+    <OBO:RO_0002331 rdf:resource="http://www.reactome.org/PathwayBrowser/#/160300"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002204"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001890"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001945">
+    <rdfs:label>Fever</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map00982">
+    <rdfs:label>Drug metabolism - cytochrome P450</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002091">
+    <rdfs:label>Restrictive ventilatory defect</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/R-HSA-8849469">
+    <rdfs:label>PTK6 Regulates RTKs and Their Effectors AKT1 and DOK1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/R-HSA-983712">
+    <rdfs:label>Ion channel transport</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/clinvar/variation/15333">
+    <rdfs:label>NM_000518.4(HBB):c.20A&gt;T (p.Glu7Val)</rdfs:label>
+    <OBO:GENO_0000840 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/3043"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/R-HSA-383280">
+    <rdfs:label>Nuclear Receptor transcription pathway</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/R-HSA-6798695">
+    <rdfs:label>Neutrophil degranulation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001942">
+    <rdfs:label>Metabolic acidosis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0009763">
+    <rdfs:label>Limb pain</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs1113932">
+    <rdfs:label>rs1113932-G</rdfs:label>
     <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/23671"/>
     <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-    <rdfs:label>rs1113932-G</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.informatics.jax.org/accession/MGI:3766996">
-    <rdfs:label>Spta1&lt;sph-ha&gt;/Spta1&lt;sph-ha&gt; [either:(B6.D1-Spta1&lt;sph-ha&gt; x WB.D1-Spta1&lt;sph-ha&gt;)F1 or (WB.D1-Spta1&lt;sph-ha&gt; x B6.D1-Spta1&lt;sph-ha&gt;)F1]</rdfs:label>
-    <OBO:GENO_0000418 rdf:resource="http://www.informatics.jax.org/accession/MGI:98385"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000099">
+    <rdfs:label>Glomerulonephritis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000572">
+    <rdfs:label>Visual loss</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs3105491">
+    <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+    <rdfs:label>rs3105491-T</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0005180">
+    <rdfs:label>Tricuspid regurgitation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.informatics.jax.org/accession/MGI:3790755">
     <OBO:RO_0003301 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+    <rdfs:label>Hba&lt;tm1(HBA)Tow&gt;</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002240">
+    <rdfs:label>Hepatomegaly</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001640">
+    <rdfs:label>Cardiomegaly</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0003259">
+    <rdfs:label>Elevated serum creatinine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs11053548">
+    <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+    <rdfs:label>rs11053548-A</rdfs:label>
+    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/387837"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM20432">
     <rdfs:label>NIGMS-GM20432</rdfs:label>
     <OBO:RO_0003301 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000541">
-    <rdfs:label>Retinal detachment</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0100607">
+    <rdfs:label>Dysmenorrhea</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map00190">
-    <rdfs:label>Oxidative phosphorylation</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002721">
+    <rdfs:label>Immunodeficiency</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs12073837">
-    <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/100873924"/>
-    <rdfs:label>rs12073837-T</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001342">
+    <rdfs:label>Cerebral hemorrhage</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001081">
-    <rdfs:label>Cholelithiasis</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0011902">
+    <rdfs:label>Abnormal hemoglobin</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs17135859">
-    <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-    <rdfs:label>rs17135859-C</rdfs:label>
-    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/107986441"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001907">
+    <rdfs:label>Thromboembolism</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000822">
-    <rdfs:label>Hypertension</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIM_141900.0003">
+    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/3043"/>
+    <rdfs:label>HBB, GLU90LYS</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0005547">
-    <rdfs:label>Myeloproliferative disorder</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000100">
-    <rdfs:label>Nephrotic syndrome</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002092">
-    <rdfs:label>Pulmonary arterial hypertension</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs4869931">
-    <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-    <rdfs:label>rs4869931-A</rdfs:label>
-    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/57480"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0004325">
-    <rdfs:label>Decreased body weight</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs1318772">
-    <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/4163"/>
-    <rdfs:label>rs1318772-G</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.informatics.jax.org/accession/MGI:4412015">
-    <rdfs:label>Tg(HBB-AR-HBA2,-HBB*)58Rub/0; Tg(LCR-HBA2,LCR-HBB)11Cos/0; Hbb&lt;d3th&gt;/Hbb&lt;d3th&gt; [involves: FVB/N * Swiss Webster]</rdfs:label>
-    <OBO:RO_0003301 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/3040"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM21816">
-    <rdfs:label>NIGMS-GM21816</rdfs:label>
-    <OBO:RO_0003301 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001878">
-    <rdfs:label>Hemolytic anemia</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002904">
-    <rdfs:label>Hyperbilirubinemia</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.informatics.jax.org/accession/MGI:4412016">
-    <OBO:RO_0003301 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-    <rdfs:label>Tg(LCR-HBA2,LCR-HBB)11Cos/0; Tg(HBB-AR-HBA2,-HBB*)58Rub/0; Hbb&lt;d3th&gt;/Hbb&lt;+&gt; [involves: FVB/N * Swiss Webster]</rdfs:label>
-    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/3040"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_1584">
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002099"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001945"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0006528"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100749"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0005560"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002092"/>
-    <rdfs:label>acute chest syndrome</rdfs:label>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002113"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001903"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002140"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002204"/>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001297"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0100598">
-    <rdfs:label>Pulmonary edema</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs1427407">
-    <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/53335"/>
-    <rdfs:label>rs1427407-?</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002027">
-    <rdfs:label>Abdominal pain</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map04142">
-    <rdfs:label>Lysosome</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.informatics.jax.org/accession/MGI:3790753">
-    <rdfs:label>Hbb&lt;tm2(HBG1,HBB*)Tow&gt;</rdfs:label>
-    <OBO:RO_0003301 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0005560">
-    <rdfs:label>Imbalanced hemoglobin synthesis</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001369">
-    <rdfs:label>Arthritis</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001895">
-    <rdfs:label>Normochromic anemia</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001394">
+    <rdfs:label>Cirrhosis</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.informatics.jax.org/accession/MGI:5509330">
-    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/3043"/>
     <rdfs:label>Hbb&lt;d3th&gt;/Hbb&lt;+&gt;; Tg(LCR-HBA2,LCR-HBB*)1Cos/0 [involves: C57BL/6J * CBA/J * DBA/2J]</rdfs:label>
+    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/3043"/>
     <OBO:RO_0003301 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002326">
-    <rdfs:label>Transient ischemic attack</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001997">
-    <rdfs:label>Gout</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM16265">
-    <OBO:RO_0003301 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-    <rdfs:label>NIGMS-GM16265</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs11053548">
-    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/387837"/>
-    <rdfs:label>rs11053548-A</rdfs:label>
-    <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001289">
-    <rdfs:label>Confusion</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0004818">
-    <rdfs:label>Paroxysmal nocturnal hemoglobinuria</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/R-HSA-6798695">
-    <rdfs:label>Neutrophil degranulation</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs7948471">
-    <rdfs:label>rs7948471-A</rdfs:label>
-    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/282763"/>
-    <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs1442407">
     <rdfs:label>rs1442407-T</rdfs:label>
     <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/64478"/>
     <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIM_141900.0003">
-    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/3043"/>
-    <rdfs:label>HBB, GLU90LYS</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.informatics.jax.org/accession/MGI:5509326">
-    <rdfs:label>Tg(LCR-HBA2,LCR-HBB*)1Cos</rdfs:label>
-    <OBO:RO_0003301 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/3043"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.informatics.jax.org/accession/MGI:3790755">
-    <OBO:RO_0003301 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-    <rdfs:label>Hba&lt;tm1(HBA)Tow&gt;</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001640">
-    <rdfs:label>Cardiomegaly</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000952">
-    <rdfs:label>Jaundice</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs17020489">
-    <rdfs:label>rs17020489-A</rdfs:label>
+  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs10520528">
     <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/102724542"/>
+    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/55714"/>
+    <rdfs:label>rs10520528-T</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002721">
-    <rdfs:label>Immunodeficiency</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs7045640">
-    <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-    <rdfs:label>rs7045640-A</rdfs:label>
-    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/100130873"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.informatics.jax.org/accession/MGI:3056733">
-    <OBO:RO_0003301 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/3039"/>
-    <rdfs:label>Tg(HBA-HBBs)41Paz</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002202">
-    <rdfs:label>Pleural effusion</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/clinvar/variation/15126">
-    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/3043"/>
-    <OBO:GENO_0000840 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-    <rdfs:label>NM_000518.4(HBB):c.19G&gt;A (p.Glu7Lys)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0007902">
-    <rdfs:label>Vitreous hemorrhage</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs2445284">
-    <rdfs:label>rs2445284-G</rdfs:label>
-    <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000938">
-    <rdfs:label>Osteopenia</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/clinvar/variation/15152">
-    <OBO:GENO_0000840 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-    <rdfs:label>NM_000518.4(HBB):c.364G&gt;C (p.Glu122Gln)</rdfs:label>
-    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/3043"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000010">
+    <rdfs:label>Recurrent urinary tract infections</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM16266">
     <rdfs:label>NIGMS-GM16266</rdfs:label>
     <OBO:RO_0003301 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0011902">
-    <rdfs:label>Abnormal hemoglobin</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/clinvar/variation/15333">
-    <OBO:GENO_0000840 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-    <rdfs:label>NM_000518.4(HBB):c.20A&gt;T (p.Glu7Val)</rdfs:label>
-    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/3043"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000488">
-    <rdfs:label>Retinopathy</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0100704">
-    <rdfs:label>Cortical visual impairment</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000097">
-    <rdfs:label>Focal segmental glomerulosclerosis</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs3105491">
+  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs4869931">
     <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-    <rdfs:label>rs3105491-T</rdfs:label>
+    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/57480"/>
+    <rdfs:label>rs4869931-A</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs766432">
-    <rdfs:label>rs766432-?</rdfs:label>
-    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/53335"/>
+  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs1669539">
+    <rdfs:label>rs1669539-T</rdfs:label>
     <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map00053">
-    <rdfs:label>Ascorbate and aldarate metabolism</rdfs:label>
+  <rdf:Description rdf:about="https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM20747">
+    <rdfs:label>NIGMS-GM20747</rdfs:label>
+    <OBO:RO_0003301 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0011903">
-    <rdfs:label>Hemoglobin H</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0011947">
+    <rdfs:label>Respiratory tract infection</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0011834">
-    <rdfs:label>Moyamoya phenomenon</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000980">
-    <rdfs:label>Pallor</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs887829">
-    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/54657"/>
-    <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-    <rdfs:label>rs887829-A</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002725">
-    <rdfs:label>Systemic lupus erythematosus</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001978">
-    <rdfs:label>Extramedullary hematopoiesis</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002098">
-    <rdfs:label>Respiratory distress</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001908">
-    <rdfs:label>Hypoplastic anemia</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002076">
-    <rdfs:label>Migraine</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/R-HSA-159418">
-    <rdfs:label>Recycling of bile acids and salts</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map00830">
-    <rdfs:label>Retinol metabolism</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002091">
-    <rdfs:label>Restrictive ventilatory defect</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002835">
-    <rdfs:label>Aspiration</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0100310">
+    <rdfs:label>Epidural hemorrhage</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/R-HSA-189483">
     <rdfs:label>Heme degradation</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map00982">
-    <rdfs:label>Drug metabolism - cytochrome P450</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map05143">
-    <rdfs:label>African trypanosomiasis</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0003259">
-    <rdfs:label>Elevated serum creatinine</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0006562">
-    <rdfs:label>Viral hepatitis</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map05110">
-    <rdfs:label>Vibrio cholerae infection</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.informatics.jax.org/accession/MGI:2664239">
-    <rdfs:label>Hbb&lt;tm1Tow&gt;</rdfs:label>
-    <OBO:RO_0003301 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs9494145">
-    <rdfs:label>rs9494145-?</rdfs:label>
+  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs1318772">
+    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/4163"/>
+    <rdfs:label>rs1318772-G</rdfs:label>
     <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs826221">
-    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/7068"/>
-    <rdfs:label>rs826221-A</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0006536">
+    <rdfs:label>Obstructive lung disease</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/R-HSA-156588">
+    <rdfs:label>Glucuronidation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs12073837">
     <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+    <rdfs:label>rs12073837-T</rdfs:label>
+    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/100873924"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001744">
-    <rdfs:label>Splenomegaly</rdfs:label>
+  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map02010">
+    <rdfs:label>ABC transporters</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002597">
-    <rdfs:label>Abnormality of the vasculature</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001875">
+    <rdfs:label>Neutropenia</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002754">
-    <rdfs:label>Osteomyelitis</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002204">
-    <rdfs:label>Pulmonary embolism</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001635">
-    <rdfs:label>Congestive heart failure</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.informatics.jax.org/accession/MGI:3764497">
-    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/3039"/>
-    <rdfs:label>Hba&lt;tm1Paz&gt;/Hba&lt;tm1Paz&gt;; Hbb&lt;tm1Tow&gt;/Hbb&lt;tm1Tow&gt;; Tg(HBA-HBBs)41Paz/? [involves: 129S2/SvPas * 129S7/SvEvBrd * Black Swiss * C57BL/6 * DBA/2* FVB/N]</rdfs:label>
-    <OBO:RO_0003301 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs2577720">
+    <rdfs:label>rs2577720-C</rdfs:label>
+    <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs11968814">
     <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
     <rdfs:label>rs11968814-A</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/R-HSA-983712">
-    <rdfs:label>Ion channel transport</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0005661">
+    <rdfs:label>Salmonella osteomyelitis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0007902">
+    <rdfs:label>Vitreous hemorrhage</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.informatics.jax.org/accession/MGI:3794861">
     <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/3040"/>
     <rdfs:label>Tg(LCR-HBA2,LCR-HBB)11Cos</rdfs:label>
     <OBO:RO_0003301 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001638">
-    <rdfs:label>Cardiomyopathy</rdfs:label>
+  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/604">
+    <rdfs:label>Hemostasis</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001511">
-    <rdfs:label>Intrauterine growth retardation</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002301">
+    <rdfs:label>Hemiplegia</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0008326">
-    <rdfs:label>Vitamin B6 deficiency</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0100598">
+    <rdfs:label>Pulmonary edema</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0100310">
-    <rdfs:label>Epidural hemorrhage</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000105">
+    <rdfs:label>Enlarged kidney</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001396">
-    <rdfs:label>Cholestasis</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs67072384">
-    <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-    <rdfs:label>rs67072384-T</rdfs:label>
-    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/116985"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002119">
-    <rdfs:label>Ventriculomegaly</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map05152">
-    <rdfs:label>Tuberculosis</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001102">
-    <rdfs:label>Angioid streaks of the retina</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0006536">
-    <rdfs:label>Obstructive lung disease</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0006528">
-    <rdfs:label>Chronic lung disease</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002615">
-    <rdfs:label>Hypotension</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000939">
-    <rdfs:label>Osteoporosis</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM20920">
+  <rdf:Description rdf:about="https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM21816">
     <OBO:RO_0003301 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-    <rdfs:label>NIGMS-GM20920</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0004825">
-    <rdfs:label>Increased hemoglobin oxygen affinity</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0012211">
-    <rdfs:label>Abnormal renal physiology</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/R-HSA-77387">
-    <rdfs:label>Insulin receptor recycling</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002401">
-    <rdfs:label>Stroke-like episodes</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map00500">
-    <rdfs:label>Starch and sucrose metabolism</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000365">
-    <rdfs:label>Hearing impairment</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001974">
-    <rdfs:label>Leukocytosis</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0100601">
-    <rdfs:label>Eclampsia</rdfs:label>
+    <rdfs:label>NIGMS-GM21816</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002527">
     <rdfs:label>Falls</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0011958">
-    <rdfs:label>Retinal perforation</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0011834">
+    <rdfs:label>Moyamoya phenomenon</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002331">
-    <rdfs:label>Recurrent paroxysmal headache</rdfs:label>
+  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs1427407">
+    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/53335"/>
+    <rdfs:label>rs1427407-?</rdfs:label>
+    <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0100750">
+    <rdfs:label>Atelectasis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002098">
+    <rdfs:label>Respiratory distress</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001518">
+    <rdfs:label>Small for gestational age</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001250">
+    <rdfs:label>Seizures</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/71">
+    <rdfs:label>Gene Expression</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001789">
     <rdfs:label>Hydrops fetalis</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0003774">
-    <rdfs:label>Stage 5 chronic kidney disease</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002138">
-    <rdfs:label>Subarachnoid hemorrhage</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs10520528">
-    <rdfs:label>rs10520528-T</rdfs:label>
-    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/55714"/>
+  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs67072384">
     <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0003158">
-    <rdfs:label>Hyposthenuria</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000819">
-    <rdfs:label>Diabetes mellitus</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0004395">
-    <rdfs:label>Malnutrition</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002910">
-    <rdfs:label>Elevated hepatic transaminases</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0004727">
-    <rdfs:label>Impaired renal concentrating ability</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0100608">
-    <rdfs:label>Metrorrhagia</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0200023">
-    <rdfs:label>Priapism</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs7203560">
-    <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-    <rdfs:label>rs7203560-G</rdfs:label>
-    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/8131"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/R-HSA-1247673">
-    <rdfs:label>Erythrocytes take up oxygen and release carbon dioxide</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000010">
-    <rdfs:label>Recurrent urinary tract infections</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002093">
-    <rdfs:label>Respiratory insufficiency</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001947">
-    <rdfs:label>Renal tubular acidosis</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000099">
-    <rdfs:label>Glomerulonephritis</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs1669539">
-    <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-    <rdfs:label>rs1669539-T</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000969">
-    <rdfs:label>Edema</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0100014">
-    <rdfs:label>Epiretinal membrane</rdfs:label>
+    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/116985"/>
+    <rdfs:label>rs67072384-T</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map05144">
     <rdfs:label>Malaria</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001622">
-    <rdfs:label>Premature birth</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000083">
-    <rdfs:label>Renal insufficiency</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0003095">
-    <rdfs:label>Septic arthritis</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002090">
-    <rdfs:label>Pneumonia</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/clinvar/variation/15292">
-    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/3043"/>
-    <OBO:GENO_0000840 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-    <rdfs:label>NM_000518.4(HBB):c.364G&gt;A (p.Glu122Lys)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map04976">
-    <rdfs:label>Bile secretion</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://monarchinitiative.org/.well-known/genid/122376-232VL">
-    <rdfs:label>some variant of HBB that is a disease-causing germline mutation(s) in Sickle cell anemia</rdfs:label>
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000789">
-    <rdfs:label>Infertility</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0012024">
-    <rdfs:label>Hypergalactosemia</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001394">
-    <rdfs:label>Cirrhosis</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.informatics.jax.org/accession/MGI:5510724">
-    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/3043"/>
-    <rdfs:label>Hbb&lt;d3th&gt;/Hbb&lt;+&gt;; Tg(LCR-HBA1,LCR-HBB*)1Tow/0 [involves: C57BL/6 * DBA/2J * SJL]</rdfs:label>
-    <OBO:RO_0003301 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0012622">
-    <rdfs:label>Chronic kidney disease</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001712">
-    <rdfs:label>Left ventricular hypertrophy</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.informatics.jax.org/accession/MGI:3803707">
-    <rdfs:label>Hba&lt;tm1(HBA)Tow&gt;/Hba&lt;tm1(HBA)Tow&gt;; Hbb&lt;tm2(HBG1,HBB*)Tow&gt;/Hbb&lt;tm2(HBG1,HBB*)Tow&gt; [Not Specified]</rdfs:label>
-    <OBO:RO_0003301 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map00040">
-    <rdfs:label>Pentose and glucuronate interconversions</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0100510">
-    <rdfs:label>Vitamin C deficiency</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000790">
-    <rdfs:label>Hematuria</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001386">
-    <rdfs:label>Joint swelling</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001287">
-    <rdfs:label>Meningitis</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_1584">
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002140"/>
+    <rdfs:label>acute chest syndrome</rdfs:label>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002204"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002099"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001945"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0100749"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001903"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002113"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0006528"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0002092"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0005560"/>
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/HP_0001297"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs1845344">
     <rdfs:label>rs1845344-T</rdfs:label>
     <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001945">
-    <rdfs:label>Fever</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map04966">
-    <rdfs:label>Collecting duct acid secretion</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0008346">
-    <rdfs:label>Increased red cell sickling tendency</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/71">
-    <rdfs:label>Gene Expression</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001899">
-    <rdfs:label>Increased hematocrit</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002113">
-    <rdfs:label>Pulmonary infiltrates</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002718">
-    <rdfs:label>Recurrent bacterial infections</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001324">
-    <rdfs:label>Muscle weakness</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001909">
-    <rdfs:label>Leukemia</rdfs:label>
-  </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000802">
     <rdfs:label>Impotence</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001931">
-    <rdfs:label>Hypochromic anemia</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0006528">
+    <rdfs:label>Chronic lung disease</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs2577720">
-    <rdfs:label>rs2577720-C</rdfs:label>
+  <rdf:Description rdf:about="http://www.informatics.jax.org/accession/MGI:4412015">
+    <OBO:RO_0003301 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/3040"/>
+    <rdfs:label>Tg(HBB-AR-HBA2,-HBB*)58Rub/0; Tg(LCR-HBA2,LCR-HBB)11Cos/0; Hbb&lt;d3th&gt;/Hbb&lt;d3th&gt; [involves: FVB/N * Swiss Webster]</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs766432">
+    <rdfs:label>rs766432-?</rdfs:label>
     <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/53335"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.informatics.jax.org/accession/MGI:4412016">
+    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/3040"/>
+    <OBO:RO_0003301 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+    <rdfs:label>Tg(LCR-HBA2,LCR-HBB)11Cos/0; Tg(HBB-AR-HBA2,-HBB*)58Rub/0; Hbb&lt;d3th&gt;/Hbb&lt;+&gt; [involves: FVB/N * Swiss Webster]</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/clinvar/variation/15126">
+    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/3043"/>
+    <OBO:GENO_0000840 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+    <rdfs:label>NM_000518.4(HBB):c.19G&gt;A (p.Glu7Lys)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000573">
+    <rdfs:label>Retinal hemorrhage</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map00500">
+    <rdfs:label>Starch and sucrose metabolism</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.informatics.jax.org/accession/MGI:5509326">
+    <OBO:RO_0003301 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+    <rdfs:label>Tg(LCR-HBA2,LCR-HBB*)1Cos</rdfs:label>
+    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/3043"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs7952106">
+    <rdfs:label>rs7952106-G</rdfs:label>
+    <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.informatics.jax.org/accession/MGI:2664239">
+    <OBO:RO_0003301 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+    <rdfs:label>Hbb&lt;tm1Tow&gt;</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map00860">
+    <rdfs:label>Porphyrin and chlorophyll metabolism</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map04740">
+    <rdfs:label>Olfactory transduction</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001638">
+    <rdfs:label>Cardiomyopathy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002063">
+    <rdfs:label>Rigidity</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000789">
+    <rdfs:label>Infertility</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0010885">
+    <rdfs:label>Aseptic necrosis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs10017284">
+    <rdfs:label>rs10017284-G</rdfs:label>
+    <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002093">
+    <rdfs:label>Respiratory insufficiency</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/clinvar/variation/15152">
+    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/3043"/>
+    <OBO:GENO_0000840 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+    <rdfs:label>NM_000518.4(HBB):c.364G&gt;C (p.Glu122Gln)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002835">
+    <rdfs:label>Aspiration</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000823">
+    <rdfs:label>Delayed puberty</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002326">
+    <rdfs:label>Transient ischemic attack</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002076">
+    <rdfs:label>Migraine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002904">
+    <rdfs:label>Hyperbilirubinemia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000819">
+    <rdfs:label>Diabetes mellitus</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.informatics.jax.org/accession/MGI:3764497">
+    <OBO:RO_0003301 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+    <rdfs:label>Hba&lt;tm1Paz&gt;/Hba&lt;tm1Paz&gt;; Hbb&lt;tm1Tow&gt;/Hbb&lt;tm1Tow&gt;; Tg(HBA-HBBs)41Paz/? [involves: 129S2/SvPas * 129S7/SvEvBrd * Black Swiss * C57BL/6 * DBA/2* FVB/N]</rdfs:label>
+    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/3039"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM20421">
+    <OBO:RO_0003301 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+    <rdfs:label>NIGMS-GM20421</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002027">
+    <rdfs:label>Abdominal pain</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0100806">
+    <rdfs:label>Sepsis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0100510">
+    <rdfs:label>Vitamin C deficiency</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001923">
+    <rdfs:label>Reticulocytosis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000488">
+    <rdfs:label>Retinopathy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs17135859">
+    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/107986441"/>
+    <rdfs:label>rs17135859-C</rdfs:label>
+    <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0003155">
+    <rdfs:label>Elevated alkaline phosphatase</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0007917">
+    <rdfs:label>Tractional retinal detachment</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000093">
+    <rdfs:label>Proteinuria</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002140">
+    <rdfs:label>Ischemic stroke</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000939">
+    <rdfs:label>Osteoporosis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001263">
+    <rdfs:label>Global developmental delay</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001406">
+    <rdfs:label>Intrahepatic cholestasis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs17020489">
+    <rdfs:label>rs17020489-A</rdfs:label>
+    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/102724542"/>
+    <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0011903">
+    <rdfs:label>Hemoglobin H</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002960">
+    <rdfs:label>Autoimmunity</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.informatics.jax.org/accession/MGI:3056733">
+    <rdfs:label>Tg(HBA-HBBs)41Paz</rdfs:label>
+    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/3039"/>
+    <OBO:RO_0003301 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001941">
+    <rdfs:label>Acidosis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001978">
+    <rdfs:label>Extramedullary hematopoiesis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/R-HSA-159418">
+    <rdfs:label>Recycling of bile acids and salts</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs11568377">
+    <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+    <rdfs:label>rs11568377-A</rdfs:label>
+    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/8647"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/clinvar/variation/15161">
     <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/3043"/>
     <OBO:GENO_0000840 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
     <rdfs:label>NM_000518.4(HBB):c.79G&gt;A (p.Glu27Lys)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/R-HSA-8849469">
-    <rdfs:label>PTK6 Regulates RTKs and Their Effectors AKT1 and DOK1</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001396">
+    <rdfs:label>Cholestasis</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0100806">
-    <rdfs:label>Sepsis</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0004825">
+    <rdfs:label>Increased hemoglobin oxygen affinity</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002140">
-    <rdfs:label>Ischemic stroke</rdfs:label>
+  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map04080">
+    <rdfs:label>Neuroactive ligand-receptor interaction</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs7952106">
-    <rdfs:label>rs7952106-G</rdfs:label>
-    <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000823">
-    <rdfs:label>Delayed puberty</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002240">
-    <rdfs:label>Hepatomegaly</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001890">
-    <rdfs:label>Autoimmune hemolytic anemia</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0007354">
+    <rdfs:label>Amyotrophic lateral sclerosis</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0100699">
     <rdfs:label>Scarring</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0011904">
-    <rdfs:label>Persistence of hemoglobin F</rdfs:label>
+  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/R-HSA-194840">
+    <rdfs:label>Rho GTPase cycle</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/111217">
-    <rdfs:label>Metabolism</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001873">
-    <rdfs:label>Thrombocytopenia</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/R-HSA-1237044">
-    <rdfs:label>Erythrocytes take up carbon dioxide and release oxygen</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map00983">
-    <rdfs:label>Drug metabolism - other enzymes</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/15518">
-    <rdfs:label>Transmembrane transport of small molecules</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001875">
-    <rdfs:label>Neutropenia</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002155">
-    <rdfs:label>Hypertriglyceridemia</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0100750">
-    <rdfs:label>Atelectasis</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs12559632">
-    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/5251"/>
+  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs826221">
+    <rdfs:label>rs826221-A</rdfs:label>
     <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-    <rdfs:label>rs12559632-A</rdfs:label>
+    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/7068"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM16265">
+    <rdfs:label>NIGMS-GM16265</rdfs:label>
+    <OBO:RO_0003301 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs7045640">
+    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/100130873"/>
+    <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+    <rdfs:label>rs7045640-A</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001746">
+    <rdfs:label>Asplenia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map04976">
+    <rdfs:label>Bile secretion</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0008346">
+    <rdfs:label>Increased red cell sickling tendency</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIM_141900.0010">
+    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/3043"/>
+    <rdfs:label>HBB, GLU6LYS AND LYS95GLU</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002206">
+    <rdfs:label>Pulmonary fibrosis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/R-HSA-1222556">
+    <rdfs:label>ROS, RNS production in phagocytes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002910">
+    <rdfs:label>Elevated hepatic transaminases</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002113">
+    <rdfs:label>Pulmonary infiltrates</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.informatics.jax.org/accession/MGI:3803707">
+    <OBO:RO_0003301 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+    <rdfs:label>Hba&lt;tm1(HBA)Tow&gt;/Hba&lt;tm1(HBA)Tow&gt;; Hbb&lt;tm2(HBG1,HBB*)Tow&gt;/Hbb&lt;tm2(HBG1,HBB*)Tow&gt; [Not Specified]</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs3800569">
     <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
     <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/50617"/>
     <rdfs:label>rs3800569-C</rdfs:label>
   </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0100601">
+    <rdfs:label>Eclampsia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs12559632">
+    <rdfs:label>rs12559632-A</rdfs:label>
+    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/5251"/>
+    <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000980">
+    <rdfs:label>Pallor</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/116125">
+    <rdfs:label>Disease</rdfs:label>
+  </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0100513">
     <rdfs:label>Vitamin E deficiency</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0005482">
-    <rdfs:label>Abnormality of the alternate complement pathway</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map04740">
-    <rdfs:label>Olfactory transduction</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0004804">
-    <rdfs:label>Congenital hemolytic anemia</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0005268">
-    <rdfs:label>Spontaneous abortion</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000740">
-    <rdfs:label>Episodic paroxysmal anxiety</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map04144">
-    <rdfs:label>Endocytosis</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/160300">
-    <rdfs:label>Binding and Uptake of Ligands by Scavenger Receptors</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001000">
-    <rdfs:label>Abnormality of skin pigmentation</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/R-HSA-383280">
-    <rdfs:label>Nuclear Receptor transcription pathway</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002099">
-    <rdfs:label>Asthma</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map05120">
-    <rdfs:label>Epithelial cell signaling in Helicobacter pylori infection</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map04145">
-    <rdfs:label>Phagosome</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/R-HSA-2168880">
-    <rdfs:label>Scavenging of heme from plasma</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001942">
-    <rdfs:label>Metabolic acidosis</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0004444">
-    <rdfs:label>Spherocytosis</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM20421">
+  <rdf:Description rdf:about="http://www.informatics.jax.org/accession/MGI:3766996">
+    <rdfs:label>Spta1&lt;sph-ha&gt;/Spta1&lt;sph-ha&gt; [either:(B6.D1-Spta1&lt;sph-ha&gt; x WB.D1-Spta1&lt;sph-ha&gt;)F1 or (WB.D1-Spta1&lt;sph-ha&gt; x B6.D1-Spta1&lt;sph-ha&gt;)F1]</rdfs:label>
     <OBO:RO_0003301 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-    <rdfs:label>NIGMS-GM20421</rdfs:label>
+    <OBO:GENO_0000418 rdf:resource="http://www.informatics.jax.org/accession/MGI:98385"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001941">
-    <rdfs:label>Acidosis</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002331">
+    <rdfs:label>Recurrent paroxysmal headache</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM20747">
-    <rdfs:label>NIGMS-GM20747</rdfs:label>
-    <OBO:RO_0003301 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002401">
+    <rdfs:label>Stroke-like episodes</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001489">
-    <rdfs:label>Posterior vitreous detachment</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0008326">
+    <rdfs:label>Vitamin B6 deficiency</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/R-HSA-156588">
-    <rdfs:label>Glucuronidation</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001102">
+    <rdfs:label>Angioid streaks of the retina</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000093">
-    <rdfs:label>Proteinuria</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002204">
+    <rdfs:label>Pulmonary embolism</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/R-HSA-917977">
-    <rdfs:label>Transferrin endocytosis and recycling</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001897">
+    <rdfs:label>Normocytic anemia</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map00980">
-    <rdfs:label>Metabolism of xenobiotics by cytochrome P450</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001082">
+    <rdfs:label>Cholecystitis</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002045">
-    <rdfs:label>Hypothermia</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs10017284">
-    <rdfs:label>rs10017284-G</rdfs:label>
+  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs2445284">
+    <rdfs:label>rs2445284-G</rdfs:label>
     <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0003641">
     <rdfs:label>Hemoglobinuria</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/111102">
-    <rdfs:label>Signal Transduction</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/R-HSA-1989781">
-    <rdfs:label>PPARA activates gene expression</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/604">
-    <rdfs:label>Hemostasis</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001896">
-    <rdfs:label>Reticulocytopenia</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000718">
-    <rdfs:label>Aggressive behavior</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map05323">
-    <rdfs:label>Rheumatoid arthritis</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0011886">
-    <rdfs:label>Hyphema</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002206">
-    <rdfs:label>Pulmonary fibrosis</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002719">
-    <rdfs:label>Recurrent infections</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/R-HSA-381753">
-    <rdfs:label>Olfactory Signaling Pathway</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map00860">
-    <rdfs:label>Porphyrin and chlorophyll metabolism</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001900">
-    <rdfs:label>Increased hemoglobin</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000112">
-    <rdfs:label>Nephropathy</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001971">
-    <rdfs:label>Hypersplenism</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs11568377">
-    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/8647"/>
-    <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-    <rdfs:label>rs11568377-A</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0007354">
-    <rdfs:label>Amyotrophic lateral sclerosis</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001082">
-    <rdfs:label>Cholecystitis</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001406">
-    <rdfs:label>Intrahepatic cholestasis</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002301">
-    <rdfs:label>Hemiplegia</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000501">
-    <rdfs:label>Glaucoma</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002063">
-    <rdfs:label>Rigidity</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0003573">
-    <rdfs:label>Increased total bilirubin</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.informatics.jax.org/accession/MGI:2450531">
-    <rdfs:label>Hba&lt;tm1Paz&gt;</rdfs:label>
-    <OBO:RO_0003301 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0009763">
-    <rdfs:label>Limb pain</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0005661">
-    <rdfs:label>Salmonella osteomyelitis</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002870">
-    <rdfs:label>Obstructive sleep apnea</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001733">
-    <rdfs:label>Pancreatitis</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0003418">
-    <rdfs:label>Back pain</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001923">
-    <rdfs:label>Reticulocytosis</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0003128">
-    <rdfs:label>Lactic acidosis</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/gene/3043">
-    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0003146">
-    <rdfs:label>Hypocholesterolemia</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/R-HSA-193368">
-    <rdfs:label>Synthesis of bile acids and bile salts via 7alpha-hydroxycholesterol</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001897">
-    <rdfs:label>Normocytic anemia</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001250">
-    <rdfs:label>Seizures</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map04080">
-    <rdfs:label>Neuroactive ligand-receptor interaction</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIM_141900.0010">
-    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/3043"/>
-    <rdfs:label>HBB, GLU6LYS AND LYS95GLU</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/116125">
-    <rdfs:label>Disease</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0100820">
-    <rdfs:label>Glomerulopathy</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/R-HSA-983231">
-    <rdfs:label>Factors involved in megakaryocyte development and platelet production</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001648">
-    <rdfs:label>Cor pulmonale</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001919">
-    <rdfs:label>Acute kidney injury</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000573">
-    <rdfs:label>Retinal hemorrhage</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001907">
-    <rdfs:label>Thromboembolism</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002653">
-    <rdfs:label>Bone pain</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001297">
-    <rdfs:label>Stroke</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0004870">
-    <rdfs:label>Chronic hemolytic anemia</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002960">
-    <rdfs:label>Autoimmunity</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0011947">
-    <rdfs:label>Respiratory tract infection</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0005180">
-    <rdfs:label>Tricuspid regurgitation</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0007917">
-    <rdfs:label>Tractional retinal detachment</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001263">
-    <rdfs:label>Global developmental delay</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/R-HSA-194840">
-    <rdfs:label>Rho GTPase cycle</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/R-HSA-1222556">
-    <rdfs:label>ROS, RNS production in phagocytes</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0006532">
-    <rdfs:label>Recurrent pneumonia</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map02010">
-    <rdfs:label>ABC transporters</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001746">
-    <rdfs:label>Asplenia</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001935">
-    <rdfs:label>Microcytic anemia</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002829">
-    <rdfs:label>Arthralgia</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map00140">
-    <rdfs:label>Steroid hormone biosynthesis</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0003155">
-    <rdfs:label>Elevated alkaline phosphatase</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0100724">
-    <rdfs:label>Hypercoagulability</rdfs:label>
-  </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001877">
     <rdfs:label>Abnormality of erythrocytes</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002633">
-    <rdfs:label>Vasculitis</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001744">
+    <rdfs:label>Splenomegaly</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001342">
-    <rdfs:label>Cerebral hemorrhage</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001974">
+    <rdfs:label>Leukocytosis</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001518">
-    <rdfs:label>Small for gestational age</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0003774">
+    <rdfs:label>Stage 5 chronic kidney disease</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0010885">
-    <rdfs:label>Aseptic necrosis</rdfs:label>
+  <rdf:Description rdf:about="http://www.informatics.jax.org/accession/MGI:5510724">
+    <OBO:RO_0003301 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/3043"/>
+    <rdfs:label>Hbb&lt;d3th&gt;/Hbb&lt;+&gt;; Tg(LCR-HBA1,LCR-HBB*)1Tow/0 [involves: C57BL/6 * DBA/2J * SJL]</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001895">
+    <rdfs:label>Normochromic anemia</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0100543">
     <rdfs:label>Cognitive impairment</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map00514">
-    <rdfs:label>Other types of O-glycan biosynthesis</rdfs:label>
+  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map00040">
+    <rdfs:label>Pentose and glucuronate interconversions</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000105">
-    <rdfs:label>Enlarged kidney</rdfs:label>
+  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/R-HSA-1989781">
+    <rdfs:label>PPARA activates gene expression</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000718">
+    <rdfs:label>Aggressive behavior</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map00190">
+    <rdfs:label>Oxidative phosphorylation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0012211">
+    <rdfs:label>Abnormal renal physiology</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/R-HSA-2168880">
+    <rdfs:label>Scavenging of heme from plasma</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map00140">
+    <rdfs:label>Steroid hormone biosynthesis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0200023">
+    <rdfs:label>Priapism</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM20920">
+    <rdfs:label>NIGMS-GM20920</rdfs:label>
+    <OBO:RO_0003301 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map05323">
+    <rdfs:label>Rheumatoid arthritis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002754">
+    <rdfs:label>Osteomyelitis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0004395">
+    <rdfs:label>Malnutrition</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002138">
+    <rdfs:label>Subarachnoid hemorrhage</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0004325">
+    <rdfs:label>Decreased body weight</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/R-HSA-381753">
+    <rdfs:label>Olfactory Signaling Pathway</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001489">
+    <rdfs:label>Posterior vitreous detachment</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/R-HSA-193368">
+    <rdfs:label>Synthesis of bile acids and bile salts via 7alpha-hydroxycholesterol</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map05110">
+    <rdfs:label>Vibrio cholerae infection</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002791">
+    <rdfs:label>Hypoventilation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001289">
+    <rdfs:label>Confusion</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000969">
+    <rdfs:label>Edema</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0100724">
+    <rdfs:label>Hypercoagulability</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs7203560">
+    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/8131"/>
+    <rdfs:label>rs7203560-G</rdfs:label>
+    <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0003158">
+    <rdfs:label>Hyposthenuria</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map04142">
+    <rdfs:label>Lysosome</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://monarchinitiative.org/.well-known/genid/122376-232VL">
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+    <rdfs:label>some variant of HBB that is a disease-causing germline mutation(s) in Sickle cell anemia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.informatics.jax.org/accession/MGI:3790753">
+    <OBO:RO_0003301 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+    <rdfs:label>Hbb&lt;tm2(HBG1,HBB*)Tow&gt;</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0003573">
+    <rdfs:label>Increased total bilirubin</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map04145">
+    <rdfs:label>Phagosome</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001000">
+    <rdfs:label>Abnormality of skin pigmentation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001081">
+    <rdfs:label>Cholelithiasis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001622">
+    <rdfs:label>Premature birth</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/111217">
+    <rdfs:label>Metabolism</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map00053">
+    <rdfs:label>Ascorbate and aldarate metabolism</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0005268">
+    <rdfs:label>Spontaneous abortion</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001903">
     <rdfs:label>Anemia</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001944">
-    <rdfs:label>Dehydration</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001909">
+    <rdfs:label>Leukemia</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map01100">
-    <rdfs:label>Metabolic pathways</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0005482">
+    <rdfs:label>Abnormality of the alternate complement pathway</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0100607">
-    <rdfs:label>Dysmenorrhea</rdfs:label>
+  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map05120">
+    <rdfs:label>Epithelial cell signaling in Helicobacter pylori infection</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0004870">
+    <rdfs:label>Chronic hemolytic anemia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001890">
+    <rdfs:label>Autoimmune hemolytic anemia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001878">
+    <rdfs:label>Hemolytic anemia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0005560">
+    <rdfs:label>Imbalanced hemoglobin synthesis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map00514">
+    <rdfs:label>Other types of O-glycan biosynthesis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002725">
+    <rdfs:label>Systemic lupus erythematosus</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001900">
+    <rdfs:label>Increased hemoglobin</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001947">
+    <rdfs:label>Renal tubular acidosis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0003418">
+    <rdfs:label>Back pain</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002119">
+    <rdfs:label>Ventriculomegaly</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0100014">
+    <rdfs:label>Epiretinal membrane</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002092">
+    <rdfs:label>Pulmonary arterial hypertension</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000100">
+    <rdfs:label>Nephrotic syndrome</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001896">
+    <rdfs:label>Reticulocytopenia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001935">
+    <rdfs:label>Microcytic anemia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001324">
+    <rdfs:label>Muscle weakness</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001873">
+    <rdfs:label>Thrombocytopenia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0005547">
+    <rdfs:label>Myeloproliferative disorder</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0100608">
+    <rdfs:label>Metrorrhagia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001297">
+    <rdfs:label>Stroke</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map04966">
+    <rdfs:label>Collecting duct acid secretion</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map05152">
+    <rdfs:label>Tuberculosis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map05143">
+    <rdfs:label>African trypanosomiasis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002718">
+    <rdfs:label>Recurrent bacterial infections</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000112">
+    <rdfs:label>Nephropathy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001511">
+    <rdfs:label>Intrauterine growth retardation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002653">
+    <rdfs:label>Bone pain</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000541">
+    <rdfs:label>Retinal detachment</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs9494145">
+    <rdfs:label>rs9494145-?</rdfs:label>
+    <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002155">
+    <rdfs:label>Hypertriglyceridemia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0012024">
+    <rdfs:label>Hypergalactosemia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0100820">
+    <rdfs:label>Glomerulopathy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001971">
+    <rdfs:label>Hypersplenism</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/R-HSA-1247673">
+    <rdfs:label>Erythrocytes take up oxygen and release carbon dioxide</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0011886">
+    <rdfs:label>Hyphema</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0006532">
+    <rdfs:label>Recurrent pneumonia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000501">
+    <rdfs:label>Glaucoma</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000083">
+    <rdfs:label>Renal insufficiency</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0100704">
+    <rdfs:label>Cortical visual impairment</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/R-HSA-77387">
+    <rdfs:label>Insulin receptor recycling</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0012622">
+    <rdfs:label>Chronic kidney disease</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/gene/3043">
+    <OBO:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001369">
+    <rdfs:label>Arthritis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0011958">
+    <rdfs:label>Retinal perforation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000790">
+    <rdfs:label>Hematuria</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0003095">
+    <rdfs:label>Septic arthritis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.informatics.jax.org/accession/MGI:2450531">
+    <OBO:RO_0003301 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+    <rdfs:label>Hba&lt;tm1Paz&gt;</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001919">
+    <rdfs:label>Acute kidney injury</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0006562">
+    <rdfs:label>Viral hepatitis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0003146">
+    <rdfs:label>Hypocholesterolemia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002045">
+    <rdfs:label>Hypothermia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map00830">
+    <rdfs:label>Retinol metabolism</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0100749">
     <rdfs:label>Chest pain</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000572">
-    <rdfs:label>Visual loss</rdfs:label>
+  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs7948471">
+    <rdfs:label>rs7948471-A</rdfs:label>
+    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/282763"/>
+    <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0004818">
+    <rdfs:label>Paroxysmal nocturnal hemoglobinuria</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/R-HSA-1237044">
+    <rdfs:label>Erythrocytes take up carbon dioxide and release oxygen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002099">
+    <rdfs:label>Asthma</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001386">
+    <rdfs:label>Joint swelling</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/160300">
+    <rdfs:label>Binding and Uptake of Ligands by Scavenger Receptors</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002870">
+    <rdfs:label>Obstructive sleep apnea</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002633">
+    <rdfs:label>Vasculitis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0004444">
+    <rdfs:label>Spherocytosis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000822">
+    <rdfs:label>Hypertension</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001712">
+    <rdfs:label>Left ventricular hypertrophy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs887829">
+    <rdfs:label>rs887829-A</rdfs:label>
+    <OBO:GENO_0000418 rdf:resource="http://www.ncbi.nlm.nih.gov/gene/54657"/>
+    <OBO:RO_0002326 rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001931">
+    <rdfs:label>Hypochromic anemia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002202">
+    <rdfs:label>Pleural effusion</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001891">
+    <rdfs:label>Iron deficiency anemia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000938">
+    <rdfs:label>Osteopenia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000365">
+    <rdfs:label>Hearing impairment</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/R-HSA-983231">
+    <rdfs:label>Factors involved in megakaryocyte development and platelet production</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0004804">
+    <rdfs:label>Congenital hemolytic anemia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002090">
+    <rdfs:label>Pneumonia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002719">
+    <rdfs:label>Recurrent infections</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0004727">
+    <rdfs:label>Impaired renal concentrating ability</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001997">
+    <rdfs:label>Gout</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001899">
+    <rdfs:label>Increased hematocrit</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/R-HSA-917977">
+    <rdfs:label>Transferrin endocytosis and recycling</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001648">
+    <rdfs:label>Cor pulmonale</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000740">
+    <rdfs:label>Episodic paroxysmal anxiety</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002615">
+    <rdfs:label>Hypotension</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002597">
+    <rdfs:label>Abnormality of the vasculature</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001908">
+    <rdfs:label>Hypoplastic anemia</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0100512">
     <rdfs:label>Vitamin D deficiency</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000097">
+    <rdfs:label>Focal segmental glomerulosclerosis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/111102">
+    <rdfs:label>Signal Transduction</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001287">
+    <rdfs:label>Meningitis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map00980">
+    <rdfs:label>Metabolism of xenobiotics by cytochrome P450</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001733">
+    <rdfs:label>Pancreatitis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001944">
+    <rdfs:label>Dehydration</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000952">
+    <rdfs:label>Jaundice</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map01100">
+    <rdfs:label>Metabolic pathways</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0003128">
+    <rdfs:label>Lactic acidosis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map04144">
+    <rdfs:label>Endocytosis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002829">
+    <rdfs:label>Arthralgia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001635">
+    <rdfs:label>Congestive heart failure</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.kegg.jp/dbget-bin/www_bget?path:map00983">
+    <rdfs:label>Drug metabolism - other enzymes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.reactome.org/PathwayBrowser/#/15518">
+    <rdfs:label>Transmembrane transport of small molecules</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

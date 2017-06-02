@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_98023">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+    <rdfs:label>Rare systemic or rheumatologic disease</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_399380">
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_183524"/>
+    <rdfs:label>Osteonecrosis of genetic origin</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_48">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_15"/>
+    <rdfs:label>male reproductive system disease</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIM_603903">
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_181387"/>
+    <rdfs:label>sickle cell anemia</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_251365"/>
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_399185"/>
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_93614"/>
+    <owl:equivalentClass rdf:resource="http://www.orpha.net/ORDO/Orphanet_232"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050737"/>
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/UMLS_C0002895"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_0080010">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0080001"/>
+    <rdfs:label>bone structure disease</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_97992">
+    <rdfs:label>Rare hematologic disease</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_74"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_7">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+    <rdfs:label>disease of anatomical entity</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_158300">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+    <rdfs:label>Rare genetic hematologic disease</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_97978">
+    <rdfs:label>Rare endocrine disease</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_28"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_399572">
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_98048"/>
+    <rdfs:label>Rare male infertility due to hypothalamic-pituitary-gonadal axis disorder</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_2860">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_589"/>
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_183651"/>
+    <rdfs:label>hemoglobinopathy</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_108997"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_10159">
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_93419"/>
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_182231"/>
+    <rdfs:label>osteonecrosis</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0080008"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_583">
+    <rdfs:label>hemolytic anemia</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_720"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_28">
+    <rdfs:label>endocrine system disease</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_202940">
+    <rdfs:label>Anomaly of puberty or/and menstrual cycle of genetic origin</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_183731"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_399185">
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_399388"/>
+    <rdfs:label>Rare hereditary disease with avascular necrosis</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_399169"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_181387">
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_174590"/>
+    <rdfs:label>Rare disorder with hypogonadotropic hypogonadism</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_174590">
+    <rdfs:label>Congenital hypogonadotropic hypogonadism</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_399983"/>
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_202940"/>
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_95488"/>
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_180208"/>
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_399572"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_95488">
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_101957"/>
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_156643"/>
+    <rdfs:label>Non-acquired pituitary hormone deficiency</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_90692"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MESH_D006450">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+    <rdfs:label>Hemoglobin SC Disease</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_65">
+    <rdfs:label>connective tissue disease</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_17"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Nothing">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MESH_D012805"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1584"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MESH_D006450"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_156638">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_28"/>
+    <rdfs:label>Rare genetic endocrine disease</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_93614">
+    <rdfs:label>Hematological disorder with renal involvement</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_98056"/>
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_93626"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_98048">
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_98047"/>
+    <rdfs:label>Rare male infertility</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_12336"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_0080008">
+    <rdfs:label>ischemic bone disease</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0080001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_96344">
+    <rdfs:label>Rare gynecologic or obstetric disease</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_101957">
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_181384"/>
+    <rdfs:label>Pituitary deficiency</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_183628"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_183628">
+    <rdfs:label>Rare genetic hypothalamic or pituitary disease</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_156638"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_108997">
+    <rdfs:label>Rare anemia</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2355"/>
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_97992"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_17">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_7"/>
+    <rdfs:label>musculoskeletal system disease</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_399164">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_10159"/>
+    <rdfs:label>Avascular necrosis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_229">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_15"/>
+    <rdfs:label>female reproductive system disease</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_399980">
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_275742"/>
+    <rdfs:label>Rare genetic male infertility</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_12336"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_275742">
+    <rdfs:label>Genetic infertility</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_630"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_5223"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_0050739">
+    <rdfs:label>autosomal genetic disease</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050177"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_630">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+    <rdfs:label>genetic disease</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_251365">
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_251355"/>
+    <rdfs:label>Sickle cell-hemoglobin C disease syndrome</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_4">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label>disease</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MESH_D012805">
+    <rdfs:label>Sickle Cell Trait</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_156643">
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_156638"/>
+    <rdfs:label>Genetic endocrine growth disease</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_90692">
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_97978"/>
+    <rdfs:label>Rare endocrine growth disease</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_275752">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2860"/>
+    <rdfs:label>Sickle cell disease and related diseases</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_2355">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_74"/>
+    <rdfs:label>anemia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_0050177">
+    <rdfs:label>monogenic disease</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_630"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_183731">
+    <rdfs:label>Rare genetic gynecological and obstetrical diseases</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MESH_D030342">
+    <rdfs:label>Genetic Diseases, Inborn</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_630"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_12336">
+    <rdfs:label>male infertility</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_5223"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_15">
+    <rdfs:label>reproductive system disease</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_5223">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_229"/>
+    <rdfs:label>infertility</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_48"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_2914">
+    <rdfs:label>immune system disease</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_0080001">
+    <rdfs:label>bone disease</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_65"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_10923">
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_589">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MESH_D030342"/>
+    <rdfs:label>congenital hemolytic anemia</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_583"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_93626">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+    <rdfs:label>Rare renal disease</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_182231">
+    <rdfs:label>Rare rheumatologic disease</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_98023"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_0050737">
+    <rdfs:label>autosomal recessive disease</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050739"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_720">
+    <rdfs:label>normocytic anemia</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2355"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_181384">
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_97978"/>
+    <rdfs:label>Rare hypothalamic or pituitary disease</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_399388">
+    <rdfs:label>Avascular necrosis of genetic origin</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_399380"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_399169">
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_399164"/>
+    <rdfs:label>Secondary avascular necrosis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_98056">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+    <rdfs:label>Rare genetic renal disease</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_74">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2914"/>
+    <rdfs:label>hematopoietic system disease</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_399983">
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_399980"/>
+    <rdfs:label>Rare male infertility due to hypothalamic-pituitary-gonadal axis disorder of genetic origin</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_183651">
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_158300"/>
+    <rdfs:label>Rare constitutional anemia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MESH_D000755">
+    <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_180208">
+    <rdfs:label>Anomaly of puberty or/and menstrual cycle</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_96344"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_93419">
+    <rdfs:label>Rare bone disease</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0080010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_98047">
+    <rdfs:label>Rare infertility</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_5223"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_1584">
+    <rdfs:label>acute chest syndrome</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIM_603903"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_183524">
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_630"/>
+    <rdfs:label>Rare genetic bone disease</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0080010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_251355">
+    <rdfs:subClassOf rdf:resource="http://www.orpha.net/ORDO/Orphanet_275752"/>
+    <rdfs:label>Sickle cell disease associated with an other hemoglobin anomaly</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

@@ -91,6 +91,21 @@ mondo_stub_ttl = './output/mondo-stub.ttl'
 disease_graph.serialize(mondo_stub, 'xml')
 disease_graph.serialize(mondo_stub_ttl, 'ttl')
 
+mondo_stub_lbl = './output/mondo-stub-wlabels.xml'
+mondo_stub_ttl_lbl = './output/mondo-stub-wlabels.ttl'
+
+for node in parent_graph.nodes:
+    disease_graph.addTriple(node.id, 'rdfs:label', node.label, True)
+
+for node in child_graph.nodes:
+    disease_graph.addTriple(node.id, 'rdfs:label', node.label, True)
+
+for node in eq_graph.nodes:
+    disease_graph.addTriple(node.id, 'rdfs:label', node.label, True)
+
+disease_graph.serialize(mondo_stub_lbl, 'xml')
+disease_graph.serialize(mondo_stub_ttl_lbl, 'ttl')
+
 data_graph = RDFGraph()
 sg = SciGraph(SCIGRAPH_DATA)
 
