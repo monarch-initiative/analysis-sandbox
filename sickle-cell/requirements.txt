@@ -1,0 +1,5 @@
+rdflib
+ontobio
+git+git://github.com/monarch-initiative/dipper.git
+requests
+git+git://github.com/SciGraph/py-SciGraph.git

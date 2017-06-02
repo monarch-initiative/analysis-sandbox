@@ -1,0 +1,1008 @@
+@prefix : <https://monarchinitiative.org/> .
+@prefix ClinVarVariant: <http://www.ncbi.nlm.nih.gov/clinvar/variation/> .
+@prefix Coriell: <https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=> .
+@prefix DOID: <http://purl.obolibrary.org/obo/DOID_> .
+@prefix GENO: <http://purl.obolibrary.org/obo/GENO_> .
+@prefix HP: <http://purl.obolibrary.org/obo/HP_> .
+@prefix KEGG-path: <http://www.kegg.jp/dbget-bin/www_bget?path:> .
+@prefix MESH: <http://purl.obolibrary.org/obo/MESH_> .
+@prefix MGI: <http://www.informatics.jax.org/accession/MGI:> .
+@prefix NCBIGene: <http://www.ncbi.nlm.nih.gov/gene/> .
+@prefix OBO: <http://purl.obolibrary.org/obo/> .
+@prefix OMIM: <http://purl.obolibrary.org/obo/OMIM_> .
+@prefix REACT: <http://www.reactome.org/PathwayBrowser/#/> .
+@prefix RO: <http://purl.obolibrary.org/obo/RO_> .
+@prefix dbSNP: <http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+OBO:DOID_1584 rdfs:label "acute chest syndrome" ;
+    OBO:RO_0002200 OBO:HP_0001297,
+        OBO:HP_0001903,
+        OBO:HP_0001945,
+        OBO:HP_0002092,
+        OBO:HP_0002099,
+        OBO:HP_0002113,
+        OBO:HP_0002140,
+        OBO:HP_0002204,
+        OBO:HP_0005560,
+        OBO:HP_0006528,
+        OBO:HP_0100749 .
+
+OBO:MESH_D006450 rdfs:label "Hemoglobin SC Disease" ;
+    OBO:RO_0002200 OBO:HP_0000083,
+        OBO:HP_0000365,
+        OBO:HP_0000488,
+        OBO:HP_0000541,
+        OBO:HP_0000572,
+        OBO:HP_0000573,
+        OBO:HP_0000718,
+        OBO:HP_0000822,
+        OBO:HP_0000952,
+        OBO:HP_0001081,
+        OBO:HP_0001489,
+        OBO:HP_0001744,
+        OBO:HP_0001873,
+        OBO:HP_0001878,
+        OBO:HP_0001896,
+        OBO:HP_0001899,
+        OBO:HP_0001900,
+        OBO:HP_0001903,
+        OBO:HP_0001923,
+        OBO:HP_0001944,
+        OBO:HP_0001945,
+        OBO:HP_0001971,
+        OBO:HP_0002027,
+        OBO:HP_0002076,
+        OBO:HP_0002091,
+        OBO:HP_0002113,
+        OBO:HP_0002204,
+        OBO:HP_0002331,
+        OBO:HP_0002527,
+        OBO:HP_0002597,
+        OBO:HP_0002653,
+        OBO:HP_0002719,
+        OBO:HP_0002754,
+        OBO:HP_0003573,
+        OBO:HP_0003641,
+        OBO:HP_0004325,
+        OBO:HP_0004444,
+        OBO:HP_0005268,
+        OBO:HP_0005560,
+        OBO:HP_0007902,
+        OBO:HP_0007917,
+        OBO:HP_0009763,
+        OBO:HP_0010885,
+        OBO:HP_0011902,
+        OBO:HP_0011903,
+        OBO:HP_0100014,
+        OBO:HP_0100704,
+        OBO:HP_0100724,
+        OBO:HP_0100806,
+        OBO:HP_0200023 .
+
+OBO:OMIM_141900.0003 rdfs:label "HBB, GLU90LYS" ;
+    OBO:GENO_0000418 <http://www.ncbi.nlm.nih.gov/gene/3043> .
+
+OBO:OMIM_141900.0010 rdfs:label "HBB, GLU6LYS AND LYS95GLU" ;
+    OBO:GENO_0000418 <http://www.ncbi.nlm.nih.gov/gene/3043> .
+
+<http://www.informatics.jax.org/accession/MGI:2450531> rdfs:label "Hba<tm1Paz>" ;
+    OBO:RO_0003301 OBO:OMIM_603903 .
+
+<http://www.informatics.jax.org/accession/MGI:2664239> rdfs:label "Hbb<tm1Tow>" ;
+    OBO:RO_0003301 OBO:OMIM_603903 .
+
+<http://www.informatics.jax.org/accession/MGI:3056733> rdfs:label "Tg(HBA-HBBs)41Paz" ;
+    OBO:GENO_0000418 <http://www.ncbi.nlm.nih.gov/gene/3039> ;
+    OBO:RO_0003301 OBO:OMIM_603903 .
+
+<http://www.informatics.jax.org/accession/MGI:3764497> rdfs:label "Hba<tm1Paz>/Hba<tm1Paz>; Hbb<tm1Tow>/Hbb<tm1Tow>; Tg(HBA-HBBs)41Paz/? [involves: 129S2/SvPas * 129S7/SvEvBrd * Black Swiss * C57BL/6 * DBA/2* FVB/N]" ;
+    OBO:GENO_0000418 <http://www.ncbi.nlm.nih.gov/gene/3039> ;
+    OBO:RO_0003301 OBO:OMIM_603903 .
+
+<http://www.informatics.jax.org/accession/MGI:3766996> rdfs:label "Spta1<sph-ha>/Spta1<sph-ha> [either:(B6.D1-Spta1<sph-ha> x WB.D1-Spta1<sph-ha>)F1 or (WB.D1-Spta1<sph-ha> x B6.D1-Spta1<sph-ha>)F1]" ;
+    OBO:GENO_0000418 <http://www.informatics.jax.org/accession/MGI:98385> ;
+    OBO:RO_0003301 OBO:OMIM_603903 .
+
+<http://www.informatics.jax.org/accession/MGI:3790753> rdfs:label "Hbb<tm2(HBG1,HBB*)Tow>" ;
+    OBO:RO_0003301 OBO:OMIM_603903 .
+
+<http://www.informatics.jax.org/accession/MGI:3790755> rdfs:label "Hba<tm1(HBA)Tow>" ;
+    OBO:RO_0003301 OBO:OMIM_603903 .
+
+<http://www.informatics.jax.org/accession/MGI:3794861> rdfs:label "Tg(LCR-HBA2,LCR-HBB)11Cos" ;
+    OBO:GENO_0000418 <http://www.ncbi.nlm.nih.gov/gene/3040> ;
+    OBO:RO_0003301 OBO:OMIM_603903 .
+
+<http://www.informatics.jax.org/accession/MGI:3803707> rdfs:label "Hba<tm1(HBA)Tow>/Hba<tm1(HBA)Tow>; Hbb<tm2(HBG1,HBB*)Tow>/Hbb<tm2(HBG1,HBB*)Tow> [Not Specified]" ;
+    OBO:RO_0003301 OBO:OMIM_603903 .
+
+<http://www.informatics.jax.org/accession/MGI:4412015> rdfs:label "Tg(HBB-AR-HBA2,-HBB*)58Rub/0; Tg(LCR-HBA2,LCR-HBB)11Cos/0; Hbb<d3th>/Hbb<d3th> [involves: FVB/N * Swiss Webster]" ;
+    OBO:GENO_0000418 <http://www.ncbi.nlm.nih.gov/gene/3040> ;
+    OBO:RO_0003301 OBO:OMIM_603903 .
+
+<http://www.informatics.jax.org/accession/MGI:4412016> rdfs:label "Tg(LCR-HBA2,LCR-HBB)11Cos/0; Tg(HBB-AR-HBA2,-HBB*)58Rub/0; Hbb<d3th>/Hbb<+> [involves: FVB/N * Swiss Webster]" ;
+    OBO:GENO_0000418 <http://www.ncbi.nlm.nih.gov/gene/3040> ;
+    OBO:RO_0003301 OBO:OMIM_603903 .
+
+<http://www.informatics.jax.org/accession/MGI:5509326> rdfs:label "Tg(LCR-HBA2,LCR-HBB*)1Cos" ;
+    OBO:GENO_0000418 <http://www.ncbi.nlm.nih.gov/gene/3043> ;
+    OBO:RO_0003301 OBO:OMIM_603903 .
+
+<http://www.informatics.jax.org/accession/MGI:5509330> rdfs:label "Hbb<d3th>/Hbb<+>; Tg(LCR-HBA2,LCR-HBB*)1Cos/0 [involves: C57BL/6J * CBA/J * DBA/2J]" ;
+    OBO:GENO_0000418 <http://www.ncbi.nlm.nih.gov/gene/3043> ;
+    OBO:RO_0003301 OBO:OMIM_603903 .
+
+<http://www.informatics.jax.org/accession/MGI:5510724> rdfs:label "Hbb<d3th>/Hbb<+>; Tg(LCR-HBA1,LCR-HBB*)1Tow/0 [involves: C57BL/6 * DBA/2J * SJL]" ;
+    OBO:GENO_0000418 <http://www.ncbi.nlm.nih.gov/gene/3043> ;
+    OBO:RO_0003301 OBO:OMIM_603903 .
+
+<http://www.ncbi.nlm.nih.gov/clinvar/variation/15126> rdfs:label "NM_000518.4(HBB):c.19G>A (p.Glu7Lys)" ;
+    OBO:GENO_0000418 <http://www.ncbi.nlm.nih.gov/gene/3043> ;
+    OBO:GENO_0000840 OBO:OMIM_603903 .
+
+<http://www.ncbi.nlm.nih.gov/clinvar/variation/15152> rdfs:label "NM_000518.4(HBB):c.364G>C (p.Glu122Gln)" ;
+    OBO:GENO_0000418 <http://www.ncbi.nlm.nih.gov/gene/3043> ;
+    OBO:GENO_0000840 OBO:OMIM_603903 .
+
+<http://www.ncbi.nlm.nih.gov/clinvar/variation/15161> rdfs:label "NM_000518.4(HBB):c.79G>A (p.Glu27Lys)" ;
+    OBO:GENO_0000418 <http://www.ncbi.nlm.nih.gov/gene/3043> ;
+    OBO:GENO_0000840 OBO:OMIM_603903 .
+
+<http://www.ncbi.nlm.nih.gov/clinvar/variation/15292> rdfs:label "NM_000518.4(HBB):c.364G>A (p.Glu122Lys)" ;
+    OBO:GENO_0000418 <http://www.ncbi.nlm.nih.gov/gene/3043> ;
+    OBO:GENO_0000840 OBO:OMIM_603903 .
+
+<http://www.ncbi.nlm.nih.gov/clinvar/variation/15333> rdfs:label "NM_000518.4(HBB):c.20A>T (p.Glu7Val)" ;
+    OBO:GENO_0000418 <http://www.ncbi.nlm.nih.gov/gene/3043> ;
+    OBO:GENO_0000840 OBO:OMIM_603903 .
+
+dbSNP:rs10017284 rdfs:label "rs10017284-G" ;
+    OBO:RO_0002326 OBO:OMIM_603903 .
+
+dbSNP:rs10520528 rdfs:label "rs10520528-T" ;
+    OBO:GENO_0000418 <http://www.ncbi.nlm.nih.gov/gene/55714> ;
+    OBO:RO_0002326 OBO:OMIM_603903 .
+
+dbSNP:rs11053548 rdfs:label "rs11053548-A" ;
+    OBO:GENO_0000418 <http://www.ncbi.nlm.nih.gov/gene/387837> ;
+    OBO:RO_0002326 OBO:OMIM_603903 .
+
+dbSNP:rs1113932 rdfs:label "rs1113932-G" ;
+    OBO:GENO_0000418 <http://www.ncbi.nlm.nih.gov/gene/23671> ;
+    OBO:RO_0002326 OBO:OMIM_603903 .
+
+dbSNP:rs11568377 rdfs:label "rs11568377-A" ;
+    OBO:GENO_0000418 <http://www.ncbi.nlm.nih.gov/gene/8647> ;
+    OBO:RO_0002326 OBO:OMIM_603903 .
+
+dbSNP:rs11968814 rdfs:label "rs11968814-A" ;
+    OBO:RO_0002326 OBO:OMIM_603903 .
+
+dbSNP:rs12073837 rdfs:label "rs12073837-T" ;
+    OBO:GENO_0000418 <http://www.ncbi.nlm.nih.gov/gene/100873924> ;
+    OBO:RO_0002326 OBO:OMIM_603903 .
+
+dbSNP:rs12559632 rdfs:label "rs12559632-A" ;
+    OBO:GENO_0000418 <http://www.ncbi.nlm.nih.gov/gene/5251> ;
+    OBO:RO_0002326 OBO:OMIM_603903 .
+
+dbSNP:rs1318772 rdfs:label "rs1318772-G" ;
+    OBO:GENO_0000418 <http://www.ncbi.nlm.nih.gov/gene/4163> ;
+    OBO:RO_0002326 OBO:OMIM_603903 .
+
+dbSNP:rs1427407 rdfs:label "rs1427407-?" ;
+    OBO:GENO_0000418 <http://www.ncbi.nlm.nih.gov/gene/53335> ;
+    OBO:RO_0002326 OBO:OMIM_603903 .
+
+dbSNP:rs1442407 rdfs:label "rs1442407-T" ;
+    OBO:GENO_0000418 <http://www.ncbi.nlm.nih.gov/gene/64478> ;
+    OBO:RO_0002326 OBO:OMIM_603903 .
+
+dbSNP:rs1669539 rdfs:label "rs1669539-T" ;
+    OBO:RO_0002326 OBO:OMIM_603903 .
+
+dbSNP:rs17020489 rdfs:label "rs17020489-A" ;
+    OBO:GENO_0000418 <http://www.ncbi.nlm.nih.gov/gene/102724542> ;
+    OBO:RO_0002326 OBO:OMIM_603903 .
+
+dbSNP:rs17135859 rdfs:label "rs17135859-C" ;
+    OBO:GENO_0000418 <http://www.ncbi.nlm.nih.gov/gene/107986441> ;
+    OBO:RO_0002326 OBO:OMIM_603903 .
+
+dbSNP:rs1845344 rdfs:label "rs1845344-T" ;
+    OBO:RO_0002326 OBO:OMIM_603903 .
+
+dbSNP:rs2445284 rdfs:label "rs2445284-G" ;
+    OBO:RO_0002326 OBO:OMIM_603903 .
+
+dbSNP:rs2577720 rdfs:label "rs2577720-C" ;
+    OBO:RO_0002326 OBO:OMIM_603903 .
+
+dbSNP:rs3105491 rdfs:label "rs3105491-T" ;
+    OBO:RO_0002326 OBO:OMIM_603903 .
+
+dbSNP:rs3800569 rdfs:label "rs3800569-C" ;
+    OBO:GENO_0000418 <http://www.ncbi.nlm.nih.gov/gene/50617> ;
+    OBO:RO_0002326 OBO:OMIM_603903 .
+
+dbSNP:rs4869931 rdfs:label "rs4869931-A" ;
+    OBO:GENO_0000418 <http://www.ncbi.nlm.nih.gov/gene/57480> ;
+    OBO:RO_0002326 OBO:OMIM_603903 .
+
+dbSNP:rs67072384 rdfs:label "rs67072384-T" ;
+    OBO:GENO_0000418 <http://www.ncbi.nlm.nih.gov/gene/116985> ;
+    OBO:RO_0002326 OBO:OMIM_603903 .
+
+dbSNP:rs7045640 rdfs:label "rs7045640-A" ;
+    OBO:GENO_0000418 <http://www.ncbi.nlm.nih.gov/gene/100130873> ;
+    OBO:RO_0002326 OBO:OMIM_603903 .
+
+dbSNP:rs7203560 rdfs:label "rs7203560-G" ;
+    OBO:GENO_0000418 <http://www.ncbi.nlm.nih.gov/gene/8131> ;
+    OBO:RO_0002326 OBO:OMIM_603903 .
+
+dbSNP:rs766432 rdfs:label "rs766432-?" ;
+    OBO:GENO_0000418 <http://www.ncbi.nlm.nih.gov/gene/53335> ;
+    OBO:RO_0002326 OBO:OMIM_603903 .
+
+dbSNP:rs7948471 rdfs:label "rs7948471-A" ;
+    OBO:GENO_0000418 <http://www.ncbi.nlm.nih.gov/gene/282763> ;
+    OBO:RO_0002326 OBO:OMIM_603903 .
+
+dbSNP:rs7952106 rdfs:label "rs7952106-G" ;
+    OBO:RO_0002326 OBO:OMIM_603903 .
+
+dbSNP:rs826221 rdfs:label "rs826221-A" ;
+    OBO:GENO_0000418 <http://www.ncbi.nlm.nih.gov/gene/7068> ;
+    OBO:RO_0002326 OBO:OMIM_603903 .
+
+dbSNP:rs887829 rdfs:label "rs887829-A" ;
+    OBO:GENO_0000418 <http://www.ncbi.nlm.nih.gov/gene/54657> ;
+    OBO:RO_0002326 OBO:OMIM_603903 .
+
+dbSNP:rs9494145 rdfs:label "rs9494145-?" ;
+    OBO:RO_0002326 OBO:OMIM_603903 .
+
+Coriell:GM16265 rdfs:label "NIGMS-GM16265" ;
+    OBO:RO_0003301 OBO:OMIM_603903 .
+
+Coriell:GM16266 rdfs:label "NIGMS-GM16266" ;
+    OBO:RO_0003301 OBO:OMIM_603903 .
+
+Coriell:GM20421 rdfs:label "NIGMS-GM20421" ;
+    OBO:RO_0003301 OBO:OMIM_603903 .
+
+Coriell:GM20432 rdfs:label "NIGMS-GM20432" ;
+    OBO:RO_0003301 OBO:OMIM_603903 .
+
+Coriell:GM20747 rdfs:label "NIGMS-GM20747" ;
+    OBO:RO_0003301 OBO:OMIM_603903 .
+
+Coriell:GM20920 rdfs:label "NIGMS-GM20920" ;
+    OBO:RO_0003301 OBO:OMIM_603903 .
+
+Coriell:GM21816 rdfs:label "NIGMS-GM21816" ;
+    OBO:RO_0003301 OBO:OMIM_603903 .
+
+<https://monarchinitiative.org/.well-known/genid/122376-232VL> rdfs:label "some variant of HBB that is a disease-causing germline mutation(s) in Sickle cell anemia" ;
+    OBO:RO_0002200 OBO:OMIM_603903 .
+
+OBO:HP_0000010 rdfs:label "Recurrent urinary tract infections" .
+
+OBO:HP_0000093 rdfs:label "Proteinuria" .
+
+OBO:HP_0000097 rdfs:label "Focal segmental glomerulosclerosis" .
+
+OBO:HP_0000099 rdfs:label "Glomerulonephritis" .
+
+OBO:HP_0000100 rdfs:label "Nephrotic syndrome" .
+
+OBO:HP_0000105 rdfs:label "Enlarged kidney" .
+
+OBO:HP_0000112 rdfs:label "Nephropathy" .
+
+OBO:HP_0000501 rdfs:label "Glaucoma" .
+
+OBO:HP_0000740 rdfs:label "Episodic paroxysmal anxiety" .
+
+OBO:HP_0000789 rdfs:label "Infertility" .
+
+OBO:HP_0000790 rdfs:label "Hematuria" .
+
+OBO:HP_0000802 rdfs:label "Impotence" .
+
+OBO:HP_0000819 rdfs:label "Diabetes mellitus" .
+
+OBO:HP_0000823 rdfs:label "Delayed puberty" .
+
+OBO:HP_0000938 rdfs:label "Osteopenia" .
+
+OBO:HP_0000939 rdfs:label "Osteoporosis" .
+
+OBO:HP_0000969 rdfs:label "Edema" .
+
+OBO:HP_0000980 rdfs:label "Pallor" .
+
+OBO:HP_0001000 rdfs:label "Abnormality of skin pigmentation" .
+
+OBO:HP_0001082 rdfs:label "Cholecystitis" .
+
+OBO:HP_0001102 rdfs:label "Angioid streaks of the retina" .
+
+OBO:HP_0001250 rdfs:label "Seizures" .
+
+OBO:HP_0001263 rdfs:label "Global developmental delay" .
+
+OBO:HP_0001287 rdfs:label "Meningitis" .
+
+OBO:HP_0001289 rdfs:label "Confusion" .
+
+OBO:HP_0001324 rdfs:label "Muscle weakness" .
+
+OBO:HP_0001342 rdfs:label "Cerebral hemorrhage" .
+
+OBO:HP_0001369 rdfs:label "Arthritis" .
+
+OBO:HP_0001386 rdfs:label "Joint swelling" .
+
+OBO:HP_0001394 rdfs:label "Cirrhosis" .
+
+OBO:HP_0001396 rdfs:label "Cholestasis" .
+
+OBO:HP_0001406 rdfs:label "Intrahepatic cholestasis" .
+
+OBO:HP_0001511 rdfs:label "Intrauterine growth retardation" .
+
+OBO:HP_0001518 rdfs:label "Small for gestational age" .
+
+OBO:HP_0001622 rdfs:label "Premature birth" .
+
+OBO:HP_0001635 rdfs:label "Congestive heart failure" .
+
+OBO:HP_0001638 rdfs:label "Cardiomyopathy" .
+
+OBO:HP_0001640 rdfs:label "Cardiomegaly" .
+
+OBO:HP_0001648 rdfs:label "Cor pulmonale" .
+
+OBO:HP_0001712 rdfs:label "Left ventricular hypertrophy" .
+
+OBO:HP_0001733 rdfs:label "Pancreatitis" .
+
+OBO:HP_0001746 rdfs:label "Asplenia" .
+
+OBO:HP_0001789 rdfs:label "Hydrops fetalis" .
+
+OBO:HP_0001873 rdfs:label "Thrombocytopenia" .
+
+OBO:HP_0001875 rdfs:label "Neutropenia" .
+
+OBO:HP_0001877 rdfs:label "Abnormality of erythrocytes" .
+
+OBO:HP_0001890 rdfs:label "Autoimmune hemolytic anemia" .
+
+OBO:HP_0001891 rdfs:label "Iron deficiency anemia" .
+
+OBO:HP_0001895 rdfs:label "Normochromic anemia" .
+
+OBO:HP_0001897 rdfs:label "Normocytic anemia" .
+
+OBO:HP_0001907 rdfs:label "Thromboembolism" .
+
+OBO:HP_0001908 rdfs:label "Hypoplastic anemia" .
+
+OBO:HP_0001909 rdfs:label "Leukemia" .
+
+OBO:HP_0001919 rdfs:label "Acute kidney injury" .
+
+OBO:HP_0001931 rdfs:label "Hypochromic anemia" .
+
+OBO:HP_0001935 rdfs:label "Microcytic anemia" .
+
+OBO:HP_0001941 rdfs:label "Acidosis" .
+
+OBO:HP_0001942 rdfs:label "Metabolic acidosis" .
+
+OBO:HP_0001947 rdfs:label "Renal tubular acidosis" .
+
+OBO:HP_0001974 rdfs:label "Leukocytosis" .
+
+OBO:HP_0001978 rdfs:label "Extramedullary hematopoiesis" .
+
+OBO:HP_0001997 rdfs:label "Gout" .
+
+OBO:HP_0002045 rdfs:label "Hypothermia" .
+
+OBO:HP_0002063 rdfs:label "Rigidity" .
+
+OBO:HP_0002076 rdfs:label "Migraine" .
+
+OBO:HP_0002090 rdfs:label "Pneumonia" .
+
+OBO:HP_0002093 rdfs:label "Respiratory insufficiency" .
+
+OBO:HP_0002098 rdfs:label "Respiratory distress" .
+
+OBO:HP_0002119 rdfs:label "Ventriculomegaly" .
+
+OBO:HP_0002138 rdfs:label "Subarachnoid hemorrhage" .
+
+OBO:HP_0002155 rdfs:label "Hypertriglyceridemia" .
+
+OBO:HP_0002202 rdfs:label "Pleural effusion" .
+
+OBO:HP_0002206 rdfs:label "Pulmonary fibrosis" .
+
+OBO:HP_0002240 rdfs:label "Hepatomegaly" .
+
+OBO:HP_0002301 rdfs:label "Hemiplegia" .
+
+OBO:HP_0002326 rdfs:label "Transient ischemic attack" .
+
+OBO:HP_0002401 rdfs:label "Stroke-like episodes" .
+
+OBO:HP_0002597 rdfs:label "Abnormality of the vasculature" .
+
+OBO:HP_0002615 rdfs:label "Hypotension" .
+
+OBO:HP_0002633 rdfs:label "Vasculitis" .
+
+OBO:HP_0002718 rdfs:label "Recurrent bacterial infections" .
+
+OBO:HP_0002721 rdfs:label "Immunodeficiency" .
+
+OBO:HP_0002725 rdfs:label "Systemic lupus erythematosus" .
+
+OBO:HP_0002791 rdfs:label "Hypoventilation" .
+
+OBO:HP_0002829 rdfs:label "Arthralgia" .
+
+OBO:HP_0002835 rdfs:label "Aspiration" .
+
+OBO:HP_0002870 rdfs:label "Obstructive sleep apnea" .
+
+OBO:HP_0002904 rdfs:label "Hyperbilirubinemia" .
+
+OBO:HP_0002910 rdfs:label "Elevated hepatic transaminases" .
+
+OBO:HP_0002960 rdfs:label "Autoimmunity" .
+
+OBO:HP_0003095 rdfs:label "Septic arthritis" .
+
+OBO:HP_0003128 rdfs:label "Lactic acidosis" .
+
+OBO:HP_0003146 rdfs:label "Hypocholesterolemia" .
+
+OBO:HP_0003155 rdfs:label "Elevated alkaline phosphatase" .
+
+OBO:HP_0003158 rdfs:label "Hyposthenuria" .
+
+OBO:HP_0003259 rdfs:label "Elevated serum creatinine" .
+
+OBO:HP_0003418 rdfs:label "Back pain" .
+
+OBO:HP_0003774 rdfs:label "Stage 5 chronic kidney disease" .
+
+OBO:HP_0004395 rdfs:label "Malnutrition" .
+
+OBO:HP_0004727 rdfs:label "Impaired renal concentrating ability" .
+
+OBO:HP_0004804 rdfs:label "Congenital hemolytic anemia" .
+
+OBO:HP_0004818 rdfs:label "Paroxysmal nocturnal hemoglobinuria" .
+
+OBO:HP_0004825 rdfs:label "Increased hemoglobin oxygen affinity" .
+
+OBO:HP_0004870 rdfs:label "Chronic hemolytic anemia" .
+
+OBO:HP_0005180 rdfs:label "Tricuspid regurgitation" .
+
+OBO:HP_0005482 rdfs:label "Abnormality of the alternate complement pathway" .
+
+OBO:HP_0005547 rdfs:label "Myeloproliferative disorder" .
+
+OBO:HP_0005661 rdfs:label "Salmonella osteomyelitis" .
+
+OBO:HP_0006532 rdfs:label "Recurrent pneumonia" .
+
+OBO:HP_0006536 rdfs:label "Obstructive lung disease" .
+
+OBO:HP_0006562 rdfs:label "Viral hepatitis" .
+
+OBO:HP_0007354 rdfs:label "Amyotrophic lateral sclerosis" .
+
+OBO:HP_0008326 rdfs:label "Vitamin B6 deficiency" .
+
+OBO:HP_0008346 rdfs:label "Increased red cell sickling tendency" .
+
+OBO:HP_0011834 rdfs:label "Moyamoya phenomenon" .
+
+OBO:HP_0011886 rdfs:label "Hyphema" .
+
+OBO:HP_0011904 rdfs:label "Persistence of hemoglobin F" .
+
+OBO:HP_0011947 rdfs:label "Respiratory tract infection" .
+
+OBO:HP_0011958 rdfs:label "Retinal perforation" .
+
+OBO:HP_0012024 rdfs:label "Hypergalactosemia" .
+
+OBO:HP_0012211 rdfs:label "Abnormal renal physiology" .
+
+OBO:HP_0012622 rdfs:label "Chronic kidney disease" .
+
+OBO:HP_0100014 rdfs:label "Epiretinal membrane" .
+
+OBO:HP_0100310 rdfs:label "Epidural hemorrhage" .
+
+OBO:HP_0100510 rdfs:label "Vitamin C deficiency" .
+
+OBO:HP_0100512 rdfs:label "Vitamin D deficiency" .
+
+OBO:HP_0100513 rdfs:label "Vitamin E deficiency" .
+
+OBO:HP_0100543 rdfs:label "Cognitive impairment" .
+
+OBO:HP_0100598 rdfs:label "Pulmonary edema" .
+
+OBO:HP_0100601 rdfs:label "Eclampsia" .
+
+OBO:HP_0100607 rdfs:label "Dysmenorrhea" .
+
+OBO:HP_0100608 rdfs:label "Metrorrhagia" .
+
+OBO:HP_0100699 rdfs:label "Scarring" .
+
+OBO:HP_0100704 rdfs:label "Cortical visual impairment" .
+
+OBO:HP_0100750 rdfs:label "Atelectasis" .
+
+OBO:HP_0100820 rdfs:label "Glomerulopathy" .
+
+KEGG-path:map00040 rdfs:label "Pentose and glucuronate interconversions" .
+
+KEGG-path:map00053 rdfs:label "Ascorbate and aldarate metabolism" .
+
+KEGG-path:map00140 rdfs:label "Steroid hormone biosynthesis" .
+
+KEGG-path:map00190 rdfs:label "Oxidative phosphorylation" .
+
+KEGG-path:map00500 rdfs:label "Starch and sucrose metabolism" .
+
+KEGG-path:map00514 rdfs:label "Other types of O-glycan biosynthesis" .
+
+KEGG-path:map00830 rdfs:label "Retinol metabolism" .
+
+KEGG-path:map00860 rdfs:label "Porphyrin and chlorophyll metabolism" .
+
+KEGG-path:map00980 rdfs:label "Metabolism of xenobiotics by cytochrome P450" .
+
+KEGG-path:map00982 rdfs:label "Drug metabolism - cytochrome P450" .
+
+KEGG-path:map00983 rdfs:label "Drug metabolism - other enzymes" .
+
+KEGG-path:map01100 rdfs:label "Metabolic pathways" .
+
+KEGG-path:map02010 rdfs:label "ABC transporters" .
+
+KEGG-path:map04080 rdfs:label "Neuroactive ligand-receptor interaction" .
+
+KEGG-path:map04142 rdfs:label "Lysosome" .
+
+KEGG-path:map04144 rdfs:label "Endocytosis" .
+
+KEGG-path:map04145 rdfs:label "Phagosome" .
+
+KEGG-path:map04740 rdfs:label "Olfactory transduction" .
+
+KEGG-path:map04966 rdfs:label "Collecting duct acid secretion" .
+
+KEGG-path:map04976 rdfs:label "Bile secretion" .
+
+KEGG-path:map05110 rdfs:label "Vibrio cholerae infection" .
+
+KEGG-path:map05120 rdfs:label "Epithelial cell signaling in Helicobacter pylori infection" .
+
+KEGG-path:map05143 rdfs:label "African trypanosomiasis" .
+
+KEGG-path:map05144 rdfs:label "Malaria" .
+
+KEGG-path:map05152 rdfs:label "Tuberculosis" .
+
+KEGG-path:map05323 rdfs:label "Rheumatoid arthritis" .
+
+<http://www.reactome.org/PathwayBrowser/#/111102> rdfs:label "Signal Transduction" .
+
+<http://www.reactome.org/PathwayBrowser/#/111217> rdfs:label "Metabolism" .
+
+<http://www.reactome.org/PathwayBrowser/#/116125> rdfs:label "Disease" .
+
+<http://www.reactome.org/PathwayBrowser/#/15518> rdfs:label "Transmembrane transport of small molecules" .
+
+<http://www.reactome.org/PathwayBrowser/#/160300> rdfs:label "Binding and Uptake of Ligands by Scavenger Receptors" .
+
+<http://www.reactome.org/PathwayBrowser/#/604> rdfs:label "Hemostasis" .
+
+<http://www.reactome.org/PathwayBrowser/#/71> rdfs:label "Gene Expression" .
+
+REACT:R-HSA-1222556 rdfs:label "ROS, RNS production in phagocytes" .
+
+REACT:R-HSA-1237044 rdfs:label "Erythrocytes take up carbon dioxide and release oxygen" .
+
+REACT:R-HSA-1247673 rdfs:label "Erythrocytes take up oxygen and release carbon dioxide" .
+
+REACT:R-HSA-156588 rdfs:label "Glucuronidation" .
+
+REACT:R-HSA-159418 rdfs:label "Recycling of bile acids and salts" .
+
+REACT:R-HSA-189483 rdfs:label "Heme degradation" .
+
+REACT:R-HSA-193368 rdfs:label "Synthesis of bile acids and bile salts via 7alpha-hydroxycholesterol" .
+
+REACT:R-HSA-194840 rdfs:label "Rho GTPase cycle" .
+
+REACT:R-HSA-1989781 rdfs:label "PPARA activates gene expression" .
+
+REACT:R-HSA-2168880 rdfs:label "Scavenging of heme from plasma" .
+
+REACT:R-HSA-381753 rdfs:label "Olfactory Signaling Pathway" .
+
+REACT:R-HSA-383280 rdfs:label "Nuclear Receptor transcription pathway" .
+
+REACT:R-HSA-6798695 rdfs:label "Neutrophil degranulation" .
+
+REACT:R-HSA-77387 rdfs:label "Insulin receptor recycling" .
+
+REACT:R-HSA-8849469 rdfs:label "PTK6 Regulates RTKs and Their Effectors AKT1 and DOK1" .
+
+REACT:R-HSA-917977 rdfs:label "Transferrin endocytosis and recycling" .
+
+REACT:R-HSA-983231 rdfs:label "Factors involved in megakaryocyte development and platelet production" .
+
+REACT:R-HSA-983712 rdfs:label "Ion channel transport" .
+
+OBO:HP_0000083 rdfs:label "Renal insufficiency" .
+
+OBO:HP_0000365 rdfs:label "Hearing impairment" .
+
+OBO:HP_0000488 rdfs:label "Retinopathy" .
+
+OBO:HP_0000541 rdfs:label "Retinal detachment" .
+
+OBO:HP_0000572 rdfs:label "Visual loss" .
+
+OBO:HP_0000573 rdfs:label "Retinal hemorrhage" .
+
+OBO:HP_0000718 rdfs:label "Aggressive behavior" .
+
+OBO:HP_0000822 rdfs:label "Hypertension" .
+
+OBO:HP_0000952 rdfs:label "Jaundice" .
+
+OBO:HP_0001081 rdfs:label "Cholelithiasis" .
+
+OBO:HP_0001297 rdfs:label "Stroke" .
+
+OBO:HP_0001489 rdfs:label "Posterior vitreous detachment" .
+
+OBO:HP_0001744 rdfs:label "Splenomegaly" .
+
+OBO:HP_0001878 rdfs:label "Hemolytic anemia" .
+
+OBO:HP_0001896 rdfs:label "Reticulocytopenia" .
+
+OBO:HP_0001899 rdfs:label "Increased hematocrit" .
+
+OBO:HP_0001900 rdfs:label "Increased hemoglobin" .
+
+OBO:HP_0001923 rdfs:label "Reticulocytosis" .
+
+OBO:HP_0001944 rdfs:label "Dehydration" .
+
+OBO:HP_0001971 rdfs:label "Hypersplenism" .
+
+OBO:HP_0002027 rdfs:label "Abdominal pain" .
+
+OBO:HP_0002091 rdfs:label "Restrictive ventilatory defect" .
+
+OBO:HP_0002092 rdfs:label "Pulmonary arterial hypertension" .
+
+OBO:HP_0002099 rdfs:label "Asthma" .
+
+OBO:HP_0002140 rdfs:label "Ischemic stroke" .
+
+OBO:HP_0002331 rdfs:label "Recurrent paroxysmal headache" .
+
+OBO:HP_0002527 rdfs:label "Falls" .
+
+OBO:HP_0002653 rdfs:label "Bone pain" .
+
+OBO:HP_0002719 rdfs:label "Recurrent infections" .
+
+OBO:HP_0002754 rdfs:label "Osteomyelitis" .
+
+OBO:HP_0003573 rdfs:label "Increased total bilirubin" .
+
+OBO:HP_0003641 rdfs:label "Hemoglobinuria" .
+
+OBO:HP_0004325 rdfs:label "Decreased body weight" .
+
+OBO:HP_0004444 rdfs:label "Spherocytosis" .
+
+OBO:HP_0005268 rdfs:label "Spontaneous abortion" .
+
+OBO:HP_0006528 rdfs:label "Chronic lung disease" .
+
+OBO:HP_0007902 rdfs:label "Vitreous hemorrhage" .
+
+OBO:HP_0007917 rdfs:label "Tractional retinal detachment" .
+
+OBO:HP_0009763 rdfs:label "Limb pain" .
+
+OBO:HP_0010885 rdfs:label "Aseptic necrosis" .
+
+OBO:HP_0011902 rdfs:label "Abnormal hemoglobin" .
+
+OBO:HP_0011903 rdfs:label "Hemoglobin H" .
+
+OBO:HP_0100724 rdfs:label "Hypercoagulability" .
+
+OBO:HP_0100749 rdfs:label "Chest pain" .
+
+OBO:HP_0100806 rdfs:label "Sepsis" .
+
+OBO:HP_0200023 rdfs:label "Priapism" .
+
+OBO:HP_0001903 rdfs:label "Anemia" .
+
+OBO:HP_0001945 rdfs:label "Fever" .
+
+OBO:HP_0002113 rdfs:label "Pulmonary infiltrates" .
+
+OBO:HP_0002204 rdfs:label "Pulmonary embolism" .
+
+OBO:HP_0005560 rdfs:label "Imbalanced hemoglobin synthesis" .
+
+<http://www.ncbi.nlm.nih.gov/gene/3043> OBO:RO_0002200 OBO:OMIM_603903 .
+
+OBO:OMIM_603903 rdfs:label "Sickle Cell Anemia" ;
+    OBO:RO_0002200 OBO:HP_0000010,
+        OBO:HP_0000083,
+        OBO:HP_0000093,
+        OBO:HP_0000097,
+        OBO:HP_0000099,
+        OBO:HP_0000100,
+        OBO:HP_0000105,
+        OBO:HP_0000112,
+        OBO:HP_0000365,
+        OBO:HP_0000488,
+        OBO:HP_0000501,
+        OBO:HP_0000541,
+        OBO:HP_0000572,
+        OBO:HP_0000573,
+        OBO:HP_0000718,
+        OBO:HP_0000740,
+        OBO:HP_0000789,
+        OBO:HP_0000790,
+        OBO:HP_0000802,
+        OBO:HP_0000819,
+        OBO:HP_0000822,
+        OBO:HP_0000823,
+        OBO:HP_0000938,
+        OBO:HP_0000939,
+        OBO:HP_0000952,
+        OBO:HP_0000969,
+        OBO:HP_0000980,
+        OBO:HP_0001000,
+        OBO:HP_0001081,
+        OBO:HP_0001082,
+        OBO:HP_0001102,
+        OBO:HP_0001250,
+        OBO:HP_0001263,
+        OBO:HP_0001287,
+        OBO:HP_0001289,
+        OBO:HP_0001297,
+        OBO:HP_0001324,
+        OBO:HP_0001342,
+        OBO:HP_0001369,
+        OBO:HP_0001386,
+        OBO:HP_0001394,
+        OBO:HP_0001396,
+        OBO:HP_0001406,
+        OBO:HP_0001489,
+        OBO:HP_0001511,
+        OBO:HP_0001518,
+        OBO:HP_0001622,
+        OBO:HP_0001635,
+        OBO:HP_0001638,
+        OBO:HP_0001640,
+        OBO:HP_0001648,
+        OBO:HP_0001712,
+        OBO:HP_0001733,
+        OBO:HP_0001744,
+        OBO:HP_0001746,
+        OBO:HP_0001789,
+        OBO:HP_0001875,
+        OBO:HP_0001877,
+        OBO:HP_0001878,
+        OBO:HP_0001890,
+        OBO:HP_0001891,
+        OBO:HP_0001895,
+        OBO:HP_0001896,
+        OBO:HP_0001897,
+        OBO:HP_0001899,
+        OBO:HP_0001900,
+        OBO:HP_0001903,
+        OBO:HP_0001907,
+        OBO:HP_0001908,
+        OBO:HP_0001909,
+        OBO:HP_0001919,
+        OBO:HP_0001923,
+        OBO:HP_0001931,
+        OBO:HP_0001935,
+        OBO:HP_0001941,
+        OBO:HP_0001942,
+        OBO:HP_0001944,
+        OBO:HP_0001945,
+        OBO:HP_0001947,
+        OBO:HP_0001971,
+        OBO:HP_0001974,
+        OBO:HP_0001978,
+        OBO:HP_0001997,
+        OBO:HP_0002027,
+        OBO:HP_0002045,
+        OBO:HP_0002063,
+        OBO:HP_0002090,
+        OBO:HP_0002091,
+        OBO:HP_0002092,
+        OBO:HP_0002093,
+        OBO:HP_0002098,
+        OBO:HP_0002099,
+        OBO:HP_0002113,
+        OBO:HP_0002119,
+        OBO:HP_0002138,
+        OBO:HP_0002140,
+        OBO:HP_0002155,
+        OBO:HP_0002202,
+        OBO:HP_0002204,
+        OBO:HP_0002206,
+        OBO:HP_0002240,
+        OBO:HP_0002301,
+        OBO:HP_0002326,
+        OBO:HP_0002331,
+        OBO:HP_0002401,
+        OBO:HP_0002527,
+        OBO:HP_0002615,
+        OBO:HP_0002633,
+        OBO:HP_0002653,
+        OBO:HP_0002718,
+        OBO:HP_0002719,
+        OBO:HP_0002721,
+        OBO:HP_0002725,
+        OBO:HP_0002754,
+        OBO:HP_0002791,
+        OBO:HP_0002829,
+        OBO:HP_0002835,
+        OBO:HP_0002870,
+        OBO:HP_0002904,
+        OBO:HP_0002910,
+        OBO:HP_0002960,
+        OBO:HP_0003095,
+        OBO:HP_0003128,
+        OBO:HP_0003146,
+        OBO:HP_0003155,
+        OBO:HP_0003158,
+        OBO:HP_0003259,
+        OBO:HP_0003418,
+        OBO:HP_0003573,
+        OBO:HP_0003641,
+        OBO:HP_0003774,
+        OBO:HP_0004325,
+        OBO:HP_0004395,
+        OBO:HP_0004444,
+        OBO:HP_0004727,
+        OBO:HP_0004804,
+        OBO:HP_0004818,
+        OBO:HP_0004825,
+        OBO:HP_0004870,
+        OBO:HP_0005180,
+        OBO:HP_0005268,
+        OBO:HP_0005296,
+        OBO:HP_0005482,
+        OBO:HP_0005547,
+        OBO:HP_0005560,
+        OBO:HP_0005661,
+        OBO:HP_0006528,
+        OBO:HP_0006532,
+        OBO:HP_0006536,
+        OBO:HP_0006562,
+        OBO:HP_0007354,
+        OBO:HP_0007863,
+        OBO:HP_0007902,
+        OBO:HP_0007917,
+        OBO:HP_0008326,
+        OBO:HP_0008346,
+        OBO:HP_0009763,
+        OBO:HP_0010885,
+        OBO:HP_0011834,
+        OBO:HP_0011886,
+        OBO:HP_0011902,
+        OBO:HP_0011903,
+        OBO:HP_0011904,
+        OBO:HP_0011947,
+        OBO:HP_0011958,
+        OBO:HP_0012024,
+        OBO:HP_0012211,
+        OBO:HP_0012622,
+        OBO:HP_0100310,
+        OBO:HP_0100510,
+        OBO:HP_0100512,
+        OBO:HP_0100513,
+        OBO:HP_0100543,
+        OBO:HP_0100598,
+        OBO:HP_0100601,
+        OBO:HP_0100607,
+        OBO:HP_0100608,
+        OBO:HP_0100699,
+        OBO:HP_0100724,
+        OBO:HP_0100749,
+        OBO:HP_0100750,
+        OBO:HP_0100806,
+        OBO:HP_0100820,
+        OBO:HP_0200023 ;
+    OBO:RO_0002331 KEGG-path:map00040,
+        KEGG-path:map00053,
+        KEGG-path:map00140,
+        KEGG-path:map00190,
+        KEGG-path:map00500,
+        KEGG-path:map00514,
+        KEGG-path:map00830,
+        KEGG-path:map00860,
+        KEGG-path:map00980,
+        KEGG-path:map00982,
+        KEGG-path:map00983,
+        KEGG-path:map01100,
+        KEGG-path:map02010,
+        KEGG-path:map04080,
+        KEGG-path:map04142,
+        KEGG-path:map04144,
+        KEGG-path:map04145,
+        KEGG-path:map04740,
+        KEGG-path:map04966,
+        KEGG-path:map04976,
+        KEGG-path:map05110,
+        KEGG-path:map05120,
+        KEGG-path:map05143,
+        KEGG-path:map05144,
+        KEGG-path:map05152,
+        KEGG-path:map05323,
+        <http://www.reactome.org/PathwayBrowser/#/111102>,
+        <http://www.reactome.org/PathwayBrowser/#/111217>,
+        <http://www.reactome.org/PathwayBrowser/#/116125>,
+        <http://www.reactome.org/PathwayBrowser/#/15518>,
+        <http://www.reactome.org/PathwayBrowser/#/160300>,
+        <http://www.reactome.org/PathwayBrowser/#/604>,
+        <http://www.reactome.org/PathwayBrowser/#/71>,
+        REACT:R-HSA-1222556,
+        REACT:R-HSA-1237044,
+        REACT:R-HSA-1247673,
+        REACT:R-HSA-156588,
+        REACT:R-HSA-159418,
+        REACT:R-HSA-189483,
+        REACT:R-HSA-193368,
+        REACT:R-HSA-194840,
+        REACT:R-HSA-1989781,
+        REACT:R-HSA-2168880,
+        REACT:R-HSA-381753,
+        REACT:R-HSA-383280,
+        REACT:R-HSA-6798695,
+        REACT:R-HSA-77387,
+        REACT:R-HSA-8849469,
+        REACT:R-HSA-917977,
+        REACT:R-HSA-983231,
+        REACT:R-HSA-983712 .
+

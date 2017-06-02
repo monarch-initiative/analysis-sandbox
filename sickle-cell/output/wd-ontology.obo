@@ -1,0 +1,252 @@
+ontology: auto
+
+[Term]
+id: http://www.wikidata.org/entity/Q1054718
+name: kidney disease
+
+[Term]
+id: http://www.wikidata.org/entity/Q11028
+name: information
+is_a: http://www.wikidata.org/entity/Q7184903 ! abstract object
+
+[Term]
+id: http://www.wikidata.org/entity/Q1149305
+name: disposition
+is_a: http://www.wikidata.org/entity/Q35120 ! entity
+
+[Term]
+id: http://www.wikidata.org/entity/Q1207505
+name: quality
+
+[Term]
+id: http://www.wikidata.org/entity/Q12136
+name: disease
+is_a: http://www.wikidata.org/entity/Q2057971 ! health problem
+
+[Term]
+id: http://www.wikidata.org/entity/Q1272626
+name: representation
+
+[Term]
+id: http://www.wikidata.org/entity/Q1347367
+name: ability
+is_a: http://www.wikidata.org/entity/Q937228 ! property
+
+[Term]
+id: http://www.wikidata.org/entity/Q1441305
+name: medical sign
+is_a: http://www.wikidata.org/entity/Q28807560 ! clinical finding
+is_a: http://www.wikidata.org/entity/Q7189713 ! physiological condition
+
+[Term]
+id: http://www.wikidata.org/entity/Q151885
+name: concept
+is_a: http://www.wikidata.org/entity/Q7184903 ! abstract object
+is_a: http://www.wikidata.org/entity/Q2145290 ! mental representation
+is_a: http://www.wikidata.org/entity/Q1347367 ! ability
+
+[Term]
+id: http://www.wikidata.org/entity/Q169872
+name: symptom
+is_a: http://www.wikidata.org/entity/Q2057971 ! health problem
+is_a: http://www.wikidata.org/entity/Q1441305 ! medical sign
+is_a: http://www.wikidata.org/entity/Q28807560 ! clinical finding
+
+[Term]
+id: http://www.wikidata.org/entity/Q18205125
+name: abstract and concrete
+
+[Term]
+id: http://www.wikidata.org/entity/Q18479330
+name: physical condition
+is_a: http://www.wikidata.org/entity/Q3505845 ! state
+
+[Term]
+id: http://www.wikidata.org/entity/Q185034
+name: Sickle Cell Anemia
+is_a: http://www.wikidata.org/entity/Q1963588 ! hematopoietic system disease
+is_a: http://www.wikidata.org/entity/Q18553440 ! autosomal recessive disease
+
+[Term]
+id: http://www.wikidata.org/entity/Q18553228
+name: monogenic disease
+is_a: http://www.wikidata.org/entity/Q200779 ! genetic disease
+
+[Term]
+id: http://www.wikidata.org/entity/Q18553440
+name: autosomal recessive disease
+is_a: http://www.wikidata.org/entity/Q18553442 ! autosomal genetic disease
+
+[Term]
+id: http://www.wikidata.org/entity/Q18553442
+name: autosomal genetic disease
+is_a: http://www.wikidata.org/entity/Q18553228 ! monogenic disease
+
+[Term]
+id: http://www.wikidata.org/entity/Q18557436
+name: disease of anatomical entity
+is_a: http://www.wikidata.org/entity/Q12136 ! disease
+
+[Term]
+id: http://www.wikidata.org/entity/Q18966565
+name: sickle-cell crisis
+is_a: http://www.wikidata.org/entity/Q185034 ! Sickle Cell Anemia
+
+[Term]
+id: http://www.wikidata.org/entity/Q18967387
+name: sickle-cell/Hb-C disease with crisis
+is_a: http://www.wikidata.org/entity/Q185034 ! Sickle Cell Anemia
+
+[Term]
+id: http://www.wikidata.org/entity/Q1963588
+name: hematopoietic system disease
+is_a: http://www.wikidata.org/entity/Q169872 ! symptom
+is_a: http://www.wikidata.org/entity/Q3843811 ! immune system disease
+
+[Term]
+id: http://www.wikidata.org/entity/Q200779
+name: genetic disease
+is_a: http://www.wikidata.org/entity/Q28154707 ! genetic animal disease
+is_a: http://www.wikidata.org/entity/Q3311537 ! hereditary disorder
+is_a: http://www.wikidata.org/entity/Q12136 ! disease
+
+[Term]
+id: http://www.wikidata.org/entity/Q2057971
+name: health problem
+is_a: http://www.wikidata.org/entity/Q621184 ! problem
+is_a: http://www.wikidata.org/entity/Q7189713 ! physiological condition
+
+[Term]
+id: http://www.wikidata.org/entity/Q2145290
+name: mental representation
+is_a: http://www.wikidata.org/entity/Q1272626 ! representation
+
+[Term]
+id: http://www.wikidata.org/entity/Q24975487
+name: Sickle cell-beta thalassemia
+is_a: http://www.wikidata.org/entity/Q185034 ! Sickle Cell Anemia
+is_a: http://www.wikidata.org/entity/Q3616632 ! beta thalassemia
+
+[Term]
+id: http://www.wikidata.org/entity/Q28154707
+name: genetic animal disease
+is_a: http://www.wikidata.org/entity/Q200779 ! genetic disease
+is_a: http://www.wikidata.org/entity/Q9190427 ! animal disease
+
+[Term]
+id: http://www.wikidata.org/entity/Q28807560
+name: clinical finding
+is_a: http://www.wikidata.org/entity/Q639907 ! medical finding
+
+[Term]
+id: http://www.wikidata.org/entity/Q3298282
+name: system lifecycle
+
+[Term]
+id: http://www.wikidata.org/entity/Q3311537
+name: hereditary disorder
+is_a: http://www.wikidata.org/entity/Q12136 ! disease
+
+[Term]
+id: http://www.wikidata.org/entity/Q3505845
+name: state
+is_a: http://www.wikidata.org/entity/Q3298282 ! system lifecycle
+is_a: http://www.wikidata.org/entity/Q937228 ! property
+is_a: http://www.wikidata.org/entity/Q58778 ! system
+
+[Term]
+id: http://www.wikidata.org/entity/Q35120
+name: entity
+
+[Term]
+id: http://www.wikidata.org/entity/Q3536635
+name: Sickle cell trait
+is_a: http://www.wikidata.org/entity/Q185034 ! Sickle Cell Anemia
+
+[Term]
+id: http://www.wikidata.org/entity/Q3616632
+name: beta thalassemia
+
+[Term]
+id: http://www.wikidata.org/entity/Q3695082
+name: sign
+is_a: http://www.wikidata.org/entity/Q11028 ! information
+is_a: http://www.wikidata.org/entity/Q9081 ! knowledge
+is_a: http://www.wikidata.org/entity/Q488383 ! object
+
+[Term]
+id: http://www.wikidata.org/entity/Q3843811
+name: immune system disease
+is_a: http://www.wikidata.org/entity/Q18557436 ! disease of anatomical entity
+
+[Term]
+id: http://www.wikidata.org/entity/Q488383
+name: object
+is_a: http://www.wikidata.org/entity/Q35120 ! entity
+
+[Term]
+id: http://www.wikidata.org/entity/Q58778
+name: system
+is_a: http://www.wikidata.org/entity/Q7184903 ! abstract object
+
+[Term]
+id: http://www.wikidata.org/entity/Q621184
+name: problem
+is_a: http://www.wikidata.org/entity/Q35120 ! entity
+
+[Term]
+id: http://www.wikidata.org/entity/Q639907
+name: medical finding
+
+[Term]
+id: http://www.wikidata.org/entity/Q673661
+name: abstraction
+is_a: http://www.wikidata.org/entity/Q18205125 ! abstract and concrete
+is_a: http://www.wikidata.org/entity/Q151885 ! concept
+
+[Term]
+id: http://www.wikidata.org/entity/Q714737
+name: category of being
+is_a: http://www.wikidata.org/entity/Q7184903 ! abstract object
+
+[Term]
+id: http://www.wikidata.org/entity/Q7184903
+name: abstract object
+is_a: http://www.wikidata.org/entity/Q673661 ! abstraction
+is_a: http://www.wikidata.org/entity/Q488383 ! object
+
+[Term]
+id: http://www.wikidata.org/entity/Q7189713
+name: physiological condition
+is_a: http://www.wikidata.org/entity/Q18479330 ! physical condition
+is_a: http://www.wikidata.org/entity/Q1149305 ! disposition
+
+[Term]
+id: http://www.wikidata.org/entity/Q7507640
+name: Sickle cell nephropathy
+is_a: http://www.wikidata.org/entity/Q1054718 ! kidney disease
+is_a: http://www.wikidata.org/entity/Q185034 ! Sickle Cell Anemia
+
+[Term]
+id: http://www.wikidata.org/entity/Q853614
+name: identifier
+is_a: http://www.wikidata.org/entity/Q3695082 ! sign
+
+[Term]
+id: http://www.wikidata.org/entity/Q9081
+name: knowledge
+is_a: http://www.wikidata.org/entity/Q11028 ! information
+is_a: http://www.wikidata.org/entity/Q151885 ! concept
+
+[Term]
+id: http://www.wikidata.org/entity/Q9190427
+name: animal disease
+is_a: http://www.wikidata.org/entity/Q12136 ! disease
+
+[Term]
+id: http://www.wikidata.org/entity/Q937228
+name: property
+is_a: http://www.wikidata.org/entity/Q853614 ! identifier
+is_a: http://www.wikidata.org/entity/Q1207505 ! quality
+is_a: http://www.wikidata.org/entity/Q714737 ! category of being
+
