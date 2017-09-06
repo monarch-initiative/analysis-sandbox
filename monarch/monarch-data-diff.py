@@ -5,6 +5,7 @@ Generate a diff of solr facet counts
 and scigraph queries as markdown and html
 """
 import requests
+from requests import Request, Session
 import argparse
 from pathlib import Path
 import logging
@@ -41,7 +42,8 @@ def main():
         'facet.limit': '3000',
         'facet.method': 'enum',
         'facet.mincount': '1',
-        'facet.sort': 'count'
+        'facet.sort': 'count',
+        'indent': 'on'
     }
 
     conf_fh = open(args.config, 'r')
@@ -65,6 +67,15 @@ def main():
         diff = diff_facets(dev_results, prod_results)
 
         md_file.write("{}\n".format(add_md_header(q_name, 4)))
+        sesh = Session()
+        prod_req = sesh.prepare_request(Request('GET', solr_prod, params=golr_facet_params))
+        dev_req = sesh.prepare_request(Request('GET', solr_dev, params=golr_facet_params))
+
+        md_file.write(add_href(prod_req.url, "Production Query"))
+        md_file.write('\n\n')
+        md_file.write(add_href(dev_req.url, "Dev Query"))
+        md_file.write('\n\n')
+
         diff_list = [(k, v) for k, v in diff.items()]
         diff_list.sort(key=lambda tup: int(re.search(r'\d+', tup[1]).group(0)), reverse=True)
         md_file.write(add_md_table(diff_list, query['headers']))
@@ -73,26 +84,12 @@ def main():
     md_file.write("{}\n".format(add_md_header("SciGraph Queries", 3)))
 
     for q_name, query in config['scigraph_data_queries'].items():
-        prod_results = get_scigraph_results(scigraph_data_prod, query['query'])
-        dev_results = get_scigraph_results(scigraph_data_dev, query['query'])
-        diff = diff_facets(dev_results, prod_results)
-
-        md_file.write("{}\n".format(add_md_header(q_name, 4)))
-        diff_list = [(k, v) for k, v in diff.items()]
-        diff_list.sort(key=lambda tup: int(re.search(r'\d+', tup[1]).group(0)), reverse=True)
-        md_file.write(add_md_table(diff_list, query['headers']))
-        md_file.write("\n\n")
+        md_file.write(get_scigraph_diff(
+            scigraph_data_prod, scigraph_data_dev, query, q_name))
 
     for q_name, query in config['scigraph_ontology_queries'].items():
-        prod_results = get_scigraph_results(scigraph_data_prod, query['query'])
-        dev_results = get_scigraph_results(scigraph_data_dev, query['query'])
-        diff = diff_facets(dev_results, prod_results)
-
-        md_file.write("{}\n".format(add_md_header(q_name, 4)))
-        diff_list = [(k, v) for k, v in diff.items()]
-        diff_list.sort(key=lambda tup: int(re.search(r'\d+', tup[1]).group(0)), reverse=True)
-        md_file.write(add_md_table(diff_list, query['headers']))
-        md_file.write("\n\n")
+        md_file.write(get_scigraph_diff(
+            scigraph_data_prod, scigraph_data_dev, query, q_name))
 
     md_file.close()
     md_file = md_path.open("r")
@@ -101,6 +98,35 @@ def main():
     html_file.close()
     md_file.close()
 
+
+def get_scigraph_diff(scigraph_prod: str, scigraph_dev: str,
+                      conf: dict, query_name: str) -> str:
+    output_md = str()
+    prod_results = get_scigraph_results(scigraph_prod, conf['query'])
+    dev_results = get_scigraph_results(scigraph_dev, conf['query'])
+    diff = diff_facets(dev_results, prod_results)
+
+    output_md += "{}\n".format(add_md_header(query_name, 4))
+
+    params = {
+        'cypherQuery': conf['query']
+    }
+
+    sesh = Session()
+    prod_req = sesh.prepare_request(Request('GET', scigraph_prod, params=params))
+    dev_req = sesh.prepare_request(Request('GET', scigraph_dev, params=params))
+
+    output_md += add_href(prod_req.url, "Production Query")
+    output_md += '\n\n'
+    output_md += add_href(dev_req.url, "Dev Query")
+    output_md += '\n\n'
+
+    diff_list = [(k, v) for k, v in diff.items()]
+    diff_list.sort(key=lambda tup: int(re.search(r'\d+', tup[1]).group(0)), reverse=True)
+    output_md += add_md_table(diff_list, conf['headers'])
+    output_md += "\n\n"
+
+    return output_md
 
 
 def add_md_table(data: Iterable[Tuple], headers: List[str]=None) -> str:
@@ -137,6 +163,10 @@ def add_bold(text: str) -> str:
     return "__{}__".format(text)
 
 
+def add_href(link: str, display_name: str) -> str:
+    return "[{}]({})".format(display_name, link)
+
+
 def get_facets(solr_server: str, params:dict) -> dict:
     solr_request = requests.get(solr_server, params=params)
     response = solr_request.json()
@@ -149,6 +179,7 @@ def get_facets(solr_server: str, params:dict) -> dict:
     facet_obj['Total'] = result_count
     facet_obj['Other'] = other_count
     return facet_obj
+
 
 def get_scigraph_results(scigraph_server: str, query:dict) -> dict:
     params = {
