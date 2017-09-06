@@ -1,0 +1,110 @@
+{
+    "solr-prod": "https://solr.monarchinitiative.org/solr/golr/select/",
+    "solr-dev": "https://solr-dev.monarchinitiative.org/solr/golr/select/",
+    "scigraph-data-prod": "https://scigraph-data.monarchinitiative.org/scigraph/cypher/execute.json",
+    "scigraph-data-dev": "https://scigraph-data-dev.monarchinitiative.org/scigraph/cypher/execute.json",
+    "scigraph-ontology-prod": "https://scigraph-ontology.monarchinitiative.org/scigraph/cypher/execute.json",
+    "scigraph-ontology-dev": "https://scigraph-ontology-dev.monarchinitiative.org/scigraph/cypher/execute.json",
+    "scigraph_data_queries": {
+        "Gene Disease Mix-ups": {
+          "query": "MATCH (n:gene) WHERE n:disease RETURN COUNT(DISTINCT(n)) as gene",
+          "headers": ["field", "count"]
+        },
+        "Genes": {
+          "query": "MATCH (n:gene) RETURN COUNT(DISTINCT(n)) as genes",
+          "headers": ["field", "count"]
+        },
+        "Variant Loci": {
+          "query": "MATCH (n:`variant locus`) RETURN COUNT(DISTINCT(n)) as variants",
+          "headers": ["field", "count"]
+        },
+        "Genotypes": {
+          "query": "MATCH (n:genotype) RETURN COUNT(DISTINCT(n)) as genotypes",
+          "headers": ["field", "count"]
+        },
+        "Sequence Features": {
+          "query": "MATCH (n:`sequence feature`) RETURN COUNT(DISTINCT(n)) as features",
+          "headers": ["field", "count"]
+        }
+    },
+    "scigraph_ontology_queries": {
+        "Number of edges connected to owl:Nothing": {
+          "query": "MATCH (nothing:Node{iri:'http://www.w3.org/2002/07/owl#Nothing'})-[rel]-(n) RETURN COUNT(DISTINCT(rel)) as nothing",
+          "headers": ["field", "count"]
+        }
+    },
+    "solr_facet_queries": {
+        "Gene Phenotype Associations": {
+            "filters": [
+                "subject_category:gene",
+                "object_category:phenotype"
+            ],
+            "facet.field": "subject_taxon_label",
+            "headers": ["species", "count"]
+        },
+        "Variant Phenotype Associations": {
+            "filters": [
+                "subject_category:variant",
+                "object_category:phenotype"
+            ],
+            "facet.field": "subject_taxon_label",
+            "headers": ["species", "count"]
+        },
+        "Variant Disease Associations": {
+            "filters": [
+                "subject_category:variant",
+                "object_category:disease"
+            ],
+            "facet.field": "subject_taxon_label",
+            "headers": ["species", "count"]
+        },
+        "Genotype Phenotype Associations": {
+            "filters": [
+                "subject_category:genotype",
+                "object_category:phenotype"
+            ],
+            "facet.field": "subject_taxon_label",
+            "headers": ["species", "count"]
+        },
+        "Gene Disease Associations": {
+            "filters": [
+                "subject_category:gene",
+                "object_category:disease"
+            ],
+            "facet.field": "subject_taxon_label",
+            "headers": ["species", "count"]
+        },
+        "Model Disease Associations": {
+            "filters": [
+                "subject_category:model",
+                "object_category:disease"
+            ],
+            "facet.field": "subject_taxon_label",
+            "headers": ["species", "count"]
+        },
+        "Disease Phenotype Associations": {
+            "filters": [
+                "subject_category:disease",
+                "object_category:phenotype"
+            ],
+            "facet.field": "subject_taxon_label",
+            "headers": ["species", "count"]
+        },
+        "Gene Variant Associations": {
+            "filters": [
+                "subject_category:variant",
+                "object_category:gene"
+            ],
+            "facet.field": "object_taxon_label",
+            "headers": ["species", "count"]
+        },
+        "Variant Genotype Associations": {
+            "filters": [
+                "subject_category:variant",
+                "object_category:genotype"
+            ],
+            "facet.field": "object_taxon_label",
+            "headers": ["species", "count"]
+        }
+    }
+}
