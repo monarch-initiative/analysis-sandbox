@@ -25,6 +25,10 @@
         "Sequence Features": {
           "query": "MATCH (n:`sequence feature`) RETURN COUNT(DISTINCT(n)) as features",
           "headers": ["field", "count"]
+        },
+        "Reagent Targeted Gene": {
+          "query": "MATCH (n:`reagent targeted gene`) RETURN COUNT(DISTINCT(n)) as rtg",
+          "headers": ["field", "count"]
         }
     },
     "scigraph_ontology_queries": {
