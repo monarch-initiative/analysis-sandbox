@@ -53,7 +53,7 @@ def main():
     solr_prod = config['solr-prod']
     scigraph_data_dev = config['scigraph-data-dev']
     scigraph_data_prod = config['scigraph-data-prod']
-    scigraph_ontolgoy_dev = config['scigraph-ontology-dev']
+    scigraph_ontology_dev = config['scigraph-ontology-dev']
     scigraph_ontology_prod = config['scigraph-ontology-prod']
 
     md_file.write("{}\n".format(add_md_header("Solr Queries", 3)))
@@ -89,7 +89,7 @@ def main():
 
     for q_name, query in config['scigraph_ontology_queries'].items():
         md_file.write(get_scigraph_diff(
-            scigraph_data_prod, scigraph_data_dev, query, q_name))
+            scigraph_ontology_prod, scigraph_ontology_dev, query, q_name))
 
     md_file.close()
     md_file = md_path.open("r")
