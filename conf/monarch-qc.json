@@ -10,6 +10,10 @@
           "query": "MATCH (n:gene) WHERE n:disease RETURN COUNT(DISTINCT(n)) as gene",
           "headers": ["field", "count"]
         },
+        "Gene Variant Mix-ups": {
+          "query": "MATCH (n:`variant locus`) WHERE n:gene RETURN COUNT(DISTINCT(n)) as variant",
+          "headers": ["field", "count"]
+        },
         "Genes": {
           "query": "MATCH (n:gene) RETURN COUNT(DISTINCT(n)) as genes",
           "headers": ["field", "count"]
