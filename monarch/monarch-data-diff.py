@@ -89,8 +89,7 @@ def main():
             filtered_diff = {}
         else:
             filtered_diff = {k:v for k,v in diff.items()
-                             if not args.quick or
-                             (v[0] == 0 and v[1] < 0) or
+                             if (v[0] == 0 and v[1] < 0) or
                              (v[1] < 0 and 1 - v[0] / (v[0] + abs(v[1])) >= threshold)}
 
         for dropped_data in filtered_diff:
