@@ -31,6 +31,8 @@ def main():
     parser.add_argument('--config', '-c', required=True, help='JSON configuration file')
     parser.add_argument('--out', '-o', required=False, help='output directory', default="./")
     parser.add_argument('--threshold', '-t', required=False, help='diff threshold', default=10, type=int)
+    parser.add_argument('--quick', '-q', required=False, help='diff threshold',
+                        default=False, action='store_true')
     args = parser.parse_args()
     dir_path = Path(args.out)
     threshold = float(args.threshold/100)
@@ -83,9 +85,13 @@ def main():
         # Create a filtered object based on the threshold passed in (or 10%)
         # If there is a x% decrease in data pass this on to generate a data
         # diff
-        filtered_diff = {k:v for k,v in diff.items()
-                         if (v[0] == 0 and v[1] < 0) or
-                         (v[1] < 0 and 1 - v[0] / (v[0] + abs(v[1])) >= threshold)}
+        if args.quick:
+            filtered_diff = {}
+        else:
+            filtered_diff = {k:v for k,v in diff.items()
+                             if not args.quick or
+                             (v[0] == 0 and v[1] < 0) or
+                             (v[1] < 0 and 1 - v[0] / (v[0] + abs(v[1])) >= threshold)}
 
         for dropped_data in filtered_diff:
             if dropped_data == 'Total' or \
