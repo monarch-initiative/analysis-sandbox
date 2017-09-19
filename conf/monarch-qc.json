@@ -113,6 +113,11 @@
             ],
             "facet.field": "object_taxon_label",
             "headers": ["species", "count"]
+        },
+        "Relations": {
+            "filters": [],
+            "facet.field": "relation_label",
+            "headers": ["relation", "count"]
         }
     }
 }
