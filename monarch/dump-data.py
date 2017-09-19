@@ -27,10 +27,12 @@ logger = logging.getLogger(__name__)
 parser = argparse.ArgumentParser(usage=__doc__)
 parser.add_argument('--config', '-c', required=True, help='JSON configuration file')
 parser.add_argument('--out', '-o', required=False, help='output directory', default="./")
+parser.add_argument('--solr', '-s', required=False,
+                    default="https://solr-dev.monarchinitiative.org/solr/golr/select",
+                    help='output directory')
+
 args = parser.parse_args()
 dir_path = Path(args.out)
-
-SOLR_URL = 'https://solr.monarchinitiative.org/solr/golr/select'
 
 golr_params = {
     'q': '*:*',
@@ -61,7 +63,7 @@ for directory, file_maps in file_filter_map.items():
             'q': '*:*',
             'fq': filters
         }
-        solr_request = requests.get(SOLR_URL, params=count_params)
+        solr_request = requests.get(args.solr, params=count_params)
         response = solr_request.json()
         resultCount = response['response']['numFound']
 
@@ -81,7 +83,7 @@ for directory, file_maps in file_filter_map.items():
                 first_res = False
             else:
                 golr_params['csv.header'] = 'false'
-            solr_request = requests.get(SOLR_URL, params=golr_params)
+            solr_request = requests.get(args.solr, params=golr_params)
             solr_response = solr_request.text
             dump_file_fh.write(solr_response)
             golr_params['start'] += golr_params['rows']
