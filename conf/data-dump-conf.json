@@ -1,4 +1,12 @@
 {
+    "disease_associations":
+        {
+            "disease_phenotype.all.tsv":
+            [
+                "subject_category:disease",
+                "object_category:phenotype"
+            ]
+        },
     "gene_associations":
         {
             "gene_phenotype.all.tsv":
