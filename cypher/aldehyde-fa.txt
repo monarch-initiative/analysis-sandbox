@@ -1,0 +1,57 @@
+Example: ALDH2 - [participates_in] ->AlcoholDetoxificationPathway -> [has_output] -> ReactiveAldehyde -> [causes] -> InterstrandCrossLinks -[input_of]-> FA-Pathway -[has_participant]-> FancA
+
+Nodes:
+ALDH2: http://identifiers.org/hgnc/HGNC:404
+aldehyde: http://purl.obolibrary.org/obo/CHEBI_17478
+acetylaldehyde: http://purl.obolibrary.org/obo/CHEBI_15343
+alcohol metabolism: http://purl.obolibrary.org/obo/GO_0006066
+ethanol oxidation: http://www.reactome.org/PathwayBrowser/#/R-HSA-71384
+dna repair pathway: http://www.reactome.org/PathwayBrowser/#/R-HSA-73894
+fanconi anemia pathway: http://www.reactome.org/PathwayBrowser/#/R-HSA-6783310
+
+
+Relations:
+has output: http://purl.obolibrary.org/obo/RO_0002234
+has participant: http://purl.obolibrary.org/obo/RO_0000057
+involved in: http://purl.obolibrary.org/obo/RO_0002331
+has role: http://purl.obolibrary.org/obo/RO_0000087
+
+
+We know ALDH2 is connected to the GO process "alcohol metabolism" and the reactome pathway "ethanol oxidation".  Can we connect to a aldehyde via GO?
+
+#Get all outputs and participants of ethanol oxidation
+
+MATCH path=(a:Node{iri:'http://identifiers.org/hgnc/HGNC:404'})-[r:`http://purl.obolibrary.org/obo/RO_0002331`]-(b:Node{iri:'http://purl.obolibrary.org/obo/GO_0006066'})<-[:`http://purl.obolibrary.org/obo/RO_0002234`|`http://purl.obolibrary.org/obo/RO_0000057`]->(outputs) RETURN path,outputs limit 10
+
+> Alcohol, http://purl.obolibrary.org/obo/CHEBI_30879
+
+#Get all outputs and participants of ethanol oxidation closure
+
+MATCH path=(a:Node{iri:'http://identifiers.org/hgnc/HGNC:404'})-[r:`http://purl.obolibrary.org/obo/RO_0002331`]-(b:Node{iri:'http://purl.obolibrary.org/obo/GO_0006066'})<-[:subClassOf*0..]-()-[:`http://purl.obolibrary.org/obo/RO_0002234`|`http://purl.obolibrary.org/obo/RO_0000057`]->(outputs) RETURN path,outputs limit 10
+
+> Many chemicals but don't see aldehyde
+
+# Look for aldehyde and all subclasses
+
+MATCH path=(a:Node{iri:'http://identifiers.org/hgnc/HGNC:404'})-[r:`http://purl.obolibrary.org/obo/RO_0002331`]-(b:Node{iri:'http://purl.obolibrary.org/obo/GO_0006066'})<-[:subClassOf*0..]-()-[:`http://purl.obolibrary.org/obo/RO_0002234`|`http://purl.obolibrary.org/obo/RO_0000057`]->(outputs)-[:subClassOf*0..]->(aldehyde:Node{iri:'http://purl.obolibrary.org/obo/CHEBI_17478'}) RETURN path limit 1
+
+> No rows
+
+# Does the reactome pathway connect to aldehyde
+MATCH path=(aldh2:Node{iri:'http://identifiers.org/hgnc/HGNC:404'})-[*2]-()-[:subClassOf*0..2]->(aldehyde:Node{iri:'http://purl.obolibrary.org/obo/CHEBI_17478'}) RETURN path limit 1
+
+> acetaldehyde connected to ethanol oxidation
+
+
+# Connect ALHD2 to Fanconi Anemia pathway (lot's of paths here, this is an example through dna repair)
+
+MATCH path=(aldh2:Node{iri:'http://identifiers.org/hgnc/HGNC:404'})-[*2]-(acetylaldehyde:Node{iri:'http://purl.obolibrary.org/obo/CHEBI_15343'})-[:`http://purl.obolibrary.org/obo/RO_0002331`*1..3]-(dnaDamage:Node{iri:'http://www.reactome.org/PathwayBrowser/#/R-HSA-73894'})-[:`http://purl.obolibrary.org/obo/RO_0002331`*1..3]-(fancPathway:Node{iri:'http://www.reactome.org/PathwayBrowser/#/R-HSA-6783310'}) RETURN path limit 5
+
+# More open ended paths
+MATCH path=(aldh2:Node{iri:'http://identifiers.org/hgnc/HGNC:404'})-[*2]-(acetylaldehyde:Node{iri:'http://purl.obolibrary.org/obo/CHEBI_15343'})-[:`http://purl.obolibrary.org/obo/RO_0002331`*1..3]-(fancPathway:Node{iri:'http://www.reactome.org/PathwayBrowser/#/R-HSA-6783310'}) RETURN path limit 5
+
+MATCH path=(aldh2:Node{iri:'http://identifiers.org/hgnc/HGNC:404'})-[*2]-(acetylaldehyde:Node{iri:'http://purl.obolibrary.org/obo/CHEBI_15343'})-[*1..3]-(fancPathway:Node{iri:'http://www.reactome.org/PathwayBrowser/#/R-HSA-6783310'}) RETURN path limit 5
+
+
+
+
