@@ -17,7 +17,7 @@ involved in: http://purl.obolibrary.org/obo/RO_0002331
 has role: http://purl.obolibrary.org/obo/RO_0000087
 
 
-We know ALDH2 is connected to the GO process "alcohol metabolism" and the reactome pathway "ethanol oxidation".  Can we connect to a aldehyde via GO?
+We know ALDH2 is connected to the GO process "alcohol metabolism" and the reactome pathway "ethanol oxidation".  Can we connect to an aldehyde via GO?
 
 #Get all outputs and participants of ethanol oxidation
 
@@ -52,6 +52,12 @@ MATCH path=(aldh2:Node{iri:'http://identifiers.org/hgnc/HGNC:404'})-[*2]-(acetyl
 
 MATCH path=(aldh2:Node{iri:'http://identifiers.org/hgnc/HGNC:404'})-[*2]-(acetylaldehyde:Node{iri:'http://purl.obolibrary.org/obo/CHEBI_15343'})-[*1..3]-(fancPathway:Node{iri:'http://www.reactome.org/PathwayBrowser/#/R-HSA-6783310'}) RETURN path limit 5
 
+# Connect to FA disease through ortholog
+MATCH path=(aldh2:Node{iri:'http://identifiers.org/hgnc/HGNC:404'})-[*2]-(acetylaldehyde:Node{iri:'http://purl.obolibrary.org/obo/CHEBI_15343'})-[:`http://purl.obolibrary.org/obo/RO_0002331`*1..3]-(dnaDamage:Node{iri:'http://www.reactome.org/PathwayBrowser/#/R-HSA-73894'})-[:`http://purl.obolibrary.org/obo/RO_0002331`*1..3]-(fancPathway:Node{iri:'http://www.reactome.org/PathwayBrowser/#/R-HSA-6783310'})-[:`http://purl.obolibrary.org/obo/RO_0002331`]-(fanca:Node{iri:'http://identifiers.org/hgnc/HGNC:3582'})
+-[*3]-(dis:Node{iri:'http://purl.obolibrary.org/obo/MONDO_0019391'}) RETURN path limit 5
 
+# Connect to FA disease through anon variant
+MATCH path=(aldh2:Node{iri:'http://identifiers.org/hgnc/HGNC:404'})-[*2]-(acetylaldehyde:Node{iri:'http://purl.obolibrary.org/obo/CHEBI_15343'})-[:`http://purl.obolibrary.org/obo/RO_0002331`*1..3]-(dnaDamage:Node{iri:'http://www.reactome.org/PathwayBrowser/#/R-HSA-73894'})-[:`http://purl.obolibrary.org/obo/RO_0002331`*1..3]-(fancPathway:Node{iri:'http://www.reactome.org/PathwayBrowser/#/R-HSA-6783310'})-[:`http://purl.obolibrary.org/obo/RO_0002331`]-(fanca:Node{iri:'http://identifiers.org/hgnc/HGNC:3582'})
+<-[:`http://purl.obolibrary.org/obo/GENO_0000418`]-()-[*1..3]->(dis:Node{iri:'http://purl.obolibrary.org/obo/MONDO_0019391'}) RETURN path limit 5
 
 
