@@ -1,8 +1,8 @@
 import requests
-import grequests
 import re
 import logging
 import json
+import copy
 
 logger = logging.getLogger(__name__)
 
@@ -24,11 +24,11 @@ In the future this will be refactored and better structured
 # Globals and Constants
 SCIGRAPH_URL = 'https://scigraph-data.monarchinitiative.org/scigraph'
 SIMSEARCH_URL = 'https://monarchinitiative.org/simsearch/phenotype'
-MONARCH_COMPARE = 'https://beta.monarchinitiative.org/compare'
+MONARCH_COMPARE = 'https://monarchinitiative.org/compare'
 MONARCH_SEARCH = 'https://solr.monarchinitiative.org/solr/search/select'
 MONARCH_SCORE = 'https://monarchinitiative.org/score'
 SOLR_URL = 'https://solr.monarchinitiative.org/solr/golr/select'
-OWLSIM_URL = 'http://localhost:8081/owlsim/'
+OWLSIM_URL = 'https://monarchinitiative.org/owlsim/'
 
 
 CURIE_MAP = {
@@ -49,6 +49,49 @@ TAXON_MAP = {
     "NCBITaxon:10116": "Rat",
 }
 
+def get_solr_results(solr, params):
+    solr_params = copy.deepcopy(params)
+    resultCount = solr_params['rows']
+    while solr_params['start'] < resultCount:
+        solr_request = requests.get(solr, params=solr_params)
+        response = solr_request.json()
+        resultCount = response['response']['numFound']
+        solr_params['start'] += solr_params['rows']
+        for doc in response['response']['docs']:
+            yield doc
+
+def get_clique_leader(id):
+    url = SCIGRAPH_URL + '/dynamic/cliqueLeader/{}.json'.format(id)
+    sci_request = requests.get(url)
+    response = sci_request.json()
+    try:
+        leader = {
+            'id': response['nodes'][0]['id'],
+            'label': response['nodes'][0]['lbl']
+        }
+    except IndexError:
+        leader = {
+            'id': id,
+            'label': ''
+        }
+    return leader
+
+def get_direct_phenotypes(entity):
+    phenotype_list = []
+    params = {
+        'wt': 'json',
+        'rows': 100,
+        'start': 0,
+        'q': '*:*',
+        'fl': 'object',
+        'fq': ['subject:"{0}"'.format(entity),
+               'object_category:"phenotype"']
+    }
+
+    for doc in get_solr_results(SOLR_URL, params):
+        phenotype_list.append(doc['object'])
+
+    return phenotype_list
 
 def get_phenotype_profile(entity):
     phenotype_list = []
@@ -241,6 +284,8 @@ def get_score_from_compare_batch(reference, query, chunk_len=10):
                       which are sent to the server as a batch
     :return: list of scores
     """
+    import grequests
+
     query_list = []
     results = []
     chunked_list = [query[i:i + chunk_len] for i in range(0, len(query), chunk_len)]
@@ -291,6 +336,8 @@ def compare_attribute_sets(reference, query):
     :param query: 2d list is phenotype profiles [[HP:1,HP:2],[HP:1, HP:3]]
     :return: list of scores
     """
+    import grequests
+
     results = []
     request_list = []
     compare_url = OWLSIM_URL + "compareAttributeSets"
