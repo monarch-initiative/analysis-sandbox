@@ -86,17 +86,18 @@ Given the set disease-phenotype annotations in Monarch as a background data set 
 1. Analysis of terms with no lay synonyms
 
 Out of the 8312 terms without a lay person synonym, 5215 terms are directly associated with a disease.  Running an enrichment on these terms yielded the disease groups:
-nervous system disease
-rare neurologic disease
-neoplasm (disease)
-cardiovascular disease
-peripheral nervous system disease
-rare genetic neurological disorder
-rare tumor
-rare neoplastic disease
-rare circulatory system disease
-rare peripheral neuropathy
-peripheral neuropathy
+
+- nervous system disease
+- rare neurologic disease
+- neoplasm (disease)
+- cardiovascular disease
+- peripheral nervous system disease
+- rare genetic neurological disorder
+- rare tumor
+- rare neoplastic disease
+- rare circulatory system disease
+- rare peripheral neuropathy
+- peripheral neuropathy
 
 A full list is available in the enriched-disease.tsv file
 
