@@ -3,6 +3,7 @@ import argparse
 import logging
 import requests
 from json.decoder import JSONDecodeError
+from rdflib import URIRef, Graph
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -19,6 +20,7 @@ parser = argparse.ArgumentParser(description='Generates annotation'
                                  'sufficiency scores for set of phenotype ids')
 parser.add_argument('--phenotypes', '-p', type=str, required=True)
 parser.add_argument('--diseases', '-d', type=str, required=True)
+parser.add_argument('--ic_cache', '-ic', type=str, required=True)
 parser.add_argument('--output', '-o', type=str, required=False,
                     help='Location of output file', default="./output.tsv")
 
@@ -26,11 +28,24 @@ args = parser.parse_args()
 
 OWLSIM_URL = 'https://monarchinitiative.org/owlsim/'
 
+hpo = Graph()
+hpo.parse("http://purl.obolibrary.org/obo/hp.owl", format='xml')
+hpo.bind("HP", "http://purl.obolibrary.org/obo/HP_")
+hpo.bind("rdfs", "http://www.w3.org/2000/01/rdf-schema#")
+
+
 pheno_fh = open(args.phenotypes, 'r')
 disease_fh = open(args.diseases, 'r')
+ic_fh = open(args.ic_cache, 'r')
+ic_map = {}
+
+for line in ic_fh.readlines():
+    hpo_id, ic = line.rstrip("\n").split("\t")
+    ic_map[hpo_id] = float(ic)
+
 output = open(args.output, 'w')
 
-pheno_list = pheno_fh.read().splitlines()
+pheno_list = set(pheno_fh.read().splitlines())
 disease_list = disease_fh.read().splitlines()
 
 for disease in disease_list:
@@ -40,9 +55,36 @@ for disease in disease_list:
     mondo_label = clique_leader['label']
 
     # Get phenotypes
-    pheno_profile = monarch.get_direct_phenotypes(mondo)
+    pheno_profile = set(monarch.get_direct_phenotypes(mondo))
 
-    lay_profile = set(pheno_profile).intersection(pheno_list)
+    lay_profile = pheno_profile.intersection(pheno_list)
+
+    disease_only = pheno_profile - pheno_list
+
+    for phenotype in disease_only:
+        parents = set()
+        parent_query = """
+                SELECT ?parents
+                WHERE {{
+                    {0} rdfs:subClassOf+ ?parents .
+                }}
+            """.format(phenotype)
+        query_result = hpo.query(parent_query)
+        if len(list(query_result)) > 0:
+            for res in query_result:
+                hpo_curie = str(res[0]).replace('http://purl.obolibrary.org/obo/HP_', 'HP:')
+                if hpo_curie.startswith("HP"):
+                    parents.add(hpo_curie)
+
+        lay_overlap = parents.intersection(pheno_list)
+        if len(lay_overlap) == 0:
+            continue
+        max_ic = max([ic_map[parent] for parent in lay_overlap])
+        mica = ''
+        for pheno in lay_overlap:
+            if ic_map[pheno] == max_ic:
+                mica = pheno
+        lay_profile.add(mica)
 
     # Get annot sufficiency of whole profile
     scores = monarch.get_annotation_sufficiency_score(pheno_profile)
