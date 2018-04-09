@@ -188,10 +188,9 @@ def get_gene_phenotype_list(taxon_curie):
     }
     solr_request = requests.get(SOLR_URL, params=params)
     response = solr_request.json()
-    human_genes = {val[0] for val in response['facet_counts']['facet_fields']['subject']
-                   if not val[0].startswith("FlyBase")}
+    genes = {val[0] for val in response['facet_counts']['facet_fields']['subject']}
 
-    return human_genes
+    return genes
 
 
 def get_human_genes():
@@ -228,9 +227,9 @@ def get_causal_gene_phenotype_assocs():
         'fl': 'subject, relation, is_defined_by'
     }
 
-    causal_source = ["http://data.monarchinitiative.org/ttl/clinvar.ttl",
-                     "http://data.monarchinitiative.org/ttl/omim.ttl",
-                     "http://data.monarchinitiative.org/ttl/orphanet.ttl"]
+    causal_source = ["https://data.monarchinitiative.org/ttl/clinvar.ttl",
+                     "https://data.monarchinitiative.org/ttl/omim.ttl",
+                     "https://data.monarchinitiative.org/ttl/orphanet.ttl"]
     resultCount = params['rows']
     while params['start'] < resultCount:
         solr_request = requests.get(SOLR_URL, params=params)
@@ -245,7 +244,7 @@ def get_causal_gene_phenotype_assocs():
 
             if 'is_defined_by' in doc\
                     and len([source for source in doc['is_defined_by'] if source in causal_source]) == 0\
-                    and doc['is_defined_by'] != ['http://data.monarchinitiative.org/ttl/hpoa.ttl']:
+                    and doc['is_defined_by'] != ['https://data.monarchinitiative.org/ttl/hpoa.ttl']:
                     continue
 
             result_set.add(doc['subject'])
