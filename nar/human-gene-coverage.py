@@ -25,7 +25,7 @@ SOLR_URL = 'https://solr.monarchinitiative.org/solr/golr/select'
 GENE_COUNT = 19008
 
 CURIE_MAP = {
-    "http://www.ncbi.nlm.nih.gov/gene/": "NCBIGene",
+    "http://identifiers.org/hgnc/HGNC:": "HGNC",
     "http://purl.obolibrary.org/obo/NCBITaxon_": "NCBITaxon"
 }
 
