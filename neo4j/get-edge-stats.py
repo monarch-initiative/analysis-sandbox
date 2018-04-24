@@ -3,10 +3,10 @@ Get aggregate counts of node labels per edge type
 Note that nodes contain a set of labels; therefore,
 we are counting the number of nodes with a certain
 set of labels eg
-versionIRI	outgoing	17212	['sequence feature', 'cliqueLeader', 'Node']
-versionIRI	outgoing	4546	['cliqueLeader', 'Node']
-versionIRI	incoming	280488	['Class', 'gene', 'sequence feature', 'cliqueLeader', 'Node']
-versionIRI	incoming	6135	['cliqueLeader', 'Class', 'gene', 'molecular entity', 'sequence feature', 'Node']
+isDefinedBy	outgoing	2112891	['Class', 'gene', 'sequence feature', 'cliqueLeader', 'Node']
+isDefinedBy	outgoing	1024789	['NamedIndividual', 'publication', 'cliqueLeader', 'Node']
+isDefinedBy	incoming	5613517	['Ontology', 'cliqueLeader', 'Node']
+isDefinedBy	incoming	353	['Ontology', 'NamedIndividual', 'cliqueLeader', 'Node']
 """
 
 from neo4j.v1 import GraphDatabase
@@ -28,7 +28,7 @@ for record in get_scigraph_results(query):
 
 for rel in rel_types:
     label_query = """
-    MATCH (n)-[:`http://purl.obolibrary.org/obo/GENO_0000418`]->()
+    MATCH (n)-[:`{}`]->()
     RETURN count(labels(n)) as count, labels(n) as labels
     ORDER BY count DESC
     LIMIT 5
@@ -36,7 +36,7 @@ for rel in rel_types:
     for aggregate in get_scigraph_results(label_query):
         print("{}\toutgoing\t{}\t{}".format(rel, aggregate['count'], aggregate['labels']))
     label_query = """
-        MATCH (n)<-[:`http://purl.obolibrary.org/obo/GENO_0000418`]-()
+        MATCH (n)<-[:`{}`]-()
         RETURN count(labels(n)) as count, labels(n) as labels
         ORDER BY count DESC
         LIMIT 5
