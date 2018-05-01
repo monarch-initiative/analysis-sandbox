@@ -4,14 +4,15 @@ import requests
 
 fucosidosis = 'MONDO:0009254'
 
-output = open('./fuco-analysis.tsv', 'w')
+output = open('./fuco-analysis-even.tsv', 'w')
 
 output.write("{}\t{}\t{}\t{}\t{}\n".format(
         "sample_score",
         "sample_rank",
         "glyco_score",
         "glyco_rank",
-        "sample"
+        "sample",
+        "w_glyco"
 ))
 
 def get_sim_and_rank(pheno_list, disease):
@@ -25,7 +26,7 @@ def get_sim_and_rank(pheno_list, disease):
     sim_results = sim_req.json()
     sim_list = sim_results['results']
     rank = 1
-    last_score = 0
+    last_score = -1
     sample_rank = 'NA'
     sample_score = 'NA'
     for res in sim_list:
@@ -33,9 +34,9 @@ def get_sim_and_rank(pheno_list, disease):
             sample_rank = rank
             sample_score = res["combinedScore"]
             break
-        elif res["combinedScore"] != last_score:
+        elif int(res["combinedScore"]) < last_score:
             rank += 1
-            last_score = res["combinedScore"]
+        last_score = int(res["combinedScore"])
 
     return sample_score, sample_rank
 
@@ -75,15 +76,17 @@ while(i < 100):
     seen.append(set(sample))
 
     sample_sim, sample_rank = get_sim_and_rank(sample, fucosidosis)
-    w_glyco = np.append(sample, glyco_phenotypes)
+    sub_sample = sample[:-2]
+    w_glyco = np.append(sub_sample, glyco_phenotypes)
     sim, rank = get_sim_and_rank(w_glyco, fucosidosis)
 
-    output.write("{}\t{}\t{}\t{}\t{}\n".format(
+    output.write("{}\t{}\t{}\t{}\t{}\t{}\n".format(
         sample_sim,
         sample_rank,
         sim,
         rank,
-        "|".join(sample)
+        "|".join(sample),
+        "|".join(w_glyco),
     ))
     i += 1
 
