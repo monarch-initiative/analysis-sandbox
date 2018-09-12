@@ -1,5 +1,7 @@
 import requests
 import re
+import csv
+import urllib.request
 
 # The purpose of this script to determine what percentage of human protein coding genes
 # have associated phenotype data in either humans or in orthologous sequences in other
@@ -25,7 +27,7 @@ SOLR_URL = 'https://solr.monarchinitiative.org/solr/golr/select'
 GENE_COUNT = 19008
 
 CURIE_MAP = {
-    "http://www.ncbi.nlm.nih.gov/gene/": "NCBIGene",
+    "http://identifiers.org/hgnc/HGNC:": "HGNC",
     "http://purl.obolibrary.org/obo/NCBITaxon_": "NCBITaxon"
 }
 
@@ -34,11 +36,23 @@ TAXON_MAP = {
     "Mouse": "http://purl.obolibrary.org/obo/NCBITaxon_10090",
     "ZebraFish": "http://purl.obolibrary.org/obo/NCBITaxon_7955",
     "Worm": "http://purl.obolibrary.org/obo/NCBITaxon_6239",
-    "Fly": "http://purl.obolibrary.org/obo/NCBITaxon_7227"
+    "Fly": "http://purl.obolibrary.org/obo/NCBITaxon_7227",
+    "Yeast": "http://purl.obolibrary.org/obo/NCBITaxon_559292",
+    "Rat": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
 }
 
 
 def main():
+
+    hgnc = 'ftp://ftp.ebi.ac.uk/pub/databases/genenames/new/tsv/locus_types/gene_with_protein_product.txt'
+
+    protein_coding_genes = set()
+
+    hgnc_resp = urllib.request.urlopen(hgnc).read()
+    for line in hgnc_resp.decode('utf-8').splitlines():
+        protein_coding_genes.add(re.split(r'\t', line)[0])
+
+    print("Number of hgnc protein coding genes: {0}".format(len(protein_coding_genes)))
 
     human_causal = get_causal_gene_phenotype_assocs()
     print("Number of human causual g2p associations: {0}".format(len(human_causal)))
@@ -66,8 +80,8 @@ def main():
 
     for taxon, taxon_iri in TAXON_MAP.items():
         taxon_curie = map_iri_to_curie(taxon_iri)
-        results = get_model_gene_stats(taxon_curie, human_genes,
-                                       human_genes_pheno,
+        results = get_model_gene_stats(taxon_curie, protein_coding_genes,
+                                       human_causal,
                                        model_human_set, model_only,
                                        multi_model_set)
 
@@ -79,7 +93,7 @@ def main():
 
     print("Models only: {0}".format(len(model_only)))
     print("Models plus human: {0}".format(len(model_human_set)))
-    print("Human only: {0}".format(len(human_genes_pheno)-len(model_human_set)))
+    print("Human only: {0}".format(len(human_causal)-len(model_human_set)))
 
     print("##########################")
 
@@ -188,10 +202,9 @@ def get_gene_phenotype_list(taxon_curie):
     }
     solr_request = requests.get(SOLR_URL, params=params)
     response = solr_request.json()
-    human_genes = {val[0] for val in response['facet_counts']['facet_fields']['subject']
-                   if not val[0].startswith("FlyBase")}
+    genes = {val[0] for val in response['facet_counts']['facet_fields']['subject']}
 
-    return human_genes
+    return genes
 
 
 def get_human_genes():
@@ -228,9 +241,9 @@ def get_causal_gene_phenotype_assocs():
         'fl': 'subject, relation, is_defined_by'
     }
 
-    causal_source = ["http://data.monarchinitiative.org/ttl/clinvar.ttl",
-                     "http://data.monarchinitiative.org/ttl/omim.ttl",
-                     "http://data.monarchinitiative.org/ttl/orphanet.ttl"]
+    causal_source = ["https://data.monarchinitiative.org/ttl/clinvar.ttl",
+                     "https://data.monarchinitiative.org/ttl/omim.ttl",
+                     "https://data.monarchinitiative.org/ttl/orphanet.ttl"]
     resultCount = params['rows']
     while params['start'] < resultCount:
         solr_request = requests.get(SOLR_URL, params=params)
@@ -245,7 +258,7 @@ def get_causal_gene_phenotype_assocs():
 
             if 'is_defined_by' in doc\
                     and len([source for source in doc['is_defined_by'] if source in causal_source]) == 0\
-                    and doc['is_defined_by'] != ['http://data.monarchinitiative.org/ttl/hpoa.ttl']:
+                    and doc['is_defined_by'] != ['https://data.monarchinitiative.org/ttl/hpoa.ttl']:
                     continue
 
             result_set.add(doc['subject'])

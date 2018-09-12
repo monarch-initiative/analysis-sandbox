@@ -14,6 +14,10 @@
           "query": "MATCH (n:`variant locus`) WHERE n:gene RETURN COUNT(DISTINCT(n)) as variant",
           "headers": ["field", "count"]
         },
+        "Genes in more than one taxa": {
+          "query": "MATCH (taxon1)<-[:RO:0002162]-(n:gene)-[:RO:0002162]->(taxon2) WHERE taxon1 <> taxon2 AND taxon1.iri > taxon2.iri RETURN COUNT(DISTINCT(n)) as genes",
+          "headers": ["field", "count"]
+        },
         "Genes": {
           "query": "MATCH (n:gene) RETURN COUNT(DISTINCT(n)) as genes",
           "headers": ["field", "count"]
