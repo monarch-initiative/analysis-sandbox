@@ -43,6 +43,10 @@
         "Number of edges connected to owl:Nothing": {
           "query": "MATCH (nothing:Node{iri:'http://www.w3.org/2002/07/owl#Nothing'})-[rel]-(n) RETURN COUNT(DISTINCT(rel)) as nothing",
           "headers": ["field", "count"]
+        },
+        "nodes with subClassOf cycles (depth 2)": {
+          "query": "MATCH (n)-[:subClassOf*1..2]->(n) RETURN COUNT(DISTINCT(n)) as node_count",
+          "headers": ["field", "count"]
         }
     },
     "solr_facet_queries": {
