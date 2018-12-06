@@ -17,6 +17,7 @@ import copy
 import itertools
 import re
 import markdown
+from json.decoder import JSONDecodeError
 
 
 logging.basicConfig(level=logging.INFO)
@@ -241,8 +242,16 @@ def get_scigraph_results(scigraph_server: str, query: str) -> JSONType:
     params = {
         'cypherQuery': query
     }
-    scigraph_request = requests.get(scigraph_server, params=params)
-    response = scigraph_request.json()
+    scigraph_request = requests.get(scigraph_server, params=params, timeout=120)
+    try:
+        response = scigraph_request.json()
+    except JSONDecodeError as json_exc:
+         raise JSONDecodeError(
+                "Cannot parse scigraph response for {}: {}".format(scigraph_request.url, json_exc.msg),
+                json_exc.doc,
+                json_exc.pos
+         )
+
     results = response[0]
     return results
 
