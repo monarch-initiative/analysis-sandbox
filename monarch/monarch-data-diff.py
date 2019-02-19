@@ -159,8 +159,11 @@ def get_scigraph_diff(scigraph_prod: str, scigraph_dev: str,
     output_md = str()
     prod_results = get_scigraph_results(scigraph_prod, conf['query'])
     dev_results = get_scigraph_results(scigraph_dev, conf['query'])
-    diff = diff_facets(dev_results, prod_results)
-    formatted_diff = convert_diff_to_md(diff)
+    if prod_results == 'timeout' or dev_results == 'timeout':
+        formatted_diff = {"request timeout": '0'}
+    else:
+        diff = diff_facets(dev_results, prod_results)
+        formatted_diff = convert_diff_to_md(diff)
 
     output_md += "{}\n".format(add_md_header(query_name, 4))
 
@@ -246,11 +249,13 @@ def get_scigraph_results(scigraph_server: str, query: str) -> JSONType:
     try:
         response = scigraph_request.json()
     except JSONDecodeError as json_exc:
-         raise JSONDecodeError(
-                "Cannot parse scigraph response for {}: {}".format(scigraph_request.url, json_exc.msg),
-                json_exc.doc,
-                json_exc.pos
-         )
+        #raise JSONDecodeError(
+        #       "Cannot parse scigraph response for {}: {}".format(scigraph_request.url, json_exc.msg),
+        #       json_exc.doc,
+        #       json_exc.pos
+        #)
+        print("Cannot parse scigraph response for {}: {}".format(scigraph_request.url, json_exc.msg))
+        response = ["timeout"]
 
     results = response[0]
     return results
