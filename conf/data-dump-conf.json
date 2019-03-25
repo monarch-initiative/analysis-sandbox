@@ -44,6 +44,18 @@
                 "object_category:phenotype",
                 "subject_taxon_closure:\"NCBITaxon:6239\""
             ],
+            "gene_phenotype.559292.tsv":
+            [
+                "subject_category:gene",
+                "object_category:phenotype",
+                "subject_taxon_closure:\"NCBITaxon:559292\""
+            ],
+            "gene_phenotype.10116.tsv":
+            [
+                "subject_category:gene",
+                "object_category:phenotype",
+                "subject_taxon_closure:\"NCBITaxon:10116\""
+            ],
             "gene_phenotype.other.tsv":
             [
                 "subject_category:gene",
@@ -52,7 +64,9 @@
                 "-subject_taxon_closure:\"NCBITaxon:7227\"",
                 "-subject_taxon_closure:\"NCBITaxon:10090\"",
                 "-subject_taxon_closure:\"NCBITaxon:7955\"",
-                "-subject_taxon_closure:\"NCBITaxon:6239\""
+                "-subject_taxon_closure:\"NCBITaxon:6239\"",
+                "-subject_taxon_closure:\"NCBITaxon:559292\"",
+                "-subject_taxon_closure:\"NCBITaxon:10116\""
             ],
             "gene_disease.9606.tsv":
             [
@@ -164,6 +178,18 @@
                 "object_category:disease",
                 "subject_taxon_closure:\"NCBITaxon:6239\""
             ],
+            "model_disease.559292.tsv":
+            [
+                "subject_category:model",
+                "object_category:disease",
+                "subject_taxon_closure:\"NCBITaxon:559292\""
+            ],
+            "model_disease.10116.tsv":
+            [
+                "subject_category:model",
+                "object_category:disease",
+                "subject_taxon_closure:\"NCBITaxon:10116\""
+            ],
             "model_disease.other.tsv":
             [
                 "subject_category:model",
@@ -172,7 +198,9 @@
                 "-subject_taxon_closure:\"NCBITaxon:7227\"",
                 "-subject_taxon_closure:\"NCBITaxon:10090\"",
                 "-subject_taxon_closure:\"NCBITaxon:7955\"",
-                "-subject_taxon_closure:\"NCBITaxon:6239\""
+                "-subject_taxon_closure:\"NCBITaxon:6239\"",
+                "-subject_taxon_closure:\"NCBITaxon:559292\"",
+                "-subject_taxon_closure:\"NCBITaxon:10116\""
             ]
         },
     "genotype_associations":
