@@ -1,6 +1,7 @@
 import requests
 import re
 import csv
+from json import JSONDecodeError
 import urllib.request
 
 # The purpose of this script to determine what percentage of human protein coding genes
@@ -18,7 +19,7 @@ import urllib.request
 
 
 # Globals and Constants
-SCIGRAPH_URL = 'https://scigraph-data.monarchinitiative.org/scigraph'
+SCIGRAPH_URL = 'https://scigraph-data-dev.monarchinitiative.org/scigraph'
 SOLR_URL = 'https://solr.monarchinitiative.org/solr/golr/select'
 
 # Number of protein coding genes in the human genome
@@ -55,10 +56,11 @@ def main():
     print("Number of hgnc protein coding genes: {0}".format(len(protein_coding_genes)))
 
     human_causal = get_causal_gene_phenotype_assocs()
-    print("Number of human causual g2p associations: {0}".format(len(human_causal)))
+    print("Number of human genes with a causal g2p association: {0}".format(len(human_causal)))
 
     human_genes = get_human_genes()
     print("Number of human gene cliques: {0}".format(len(human_genes)))
+
     human_genes_pheno = get_gene_phenotype_list('NCBITaxon:9606')
 
     for taxon, taxon_iri in TAXON_MAP.items():
@@ -92,8 +94,11 @@ def main():
         #print("{0}: {1} unmatched count".format(taxon, len(results['unmatched_set'])))
 
     print("Models only: {0}".format(len(model_only)))
-    print("Models plus human: {0}".format(len(model_human_set)))
+    print("Models AND human: {0}".format(len(model_human_set)))
     print("Human only: {0}".format(len(human_causal)-len(model_human_set)))
+    print("Models OR human: {0}".format(len(model_human_set)
+                                        + len(model_only)
+                                        + (len(human_causal)-len(model_human_set))))
 
     print("##########################")
 
@@ -116,8 +121,7 @@ def get_model_gene_stats(taxon_curie, human_genes, human_genes_pheno,
         'unmatched_set': set()
     }
 
-    filters = ['object_closure:"{0}"'.format("UPHENO:0001001"),
-               'subject_category:"gene"',
+    filters = ['association_type:gene_phenotype',
                'subject_taxon: "{0}"'.format(taxon_curie)]
     params = {
         'wt': 'json',
@@ -160,7 +164,7 @@ def get_orthology_stats(taxon_iri):
 
     stats = dict()
 
-    query = "MATCH ({{iri:'http://purl.obolibrary.org/obo/NCBITaxon_9606'}})<-[:RO:0002162]-(gene:gene)" \
+    query = "MATCH (:Node{{iri:'NCBITaxon:9606'}})<-[:RO:0002162]-(gene:gene)" \
             "-[rel:RO:HOM0000017|RO:HOM0000020]-(ortholog:gene)-[:RO:0002162]->" \
             "({{iri:'{0}'}}) " \
             "RETURN COUNT(DISTINCT(ortholog)) as ortholog, COUNT(DISTINCT(gene)) as human".format(taxon_iri)
@@ -184,8 +188,7 @@ def get_gene_phenotype_list(taxon_curie):
     :param taxon_curie:
     :return:
     """
-    filters = ['object_closure:"{0}" OR object_closure:"{1}"'.format("UPHENO:0001001", "DOID:4"),
-               'subject_category:"gene"',
+    filters = ['association_type:({} OR {})'.format("gene_phenotype", "gene_disease"),
                'subject_taxon: "{0}"'.format(taxon_curie)]
     params = {
         'wt': 'json',
@@ -210,18 +213,21 @@ def get_gene_phenotype_list(taxon_curie):
 def get_human_genes():
 
     scigraph_service = SCIGRAPH_URL + "/cypher/execute.json"
-    query = "MATCH (gene:gene)-[tax:RO:0002162]->(taxon{iri:'http://purl.obolibrary.org/obo/NCBITaxon_9606'}) " \
-            "RETURN DISTINCT gene.iri"
+    query = "MATCH (gene:gene)-[tax:RO:0002162]->(taxon:Node{iri:'NCBITaxon:9606'}) " \
+            "RETURN gene.iri"
     params = {
         "cypherQuery": query,
         "limit": 100000
     }
 
     request = requests.get(scigraph_service, params=params)
-    results = request.json()
-
-    genes = [key["gene.iri"] for key in results]
-    gene_set = {map_iri_to_curie(val) for val in genes if not val.startswith("http://flybase.org")}
+    try:
+        results = request.json()
+        genes = [key["gene.iri"] for key in results]
+        gene_set = {map_iri_to_curie(val) for val in genes if not val.startswith("http://flybase.org")}
+    except JSONDecodeError as e:
+        print(request.text)
+        gene_set = set()
 
     return gene_set
 
@@ -229,8 +235,7 @@ def get_human_genes():
 def get_causal_gene_phenotype_assocs():
     print("Fetching causal human gene phenotype and disease associations")
     result_set = set()
-    filters = ['object_closure:"{0}" OR object_closure:"{1}"'.format("UPHENO:0001001", "DOID:4"),
-               'subject_category:"gene"',
+    filters = ['association_type:({} OR {})'.format("gene_phenotype", "gene_disease"),
                'subject_taxon: "{0}"'.format('NCBITaxon:9606')]
     params = {
         'wt': 'json',
@@ -241,9 +246,6 @@ def get_causal_gene_phenotype_assocs():
         'fl': 'subject, relation, is_defined_by'
     }
 
-    causal_source = ["https://data.monarchinitiative.org/ttl/clinvar.ttl",
-                     "https://data.monarchinitiative.org/ttl/omim.ttl",
-                     "https://data.monarchinitiative.org/ttl/orphanet.ttl"]
     resultCount = params['rows']
     while params['start'] < resultCount:
         solr_request = requests.get(SOLR_URL, params=params)
@@ -251,16 +253,6 @@ def get_causal_gene_phenotype_assocs():
         resultCount = response['response']['numFound']
 
         for doc in response['response']['docs']:
-            if 'relation' in doc:
-                # Filter out likely pathogenic
-                if doc['relation'] == 'GENO:0000841':
-                    continue
-
-            if 'is_defined_by' in doc\
-                    and len([source for source in doc['is_defined_by'] if source in causal_source]) == 0\
-                    and doc['is_defined_by'] != ['https://data.monarchinitiative.org/ttl/hpoa.ttl']:
-                    continue
-
             result_set.add(doc['subject'])
 
         params['start'] += params['rows']
