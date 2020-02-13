@@ -31,6 +31,10 @@ Phenotype format: https://bitbucket.org/tasseladmin/tassel-5-source/wiki/UserMan
 
 -------------------------------------------------
 
+The gist of all this
+
+![meme](https://i.imgflip.com/3p1hfz.jpg)
+
 ##### Downloading the hapmap file
 
 Cyverse only downloading 1.1gb/31 then erroring, trying with irods
