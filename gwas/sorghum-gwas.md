@@ -1,5 +1,7 @@
 HapMap file: https://datacommons.cyverse.org/browse/iplant/home/shared/terraref/genomics/derived_data/bap/resequencing/danforth_center/version1/hapmap/all_combined_genotyped_lines_SNPS_052217.recalibrated_vcftools.filtered.recode.hmp.txt
 
+VCF files: https://datacommons.cyverse.org/browse/iplant/home/shared/terraref/genomics/derived_data/bap/resequencing/danforth_center/version1/gvcf
+
 Phenotype data:
 https://drive.google.com/drive/folders/1K4OrHbaDvao7vrN0_V2yc0gD_wmvFXdC with more incoming via https://github.com/genophenoenvo/terraref-datasets/issues/24
 
@@ -19,23 +21,13 @@ Follow up analyses (to become future tickets):
 
 Some notes on the data:
 
-- Tall format contains time series data which I'm fairly certain tassel does not support.  For now we'll take the final measurement
-- Some measurements have the same time, eg leaf temperature.  @MagicMilly doesn't think this is a resolution issue but rather there were multiple iterative measurements taken at once.
-- Some measurements were only taken for a small subset of cultivars, eg leaf temperature was only measured for 12 culitvars.  Should we add some filter for traits with < N cultivars (50?)
-- Cultivars in the hapmap file are missing from the tall_format and vice versa.  67 cultivars from the hapmap file do not have phenotypes, bringing the cultivar sample size down to 295.
-- Some measurements do not look like traits, eg lodging_present, harvest_lodging_rating.  Should these be treated as factors and covariates or removed?
-
 Tassel requires one of the following formats for phenotypes:
 Trait format: https://bitbucket.org/tasseladmin/tassel-5-source/wiki/UserManual/Load/Load#markdown-header-trait-format
 Phenotype format: https://bitbucket.org/tasseladmin/tassel-5-source/wiki/UserManual/Load/Load#markdown-header-numerical-data
 
 -------------------------------------------------
 
-The gist of all this
-
-![meme](https://i.imgflip.com/3p1hfz.jpg)
-
-##### Downloading the hapmap file
+##### Downloading the hapmap and vcf files
 
 Cyverse only downloading 1.1gb/31 then erroring, trying with irods
 Irods not supported for OS, dockerizing...
@@ -60,9 +52,21 @@ build and run
 
     docker run -it -v /home/kshefchek/git/terraref-datasets:/data irods
 
-set up iicommands per https://wiki.cyverse.org/wiki/display/DS/Setting+Up+iCommands#SettingUpiCommands-co
+set up iicommands per https://wiki.cyverse.org/wiki/display/DS/Setting+Up+iCommands#SettingUpiCommands-co  
 
-    iinit
+```iinit```
+
+hostname: data.cyverse.org  
+port: 1247  
+zone: iplant  
+
+```cd data```
+
+Relevant iget options:
+-K  verify the checksum
+-r  recursive
+
+For the hapmap file:
 
     iget -K /iplant/home/shared/terraref/genomics/derived_data/bap/resequencing/danforth_center/version1/hapmap/all_combined_genotyped_lines_SNPS_052217.recalibrated_vcftools.filtered.recode.hmp.txt
 
@@ -75,6 +79,25 @@ Hapmap header contains extra characters in comparison to trait file (eg IDUE_PI4
 
     head -1 all_combined_genotyped_lines_SNPS_052217.recalibrated_vcftools.filtered.recode.hmp.txt | sed 's/[A-Z]\{4\}_\(PI[0-9]\{5,6\}\)/\1/g' > all_combined_genotyped_lines_SNPS_052217.hmp.txt
     tail -n +2 all_combined_genotyped_lines_SNPS_052217.recalibrated_vcftools.filtered.recode.hmp.txt >> all_combined_genotyped_lines_SNPS_052217.hmp.txt
+    
+For the vcf files:
+
+```iget -K -r /iplant/home/shared/terraref/genomics/derived_data/bap/resequencing/danforth_center/version1/gvcf/```
+
+grab some coffee...
+
+##### Merging the VCF files
+
+Unzip, bgzip and tabix index
+
+```
+gunzip *
+docker pull biocontainers/vcftools:v0.1.16-1-deb_cv1
+docker run \
+    --volume `pwd`:/data \
+    biocontainers/vcftools:v0.1.16-1-deb_cv1 \
+    /bin/sh -c 'for F in *.vcf ; do bgzip ${F} ; tabix -f -p vcf ${F}.gz ; done'
+```
 
 ##### Setup and run Tassel 5
 
