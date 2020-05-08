@@ -5,6 +5,8 @@ VCF files: https://datacommons.cyverse.org/browse/iplant/home/shared/terraref/ge
 Phenotype data:
 https://drive.google.com/drive/folders/1K4OrHbaDvao7vrN0_V2yc0gD_wmvFXdC with more incoming via https://github.com/genophenoenvo/terraref-datasets/issues/24
 
+https://github.com/genophenoenvo/terraref-datasets/files/4565996/short_format_traits_season_4.txt
+
 Tassel: https://www.maizegenetics.net/tassel
 
 Endpoints:
@@ -97,6 +99,16 @@ docker run \
     --volume `pwd`:/data \
     biocontainers/vcftools:v0.1.16-1-deb_cv1 \
     /bin/sh -c 'for F in *.vcf ; do bgzip ${F} ; tabix -f -p vcf ${F}.gz ; done'
+```
+
+Merge VCF files, on track to take 4 days to finish
+```
+docker run \
+    --volume `pwd`:/data \
+    --user 1001 \
+    -d \
+    biocontainers/vcftools:v0.1.16-1-deb_cv1 \
+    /bin/sh -c 'vcf-merge *.gz > merged.vcf'
 ```
 
 ##### Setup and run Tassel 5
