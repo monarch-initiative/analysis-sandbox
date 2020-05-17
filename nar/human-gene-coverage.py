@@ -19,13 +19,13 @@ import urllib.request
 
 
 # Globals and Constants
-SCIGRAPH_URL = 'https://scigraph-data-dev.monarchinitiative.org/scigraph'
+SCIGRAPH_URL = 'https://scigraph-data.monarchinitiative.org/scigraph'
 SOLR_URL = 'https://solr.monarchinitiative.org/solr/golr/select'
 
 # Number of protein coding genes in the human genome
 # HGNC (updated 8/8/2016)
 # http://www.genenames.org/cgi-bin/statistics
-GENE_COUNT = 19008
+GENE_COUNT = 19193
 
 CURIE_MAP = {
     "http://identifiers.org/hgnc/HGNC:": "HGNC",
@@ -55,11 +55,11 @@ def main():
 
     print("Number of hgnc protein coding genes: {0}".format(len(protein_coding_genes)))
 
-    human_causal = get_causal_gene_phenotype_assocs()
+    human_causal = get_causal_gene_phenotype_assocs(protein_coding_genes)
     print("Number of human genes with a causal g2p association: {0}".format(len(human_causal)))
 
-    human_genes = get_human_genes()
-    print("Number of human gene cliques: {0}".format(len(human_genes)))
+    #human_genes = get_human_genes()
+    #print("Number of human gene cliques: {0}".format(len(human_genes)))
 
     human_genes_pheno = get_gene_phenotype_list('NCBITaxon:9606')
 
@@ -232,7 +232,7 @@ def get_human_genes():
     return gene_set
 
 
-def get_causal_gene_phenotype_assocs():
+def get_causal_gene_phenotype_assocs(protein_coding_genes):
     print("Fetching causal human gene phenotype and disease associations")
     result_set = set()
     filters = ['association_type:({} OR {})'.format("gene_phenotype", "gene_disease"),
@@ -243,7 +243,7 @@ def get_causal_gene_phenotype_assocs():
         'start': 0,
         'q': '*:*',
         'fq': filters,
-        'fl': 'subject, relation, is_defined_by'
+        'fl': 'subject, relation, is_defined_by, qualifier, association_type'
     }
 
     resultCount = params['rows']
@@ -253,6 +253,14 @@ def get_causal_gene_phenotype_assocs():
         resultCount = response['response']['numFound']
 
         for doc in response['response']['docs']:
+
+            if doc['association_type'] == 'gene_phenotype' \
+                    and doc['qualifier'] != 'direct':
+                continue
+
+            if doc['subject'] not in protein_coding_genes:
+                continue
+
             result_set.add(doc['subject'])
 
         params['start'] += params['rows']
