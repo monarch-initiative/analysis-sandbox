@@ -101,15 +101,58 @@ docker run \
     /bin/sh -c 'for F in *.vcf ; do bgzip ${F} ; tabix -f -p vcf ${F}.gz ; done'
 ```
 
-Merge VCF files, on track to take 4 days to finish
+Merge VCF files using bcftools (takes 2 days and change
 ```
 docker run \
     --volume `pwd`:/data \
     --user 1001 \
     -d \
-    biocontainers/vcftools:v0.1.16-1-deb_cv1 \
-    /bin/sh -c 'vcf-merge *.gz > merged.vcf'
+    biocontainers/bcftools:v1.9-1-deb_cv1 \
+    /bin/sh -c 'bcftools merge --merge both --threads 15 *.gz > bcf-merged.vcf'
 ```
+Apply SNP filters, see 
+https://docs.terraref.org/protocols/genomic-data#applying-hard-snp-filters-with-gatk-variantfiltration
+
+Download Sorghum reference
+```
+wget https://sra-download.ncbi.nlm.nih.gov/traces/wgs03/wgs_aux/AB/XC/ABXC03/ABXC03.1.fsa_nt.gz
+wget https://sra-download.ncbi.nlm.nih.gov/traces/wgs03/wgs_aux/AB/XC/ABXC03/ABXC03.2.fsa_nt.gz
+gzip -d ABXC03.1.fsa_nt.gz
+gzip -d ABXC03.2.fsa_nt.gz
+cat ABXC03.1.fsa_nt ABXC03.2.fsa_nt >Sbicolor_313_v3.0.fa
+```
+
+Make fai, and .dict indexes of fasta file
+
+```
+docker run \
+    --volume `pwd`:/data \
+    --user 1001 \
+    -d \
+    biocontainers/samtools:v1.9-4-deb_cv1 \
+    /bin/sh -c 'samtools faidx Sbicolor_313_v3.0.fa'
+
+docker run \
+    --volume `pwd`:/data \
+    --user 1001 \
+    -d \
+    biocontainers/picard:v2.3.0_cv2 \
+    /bin/sh -c 'picard CreateSequenceDictionary R=Sbicolor_313_v3.0.fa O=Sbicolor_313_v3.0.dict'
+```
+
+Run GATK
+
+```
+docker run -v `pwd`:/gatk/my_data -it broadinstitute/gatk3:3.5-0 /bin/bash
+
+java -Xmx100g -jar GenomeAnalysisTK.jar -T VariantFiltration -R /gatk/my_data/Sbicolor_313_v3.0.fa \
+  -V /gatk/my_data/bcf-merged.vcf.gz -o /gatk/my_data/all_combined_Genotyped_lines_filtered.vcf \
+  --filterExpression "QD < 2.0" --filterName "QD" --filterExpression "FS > 60.0" \
+  --filterName "FS" --filterExpression "MQ < 40.0" --filterName "MQ" --filterExpression "MQRankSum < -12.5" \
+  --filterName "MQRankSum" --filterExpression "ReadPosRankSum < -8.0" --filterName "ReadPosRankSum"
+```
+
+This outputs a file with just headers :/
 
 ##### Setup and run Tassel 5
 
