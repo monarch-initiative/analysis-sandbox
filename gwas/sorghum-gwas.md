@@ -161,6 +161,26 @@ docker run \
   --filterName "MQRankSum" --filterExpression "ReadPosRankSum < -8.0" --filterName "ReadPosRankSum"'
 ```
 
+Extract only cultivars with phenotype data (for this run season 4)
+```
+docker run \
+    --volume `pwd`:/data \
+    --user 1001 \
+    biocontainers/bcftools:v1.9-1-deb_cv1 \
+    /bin/sh -c 'bcftools view --output-file all_combined_Genotyped_lines_filtered.season4.vcf.gz --output-type z --samples-file season_4_cultivars.txt  all_combined_Genotyped_lines_filtered.vcf.gz'
+```
+
+Keep only biallelic sites, filter and recode
+```
+docker run \
+    --volume `pwd`:/data \
+    --user 1001 \
+    -d \
+    biocontainers/vcftools:v0.1.16-1-deb_cv1 \
+    /bin/sh -c 'vcftools --gzvcf all_combined_Genotyped_lines_filtered.season4.vcf.gz --min-alleles 2 --max-alleles 2 \
+        --out all_combined_Genotyped_lines.filtered.season4.recode.vcf --max-missing 0.2 --recode'
+```
+
 ##### Setup and run Tassel 5
 
     mkdir tassel && cd tassel
@@ -181,8 +201,18 @@ Build and run
     docker build . --tag tassel
     docker run -it -v /home/kshefchek/git/terraref-datasets/tassel:/data tassel
 
-    /tassel/run_pipeline.pl -Xms512m -Xmx425g -debug /tassel/debug.txt -fork1 -h ./all_combined_genotyped_lines_SNPS_052217.hmp.txt  -FilterSiteBuilderPlugin -siteMinAlleleFreq 0.01 -endPlugin -fork2  -t ./short_format_traits_season_4.tsv -combine3 -input1 -input2 -intersect -FixedEffectLMPlugin -siteStatsOut -siteStatFile siteStatFile.tsv -endPlugin -export glm_output
+Sort VCF 
+```
+cd /data
+/usr/local/TASSEL5/run_pipeline.pl -Xms75G -Xmx400G -SortGenotypeFilePlugin -inputFile ./all_combined_Genotyped_lines.filtered.season4.recode.vcf -outputFile ./all_combined_Genotyped_lines.filtered.season4.recode.sorted.vcf -fileType VCF
+```
 
+Run GWAS
+```
+cd /data
+
+/usr/local/TASSEL5/run_pipeline.pl -Xms512m -Xmx400g -debug /tassel/debug.txt -fork1 -vcf ./all_combined_Genotyped_lines.filtered.season4.recode.sorted.vcf  -FilterSiteBuilderPlugin -siteMinAlleleFreq 0.01 -endPlugin -fork2  -t ./traits_season_4_vcf.tsv -combine3 -input1 -input2 -intersect -FixedEffectLMPlugin -siteStatsOut -siteStatFile siteStatFile.tsv -biallelicOnly true -endPlugin -export glm_output
+```
 
 Bonferroni Correction
 
