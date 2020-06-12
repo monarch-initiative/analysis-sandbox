@@ -218,7 +218,8 @@ Bonferroni Correction
 
     #!/usr/bin/env python3
     import csv
-
+    
+    # change denominator depending on number of comparisons
     correct_p = .05/292010910
 
     output = open('./glm_output1_bfcorrect.tsv', 'w')
@@ -246,19 +247,24 @@ Use join and awk to create filtered glm_output2.txt
     export TMPDIR=/home/kshefchek/git/terraref-datasets/tassel/tmp
     join -t $'\t' -j1 -o1.2,1.3,1.4,1.5,1.6,1.7,1.8 <(<glm_output2.txt awk '{print $1"-"$2" "$0}' | sort -k1,1) <(<trait-markers.txt awk '{print $1"-"$2" "$0}' | sort -k1,1) > glm_output2_bfcorrect.tsv
 
+
 Generate slim vcf file
+```
+LANG=en_EN sort -s -k1 markers-bf.txt -o markers-bf.txt
+head -11 all_combined_Genotyped_lines.filtered.season4.recode.sorted.vcf >header.txt
+tail --lines=+12 all_combined_Genotyped_lines.filtered.season4.recode.sorted.vcf | LANG=en_EN sort -s -k3 > vcf-sorted.txt
+LANG=en_EN join -t $'\t' -1 3 -2 1  vcf-sorted.txt markers-bf.txt >vcf-slim.vcf
+awk ' BEGIN {OFS = "\t"}; {t = $1; $1 = $2; $2 = $3; $3 = t; print; } ' vcf-slim.vcf | sort --version-sort -k3,1 > vcf-slim.pos.sorted
+cat header.txt vcf-slim.pos.sorted >vcf-slim.sorted.vcf
+```
 
-    sort -s -k1,1 all_combined_genotyped_lines_SNPS_052217.hmp.txt > hmp-sorted.txt
-    join -t $'\t' markers-bf.txt hmp-sorted.txt >hapmap-slim.hmp.txt
-    sort --version-sort -k1,1 hapmap-slim.hmp.txt > hapmap-slim.pos.sorted
-    cat header.txt hapmap-slim.pos.sorted >hapmap-slim.hmp.txt
+Re-sort with tassel
+```
+docker exec -it ${container_id} /bin/bash
+/usr/local/TASSEL5/run_pipeline.pl -fork1 -vcf /data/vcf-slim.sorted.vcf -export -exportType VCF -sortPositions
+```
 
-Looks sorted to me but Tassel doesn't think so, apply -sortPositions and convert to VCF
-
-    /tassel/run_pipeline.pl -fork1 -h /data/hapmap-slim.hmp.txt -export -exportType VCF -sortPositions
-
-
-vcf file: https://data.monarchinitiative.org/tassel5/hapmap-slim.vcf
+Output files: https://data.monarchinitiative.org/genophenoenvo/tassel5/season4/
 
 Try web app:
 https://plants.ensembl.org/Sorghum_bicolor/Tools/VEP
@@ -273,3 +279,18 @@ https://plants.ensembl.org/Sorghum_bicolor/Tools/VEP/Results?tl=1PQiIV1EFQqwCEV7
 
 Try with up/down distance of 100k:
 https://plants.ensembl.org/Sorghum_bicolor/Tools/VEP/Results?tl=nY6uoetDeReR1KgH-19684846
+
+
+##############
+Outdated (analysis from hapmap file)
+
+Generate slim vcf file from hapmap file
+
+    sort -s -k1,1 all_combined_genotyped_lines_SNPS_052217.hmp.txt > hmp-sorted.txt
+    join -t $'\t' markers-bf.txt hmp-sorted.txt >hapmap-slim.hmp.txt
+    sort --version-sort -k1,1 hapmap-slim.hmp.txt > hapmap-slim.pos.sorted
+    cat header.txt hapmap-slim.pos.sorted >hapmap-slim.hmp.txt
+
+apparently version-sort is not the right way to sort a vcf, apply -sortPositions and convert to VCF
+
+    /tassel/run_pipeline.pl -fork1 -h /data/hapmap-slim.hmp.txt -export -exportType VCF -sortPositions
