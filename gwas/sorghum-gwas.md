@@ -281,6 +281,18 @@ Try with up/down distance of 100k:
 https://plants.ensembl.org/Sorghum_bicolor/Tools/VEP/Results?tl=nY6uoetDeReR1KgH-19684846
 
 
+Generate distance matrix and newick trees
+
+```
+/usr/local/TASSEL5/run_pipeline.pl -Xms75G -Xmx400G -vcf ./all_combined_Genotyped_lines_vcftools.filtered.recode.sorted.vcf -DistanceMatrixPlugin -h -endPlugin -export all_cultivars_distance.txt
+
+/usr/local/TASSEL5/run_pipeline.pl -Xms75G -Xmx400G -vcf ./all_combined_Genotyped_lines_vcftools.filtered.recode.sorted.vcf -tree Neighbor -treeSaveDistance false -export tree_newick.nj.txt -exportType Text
+
+/usr/local/TASSEL5/run_pipeline.pl -Xms75G -Xmx400G -vcf ./all_combined_Genotyped_lines_vcftools.filtered.recode.sorted.vcf -tree UPGMA -treeSaveDistance false -export tree_newick.upgma.txt -exportType Text
+
+/usr/local/TASSEL5/run_pipeline.pl -Xms75G -Xmx400G -importGuess all_cultivars_distance.txt -RemoveNaNFromDistanceMatrixPlugin -endPlugin -export all_cultivars_distance_nonan.txt
+```
+
 ##############
 Outdated (analysis from hapmap file)
 
