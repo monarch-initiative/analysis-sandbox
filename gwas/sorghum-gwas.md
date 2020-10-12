@@ -199,7 +199,11 @@ Dockerfile, TODO figure out how to accept license
 Build and run
 
     docker build . --tag tassel
-    docker run -it -v /home/kshefchek/git/terraref-datasets/tassel:/data tassel
+    docker run -it -v /home/kshefchek/git/terraref-rd2/tassel:/data tassel
+    
+Inside the container install tassel via:
+
+    sh TASSEL_5_unix.sh
 
 Sort VCF 
 ```
@@ -284,13 +288,29 @@ https://plants.ensembl.org/Sorghum_bicolor/Tools/VEP/Results?tl=nY6uoetDeReR1KgH
 Generate distance matrix and newick trees
 
 ```
-/usr/local/TASSEL5/run_pipeline.pl -Xms75G -Xmx400G -vcf ./all_combined_Genotyped_lines_vcftools.filtered.recode.sorted.vcf -DistanceMatrixPlugin -h -endPlugin -export all_cultivars_distance.txt
+/usr/local/TASSEL5/run_pipeline.pl -Xms75G -Xmx400G -vcf ./all_combined_Genotyped_lines_vcftools.filtered.recode.sorted.vcf -DistanceMatrixPlugin -endPlugin -export all_cultivars_distance.txt
 
 /usr/local/TASSEL5/run_pipeline.pl -Xms75G -Xmx400G -vcf ./all_combined_Genotyped_lines_vcftools.filtered.recode.sorted.vcf -tree Neighbor -treeSaveDistance false -export tree_newick.nj.txt -exportType Text
 
 /usr/local/TASSEL5/run_pipeline.pl -Xms75G -Xmx400G -vcf ./all_combined_Genotyped_lines_vcftools.filtered.recode.sorted.vcf -tree UPGMA -treeSaveDistance false -export tree_newick.upgma.txt -exportType Text
 
 /usr/local/TASSEL5/run_pipeline.pl -Xms75G -Xmx400G -importGuess all_cultivars_distance.txt -RemoveNaNFromDistanceMatrixPlugin -endPlugin -export all_cultivars_distance_nonan.txt
+```
+
+Generate distance matrix for 76-subset
+
+```
+docker run \
+    --volume `pwd`:/data \
+    --user 1001 \
+    biocontainers/bcftools:v1.9-1-deb_cv1 \
+    /bin/sh -c 'bcftools view --output-file all_combined_Genotyped_lines_filtered_subset76.vcf --output-type v --samples-file subset76.txt all_combined_Genotyped_lines_vcftools.filtered.recode.vcf'
+    
+/usr/local/TASSEL5/run_pipeline.pl -Xms75G -Xmx400G -SortGenotypeFilePlugin -inputFile ./all_combined_Genotyped_lines_filtered_subset76.vcf -outputFile ./all_combined_Genotyped_lines_filtered_subset76.recode.sorted.vcf -fileType VCF
+
+/usr/local/TASSEL5/run_pipeline.pl -Xms75G -Xmx400G -vcf ./all_combined_Genotyped_lines_filtered_subset76.recode.sorted.vcf -DistanceMatrixPlugin -endPlugin -export subset76_distance_withnan.txt
+
+/usr/local/TASSEL5/run_pipeline.pl -Xms75G -Xmx400G -importGuess subset76_distance_withnan.txt -RemoveNaNFromDistanceMatrixPlugin -endPlugin -export subset76_distance.txt
 ```
 
 ##############
