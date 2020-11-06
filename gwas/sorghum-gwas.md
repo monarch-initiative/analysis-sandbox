@@ -313,6 +313,16 @@ docker run \
 /usr/local/TASSEL5/run_pipeline.pl -Xms75G -Xmx400G -importGuess subset76_distance_withnan.txt -RemoveNaNFromDistanceMatrixPlugin -endPlugin -export subset76_distance.txt
 ```
 
+Work on https://github.com/genophenoenvo/terraref-datasets/issues/120
+
+```
+wget ftp://ftp.ensemblgenomes.org/pub/plants/current/variation/vep/sorghum_bicolor_vep_48_Sorghum_bicolor_NCBIv3.tar.gz
+
+mv sorghum_bicolor /home/kshefchek/.vep/
+
+./vep --appris --biotype --buffer_size 5000 --check_existing --distance 5000 --mane --sift b --cache --genomes --species sorghum_bicolor --protein --plugin GO --symbol --transcript_version --tsl --input_file /home/kshefchek/git/terraref-rd2/tassel/data/season4-slim.vcf --output_file ./vep_plus_go.tsv
+```
+
 ##############
 Outdated (analysis from hapmap file)
 
