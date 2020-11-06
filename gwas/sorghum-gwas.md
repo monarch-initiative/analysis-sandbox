@@ -320,7 +320,7 @@ wget ftp://ftp.ensemblgenomes.org/pub/plants/current/variation/vep/sorghum_bicol
 
 mv sorghum_bicolor /home/kshefchek/.vep/
 
-./vep --appris --biotype --buffer_size 5000 --check_existing --distance 5000 --mane --sift b --cache --genomes --species sorghum_bicolor --protein --plugin GO --symbol --transcript_version --tsl --input_file /home/kshefchek/git/terraref-rd2/tassel/data/season4-slim.vcf --output_file ./vep_plus_go.tsv
+./vep --appris --biotype --buffer_size 5000 --check_existing --distance 5000 --mane --cache --genomes --cache_version 48 --species sorghum_bicolor --uniprot --plugin GO --symbol --transcript_version --tsl --input_file /home/kshefchek/git/terraref-rd2/tassel/data/season4-slim.vcf --output_file ./vep_plus_go.tsv
 ```
 
 ##############
