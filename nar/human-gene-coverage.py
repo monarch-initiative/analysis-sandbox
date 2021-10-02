@@ -1,6 +1,8 @@
 #! /usr/bin/env python3
 
 """
+
+TODO move this to https://github.com/monarch-initiative/release-utils/
 The purpose of this script to determine what percentage of human protein coding genes
 have associated phenotype data in either humans or in orthologous sequences in other
 species
@@ -115,7 +117,7 @@ def main():
         )
     )
     print("Human total: {}".format(len(human_causal)))
-    print("Models total: {0}".format(len(model_human_set) - (len(human_causal) - len(model_human_set))))
+    print("Models total: {0}".format(len(model_human_set) + len(model_only)))
 
     print("##########################")
 
